@@ -1,8 +1,9 @@
-# 개요
+# 계정 생성과 로그인
 
 NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Cloud 콘솔에 접근해야 합니다. 계정 생성 과정은 간단하며 필요한 정보를 입력하고, 이메일 인증을 완료하면 즉시 계정을 생성할 수 있습니다. 생성한 계정으로 콘솔에 액세스하면 사용자 친화적인 인터페이스를 통해 다양한 클라우드 서비스를 활성화하고 효율적으로 관리할 수 있습니다.
-
-# 학습 목표
+<br>
+![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EA%B3%84%EC%A0%95%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.png)
+## 학습 목표
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
 
@@ -16,7 +17,7 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
     * NHN Cloud 서비스를 이용하기 위한 결제 수단 설정
     * 자동 결제 수단 등록을 통해 원활한 서비스 운영 환경 구축
 
-# 시작하기 전에
+## 시작하기 전에
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
 
@@ -30,11 +31,11 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
     * NHN Cloud 계정을 생성하거나 중요한 작업을 수행하기 위해 이메일 인증과 휴대폰 인증이 필요합니다.
     * 유효한 이메일 주소와 본인 명의의 휴대폰 번호가 필요합니다.
 
-# NHN Cloud 회원 가입 및 결제 수단 등록
+## NHN Cloud 회원 가입 및 결제 수단 등록
 
-## 단계 1. 회원 가입 및 로그인하기
+### 단계 1. 회원 가입 및 로그인하기
 
-1. NHN Cloud 홈페이지([https://www.nhncloud.com](https://www.nhncloud.com))에 접속합니다.
+1. NHN Cloud 웹사이트([https://www.nhncloud.com](https://www.nhncloud.com))에 접속합니다.
 2. 우측 상단에 **회원가입**을 클릭합니다.
 
 !!! tip "알아두기"
@@ -60,7 +61,7 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
     * (선택) 안전한 서비스 사용을 위한 **2단계 로그인 설정**이 필요하지 않으면 **"회원정보에 등록된 이메일, 휴대폰으로 인증 후 로그인합니다"** 체크박스를 선택 해제한 후 **확인**을 클릭합니다.
 8. 가입이 완료되면 홈페이지에 로그인된 상태임을 확인합니다.
 
-## 단계 2. 결제 수단 등록하기
+### 단계 2. 결제 수단 등록하기
 
 1. 로그인한 상태에서 NHN Cloud 홈페이지 우측 상단에 **마스킹된 아이디** 위로 커서를 이동합니다.
 2. **결제 수단** 탭을 클릭합니다.
@@ -70,11 +71,11 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
 6. **"구매 조건 확인 및 정기 결제 진행에 동의"** 체크박스를 선택한 후 **등록**을 클릭합니다.
 7. 별도의 자동결제 수단 절차를 진행 후 결제 수단 둥록을 완료합니다.
 
-# 참고 자료
+## 참고 자료
 
 * [NHN Cloud 기본 사용 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/)
 * [보안 정책](https://docs.nhncloud.com/ko/nhncloud/ko/security-policy/)
 
-# 다음 단계
+## 다음 단계
 
-* [02-조직과 프로젝트 생성](dooray://1387695619080878080/pages/3959371013982919353 "publish")
+* [02-조직과 프로젝트 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-organization/)
