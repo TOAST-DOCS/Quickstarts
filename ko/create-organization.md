@@ -3,8 +3,7 @@
 이번 학습 모듈에서는 NHN Cloud 콘솔의 주요 기능을 이해하고 활용하는 데 필요한 기본 개념과 설정 방법을 안내합니다. NHN Cloud 콘솔은 다양한 클라우드 리소스를 효율적으로 관리하고 설정할 수 있는 통합 관리 도구입니다. 사용자 친화적인 인터페이스를 통해 서비스 생성, 모니터링, 설정 변경 등의 작업을 손쉽게 수행할 수 있으며, 실시간 리소스 상태와 비용 관리 기능도 제공합니다. 
 콘솔의 프로젝트 대시보드를 통해 사용 중인 클라우드 서비스와 리소스 정보를 한눈에 확인할 수 있으며, 세부 설정 및 관리 옵션은 직관적인 메뉴를 통해 쉽게 접근할 수 있습니다.
 <br>
-![빠른시작 _ 기본정보](https://github.com/user-attachments/assets/65b84e0c-38ff-469f-8178-389eb8defd39)
-
+![module_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EC%A1%B0%EC%A7%81%EA%B3%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.png)
 ## 학습 목표
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
@@ -16,13 +15,13 @@
 
 <br></br>
 
-![모듈2_구성도](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%202.%20%EC%A1%B0%EC%A7%81%EA%B3%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.png)
+![mod2_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%202.%20%EC%A1%B0%EC%A7%81%EA%B3%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
 > 리전, 조직, 프로젝트, 가용성 영역은 이후 학습 모듈에서 동일하게 사용되므로 다음 학습모듈 구성도에서는 생략됩니다.
 
-# 시작하기 전에
+## 시작하기 전에
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
 
@@ -36,18 +35,17 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인해야 합니다.
 
-!!! tip "알아두기"
-    본 가이드는 [01-계정 생성과 로그인](dooray://1387695619080878080/pages/3959370900841020093 "publish") 이후 단계부터 시작합니다.
+    **본 가이드는 [01-계정 생성과 로그인](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-account/) 이후 단계부터 시작합니다.**
 
-# NHN Cloud 콘솔 사용을 위한 준비
+## NHN Cloud 콘솔 사용을 위한 준비
 
-## 단계 1. NHN Cloud 콘솔 접속하기
+### 단계 1. NHN Cloud 콘솔 접속하기
 
 1. NHN Cloud 홈페이지([https://www.nhncloud.com](https://www.nhncloud.com/))에 로그인합니다.
 2. 상단 메뉴에서 **CONSOLE**을 클릭합니다.
 3. 새로운 브라우저 창 또는 탭에서 **NHN Cloud 콘솔 페이지**를 확인합니다.
 
-## 단계 2. 조직 생성하기
+### 단계 2. 조직 생성하기
 
 1. NHN Cloud 콘솔 상단에 위치한 **"조직을 생성해 주세요."** 옆에 있는 **+** 를 클릭합니다.
 
@@ -60,7 +58,7 @@
 3. 알림 창에서 **확인**을 클릭합니다.
 4. 생성한 조직의 대시보드와 콘솔 화면을 확인합니다.
 
-## 단계 3. 프로젝트 생성하기
+### 단계 3. 프로젝트 생성하기
 
 1. NHN Cloud 콘솔 상단에 위치한 **조직 탭**에서 `MyORG`를 클릭합니다. 조직이 한 개인 경우 자동으로 선택되어 있습니다.
 2. 선택한 조직 탭 우측에 위치한 **"새 프로젝트 생성"** 옆에 있는 **+**을 클릭합니다.
@@ -69,7 +67,7 @@
 4. 알림 창에서 **확인**을 클릭합니다.
 5. 생성한 프로젝트의 대시보드와 콘솔 화면을 확인합니다.
 
-## 단계 4. 리전 선택하기
+### 단계 4. 리전 선택하기
 
 1. NHN Cloud 콘솔 상단 오른쪽에 위치한 **한국(판교) 리전** 으로 마우스 커서를 이동합니다.
 2. 리전 목록에서 `한국(평촌) 리전`을 클릭합니다.
@@ -81,8 +79,8 @@
 
 # 이전 단계
 
-* [01-계정 생성과 로그인](dooray://1387695619080878080/pages/3959370900841020093 "publish")
+* [01-계정 생성과 로그인](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-account/)
 
 # 다음 단계
 
-* [03-IAM 계정과 거버넌스 설정](dooray://1387695619080878080/pages/3977493217025617647 "publish")
+* [03-IAM 계정과 거버넌스 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/)
