@@ -1,8 +1,10 @@
-# 개요
+# 확장성과 성능 최적화
+**Quickstarts > 10. 확장성과 성능 최적화**
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션의 확장성과 성능 최적화를 위한 아키텍처 구성 방법을 학습합니다. NHN Cloud RDS를 활용해 오토 스케일링, 로드 밸런싱과 안정적인 데이터 관리를 위한 효율적이고 유연하며 확장 가능한 시스템을 설계할 수 있습니다.
-
-# 학습 목표
+<br>
+![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
+## 학습 목표
 
 이번 학습 모듈에서 배울 내용은 아래와 같습니다.
 
@@ -14,7 +16,7 @@
 * **웹 서버 접근 설정**
     * 로드밸런서에 연결된 플로팅 IP를 통해 생성된 웹 서버에 접근 가능하도록 설정
 
-# 시작하기 전에
+## 시작하기 전에
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
 
@@ -27,13 +29,12 @@
 * **회원 계정**
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
-* [09-백업 및 복구](dooray://1387695619080878080/pages/3964687292478747156 "publish") 실습 완료
 
-본 가이드는 [09-백업 및 복구](dooray://1387695619080878080/pages/3964687292478747156 "publish") 이후 단계부터 시작됩니다.
+**본 가이드는 [09-백업 및 복구](dooray://1387695619080878080/pages/3964687292478747156 "publish") 이후 단계부터 시작됩니다.**
 
-# 스케일링 그룹과 로드밸런서를 통한 트래픽 분산
+## 스케일링 그룹과 로드밸런서를 통한 트래픽 분산
 
-## 단계 1. 로드밸런서 생성하기
+### 단계 1. 로드밸런서 생성하기
 
 > Load Balancer 서비스를 사용해 `MyLB` 로드밸런서를 생성한 뒤 플로팅 IP를 생성해 연결해 봅니다.
 
@@ -81,11 +82,10 @@
 11. **플로팅 IP 관리** 창에서 **플로팅 IP 연결/해제** 항목에서 아래와 같이 설정 후 **연결**을 클릭합니다.
     * 플로팅 IP 선택: `위에 생성 후 확인한 플로팅 IP 주소`
     * 네트워크 인터페이스 선택: `MyLB`
-
 12. **성공** 창에서 **확인**을 클릭합니다.
 13. **닫기**를 클릭합니다.
 
-## 단계 2. 오토 스케일링 그룹 생성하기 
+### 단계 2. 오토 스케일링 그룹 생성하기 
 
 > Auto Scale 서비스를 활용해 스케일링 그룹을 생성한 뒤 가용할 수 있는 인스턴스 2개를 생성합니다.
 
@@ -96,10 +96,8 @@
         * 사용: `사용 안 함`
     * 이미지
         * 개인 이미지 > 이미지 이름: `linux-server-basic-image` 클릭
-
-!!! tip "알아두기"
-    *  `linux-server-basic-image` 개인 이미지는 [09-백업 및 복구](dooray://1387695619080878080/pages/3964687292478747156 "publish") 의 **단계 1**을 통해 생성할 수 있습니다.
-
+             * <span style="color:#e11d21;">정보</span>  
+                 * `linux-server-basic-image` 개인 이미지는 [09-백업 및 복구](dooray://1387695619080878080/pages/3964687292478747156 "publish") 의 **단계 1**을 통해 생성할 수 있습니다.
     * 인스턴스 정보
         * 가용성 영역: `임의의 가용성 영역`
         * 인스턴스 이름: `linux-server-autoscale`
@@ -141,7 +139,7 @@
 6. 콘솔 창 왼쪽 메뉴 중 **Compute - Instance** 를 클릭합니다.
 7. Instance 화면에서 인스턴스 목록 중 `linux-server-autoscale`가 2개 생성된 것을 확인합니다.
 
-## 단계 3. 로드밸런서를 사용해 트래픽 분산하기
+### 단계 3. 로드밸런서를 사용해 트래픽 분산하기
 
 > 'MyLB' 로드밸런서를 사용해 복수의 인스턴스로 트래픽을 분산하는 방법을 알아봅니다.
 
@@ -151,51 +149,41 @@
 4. 웹 페이지 본문의 **Server IP Address 값**이 생성한 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소와 일치하는지 확인합니다.
 5. 웹 브라우저 새로고침을 반복해  **Server IP Address 값**이 또 다른 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소로 변경되는지 확인합니다.
 
-    ![Inline-image-2025-01-09 10.02.59.486.png](/wikis/3789776849324644692/files/3976876150984937558)
+    ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
 
-    ![Inline-image-2025-01-09 10.03.16.194.png](/wikis/3789776849324644692/files/3976876290762225247)
+    ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
 
 !!! tip "알아두기"
     * Server IP Address 값 변경 값 확인
         * `linux-server-autoscale` 인스턴스는 오토 스케일 그룹의 증설/감축 정책 설정에 따라 상태가 수시로 변경될 수 있습니다. 이에 2개의 인스턴스에서 1개의 인스턴스로 감축되어 Server IP Address가 한 개의 주소만 나올 수 있습니다.
         * 오토 스케일 그룹과 연결된 로드 밸런서가 그룹에 속한 인스턴스의 상태 값을 주기적으로 확인하여 접속합니다. 이에 따른 상태값 정보가 갱신되면서 일정 시간이 지난 후에 바뀐 Server IP Address 값이 노출될 수 있습니다.
-
-!!! tip "알아두기"
     * 변경된 웹 페이지가 보이지 않을 경우
         * 웹 페이지가 변경되었음에도 불구하고 이전 페이지가 표시된다면, 웹 브라우저의 캐시로 인해 발생한 문제일 수 있습니다. 이 경우, 브라우저에서 제공하는 새로고침(F5) 또는 강력 새로고침을 사용하여 변경된 페이지를 확인할 수 있습니다. 강력 새로고침은 다음 방법으로 수행할 수 있습니다.
             * **Windows**: `Ctrl + F5` 또는 `Shift + F5`
             * **Mac**: `Cmd + Shift + R`
 
 
-## 단계 4. 오토 스케일 그룹 증설 및 감축 정책 적용하기
+### 단계 4. 오토 스케일 그룹 증설 및 감축 정책 적용하기
 
 > 애플리케이션 수요에 따라 인스턴스 수를 자동 조절하는 방법을 알아봅니다.
 
 1. 웹 브라우저에서 새 창을 열어서 `http://복사한 MyLB 플로팅 IP 주소`를 입력해 접속합니다.
 2. 웹 페이지 본문의 **Start Stress Test**를 클릭 후 2분 동안 대기합니다.
-
-!!! tip "알아두기"
-    * Stress Test
-        * 해당 기능은 웹 서버에 임의적 CPU 부하를 발생하여 오토 스케일 그룹에 생성한 증설 정책이 동작하도록 합니다.
-
+    * <span style="color:#e11d21;">정보</span>
+        * Stress Test
+            * 해당 기능은 웹 서버에 임의적 CPU 부하를 발생하여 오토 스케일 그룹에 생성한 증설 정책이 동작하도록 합니다.
 3. 콘솔 창 왼쪽 메뉴 중 **Compute - Instance**를 클릭합니다.
 4. Instance 화면에서 인스턴스 목록 중 `linux-server-autoscale`이 추가로 생성되는 것을 확인합니다.
 5. 웹 브라우저에서 새 창을 열어서 `http://복사한 MyLB 플로팅 IP 주소`를 입력해 웹 페이지를 확인합니다.
 6. 웹 페이지 본문의 **Server IP Address 값**이 생성한 `linux-server-autoscale`인스턴스의 가상 사설 IP주소가 맞는지 확인합니다.
 7. 웹 브라우저 새로고침을 반복해 **Server IP Address 값**이 또 다른 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소로 변경되는지 확인합니다.
-
-<details><summary>`linux-server-autoscale`</summary>
-<p>
-    Compute - Instance 메뉴에서 `linux-server-autoscale` 인스턴스를 클릭하여 선택 후 아래 분할창에서 **모니터링** 탭을 클릭하면 CPU 사용률을 확인할 수 있습니다.
-    * <strong>Compute - Auto Scale</strong> 메뉴에서 `MyASGroup` 스케일링 그룹을 클릭해 선택 후 아래 분할창에서 **통계** 탭을 클릭하면 CPU 사용률을 확인할 수 있습니다.
-</p>
-</details>
-
+    * **Compute - Instance** 메뉴에서 `linux-server-autoscale` 인스턴스를 클릭하여 선택 후 아래 분할창에서 **모니터링** 탭을 클릭하면 CPU 사용률을 확인할 수 있습니다.
+    * **Compute - Auto Scale** 메뉴에서 `MyASGroup` 스케일링 그룹을 클릭해 선택 후 아래 분할창에서 **통계** 탭을 클릭하면 CPU 사용률을 확인할 수 있습니다.
 8. `linux-server-autoscale` 인스턴스가 자동으로 증설되었다면 다시 2분 간 대기합니다.
 9. Instance 화면에서 인스턴스 목록 중 `linux-server-autoscale`이 제거되는 것을 확인합니다.
 10. 웹 브라우저 새로고침을 반복해  **Server IP Address 값**이 유지 중인`linux-server-autoscale` 인스턴스의 가상 사설 IP주소로 출력되는지 확인합니다.
 
-# 참고 자료
+## 참고 자료
 
 * [Auto Scale](https://docs.nhncloud.com/ko/Compute/Auto%20Scale/ko/overview/)
 * [Load Balancer](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/)
@@ -205,10 +193,10 @@
 * [Application Layer(L7)](https://en.wikipedia.org/wiki/Application_layer)
 * [Autoscaling](https://en.wikipedia.org/wiki/Autoscaling)
 
-# 이전 단계
+## 이전 단계
 
-* [09-백업 및 복구](dooray://1387695619080878080/pages/3964687292478747156 "publish")
+* [09-백업 및 복구](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/)
 
-# 다음 단계
+## 다음 단계
 
-* [11-비용 관리](dooray://1387695619080878080/pages/3964687508831639463 "publish")
+* [11-비용 관리](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)

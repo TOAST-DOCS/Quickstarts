@@ -73,15 +73,15 @@
 1. NHN Cloud 콘솔 상단 오른쪽에 위치한 **한국(판교) 리전** 으로 마우스 커서를 이동합니다.
 2. 리전 목록에서 `한국(평촌) 리전`을 클릭합니다.
 
-# 참고 사이트
+## 참고 사이트
 
 * [콘솔 정책 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/console-guide/)
 * [리소스 제공 정책](https://docs.nhncloud.com/ko/nhncloud/ko/resource-policy/)
 
-# 이전 단계
+## 이전 단계
 
 * [01-계정 생성과 로그인](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-account/)
 
-# 다음 단계
+## 다음 단계
 
 * [03-IAM 계정과 거버넌스 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/)

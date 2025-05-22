@@ -3,7 +3,7 @@
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션과 데이터를 안전하게 보호하고 복구할 수 있는 방법을 학습합니다. 블록 스토리지 복제, 인스턴스 이미지 생성 및 이미지 기반 생성을 통해 데이터 유실을 방지하고 신속한 복구가 가능한 시스템을 구축합니다.
 <br>
-
+![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
 ## 학습 목표
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
@@ -13,6 +13,9 @@
     * 운영 중인 인스턴스의 상태를 인스턴스 이미지로 저장 후 새로운 인스턴스 생성
 * **블록 스토리지 복제 및 연결**
     * 블록 스토리지 복제 기능을 활용해 기존의 블록 스토리지를 복제한 뒤 인스턴스와 연결
+<br></br>
+
+![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
 
 ## 시작하기 전에
 
@@ -27,13 +30,13 @@
 * **회원 계정**
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
-* [08-모니터링 설정](dooray://1387695619080878080/pages/3959371359644829313 "publish") 실습 완료
+* [08-모니터링 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-monitoring/) 실습 완료
 
-본 가이드는 [08-모니터링 설정](dooray://1387695619080878080/pages/3959371359644829313 "publish") 이후 단계부터 시작됩니다.
+**본 가이드는 [08-모니터링 설정](dooray://1387695619080878080/pages/3959371359644829313 "publish") 이후 단계부터 시작됩니다.**
 
-# 인스턴스 이미지를 통한 인스턴스 생성 및 블록 스토리지 연결
+## 인스턴스 이미지를 통한 인스턴스 생성 및 블록 스토리지 연결
 
-## 단계 1. 인스턴스 이미지 생성하기
+### 단계 1. 인스턴스 이미지 생성하기
 
 > 앞의 학습 모듈에서 생성한 `linux-server-basic` 인스턴스의 이미지를 생성해 봅니다. 구동 중인 인스턴스는 이미지 생성 시 무결성을 보장하지 않으므로, 인스턴스를 중지한 뒤 이미지를 생성합니다.
 
@@ -57,11 +60,11 @@
 10. 콘솔 창 왼쪽 메뉴 중 **Compute - Image**를 클릭합니다.
 11. Image 화면의 이미지 목록에서 `linux-server-basic-image`가 생성 중인 것을 확인합니다. 생성이 완료되면 해당 이미지의 상태표시 등이 초록색으로 표시됩니다.
 
-## 단계 2. 인스턴스 이미지로 신규 인스턴스 생성하기
+### 단계 2. 인스턴스 이미지로 신규 인스턴스 생성하기
 
 > 단계 1에서 생성한 `linux-server-basic-image` 인스턴스 이미지를 사용해 `linux-server-recovery` 인스턴스를 새로 생성해 봅니다.
 
-1. 콘솔창 왼쪽 메뉴 중 **Compute - Instance** 를 클릭합니다.
+1. 콘솔창 왼쪽 메뉴 중 **Compute - Instance**를 클릭합니다.
 2. **인스턴스 생성**을 클릭합니다.
 3. **인트턴스 생성** 창에서 아래 정보를 설정 후 **인스턴스 생성**을 클릭합니다.
     * 인스턴스 템플릿
@@ -92,7 +95,7 @@
 4. 인스턴스 생성 정보 창에서 **인스턴스 생성**을 클릭합니다.
 5. 인스턴스 생성 작업이 진행됩니다. 몇 분 내외로 인스턴스 생성이 완료됩니다.
 
-## 단계 3. 생성한 인스턴스 접속하기
+### 단계 3. 생성한 인스턴스 접속하기
 
 > 단계 2에서 생성한 `linux-server-recovery` 인스턴스의 플로팅 IP 주소를 통해 접속하는 방법을 알아봅니다.
 
@@ -102,18 +105,18 @@
 4. 웹 페이지가 열리는 것을 확인합니다.
 5. **터미널** 또는 **PowerShell**에서 아래 명령어를 실행하여 원격 접속 합니다.
 
-    ```PowerShell
-    cd /(MyKey.pem 파일이 있는 디렉토리명)
+```PowerShell
+cd /(MyKey.pem 파일이 있는 디렉토리명)
     
-    ssh -i MyKey.pem ubuntu@복사한 linux-server-recovery 플로팅 IP 주소
-    ```
+ssh -i MyKey.pem ubuntu@복사한 linux-server-recovery 플로팅 IP 주소
+```
 
 6. "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes`를 입력 후 엔터키를 입력합니다.
 7. lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
-    ```bash
-    lsb_release -a
-    ```
+```bash
+lsb_release -a
+```
 
 ## 단계 4. 기존 블록 스토리지를 복제해 인스턴스에 연결하기
 
@@ -132,7 +135,7 @@
     * **구동 중인 인스턴스의 블록 스토리지는 파일 시스템 무결성을 보장하지 않습니다. 진행하려면 체크 박스를 선택해 주세요.** 체크박스를 선택합니다.
 5. 성공 창에서 **확인**을 클릭합니다.
 6. Block Storage **관리 탭** 오른쪽에 있는 **복제 결과** 탭을 클릭합니다.
-7. 복제 결과 목록에서 상태가 <span style="color:rgb(30, 255, 0);">SUCCESS</span>인 것을 확인합니다.
+7. 복제 결과 목록에서 상태가 **SUCCESS**인 것을 확인합니다.
 8. **관리** 탭을 클릭합니다.
 9. `MyBS-Duplicate`를 선택 후 상단에 **연결 관리**를 클릭합니다.
 10. **블록 스토리지 연결 관리** 창에서 아래 정보를 설정 후 **연결**을 클릭합니다.
@@ -140,19 +143,19 @@
 11. 성공 창에서 **확인**을 클릭합니다.
 12. `linux-server-recovery` 인스턴스에 원격 접속한 상태에서 아래 명령어를 통해 /mnt/vdb 경로에 다시 마운트합니다.
 
-    ```bash
-    sudo mount -a
-    ```
+```bash
+sudo mount -a
+```
 
 13. 아래 명령어로 복제된 블록 스토리지의 값을 확인합니다.
 
-    ```bash
-    cat /mnt/vdb/employees.csv
-    ```
+```bash
+cat /mnt/vdb/employees.csv
+```
 
-    데이터베이스의 결과값이 csv 파일로 조회되는 것을 확인합니다.
+데이터베이스의 결과값이 csv 파일로 조회되는 것을 확인합니다.
 
-# 참고 자료
+## 참고 자료
 
 * [이미지](https://docs.nhncloud.com/ko/Compute/Image/ko/overview/)
 * [이미지 생성](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_13)
@@ -160,10 +163,10 @@
 * [Snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))
 * [Backup](https://en.wikipedia.org/wiki/Backup)
 
-# 이전 단계
+## 이전 단계
 
 * [08-모니터링 설정](dooray://1387695619080878080/pages/3959371359644829313 "publish")
 
-# 다음 단계
+## 다음 단계
 
 * [10-확장성과 성능 최적화](dooray://1387695619080878080/pages/3964687410935532614 "publish")
