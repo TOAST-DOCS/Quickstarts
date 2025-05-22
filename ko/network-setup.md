@@ -141,57 +141,57 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 1. 왼쪽 메뉴에서 **Network - Floating IP**를 클릭합니다.
 2. 플로팅 IP 리소스 목록 중 연결된 장치가 `linux-server-basic`인 IP 주소를 **복사** 후 **기록**합니다.
 3. 아래 사용자 환경에 맞춰 SSH 원격 접속을 합니다.
-
     * **Windows 사용하는 경우**
         * Windows **시작**을 클릭 후 `Windows PowerShell`을 검색하여 실행합니다.
 
-!!! tip "알아두기"
-    * Windows PowerShell 실행 팁
-        * `윈도우 키(⊞) + R` 을 눌러 실행창을 실행합니다.
-        * 열기(O) 입력 칸에  `powershell.exe` 를 입력 후 엔터키를 누르면 Windows PowerShell이 실행됩니다.
-
         * 다운로드한 키페어인 `MyKey.pem` 폴더로 이동합니다.
 
-            ```PowerShell
-            cd \(MyKey.pem 파일이 있는 폴더명)
-            ```
+```
+#Powershell
+cd \(MyKey.pem 파일이 있는 폴더명)
+```            
+        * `MyKey.pem` 권한을 초기화 합니다.
 
-            
-        *`MyKey.pem` 권한을 초기화 합니다.
-
-            ```PowerShell
-            icacls MyKey.pem /reset
-            ```
+```
+#PowerShell
+icacls MyKey.pem /reset
+```
         
         * PowerShell을 실행한 사용자의 계정에 `MyKey.pem` 권한을 부여합니다.
 
-            ```PowerShell``` 
-            icacls MyKey.pem /grant:r "$($env:username):(r)"
-            ```
+```
+#PowerShell
+icacls MyKey.pem /grant:r "$($env:username):(r)"
+ ```
         
         * `MyKey.pem` 파일이 상위 폴더로부터 권한을 상속받지 않도록 설정합니다.
 
-            ```PowerShell```
-            icacls MyKey.pem /inheritance:r
-            ```
+```
+#PowerShell
+icacls MyKey.pem /inheritance:r
+```
 
 !!! tip "알아두기"
-    SSH 키나 보안 인증서 파일은 엄격하게 권한을 제한해야 합니다. Windows에서는 icacls 명령어를 사용해 상속을 차단하고, 사용자별 읽기 권한을 부여하여 보안 수준을 유지합니다.
-            
-        * ssh 명령어로 인스턴스에 접속합니다.
+    * SSH 키나 보안 인증서 파일은 엄격하게 권한을 제한해야 합니다. Windows에서는 icacls 명령어를 사용해 상속을 차단하고, 사용자별 읽기 권한을 부여하여 보안 수준을 유지합니다.
 
-            ```PowerShell
-            ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
-            ```
+    * Windows PowerShell 실행 팁
+        * `윈도우 키(⊞) + R` 을 눌러 실행창을 실행합니다.
+        * 열기(O) 입력 칸에  `powershell.exe` 를 입력 후 엔터키를 누르면 Windows PowerShell이 실행됩니다.
+            
+    * ssh 명령어로 인스턴스에 접속합니다.
+
+```PowerShell
+ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
+ ```
             * 복사한 IP 주소
                 * 위의 단계에서 확인한 플로팅 IP 주소 입니다.
 
-        * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes` 를 입력 후 엔터키를 입력합니다.
+        * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes`를 입력 후 엔터키를 입력합니다.
         * lsb\_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
-            ```bash
-            lsb_release -a
-            ```
+```bash
+lsb_release -a
+```
             
     * **macOS 사용하는 경우**
         * Dock에서 **터미널(Terminal)** 앱을 실행하거나, Spotlight에서 **터미널**을 검색하여 실행합니다.
@@ -244,7 +244,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     
 ![4 네트워크설정과 인스턴스 생성_작업5 스크린샷_rv1](https://github.com/user-attachments/assets/3bc07c8b-d6e2-431d-aad4-da3bfa6562e4)
 
-# 참고 자료
+## 참고 자료
 
 * [리전 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/region-guide/)
 * [Compute Instance](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/)
@@ -263,11 +263,11 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 * [Linux](https://en.wikipedia.org/wiki/Linux)
 * [Network Interface](https://docs.nhncloud.com/ko/Network/Network%20Interface/ko/overview/)
 
-# 이전 단계
+## 이전 단계
 
 * [03-IAM 계정과 거버넌스 설정](dooray://1387695619080878080/pages/3977493217025617647 "publish")
 
 
-# 다음 단계
+## 다음 단계
 
 * [05-보안 설정](dooray://1387695619080878080/pages/3959371258218176884 "publish")
