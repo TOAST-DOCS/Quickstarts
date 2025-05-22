@@ -81,9 +81,9 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 9. 새로운 **터미널** 또는 **PowerShell**을 실행합니다.
 10. 아래 명령어로 통신 테스트를 진행합니다.
 
-    ```
-    ping (linux-server-basic 플로팅 IP 주소)
-    ```
+```bash
+ping (linux-server-basic 플로팅 IP 주소)
+```
 
     * **Ping 통신이 허용**된 것을 확인합니다.
 
@@ -106,9 +106,9 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 12. 성공 창에서 **확인**을 클릭합니다.
 13. **터미널** 또는 **PowerShell**에서 아래 명령어를 실행하여 통신 테스트를 진행합니다.
 
-    ```
-    ping (linux-server-basic 플로팅 IP 주소)
-    ```
+```bash
+ping (linux-server-basic 플로팅 IP 주소)
+```
 
     * **Ping 통신이 차단**된 것을 확인합니다.
 
@@ -149,9 +149,9 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 적용 방법: `허용`
 9. **터미널** 또는 **PowerShell**에서 아래 명령어를 실행하여 통신 테스트를 진행합니다.
 
-    ```
-    ping (linux-server-basic 플로팅 IP 주소)
-    ```
+```bash
+ping (linux-server-basic 플로팅 IP 주소)
+```
 
     * 작업하는 컴퓨터의 IP에서만 **Ping 통신이 허용**된 것을 확인합니다.
 
