@@ -1,5 +1,5 @@
-# 개요
-**Quickstarts > 개요**
+# 빠른 시작 가이드
+**Quickstarts > 빠른 시작 가이드**
 
 NHN Cloud 빠른 시작 가이드는  NHN Cloud를 처음 이용하는 사용자를 위한 단계별 온보딩 가이드입니다.  본 가이드를 통해 빠른 시간 내에 다양한 클라우드 리소스를 효율적으로 관리하고 설정할 수 있는 통합 관리 도구인 NHN Cloud 콘솔의 사용법을 익히고 클라우드 서비스를 제공할 수 있습니다. 
 
@@ -25,8 +25,8 @@ NHN Cloud 입문자가 쉽게 익힐 수 작성된 문서입니다. 따라서 �
 - 리전: 평촌 Region
 - VPC: MyVPC
 - 서브넷: MySubnet
-
-![image2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/NHN%20Portal%20%EA%B0%9C%EC%84%A0%20%EB%B9%A0%EB%A5%B8%20%EC%8B%9C%EC%9E%91%20%EA%B0%80%EC%9D%B4%EB%93%9C_%EA%B0%9C%EC%9A%94.png)
+![image2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/0.%20%EA%B0%9C%EC%9A%94.png)
 
 각 학습 모듈은 서로 연계되어있습니다. 하나의 학습 모듈에서 생성한 리소스를 이후 학습 모듈에서 재사용하므로 마지막 학습 모듈을 마치기 전까지 리소스를 삭제하지 않는 것을 권장합니다.
+
 
