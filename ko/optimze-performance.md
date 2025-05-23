@@ -149,11 +149,11 @@
 4. 웹 페이지 본문의 **Server IP Address 값**이 생성한 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소와 일치하는지 확인합니다.
 5. 웹 브라우저 새로고침을 반복해  **Server IP Address 값**이 또 다른 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소로 변경되는지 확인합니다.
 <br></br>
-    ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
+![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
 
 <p style="text-align: center; color: black;">출력 화면 1</p>
 
-    ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
+![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
 
 <p style="text-align: center; color: black;">출력 화면 2</p>
 <br></br>
