@@ -2,7 +2,7 @@
 **Quickstarts > 4. 네트워크 설정과 인스턴스 생성**
 
 이번 학습 모듈에서는 NHN Cloud에서 Linux 기반 웹 서버를 생성해 원격 접속하여 구동하는 방법을 다룹니다. NHN Cloud는 사용자 친화적인 인터페이스와 다양한 클라우드 리소스를 통해 누구나 쉽게 안정적이고 효율적인 IT 환경을 구축할 수 있도록 지원합니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
 ## 학습 목표
 

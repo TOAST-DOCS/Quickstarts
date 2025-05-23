@@ -2,7 +2,7 @@
 **Quickstarts > 5. 보안 설정**
 
 이번 학습 모듈에서는 NHN Cloud에서 보안을 설정하고 관리하는 기본 개념과 주요 기능을 단계별로 안내하여, 안전하고 신뢰할 수 있는 클라우드 환경을 구축하는 방법을 학습합니다. NHN Cloud는 사용자의 데이터를 안전하게 보호하고, 클라우드 리소스를 효율적으로 관리할 수 있는 다양한 보안 기능을 제공합니다.
-<br>![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
 
 ## 학습 목표
 
