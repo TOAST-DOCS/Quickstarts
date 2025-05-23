@@ -2,7 +2,6 @@
 **Quickstarts > 12. 리소스 정리 및 삭제**
 
 이번 학습 모듈에서는 NHN Cloud에서 사용하지 않는 리소스와 프로젝트 및 조직을 삭제하는 방법을 알아봅니다. 이를 통해 불필요한 비용 발생을 방지하고 클라우드 환경을 최적화할 수 있습니다.
-<br>
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EC%A0%95%EB%A6%AC%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.png)
 ## 학습 목표
 
@@ -59,8 +58,9 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * 추가 블록 스토리지: `✔(체크)`
         * 플로팅 IP: `✔(체크)`
     > [참고]
-    >    * 삭제할 리소스 체크 시
-    >        * 해당 리소스를 체크 후 삭제를 하면 인스턴스 생성 시 함께 생성한 대상 리소스를 함께 삭제합니다.
+    >
+    > * 삭제할 리소스 체크 시
+    >     * 해당 리소스를 체크 후 삭제를 하면 인스턴스 생성 시 함께 생성한 대상 리소스를 함께 삭제합니다.
 6. 성공 창에서 **확인**을 클릭합니다.
 7. 인스턴스 목록에서 `mysql-db-basic` 인스턴스를 선택합니다.
 8. 목록 위에 **···** 을 클릭 후 **인스턴스 삭제**를 클릭합니다.
@@ -187,7 +187,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 4. **조직 삭제 확인** 창에서 **확인**을 클릭합니다.
 5. **조직 삭제 성공** 창에서 **확인**을 클릭합니다.
 
-<p style="text-align: center; color: black;">**축하합니다. 모든 빠른 시작을 마치셨습니다.**</p>
+<p style="text-align: center; color: green;">축하합니다. 모든 빠른 시작을 마치셨습니다.</p>
 
 <br></br>
 
@@ -201,4 +201,4 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 ## 이전 단계
 
-* [11-비용 관리](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. 비용 관리](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)

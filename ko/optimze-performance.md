@@ -151,7 +151,12 @@
 <br></br>
     ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
 
+<p style="text-align: center; color: black;">출력 화면 1</p>
+
     ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
+
+<p style="text-align: center; color: black;">출력 화면 2</p>
+<br></br>
 
 !!! tip "알아두기"
     * **Server IP Address 값 변경 값 확인**
