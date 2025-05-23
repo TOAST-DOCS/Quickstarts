@@ -68,57 +68,16 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
                 * 방향: `수신`
                 * IP 프로토콜: `My SQL`
                     * 해당 IP 프로토콜을 선택하면 자동으로 포트 정보가 입력됩니다.
-                    * <span style="color:#6fe11d;">📍 참고:</span>: 사용자 정의 TCP
-                        * IP 프로토콜을 "사용자 정의 TCP"로 선택하면 포트값을 사용자가 직접 입력할 수 있습니다. **"1"**로 표기된 입력칸에 `3306` 을 입력하시기 바랍니다.
+                    > [참고] 사용자 정의 TCP
+                    >
+                    > * IP 프로토콜을 "사용자 정의 TCP"로 선택하면 포트값을 사용자가 직접 입력할 수 있습니다. **1**로 표기된 입력칸에 `3306` 을 입력하시기 바랍니다.
             * Ether: `IPv4`
             * 원격: `CIDR - 192.168.0.0/24`
         * 성공 창에서 **확인**을 클릭합니다.
         * **보안 그룹 선택** 항목에서 위에 생성한 `MySG-DB`를 선택합니다.
     * 추가 블록 스토리지: 사용 안 함 (기본)
     * 사용자 스크립트
-<details><summary>스크립트 보기</summary>
-<p>
-
-```
-        #!/bin/bash
-        # Variable setup
-        DB_NAME="employees"
-        USER_NAME="nhncloud"
-        USER_PASSWORD="nhnpassword"
-        DB_URL="https://github.com/datacharmer/test_db.git"
-        
-        # 1. Clone the test_db repository
-        echo "Cloning test_db repository..."
-        cd ~
-        git clone $DB_URL
-        
-        # 2. Load employees.sql file into MySQL
-        echo "Loading employees.sql into MySQL..."
-        cd ~/test_db
-        sudo mysql -u root < employees.sql
-        
-        # 3. Configure MySQL user and permissions
-        echo "Configuring MySQL user and permissions..."
-        sudo mysql -u root <<EOF
-        USE $DB_NAME;
-        
-        # Create user (for localhost and 192.168.0.% range)
-        CREATE USER '$USER_NAME'@'localhost' IDENTIFIED BY '$USER_PASSWORD';
-        CREATE USER '$USER_NAME'@'192.168.0.%' IDENTIFIED BY '$USER_PASSWORD';
-        
-        # Grant privileges
-        GRANT ALL PRIVILEGES ON $DB_NAME.* TO '$USER_NAME'@'localhost';
-        GRANT ALL PRIVILEGES ON $DB_NAME.* TO '$USER_NAME'@'192.168.0.%';
-        
-        # Apply privileges
-        FLUSH PRIVILEGES;
-        EOF
-        
-        echo "MySQL user '$USER_NAME' created and configured successfully!"
-```
-</p>
-</details>
-
+        * [다운받기](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
     * 삭제 보호: 사용 안 함 (기본)
 4. 인스턴스 생성 정보 창에서 **인스턴스 생성**을 클릭합니다.
 5. 인스턴스 생성 작업이 진행됩니다. 해당 인스턴스는 약 1분 내외로 생성이 완료됩니다.
@@ -131,33 +90,32 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 1. 새로운 **터미널** 또는 **PowerShell**을 실행합니다.
 2. 아래 명령어로 `linux-server-basic`에 원격 접속합니다.
 
-    ```PowerShell
-    cd /(MyKey.pem 파일이 있는 폴더명)
-    ```
+```
+#PowerShell
+cd /(MyKey.pem 파일이 있는 폴더명)
+```
+```
+ssh -i MyKey.pem ubuntu@(linux-server-basic 인스턴스의 Floating IP 주소)
+```
 
-    ```PowerShell
-    ssh -i MyKey.pem ubuntu@(linux-server-basic 인스턴스의 Floating IP 주소)
-    ```
+* 원격 접속 환경에서 아래 명령어를 실행하여 **MySQL-Client** 툴을 설치합니다.
+```
+#bash
+sudo apt update 
+sudo apt install mysql-client -y
+```
 
-3. 원격 접속 환경에서 아래 명령어를 실행하여 **MySQL-Client** 툴을 설치합니다.
-
-    ```bash
-    sudo apt update 
-    sudo apt install mysql-client -y
-    ```
-
-4. 아래 명령어를 실행하여 데이터베이스의 결과값을 확인합니다.
-
-    ```bash
-    export MYSQL_PWD=nhnpassword
-    ```
-
-    ```bash
-    mysql --host=(mysql-db-basic 인스턴스의 가상 IP 주소) --user=nhncloud -e "SELECT * FROM employees.employees LIMIT 30;"
-    ```
+* 아래 명령어를 실행하여 데이터베이스의 결과값을 확인합니다.
+```
+#bash
+export MYSQL_PWD=nhnpassword
+```
+```
+mysql --host=(mysql-db-basic 인스턴스의 가상 IP 주소) --user=nhncloud -e "SELECT * FROM employees.employees LIMIT 30;"
+```
 
 **데이터베이스의 결과값이 조회**되는 것을 확인합니다.
-
+<br></br>
 ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0_%EC%9E%91%EC%97%852.png)
 
 ## 참고 자료
@@ -169,8 +127,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 ## 이전 단계
 
-* [05-보안 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/)
+* [5. 보안 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/)
 
 ## 다음 단계
 
-* [07-스토리지 생성 및 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-storage/)
+* [7. 스토리지 생성 및 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-storage/)
