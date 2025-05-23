@@ -148,17 +148,20 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 ```
 #Powershell
 cd \(MyKey.pem 파일이 있는 폴더명)
+```
       
-## MyKey.pem 권한을 초기화 합니다.
-
+* MyKey.pem 권한을 초기화 합니다.
+```
 icacls MyKey.pem /reset
-        
-## PowerShell을 실행한 사용자의 계정에 `MyKey.pem` 권한을 부여합니다.
+```        
 
+* PowerShell을 실행한 사용자의 계정에 `MyKey.pem` 권한을 부여합니다.
+```
 icacls MyKey.pem /grant:r "$($env:username):(r)"
-        
-## MyKey.pem 파일이 상위 폴더로부터 권한을 상속받지 않도록 설정합니다.
+```
 
+* MyKey.pem 파일이 상위 폴더로부터 권한을 상속받지 않도록 설정합니다.
+```
 icacls MyKey.pem /inheritance:r
 ```
 
@@ -170,33 +173,36 @@ icacls MyKey.pem /inheritance:r
 ```PowerShell
 ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
  ```
+
 * 복사한 IP 주소
     * 위의 단계에서 확인한 플로팅 IP 주소 입니다.
 
 * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes`를 입력 후 엔터키를 입력합니다.
 * lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
-```bash
+```
+#bash
 lsb_release -a
 ```
             
 ### macOS 사용하는 경우
 
 * Dock에서 **터미널(Terminal)** 앱을 실행하거나, Spotlight에서 **터미널**을 검색하여 실행합니다.
-
-!!! tip "알아두기"
-    * 터미널 실행 팁
-        * `Command(⌘) + Space` 를 눌러 Spotlight를 실행합니다
-        * 입력 칸에  `"터미널"` 입력 후 <span style="color:rgb(51, 51, 51);">Return키</span>를 누르면 터미널이 실행됩니다.
+    * <span style="color:#6fe11d;">📍 참고:</span>: 터미널 실행 팁
+        * 터미널 실행 팁
+            * `Command(⌘) + Space` 를 눌러 Spotlight를 실행합니다
+            * 입력 칸에  `터미널` 입력 후 <span style="color:rgb(51, 51, 51);">Return키</span>를 누르면 터미널이 실행됩니다.
 
 * 다운로드 받은 키페어인 `MyKey.pem` 디렉터리로 이동합니다.
 
 ```
 #bash
 cd /(MyKey.pem 파일이 있는 디렉터리명)
-         
-## 아래 명령어를 입력하여 MyKey.pem의 권한을 설정합니다.
+```
 
+* 아래 명령어를 입력하여 MyKey.pem의 권한을 설정합니다.
+
+```
 chmod 600 MyKey.pem
 ```
 
@@ -217,7 +223,7 @@ lsb_release -a
 
 ### 단계 2. 웹 서버 설치 및 구동하기
 
-1. 인스턴스에 원격 접속한 상태에서 아래 명령어를 입력하여 Nginx 웹 서버를 설치합니다.
+* 인스턴스에 원격 접속한 상태에서 아래 명령어를 입력하여 Nginx 웹 서버를 설치합니다.
 
 ```
 #bash
@@ -225,7 +231,7 @@ sudo apt update -y
 sudo apt install nginx -y
 ```
 
-2. 설치가 완료되면 아래 명령어로 웹 서버가 구동되는지 확인합니다.
+* 설치가 완료되면 아래 명령어로 웹 서버가 구동되는지 확인합니다.
 
 ```
 #bash

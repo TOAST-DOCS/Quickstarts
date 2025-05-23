@@ -15,6 +15,8 @@
 
 ![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%206.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
 
+<p style="text-align: center; color: black;">최종 구성도</p>
+
 ## 시작하기 전에
 
 NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합니다.
@@ -29,7 +31,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-    **본 가이드는 [05-보안 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/) 이후 단계부터 시작됩니다.**
+    **본 가이드는 [5. 보안 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/) 이후 단계부터 시작됩니다.**
 
 ## 데이터베이스 생성 및 데이터 조회
 
@@ -65,19 +67,16 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
             * 보안 규칙 추가에  **+**을 클릭한 뒤 다음 설정의 보안 규칙을 추가
                 * 방향: `수신`
                 * IP 프로토콜: `My SQL`
-                    * 해당 IP 프로토콜을 선택하면 자동으로 포트 정보가 입력됩니다.        
+                    * 해당 IP 프로토콜을 선택하면 자동으로 포트 정보가 입력됩니다.
+                    * <span style="color:#6fe11d;">📍 참고:</span>: 사용자 정의 TCP
+                        * IP 프로토콜을 "사용자 정의 TCP"로 선택하면 포트값을 사용자가 직접 입력할 수 있습니다. **"1"**로 표기된 입력칸에 `3306` 을 입력하시기 바랍니다.
             * Ether: `IPv4`
             * 원격: `CIDR - 192.168.0.0/24`
         * 성공 창에서 **확인**을 클릭합니다.
         * **보안 그룹 선택** 항목에서 위에 생성한 `MySG-DB`를 선택합니다.
-
-
-!!! tip "알아두기"
-    * 사용자 정의 TCP
-        * IP 프로토콜을 "사용자 정의 TCP"로 선택하면 포트값을 사용자가 직접 입력할 수 있습니다. **"1"**로 표기된 입력칸에 `3306` 을 입력하시기 바랍니다.
     * 추가 블록 스토리지: 사용 안 함 (기본)
-
-<details><summary>사용자 스크립트</summary>
+    * 사용자 스크립트
+<details><summary>스크립트 보기</summary>
 <p>
 
 ```
@@ -117,7 +116,6 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         
         echo "MySQL user '$USER_NAME' created and configured successfully!"
 ```
-
 </p>
 </details>
 
