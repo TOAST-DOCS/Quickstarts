@@ -30,7 +30,6 @@
 * **회원 계정**
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
-* [08-모니터링 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-monitoring/) 실습 완료
 
 **본 가이드는 [08-모니터링 설정](dooray://1387695619080878080/pages/3959371359644829313 "publish") 이후 단계부터 시작됩니다.**
 
@@ -51,11 +50,9 @@
     * 이미지 이름: `linux-server-basic-image`
     * 삭제 보호: `사용 안 함`
     * **구동 중인 인스턴스의 이미지 생성은 무결성을 보장하지 않습니다. 진행하려면 체크박스를 선택해주세요.** 체크박스를 선택합니다.
-
-!!! caution "주의"
-    * 구동 중인 인스턴스 이미지 생성
-        * 구동 중인 인스턴스를 이미지로 만들 경우 파일 시스템에 무결성을 보장받을 수 없습니다. 이에 따른 애플리케이션 구동에 문제가 발생할 경우도 있습니다. 가급적 인스턴스를 중지시킨 후 이미지를 생성할 수 있도록 권장합니다.
-
+    > [주의]
+    > * 구동 중인 인스턴스 이미지 생성
+    >     * 구동 중인 인스턴스를 이미지로 만들 경우 파일 시스템에 무결성을 보장받을 수 없습니다. 이에 따른 애플리케이션 구동에 문제가 발생할 경우도 있습니다. 가급적 인스턴스를 중지시킨 후 이미지를 생성할 수 있도록 권장합니다.
 9. 성공 창에서 **확인**을 클릭합니다.
 10. 콘솔 창 왼쪽 메뉴 중 **Compute - Image**를 클릭합니다.
 11. Image 화면의 이미지 목록에서 `linux-server-basic-image`가 생성 중인 것을 확인합니다. 생성이 완료되면 해당 이미지의 상태표시 등이 초록색으로 표시됩니다.
@@ -105,20 +102,22 @@
 4. 웹 페이지가 열리는 것을 확인합니다.
 5. **터미널** 또는 **PowerShell**에서 아래 명령어를 실행하여 원격 접속 합니다.
 
-```PowerShell
+```
+#PowerShell
 cd /(MyKey.pem 파일이 있는 디렉토리명)
     
 ssh -i MyKey.pem ubuntu@복사한 linux-server-recovery 플로팅 IP 주소
 ```
 
-6. "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes`를 입력 후 엔터키를 입력합니다.
-7. lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
+* "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes`를 입력 후 엔터키를 입력합니다.
+* lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
-```bash
+```
+#bash
 lsb_release -a
 ```
 
-## 단계 4. 기존 블록 스토리지를 복제해 인스턴스에 연결하기
+### 단계 4. 기존 블록 스토리지를 복제해 인스턴스에 연결하기
 
 > 앞의 학습 모듈에서 생성한 `MyBS` 블록 스토리지를 복제한 뒤 `linux-server-recovery` 인스턴스와 연결하고 `MyBS` 블록 스토리지의 데이터를 조회해 봅니다.
 
@@ -147,7 +146,7 @@ lsb_release -a
 sudo mount -a
 ```
 
-13. 아래 명령어로 복제된 블록 스토리지의 값을 확인합니다.
+* 아래 명령어로 복제된 블록 스토리지의 값을 확인합니다.
 
 ```bash
 cat /mnt/vdb/employees.csv
