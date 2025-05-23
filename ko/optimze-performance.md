@@ -2,7 +2,7 @@
 **Quickstarts > 10. 확장성과 성능 최적화**
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션의 확장성과 성능 최적화를 위한 아키텍처 구성 방법을 학습합니다. NHN Cloud RDS를 활용해 오토 스케일링, 로드 밸런싱과 안정적인 데이터 관리를 위한 효율적이고 유연하며 확장 가능한 시스템을 설계할 수 있습니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
 ## 학습 목표
 
