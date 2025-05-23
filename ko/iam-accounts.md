@@ -2,7 +2,7 @@
 **Quickstarts > 3. IAM 계정과 거버넌스 설정**
 
 이번 학습 모듈에서는 거버넌스 설정과 IAM(Identity and Access Management) 계정 관리 방법에 대해 다룹니다. 이를 통해 조직 내 자원을 효율적으로 관리하고, 권한 기반의 액세스 제어를 설정해 보안과 생산성을 극대화할 수 있습니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/IAM%20%EA%B3%84%EC%A0%95%EA%B3%BC%20%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4%20%EC%84%A4%EC%A0%95.png)
 ## 학습 목표
 
