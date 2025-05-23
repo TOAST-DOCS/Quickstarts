@@ -174,7 +174,6 @@ icacls MyKey.pem /inheritance:r
 !!! tip "알아두기"
     * SSH 키나 보안 인증서 파일은 엄격하게 권한을 제한해야 합니다. Windows에서는 icacls 명령어를 사용해 상속을 차단하고, 사용자별 읽기 권한을 부여하여 보안 수준을 유지합니다.
 
-            
 * ssh 명령어로 인스턴스에 접속합니다.
 
 ```PowerShell
@@ -198,47 +197,47 @@ lsb_release -a
     * 터미널 실행 팁
         * `Command(⌘) + Space` 를 눌러 Spotlight를 실행합니다
         * 입력 칸에  `"터미널"` 입력 후 <span style="color:rgb(51, 51, 51);">Return키</span>를 누르면 터미널이 실행됩니다.
-        * 다운로드 받은 키페어인 `MyKey.pem` 디렉터리로 이동합니다.
 
-            ```bash
-            cd /(MyKey.pem 파일이 있는 디렉터리명)
-            ```
+* 다운로드 받은 키페어인 `MyKey.pem` 디렉터리로 이동합니다.
+
+```bash
+cd /(MyKey.pem 파일이 있는 디렉터리명)
+ ```
+         
+* 아래 명령어를 입력하여 `MyKey.pem`의 권한을 설정합니다.
+
+    ```bash
+    chmod 600 MyKey.pem
+    ```
 
             
-        * 아래 명령어를 입력하여 `MyKey.pem`의 권한을 설정합니다.
+* ssh 명령어로 인스턴스에 접속합니다.
 
-            ```bash
-            chmod 600 MyKey.pem
-            ```
+    ```PowerShell
+    ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
+    ```
 
-            
-        * ssh 명령어로 인스턴스에 접속합니다.
+* "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes` 를 입력 후 엔터키를 입력합니다.
+* lsb\_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
-            ```PowerShell
-            ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
-            ```
+    ```bash
+    lsb_release -a
+    ```
 
-        * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes` 를 입력 후 엔터키를 입력합니다.
-        * lsb\_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
-
-            ```bash
-            lsb_release -a
-            ```
-
-
-## 단계 2. 웹 서버 설치 및 구동하기
+### 단계 2. 웹 서버 설치 및 구동하기
 
 1. 인스턴스에 원격 접속한 상태에서 아래 명령어를 입력하여 Nginx 웹 서버를 설치합니다.
 
-    ```bash
-    sudo apt update -y
-    sudo apt install nginx -y
-    ```
+```bash
+sudo apt update -y
+sudo apt install nginx -y
+```
+
 2. 설치가 완료되면 아래 명령어로 웹 서버가 구동되는지 확인합니다.
 
-    ```bash
-    curl localhost
-    ```
+```bash
+curl localhost
+```
     
 ![4 네트워크설정과 인스턴스 생성_작업5 스크린샷_rv1](https://github.com/user-attachments/assets/3bc07c8b-d6e2-431d-aad4-da3bfa6562e4)
 
@@ -251,7 +250,6 @@ lsb_release -a
 * [Subnet](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_4)
 * [Floating IP](https://www.nhncloud.com/kr/service/network/floating-ip)
 * [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
-* [키페어(Key-pair)](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#key-pair)
 * [Public-key 암호화](https://en.wikipedia.org/wiki/Public-key_cryptography)
 * [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
 * [VM](https://en.wikipedia.org/wiki/Virtual_machine)
