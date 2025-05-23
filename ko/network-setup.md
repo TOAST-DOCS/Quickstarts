@@ -148,26 +148,17 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 ```
 #Powershell
 cd \(MyKey.pem 파일이 있는 폴더명)
-```            
+      
+## MyKey.pem 권한을 초기화 합니다.
 
-* `MyKey.pem` 권한을 초기화 합니다.
-
-```
-#PowerShell
 icacls MyKey.pem /reset
-```
         
-* PowerShell을 실행한 사용자의 계정에 `MyKey.pem` 권한을 부여합니다.
+## PowerShell을 실행한 사용자의 계정에 `MyKey.pem` 권한을 부여합니다.
 
-```
-#PowerShell
 icacls MyKey.pem /grant:r "$($env:username):(r)"
- ```
         
-* `MyKey.pem` 파일이 상위 폴더로부터 권한을 상속받지 않도록 설정합니다.
+## MyKey.pem 파일이 상위 폴더로부터 권한을 상속받지 않도록 설정합니다.
 
-```
-#PowerShell
 icacls MyKey.pem /inheritance:r
 ```
 
@@ -179,8 +170,8 @@ icacls MyKey.pem /inheritance:r
 ```PowerShell
 ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
  ```
-    * 복사한 IP 주소
-        * 위의 단계에서 확인한 플로팅 IP 주소 입니다.
+* 복사한 IP 주소
+    * 위의 단계에서 확인한 플로팅 IP 주소 입니다.
 
 * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes`를 입력 후 엔터키를 입력합니다.
 * lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
@@ -200,42 +191,44 @@ lsb_release -a
 
 * 다운로드 받은 키페어인 `MyKey.pem` 디렉터리로 이동합니다.
 
-```bash
+```
+#bash
 cd /(MyKey.pem 파일이 있는 디렉터리명)
- ```
          
-* 아래 명령어를 입력하여 `MyKey.pem`의 권한을 설정합니다.
+## 아래 명령어를 입력하여 MyKey.pem의 권한을 설정합니다.
 
-    ```bash
-    chmod 600 MyKey.pem
-    ```
+chmod 600 MyKey.pem
+```
 
-            
 * ssh 명령어로 인스턴스에 접속합니다.
 
-    ```PowerShell
-    ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
-    ```
+```
+#PowerShell
+ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
+```
 
 * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes` 를 입력 후 엔터키를 입력합니다.
-* lsb\_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
+* lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
-    ```bash
-    lsb_release -a
-    ```
+```
+#bash
+lsb_release -a
+```
 
 ### 단계 2. 웹 서버 설치 및 구동하기
 
 1. 인스턴스에 원격 접속한 상태에서 아래 명령어를 입력하여 Nginx 웹 서버를 설치합니다.
 
-```bash
+```
+#bash
 sudo apt update -y
 sudo apt install nginx -y
 ```
 
 2. 설치가 완료되면 아래 명령어로 웹 서버가 구동되는지 확인합니다.
 
-```bash
+```
+#bash
 curl localhost
 ```
     
