@@ -158,14 +158,14 @@ Before you begin this learning module, here's what you need to know
 <p style="text-align: center; color: black;">Output screen 2</p>
 <br></br>
 
-!!! tip "To Know"
-* **Verify the Server IP Address value change value**
-\* The `linux-server-autoscale` instance may change state from time to time depending on the AutoScale group's grow/shrink policy settings. This may result in only one Server IP Address due to the reduction from two instances to one instance.
-\* The load balancer associated with an autoscale group periodically checks the status values of the instances in the group and connects to them. As a result, the health value information is updated, which can expose Server IP Address values that have changed after a period of time.
-* **If a changed web page is not visible**
-\* If you see the old page even though the web page has changed, the problem may be caused by your web browser's cache. In this case, you can use the refresh (F5) or strong refresh provided by your browser to see the changed page. You can perform a strong refresh in the following ways.
-* **Windows**: `Ctrl + F5` or `Shift + F5`
-* **Mac**: `Cmd + Shift + R`
+!!! tip "Tips"
+    * **Verify the Server IP Address value change value**
+        * The `linux-server-autoscale` instance may change state from time to time depending on the AutoScale group's grow/shrink policy settings. This may result in only one Server IP Address due to the reduction from two instances to one instance.
+        * The load balancer associated with an autoscale group periodically checks the status values of the instances in the group and connects to them. As a result, the health value information is updated, which can expose Server IP Address values that have changed after a period of time.
+    * **If a changed web page is not visible**
+        * If you see the old page even though the web page has changed, the problem may be caused by your web browser's cache. In this case, you can use the refresh (F5) or strong refresh provided by your browser to see the changed page. You can perform a strong refresh in the following ways.
+        * **Windows**: `Ctrl + F5` or `Shift + F5`
+        * **Mac**: `Cmd + Shift + R`
 
 
 ### Step 4. Apply the autoscale group growth and reduction policy

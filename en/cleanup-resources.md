@@ -1,5 +1,5 @@
-# Organizing and deleting resources
-**Quickstarts > 12. Organize and delete resources**
+# Clean up resources
+**Quickstarts > 12. Clean up resources**
 
 In this learning module, you'll learn how to delete unused resources, projects, and organizations from NHN Cloud. This will help you avoid incurring unnecessary costs and optimize your cloud environment.
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EC%A0%95%EB%A6%AC%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.png)
@@ -30,7 +30,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-**This guide starts with steps after [11.Managing expenses](https://docs.nhncloud.com/en/quickstarts/en/cost-management/).**
+**This guide starts with steps after [11.Cost management](https://docs.nhncloud.com/en/quickstarts/en/cost-management/).**
 
 ## Delete all resources in use 
 
@@ -70,9 +70,9 @@ To get started with NHN Cloud, you'll need to prepare the following things
         * Floating IP: ✔ `(checked)`
 10. In the Success window, click **OK**.
 
-!!! TIP "To Know"
-\* Delete additional block storage, floating IPs
-\* When deleting material stored in object storage, **confirm the deletion**so that the user can see the contents.
+!!! TIP "Tips"
+    * Delete additional block storage, floating IPs
+        * When deleting material stored in object storage, **confirm the deletion**so that the user can see the contents.
 
 ### Step 3. Delete the Auto Scale resource
 
@@ -102,9 +102,9 @@ To get started with NHN Cloud, you'll need to prepare the following things
 8. In the Delete Container window, click **OK**.
 9. In the Success window, click **OK**.
 
-!!! TIP "To Know"
-\* Confirm deletion of object storage data
-\* When deleting material stored in object storage, **confirm the deletion**so that the user can confirm the contents.
+!!! TIP "Tips"
+    * Confirm deletion of object storage data
+        * When deleting material stored in object storage, **confirm the deletion**so that the user can confirm the contents.
 
 ### Step 6. Delete a network resource
 
@@ -131,9 +131,9 @@ To get started with NHN Cloud, you'll need to prepare the following things
 18. In the **Delete VPC** window, click **OK**.
 19. In the Success window, click **OK**.
 
-!!! tip "Get to know"
-\* Services that depend on deleting a VPC
-\* Deleting a VPC also deletes the resources that you created within the VPC, such as subnets`(MySubnet`), routing tables`(MyRT)`, and Internet gateways.
+!!! tip "Tips"
+    * Services that depend on deleting a VPC
+        * Deleting a VPC also deletes the resources that you created within the VPC, such as subnets`(MySubnet`), routing tables`(MyRT)`, and Internet gateways.
 
 
 ### Step 7. Delete the monitoring resource
@@ -158,9 +158,9 @@ To get started with NHN Cloud, you'll need to prepare the following things
 4. In the **Delete keyfair** window, click **OK**.
 5. In the **Success** window, click **OK**.
 
-!!! TIP "Get to know"
-\* Keyfair coverage
-\* Keyfairs are managed **per user's account**, not per project. If you want to continue using a key pair in another project, you don't need to delete it.
+!!! TIP "Tips"
+    * Keyfair coverage
+        * Keyfairs are managed **per user's account**, not per project. If you want to continue using a key pair in another project, you don't need to delete it.
 
 ### Step 9. Deactivate the service and delete the project
 
@@ -201,4 +201,4 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 ## Previous step
 
-* [11. Manage expenses](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)
+* [11. Cost management](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)

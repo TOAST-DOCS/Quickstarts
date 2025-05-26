@@ -1,5 +1,5 @@
-# Set up IAM accounts and governance
-**Quickstarts > 3. Set up IAM accounts and governance**
+# IAM accounts and governance
+**Quickstarts > 3. IAM accounts and governance**
 
 In this learning module, you'll learn how to set up governance and manage Identity and Access Management (IAM) accounts. This enables you to efficiently manage resources within your organization and set up permission-based access control to maximize security and productivity.
 
@@ -52,23 +52,23 @@ Before you begin this learning module, here's what you need to know
 6. Under the **Domain settings** item, in the **IAM Console** item, view the URL for your domain name and click **Copy**right to copy the domain address.
 
 !!! TIP "Get to know"
-\* IAM console domain name
-\* The domain name is the exclusive access address for users with an IAM account. You can find out how to access it by doing the following tasks
-\* Domain name guide
-\* When setting up a domain name, we recommend that you use a clear and intuitive name, with the following prerequisites
-* **Include your organization's identifying information**
-\* Include information that clearly identifies your organization, such as company name, department name, group name, etc.
-\* Examples: `company-name`, `team-alpha`
-* **Reflect your management structure**
-\* For large organizations, add suffixes such as region, type of work, department, etc.
-\* Examples: `company-kr`, `org-dev`, `team-global`
-* **Consider alignment with governance**
-\* Consider IAM policies or rights management to ensure naming scheme consistency
-\* Examples: `enterprise-core`, `partner-project`
-* **Consider future scalability**
-\* Create a structure that is scalable over the long term, so that additional projects are clearly distinguishable
-\* Example: `parent-org`
-\* Domain names can be changed even after setup.
+    * IAM console domain name
+        * The domain name is the exclusive access address for users with an IAM account. You can find out how to access it by doing the following tasks
+    * Domain name guide
+        * When setting up a domain name, we recommend that you use a clear and intuitive name, with the following prerequisites
+            * **Include your organization's identifying information**
+                * Include information that clearly identifies your organization, such as company name, department name, group name, etc.
+                * Examples: `company-name`, `team-alpha`
+            * **Reflect your management structure**
+                * For large organizations, add suffixes such as region, type of work, department, etc.
+                * Examples: `company-kr`, `org-dev`, `team-global`
+            * **Consider alignment with governance**
+                * Consider IAM policies or rights management to ensure naming scheme consistency
+                * Examples: `enterprise-core`, `partner-project`
+            * **Consider future scalability**
+                * Create a structure that is scalable over the long term, so that additional projects are clearly distinguishable
+                * Example: `parent-org`
+            * Domain names can be changed even after setup.
 
 ### Step 2. Set up IAM two-factor authentication login security
 
@@ -119,9 +119,9 @@ Before you begin this learning module, here's what you need to know
     * Select: Click `OrgRole`, and under Detailed Roles, select the `BILLING_VIEWER and BUDGET_ADMIN` checkboxes, and clear the `NONE` checkbox.
 9. In the **notification** window, click **OK**.
 
-!!! tip "Get to know"
-\* IAM default role
-\* When you create IAM, the default role is set to NONE (Default Role). This role can be Read Organization Dashboard, Read Organization Preferences.
+!!! tip "Tips"
+    * IAM default role
+        * When you create IAM, the default role is set to NONE (Default Role). This role can be Read Organization Dashboard, Read Organization Preferences.
 
 ### Step 5. Set your IAM account password
 
@@ -138,6 +138,7 @@ Before you begin this learning module, here's what you need to know
 9. Click **Make changes**in the body of the mail.
 10. On the Change password page, enter the same password you want to change in the "Enter new password" and "Re-enter password" fields, then click **Save password**.
     > [Caution] Password generation rules
+    >
     > * You must enter 8 to 15 characters, using a combination of alphanumeric and special characters.
 11. **Your new password has been saved.** Click **OK**in the notification window that appears.
 12. Follow the same action steps as above to ensure that in the IAM members list, the name <span style="color:rgb(34, 34, 34);">`myproject-budget` </span>in the list of IAM members.
@@ -158,10 +159,10 @@ Before you begin this learning module, here's what you need to know
 8. **In the****Manage organization** submenu, **Organization preferences**, view the default settings for your organization.
 9. In the upper-right corner, hover over `myproject admin`and click **Sign out**in the menu that appears.
 
-!!! tip "Get to know"
-* `myproject-admin` Role
-\* This account can only Create projects, Read organization dashboards, Read about projects, Read organization dashboards, and Read organization preferences. If you click on tabs such as Manage members of an organization, Manage notification recipient groups, Manage notifications, and so on, you'll see the **No permission to use the service** screen.
-\* Grant the appropriate permissions based on the user's role. For more information, please refer to our guide.
+!!! tip "Tips"
+    * `myproject-admin` Role
+        * This account can only Create projects, Read organization dashboards, Read about projects, Read organization dashboards, and Read organization preferences. If you click on tabs such as Manage members of an organization, Manage notification recipient groups, Manage notifications, and so on, you'll see the **No permission to use the service** screen.
+        * Grant the appropriate permissions based on the user's role. For more information, please refer to our guide.
 
 
 > You can access the `myproject-billing` IAM account the same as in the above action step.

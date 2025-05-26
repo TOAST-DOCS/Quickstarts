@@ -65,14 +65,14 @@ echo -e "n\np\n1\n\n\nw" | sudo fdisk /dev/vdb
 ```
 
 !!! tip "知っておくべきこと"
-\* ドメイン名ガイド
-\* fdisk コマンドの説明
-\* fdisk **`n`**: 新しいパーティションの作成 (オプション:`n)`
-\* p **`p`**: パーティションタイプの選択 (デフォルト: Primary)
-\*(オプション) **`1`**: パーティション番号 (デフォルト: 1番)
-\***最初のセクタ**：Enterを押してデフォルト値を選択します。
-\***最後のセクタ**：Enterを押してデフォルトの最大サイズを選択します。
-\*最大サイズ **`w`**: 変更内容を保存して終了
+     * ドメイン名ガイド
+         * fdisk コマンドの説明
+             * fdisk **`n`**: 新しいパーティションの作成 (オプション:`n)`
+             * p **`p`**: パーティションタイプの選択 (デフォルト: Primary)
+             *(オプション) **`1`**: パーティション番号 (デフォルト: 1番)
+             ***最初のセクタ**：Enterを押してデフォルト値を選択します。
+             ***最後のセクタ**：Enterを押してデフォルトの最大サイズを選択します。
+             *最大サイズ **`w`**: 変更内容を保存して終了
 
 * 以下のコマンドを実行してパーティションをフォーマットします。
 ```bash
@@ -233,8 +233,8 @@ sudo curl -o /var/www/html/index.html (myobs にアップロードした index.h
 ```
 
 !!! tip "知っておきたいこと"
-\* Nginxの基本ウェブドキュメントパス
-\* UbuntuでインストールしたNginxの基本ウェブ文書のパスは`/var/www/htmlです。` `http://복사한 linux-server-basic フローティングIPアドレスに`接続する時、出力されるウェブページ文書は`/var/www/html/index.html`です。
+    * Nginxの基本ウェブドキュメントパス
+        * UbuntuでインストールしたNginxの基本ウェブ文書のパスは`/var/www/htmlです。` `http://복사한 linux-server-basic フローティングIPアドレスに`接続する時、出力されるウェブページ文書は`/var/www/html/index.html`です。
 
 * 以下のコマンドを実行して、追加サービス構成を設定します。
 
@@ -248,10 +248,10 @@ chmod +x /home/ubuntu/service-setting.sh
 ![pic3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1_%EB%8B%A8%EA%B3%843.png)
 
 !!! tip "知っておくべきこと"
-\* 変更されたウェブページが表示されない場合
-\* ウェブページが変更されたにもかかわらず、以前のページが表示される場合は、ウェブブラウザのキャッシュが原因で発生した問題の可能性があります。この場合、ブラウザが提供するリフレッシュ(F5)または強力リフレッシュを使用して変更されたページを確認することができます。強制更新は、次の方法で実行することができます。
-\***Windows**:`Ctrl + F5`または`Shift + F5`
-\***Mac**:`Cmd + Shift + R`
+    * 変更されたウェブページが表示されない場合
+        * ウェブページが変更されたにもかかわらず、以前のページが表示される場合は、ウェブブラウザのキャッシュが原因で発生した問題の可能性があります。この場合、ブラウザが提供するリフレッシュ(F5)または強力リフレッシュを使用して変更されたページを確認することができます。強制更新は、次の方法で実行することができます。
+        ***Windows**:`Ctrl + F5`または`Shift + F5`
+        ***Mac**:`Cmd + Shift + R`
 
 
 ## 参考資料
@@ -269,8 +269,8 @@ chmod +x /home/ubuntu/service-setting.sh
 
 ## 前の段階
 
-* [06-データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
+* [6. データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
 
 ## 次のステップ
 
-* [08-モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
+* [8. モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)

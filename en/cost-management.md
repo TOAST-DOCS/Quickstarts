@@ -1,5 +1,5 @@
-# Manage expenses
-**Quickstarts > 11. Manage expenses**
+# Cost management
+**Quickstarts > 11. Cost management**
 
 In this learning module, you will learn how to view your organization's usage, set budgets, and create and apply resource tags in the NHN Cloud console. This will enable you to effectively manage your organization's cloud resources and operate cost-effectively.
 
@@ -33,7 +33,7 @@ Before you begin this learning module, here's what you need to know
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-This guide starts after [10. Optimize for scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/).
+This guide starts after [10. Optimize scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/).
 
 ## Manage your organization's usage and budget
 
@@ -68,11 +68,11 @@ This guide starts after [10. Optimize for scalability and performance](https://d
         * **Check the**email of the user registered as a `member`, NHN Cloud member user information, **and**select the **Email checkbox**.
 5. View your budgets **and usage** `in MyBudget`in the list of added budgets.
 
-!!! TIP "Get to know"
-* **Budget alerts are sent based on.**
-\* Budget alerts can be **notified at 10:00 am the next day**if you exceed the set budget or meet a specified threshold (baseline, threshold day).  
+!!! TIP "Tips"
+    * **Budget alerts are sent based on.**
+        * Budget alerts can be **notified at 10:00 am the next day**if you exceed the set budget or meet a specified threshold (baseline, threshold day).  
     * **What to check after setting a budget**
-\* After setting a budget, the service is not automatically disabled or blocked when the budget is exceeded. This is to avoid interruptions while using the service, which may result in costs exceeding the set budget. We recommend proper budget setting and resource management to utilize the budget correctly.
+        * After setting a budget, the service is not automatically disabled or blocked when the budget is exceeded. This is to avoid interruptions while using the service, which may result in costs exceeding the set budget. We recommend proper budget setting and resource management to utilize the budget correctly.
 
 ## Utilizing resource tags
 

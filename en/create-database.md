@@ -1,7 +1,7 @@
-# Create and connect to databases
-**Quickstarts > 6. Create and connect to a database**
+# Create and attach databases
+**Quickstarts > 6. Create and attach databases**
 
-This learning module will guide you through the basic configuration procedures to create a database and connect it with an application in the NHN Cloud environment. NHN Cloud provides reliable and scalable **database services**to help users build and operate databases easily and efficiently.
+This learning module will guide you through the basic configuration procedures to create a database and connect it with an application in the NHN Cloud environment. NHN Cloud provides reliable and scalable **database services** to help users build and operate databases easily and efficiently.
 
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
 ## Learning objectives
@@ -31,7 +31,7 @@ To get started with NHN Cloud, you need to prepare the following things
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-    **This guide starts after step [5. Set up security](https://docs.nhncloud.com/en/quickstarts/en/configure-security/).**
+    **This guide starts after step [5. Configure security](https://docs.nhncloud.com/en/quickstarts/en/configure-security/).**
 
 ## Create databases and query data
 
@@ -64,7 +64,7 @@ To get started with NHN Cloud, you need to prepare the following things
         * Click **Create security group** 
         * In the **Create security group** window, set the information below and click **OK**.
             * Name: `MySG-DB`
-            * Click \*\*+** for Add a security rule, and then add a security rule with the following settings
+            * Click **+** for Add a security rule, and then add a security rule with the following settings
                 * Direction: `Incoming`
                 * IP Protocol: `My SQL`
                     * Select the appropriate IP protocol and the port information is automatically filled in.
@@ -76,12 +76,12 @@ To get started with NHN Cloud, you need to prepare the following things
         * In the Success window, click **OK**.
         * In the **Security group selection**, select `MySG-DB`, which you created above.
     * Additional block storage: Disabled (default)
-    * Body
-        * [Download](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
+    * User script
+        * [View Script](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
     * Erasure protection: Disabled (default)
 4. In the Instance creation information pane, click **Create instance**.
 5. The instance creation operation proceeds. The instance will be created in about a minute or so.
-6. After creating the instance, **copy** and **record the**IP address `that is mysql-db-basic`.
+6. After creating the instance, **copy** and **record** IP address `that is mysql-db-basic`.
 
 ### Step 2. Test database access on a Linux instance
 
@@ -127,8 +127,8 @@ Verify that **the results from the database are retrieved**.
 
 ## Previous step
 
-* [5. security settings](https://docs.nhncloud.com/en/quickstarts/en/configure-security/)
+* [5. Configure security](https://docs.nhncloud.com/en/quickstarts/en/configure-security/)
 
 ## Next steps
 
-* [7. Create and set up storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/)
+* [7. Create and attach storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/)
