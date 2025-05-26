@@ -1,5 +1,5 @@
-# Set up your network and create an instance
-**Quickstarts > 4. Set up your network and create an instance**
+# Network setup and create instance
+**Quickstarts > 4. Network setup and create instance**
 
 In this learning module, you will learn how to create, remotely access, and run a Linux-based web server on NHN Cloud. NHN Cloud makes it easy for anyone to build a reliable and efficient IT environment with a user-friendly interface and a variety of cloud resources.
 
@@ -38,7 +38,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-**This guide starts with the steps after [3. Set up your IAM account and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/).**
+**This guide starts with the steps after [3. IAM accounts and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/).**
 
 ## Preparing to create an instance
 
@@ -49,7 +49,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 3. Click **Select a service**, and then click **Compute - Instance**.
 4. In the **Activate service** window, click **OK**.
 
-!!! TIP "Get to know"
+!!! TIP "Tips"
     * Activate the service
         * When a service is activated, the Services menu is exposed on the left side of the NHN Cloud Console project screen. You can manage the required resources from that menu.
         * Depending on the region you set, some services may not be available.
@@ -192,10 +192,10 @@ lsb_release -a
 
 * Launch **the Terminal** app from the Dock, or search for **Terminal**in Spotlight and launch it.
 
-!!! TIP "Get to know"
-\* Tips for running Terminal
-\* Press `Command (⌘) + Space` to launch Spotlight
-\* Type `Terminal` in the input field and press <span style="color:rgb(51, 51, 51);">Return</span>to launch Terminal.
+!!! TIP "Tips"
+    * Tips for running Terminal
+        * Press `Command (⌘) + Space` to launch Spotlight
+        * Type `Terminal` in the input field and press <span style="color:rgb(51, 51, 51);">Return</span>to launch Terminal.
 
 * Navigate to the `MyKey.pem` directory, which is the keyfair you downloaded.
 ```
@@ -259,9 +259,9 @@ curl localhost
 
 ## Previous step
 
-* [03-Set up IAM accounts and ](dooray://1387695619080878080/pages/3977493217025617647 "governancepublish")
+* [3. IAM accounts and governance](https://docs.alpha-nhncloud.com/en/quickstarts/en/iam-accounts/)
 
 
 ## Next steps
 
-* [05 - Security ](dooray://1387695619080878080/pages/3959371258218176884 "Settingspublish")
+* [5. Configure Security ](https://docs.alpha-nhncloud.com/en/quickstarts/en/configure-security/)

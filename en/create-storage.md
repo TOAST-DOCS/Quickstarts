@@ -44,7 +44,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 1. Click **Storage - Block Storage**in the left menu of the console window.
 2. **On the Block Storage > Manage screen,**check the availability zone of the block storage in the block storage list whose connection information is **/dev/vda on linux-server-basic**.
-3. **+ Create block storage**.
+3. Click **+ Create block storage**.
 4. In the **Create block storage** window, set the information below and click **OK**.
     * Block storage name: `MyBS`
     * Block storage type: `HDD`
@@ -269,8 +269,8 @@ chmod +x /home/ubuntu/service-setting.sh
 
 ## Previous step
 
-* [06 - Create and Connect Databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
+* [6. Create and attach databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
 
 ## Next steps
 
-* [08 - Set up monitoring](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
+* [8. Configure monitoring](https://docs.nhncloud.com/en/quickstarts/en/create-database/)

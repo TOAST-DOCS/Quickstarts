@@ -187,7 +187,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 4. **組織削除確認**ウィンドウで[**OK**]をクリックします。
 5. **組織削除成功**ウィンドウで[**OK**]をクリックします。
 <br></br>
-<p style="text-align: center; color: green;">おめでとうございます。すべてのクイックスタートを終えました。</p>
+<p style="text-align: center; color: green;"><font size=5>おめでとうございます。すべてのクイックスタートを終えました。</font></p>
 
 <br></br>
 

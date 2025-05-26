@@ -168,7 +168,7 @@
 
 > 위 작업 단계와 동일하게 `myproject-billing` IAM 계정에 접속할 수 있습니다.
 
-## 참고 사이트
+## 참고 자료
 
 * [콘솔 사용 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/console-user-guide/)
 * [보안 정책](https://docs.nhncloud.com/ko/nhncloud/ko/security-policy/)
