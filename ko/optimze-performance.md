@@ -2,7 +2,7 @@
 **Quickstarts > 10. 확장성과 성능 최적화**
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션의 확장성과 성능 최적화를 위한 아키텍처 구성 방법을 학습합니다. NHN Cloud RDS를 활용해 오토 스케일링, 로드 밸런싱과 안정적인 데이터 관리를 위한 효율적이고 유연하며 확장 가능한 시스템을 설계할 수 있습니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
 ## 학습 목표
 
@@ -30,7 +30,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [9. 백업 및 복구](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/) 이후 단계부터 시작됩니다.**
 
 ## 스케일링 그룹과 로드밸런서를 통한 트래픽 분산
 
@@ -97,7 +97,7 @@
     * 이미지
         * 개인 이미지 > 이미지 이름: `linux-server-basic-image` 클릭
              > [참고]  
-             >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/) 의 **단계 1**을 통해 생성할 수 있습니다.
+             >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/) 의 **단계 1**을 통해 생성할 수 있습니다.
     * 인스턴스 정보
         * 가용성 영역: `임의의 가용성 영역`
         * 인스턴스 이름: `linux-server-autoscale`
@@ -149,9 +149,14 @@
 4. 웹 페이지 본문의 **Server IP Address 값**이 생성한 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소와 일치하는지 확인합니다.
 5. 웹 브라우저 새로고침을 반복해  **Server IP Address 값**이 또 다른 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소로 변경되는지 확인합니다.
 <br></br>
-    ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
+![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
 
-    ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
+<p style="text-align: center; color: black;">출력 화면 1</p>
+
+![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
+
+<p style="text-align: center; color: black;">출력 화면 2</p>
+<br></br>
 
 !!! tip "알아두기"
     * **Server IP Address 값 변경 값 확인**
@@ -170,6 +175,7 @@
 1. 웹 브라우저에서 새 창을 열어서 `http://복사한 MyLB 플로팅 IP 주소`를 입력해 접속합니다.
 2. 웹 페이지 본문의 **Start Stress Test**를 클릭 후 2분 동안 대기합니다.
     > [참고]
+    >
     > * Stress Test
     >     * 해당 기능은 웹 서버에 임의적 CPU 부하를 발생하여 오토 스케일 그룹에 생성한 증설 정책이 동작하도록 합니다.
 3. 콘솔 창 왼쪽 메뉴 중 **Compute - Instance**를 클릭합니다.
@@ -195,8 +201,8 @@
 
 ## 이전 단계
 
-* [9. 백업 및 복구](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/)
+* [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)
 
 ## 다음 단계
 
-* [11. 비용 관리](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. 비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/)

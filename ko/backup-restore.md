@@ -2,7 +2,7 @@
 **Quickstarts > 9. 백업 및 복구**
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션과 데이터를 안전하게 보호하고 복구할 수 있는 방법을 학습합니다. 블록 스토리지 복제, 인스턴스 이미지 생성 및 이미지 기반 생성을 통해 데이터 유실을 방지하고 신속한 복구가 가능한 시스템을 구축합니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
 ## 학습 목표
 
@@ -16,6 +16,8 @@
 <br></br>
 
 ![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+
+<p style="text-align: center; color: black;">최종 구성도</p>
 
 ## 시작하기 전에
 
@@ -31,7 +33,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
 
-**본 가이드는 [08-모니터링 설정](dooray://1387695619080878080/pages/3959371359644829313 "publish") 이후 단계부터 시작됩니다.**
+**본 가이드는 [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/) 이후 단계부터 시작됩니다.**
 
 ## 인스턴스 이미지를 통한 인스턴스 생성 및 블록 스토리지 연결
 
@@ -40,17 +42,18 @@
 > 앞의 학습 모듈에서 생성한 `linux-server-basic` 인스턴스의 이미지를 생성해 봅니다. 구동 중인 인스턴스는 이미지 생성 시 무결성을 보장하지 않으므로, 인스턴스를 중지한 뒤 이미지를 생성합니다.
 
 1. NHN Cloud 콘솔 상단 메뉴에서 실습에 사용할 조직(`MyORG`), 프로젝트(`MyPRJ`), 그리고 `한국(평촌) 리전`을 선택합니다.
-2. 콘솔 창 왼쪽 메뉴 중 **Compute - Instance**를 클릭합니다.
+2. 콘솔 창 왼쪽 메뉴 중 **Compute - Instance**를 클릭합s니다.
 3. 인스턴스 목록에서 `linux-server-basic` 인스턴스를 클릭하여 선택합니다.
-4. 인스턴스 목록 위에 **···**을 클릭 후 **인스턴스 중지**를 클릭합니다.
+4. 인스턴스 목록 위에 **···** 을 클릭 후 **인스턴스 중지**를 클릭합니다.
 5. **인스턴스 중지** 창에서 **중지**를 클릭합니다.
 6. 성공 창에서 **확인**을 클릭합니다.
 7. 인스턴스 목록 위에 **이미지 생성**을 클릭합니다.
 8. **이미지 생성** 창에서 아래 정보를 설정 후 **확인**을 클릭합니다.
     * 이미지 이름: `linux-server-basic-image`
     * 삭제 보호: `사용 안 함`
-    * **구동 중인 인스턴스의 이미지 생성은 무결성을 보장하지 않습니다. 진행하려면 체크박스를 선택해주세요.** 체크박스를 선택합니다.
+    * **구동 중인 인스턴스의 이미지 생성은 무결성을 보장하지 않습니다. 진행하려면 체크박스를 선택해 주세요.** 체크박스를 선택합니다.
     > [주의]
+    >
     > * 구동 중인 인스턴스 이미지 생성
     >     * 구동 중인 인스턴스를 이미지로 만들 경우 파일 시스템에 무결성을 보장받을 수 없습니다. 이에 따른 애플리케이션 구동에 문제가 발생할 경우도 있습니다. 가급적 인스턴스를 중지시킨 후 이미지를 생성할 수 있도록 권장합니다.
 9. 성공 창에서 **확인**을 클릭합니다.
@@ -164,8 +167,8 @@ cat /mnt/vdb/employees.csv
 
 ## 이전 단계
 
-* [08-모니터링 설정](dooray://1387695619080878080/pages/3959371359644829313 "publish")
+* [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
 
 ## 다음 단계
 
-* [10-확장성과 성능 최적화](dooray://1387695619080878080/pages/3964687410935532614 "publish")
+* [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)

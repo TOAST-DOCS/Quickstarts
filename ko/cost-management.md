@@ -2,7 +2,7 @@
 **Quickstarts > 11. 비용 관리**
 
 이번 학습 모듈에서는 NHN Cloud 콘솔에서 조직의 이용 현황을 확인하고, 예산을 설정하며, 리소스 태그를 생성하고 적용하는 방법을 알아봅니다. 이를 통해 조직의 클라우드 리소스를 효과적으로 관리하고, 비용을 효율적으로 운영할 수 있습니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B9%84%EC%9A%A9%20%EA%B4%80%EB%A6%AC.png)
 ## 학습 목표
 
@@ -33,7 +33,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-본 가이드는 [10. 확장성과 성능 최적화](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/) 이후 단계부터 시작됩니다.
+본 가이드는 [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/) 이후 단계부터 시작됩니다.
 
 ## 조직의 이용 현황과 예산 관리
 
@@ -140,9 +140,10 @@
         * 태그 값 선택: `webserver`
 5. 하단에 리소스 태그 기준 이용 금액을 확인합니다.
     > [참고]
-    >    * 리소스 태그 이용 현황 기준
-    >        * 리소스 태그를 리소스에 적용하면 적용한 시점부터 사용량과 이용 금액이 별도로 확인할 수 있습니다. 리소스 기준으로 조회되는 이용 금액과 실제 과금되는 금액의 차이가 있을 수 있습니다.
-    >        * 리소스 태그 기준 이용 금액은 리소스 태그를 적용한 다음날 집계 시점부터 확인 가능합니다.
+    >
+    > * 리소스 태그 이용 현황 기준
+    >     * 리소스 태그를 리소스에 적용하면 적용한 시점부터 사용량과 이용 금액이 별도로 확인할 수 있습니다. 리소스 기준으로 조회되는 이용 금액과 실제 과금되는 금액의 차이가 있을 수 있습니다.
+    >     * 리소스 태그 기준 이용 금액은 리소스 태그를 적용한 다음날 집계 시점부터 확인 가능합니다.
 6. 화면 내에 아래와 같이 설정 후 **검색**을 클릭합니다.
     * 조회 기준
         * 태그 키 선택: `MyInstanceTag`
@@ -162,8 +163,8 @@
 
 ## 이전 단계
 
-* [10-확장성과 성능 최적화](dooray://1387695619080878080/pages/3964687410935532614 "publish")
+* [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)
 
 ## 다음 단계
 
-* [12-리소스 정리 및 삭제](dooray://1387695619080878080/pages/3964687612311378578 "publish")
+* [12. 리소스 정리 및 삭제](https://docs.nhncloud.com/ko/quickstarts/ko/cleanup-resources/)

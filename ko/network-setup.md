@@ -1,7 +1,8 @@
 # 네트워크 설정과 인스턴스 생성
+**Quickstarts > 4. 네트워크 설정과 인스턴스 생성**
 
 이번 학습 모듈에서는 NHN Cloud에서 Linux 기반 웹 서버를 생성해 원격 접속하여 구동하는 방법을 다룹니다. NHN Cloud는 사용자 친화적인 인터페이스와 다양한 클라우드 리소스를 통해 누구나 쉽게 안정적이고 효율적인 IT 환경을 구축할 수 있도록 지원합니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
 ## 학습 목표
 
@@ -37,7 +38,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [3. IAM 계정과 거버넌스 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/) 이후 단계부터 시작합니다.**
+**본 가이드는 [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/) 이후 단계부터 시작합니다.**
 
 ## 인스턴스 생성을 위한 준비
 
@@ -107,8 +108,9 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
                 * 방향: `수신`
                 * IP 프로토콜: `SSH`
                     * 해당 IP 프로토콜을 선택하면 자동으로 포트 정보가 입력됩니다.
-                    *  <span style="color:#6fe11d;">📍 참고:</span> 사용자 정의 TCP
-                        * IP 프로토콜을 "사용자 정의 TCP"로 선택하면 포트값을 사용자가 직접 입력할 수 있습니다. **1**로 표기된 입력칸에 `22`를 입력합니다.
+                    > [참고] 사용자 정의 TCP
+                    >
+                    > * IP 프로토콜을 "사용자 정의 TCP"로 선택하면 포트값을 사용자가 직접 입력할 수 있습니다. **1**로 표기된 입력칸에 `22`를 입력합니다.
                 * Ether: `IPv4`
                 * 원격: `CIDR - 0.0.0.0/0`
         * 성공 창에서 **확인**을 클릭
@@ -140,9 +142,12 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 ### Windows 사용하는 경우
 
 * Windows **시작**을 클릭 후 `Windows PowerShell`을 검색하여 실행합니다.
-    * <span style="color:#6fe11d;">📍 참고:</span>: Windows PowerShell 실행 팁
+
+!!! tip "알아두기"
+    * Windows PowerShell 실행 팁
         * `윈도우 키(⊞) + R` 을 눌러 실행창을 실행합니다.
         * 열기(O) 입력 칸에  `powershell.exe` 를 입력 후 엔터키를 누르면 Windows PowerShell이 실행됩니다.
+
 * 다운로드한 키페어인 `MyKey.pem` 폴더로 이동합니다.
 
 ```
@@ -169,17 +174,15 @@ icacls MyKey.pem /inheritance:r
     * SSH 키나 보안 인증서 파일은 엄격하게 권한을 제한해야 합니다. Windows에서는 icacls 명령어를 사용해 상속을 차단하고, 사용자별 읽기 권한을 부여하여 보안 수준을 유지합니다.
 
 * ssh 명령어로 인스턴스에 접속합니다.
-
-```PowerShell
+```
+#PowerShell
 ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
- ```
+```
 
-* 복사한 IP 주소
-    * 위의 단계에서 확인한 플로팅 IP 주소 입니다.
-
+* 복사한 IP 주소(위의 단계에서 확인한 플로팅 IP 주소 입니다.)
 * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes`를 입력 후 엔터키를 입력합니다.
-* lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
+* lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 ```
 #bash
 lsb_release -a
@@ -188,34 +191,32 @@ lsb_release -a
 ### macOS 사용하는 경우
 
 * Dock에서 **터미널(Terminal)** 앱을 실행하거나, Spotlight에서 **터미널**을 검색하여 실행합니다.
-    * <span style="color:#6fe11d;">📍 참고:</span>: 터미널 실행 팁
+
+!!! tip "알아두기"
         * 터미널 실행 팁
             * `Command(⌘) + Space` 를 눌러 Spotlight를 실행합니다
             * 입력 칸에  `터미널` 입력 후 <span style="color:rgb(51, 51, 51);">Return키</span>를 누르면 터미널이 실행됩니다.
 
 * 다운로드 받은 키페어인 `MyKey.pem` 디렉터리로 이동합니다.
-
 ```
 #bash
 cd /(MyKey.pem 파일이 있는 디렉터리명)
 ```
 
 * 아래 명령어를 입력하여 MyKey.pem의 권한을 설정합니다.
-
 ```
 chmod 600 MyKey.pem
 ```
 
 * ssh 명령어로 인스턴스에 접속합니다.
-
 ```
 #PowerShell
 ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
 ```
 
 * "Are you sure you want to continue connecting (yes/no/[fingerprint])?" 문구가 나오면 `yes` 를 입력 후 엔터키를 입력합니다.
-* lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 
+* lsb_release 명령어로 현재 접속한 Linux 버전을 확인합니다.
 ```
 #bash
 lsb_release -a
@@ -224,7 +225,6 @@ lsb_release -a
 ### 단계 2. 웹 서버 설치 및 구동하기
 
 * 인스턴스에 원격 접속한 상태에서 아래 명령어를 입력하여 Nginx 웹 서버를 설치합니다.
-
 ```
 #bash
 sudo apt update -y
@@ -232,7 +232,6 @@ sudo apt install nginx -y
 ```
 
 * 설치가 완료되면 아래 명령어로 웹 서버가 구동되는지 확인합니다.
-
 ```
 #bash
 curl localhost
@@ -260,9 +259,9 @@ curl localhost
 
 ## 이전 단계
 
-* [03-IAM 계정과 거버넌스 설정](dooray://1387695619080878080/pages/3977493217025617647 "publish")
+* [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/)
 
 
 ## 다음 단계
 
-* [05-보안 설정](dooray://1387695619080878080/pages/3959371258218176884 "publish")
+* [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)

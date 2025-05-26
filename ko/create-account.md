@@ -2,7 +2,7 @@
 **Quickstarts > 1. 계정 생성과 로그인**
 
 NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Cloud 콘솔에 접근해야 합니다. 계정 생성 과정은 간단하며 필요한 정보를 입력하고, 이메일 인증을 완료하면 즉시 계정을 생성할 수 있습니다. 생성한 계정으로 콘솔에 액세스하면 사용자 친화적인 인터페이스를 통해 다양한 클라우드 서비스를 활성화하고 효율적으로 관리할 수 있습니다.
-<br>
+
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EA%B3%84%EC%A0%95%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.png)
 ## 학습 목표
 
@@ -56,7 +56,7 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
     * 이름을 입력합니다.
     * 휴대폰 번호를 입력 후 **인증 번호 받기**를 클릭합니다.
     * 발송된 인증 번호를 입력 후 **확인**을 클릭해 인증을 완료합니다.
-    * (선택) **주소지**와 **전화** 번호를 입력합니다.
+    * (선택) **주소지**와 **전화번호**를 입력합니다.
     * **가입 완료**를 클릭합니다.
 7. 가입 환영 페이지에서 **확인**을 클릭해 회원 가입을 완료합니다.
     * (선택) 안전한 서비스 사용을 위한 **2단계 로그인 설정**이 필요하지 않으면 **"회원정보에 등록된 이메일, 휴대폰으로 인증 후 로그인합니다"** 체크박스를 선택 해제한 후 **확인**을 클릭합니다.
@@ -79,4 +79,4 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
 
 ## 다음 단계
 
-* [02-조직과 프로젝트 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-organization/)
+* [2-조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/)

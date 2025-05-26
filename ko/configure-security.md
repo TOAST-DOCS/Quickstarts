@@ -1,8 +1,8 @@
-## 보안 설정
+# 보안 설정
 **Quickstarts > 5. 보안 설정**
 
 이번 학습 모듈에서는 NHN Cloud에서 보안을 설정하고 관리하는 기본 개념과 주요 기능을 단계별로 안내하여, 안전하고 신뢰할 수 있는 클라우드 환경을 구축하는 방법을 학습합니다. NHN Cloud는 사용자의 데이터를 안전하게 보호하고, 클라우드 리소스를 효율적으로 관리할 수 있는 다양한 보안 기능을 제공합니다.
-<br>![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
 
 ## 학습 목표
 
@@ -31,7 +31,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 안정적인 인터넷 연결이 필요하며, 권장 대역폭은 최소 5Mbps 이상입니다.
     * HTTPS를 통한 안전한 통신이 가능해야 합니다.
 
-**본 가이드는 [4. 네트워크 설정과 인스턴스 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/network-setup/) 이후 단계부터 시작합니다.**
+**본 가이드는 [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/) 이후 단계부터 시작합니다.**
 
 > 이번 학습 모듈에서는 4가지 시나리오를 통해 다양한 보안 설정 방법을 학습합니다.
 
@@ -110,7 +110,7 @@ Ping 통신이 허용된 것을 확인합니다.
 ping (linux-server-basic 플로팅 IP 주소)
 ```
 
-* Ping 통신이 차단**된 것을 확인합니다.
+* Ping 통신이 차단된 것을 확인합니다.
 
 * 웹 브라우저에서 새 창을 열어서 `http://복사한 linux-server-basic 플로팅 IP 주소`를 입력하여 접속을 확인합니다.
 * Http 통신이 차단된 것을 확인합니다.
@@ -132,9 +132,12 @@ ping (linux-server-basic 플로팅 IP 주소)
 7. **ACL Rule 생성** 창에서 아래 정보를 설정 후 **확인**을 클릭합니다.
     * IP 프로토콜: `ICMP`
     * 출발지 CIDR: `작업하는 컴퓨터의 IP 주소/32`
-        > [참고]
+
+        > [참고] 
+        >
         > * 작업하는 컴퓨터의 IP 주소 확인 방법
-        >    * **터미널** 또는 **PowerShell** 을 실행 후 `curl ifconfig.me` 를 실행하면 **본인이 작업하는 컴퓨터의 IP 주소**를 확인할 수 있습니다.
+        >     * 터미널 또는 PowerShell을 실행 후 `curl ifconfig.me`를 실행하면 **본인이 작업하는 컴퓨터의 IP 주소**를 확인할 수 있습니다.
+
     * 목적지 CIDR: `linux-server-basic 플로팅 IP 주소/32`
     * 순서: `109`
     * 적용 방법: `허용`
@@ -146,7 +149,8 @@ ping (linux-server-basic 플로팅 IP 주소)
     * 적용 방법: `허용`
 9. **터미널** 또는 **PowerShell**에서 아래 명령어를 실행하여 통신 테스트를 진행합니다.
 
-```bash
+```
+#bash
 ping (linux-server-basic 플로팅 IP 주소)
 ```
 
@@ -171,8 +175,8 @@ ping (linux-server-basic 플로팅 IP 주소)
 
 ## 이전 단계
 
-* [04-네트워크 설정과 인스턴스 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/network-setup/)
+* [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)
 
 ## 다음 단계
 
-* [06-데이터베이스 생성 및 연결](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-database/)
+* [6. 데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
