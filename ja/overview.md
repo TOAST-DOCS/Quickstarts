@@ -27,6 +27,7 @@ NHN Cloud入門者が簡単に習得できるように作成されたドキュ�
 - サブネット: MySubnet
 ![image2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/0.%20%EA%B0%9C%EC%9A%94.png)
 
-各学習モジュールは相互に連携しています。一つの学習モジュールで作成したリソースは、その後の学習モジュールで再利用されるため、最後の学習モジュールを終了するまでリソースを削除しないことをお勧めします。
+!!! tip "知っておくべきこと"
+    各学習モジュールは相互に連携しています。一つの学習モジュールで作成したリソースは、その後の学習モジュールで再利用されるため、最後の学習モジュールを終了するまでリソースを削除しないことをお勧めします。
 
 

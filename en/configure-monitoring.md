@@ -114,10 +114,10 @@ Before working through this learning module, we recommend that you do the follow
 
 4. Confirm that `MyAlarm`has been created and that the **Enable notifications** toggle button is enabled.
 
-!!! TIP "Get to know"
-\* Toggle button status
-The * toggle button active state is indicated by a white circle within an ellipse that has moved to the right. The color is blue when the toggle is active.
-\* The toggle button disabled state is a white circle within an ellipse moved to the left. When the toggle is disabled, the color is gray.
+!!! TIP "Tips"
+    * Toggle button status
+        * The toggle button active state is indicated by a white circle within an ellipse that has moved to the right. The color is blue when the toggle is active.
+        * The toggle button disabled state is a white circle within an ellipse moved to the left. When the toggle is disabled, the color is gray.
 
 
 ### Step 4. Check the instance's history of CPU overload events     
@@ -142,8 +142,8 @@ The * toggle button active state is indicated by a white circle within an ellips
 
 ## Previous step
 
-* [07 - Create and set up ](dooray://1387695619080878080/pages/3996521605058381185 "storagepublish")
+* [7. Create and connect storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/)
 
 ## Next steps
 
-* [09 - Backup and ](dooray://1387695619080878080/pages/3964687292478747156 "Recoverypublish")
+* [9. Backup and restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/)

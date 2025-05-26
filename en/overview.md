@@ -27,6 +27,7 @@ This documentation is designed to be easy for beginners to learn about NHN Cloud
 - Subnet: MySubnet
 ![image2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/0.%20%EA%B0%9C%EC%9A%94.png)
 
-Each learning module is linked to the others. Because resources created in one learning module are reused in subsequent learning modules, we recommend that you do not delete resources until you have finished the last learning module.
+!!! tip "Tips"
+    Each learning module is linked to the others. Because resources created in one learning module are reused in subsequent learning modules, we recommend that you do not delete resources until you have finished the last learning module.
 
 

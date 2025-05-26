@@ -1,5 +1,5 @@
-# Create and connect storage
-**Quickstarts > 7. Create and connect storage**
+# Create and attach storage
+**Quickstarts > 7. Create and attach storage**
 
 In this learning module, you will learn how to enable and use storage services through the NHN Cloud console. NHN Cloud's **storage services**provide a reliable and scalable solution for storing and managing your data.
 
@@ -64,15 +64,15 @@ To get started with NHN Cloud, you'll need to prepare the following things
 echo -e "n\np\n1\n\n\nw" | sudo fdisk /dev/vdb
 ```
 
-!!! TIP "Get to know"
-\* Domain name guide
-\* fdisk command description
-\* fdisk **`n`**: Create a new partition (optional: `n`)
-\* * n **`p`**: Select partition type (default: Primary)
-\* p **`1`**: Partition number (default: 1)
-* **First sector**: press Enter to select Default
-* **Last sector**: press Enter to select the maximum size as default
-\* 1 **`w`**: Save changes and exit
+!!! tip "Tips"
+    * Domain name guide
+        * fdisk command description
+            * **`n`**: Create a new partition (optional: `n`)
+                * **`p`**: Select partition type (default: Primary)
+                * **`1`**: Partition number (default: 1)
+                * **First sector**: press Enter to select Default
+                * **Last sector**: press Enter to select the maximum size as default
+          * **`w`**: Save changes and exit
 
 * Run the command below to format the partition.
 ```bash
@@ -232,9 +232,9 @@ mkdir /web-sample
 sudo curl -o /var/www/html/index.html (Public URL of the index.html file you uploaded to myobs)
 ```
 
-!!! TIP "To Know"
-\* Default web document path for Nginx
-\* The default web documentation path for Nginx installed on Ubuntu ` is /var/www/html`. The web page documentation output when connecting to `the http://복사한 linux-server-basic floating IP address`is `/var/www/html/index.html`.
+!!! tip "Tips"
+    * Default web document path for Nginx
+        * The default web documentation path for Nginx installed on Ubuntu ` is /var/www/html`. The web page documentation output when connecting to `the http://복사한 linux-server-basic floating IP address`is `/var/www/html/index.html`.
 
 * Run the commands below to set up additional service configurations.
 
@@ -247,11 +247,11 @@ chmod +x /home/ubuntu/service-setting.sh
 * Open a new window in your web browser and enter the `http://복사한 linux-server-basic floating IP address`to see the changed web page.
 ![pic3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1_%EB%8B%A8%EA%B3%843.png)
 
-!!! TIP "To Know"
-\* If you don't see a changed web page
-\* If you see the old page even though the web page has changed, the problem might be caused by your web browser's cache. In this case, you can use the refresh (F5) or strong refresh provided by your browser to see the changed page. You can perform a strong refresh in the following ways.
-* **Windows**: `Ctrl + F5` or `Shift + F5`
-* **Mac**: `Cmd + Shift + R`
+!!! tip "Tips"
+    * If you don't see a changed web page
+        * If you see the old page even though the web page has changed, the problem might be caused by your web browser's cache. In this case, you can use the refresh (F5) or strong refresh provided by your browser to see the changed page. You can perform a strong refresh in the following ways.
+        * **Windows**: `Ctrl + F5` or `Shift + F5`
+        * **Mac**: `Cmd + Shift + R`
 
 
 ## References

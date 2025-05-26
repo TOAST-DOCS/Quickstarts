@@ -1,5 +1,5 @@
-# Backup and recovery
-**Quickstarts > 9. Backup and Recovery**
+# Backup and restore
+**Quickstarts > 9. Backup and restore**
 
 In this learning module, you will learn how to secure and recover applications and data in the NHN Cloud environment. Block storage replication, instance image creation, and image-based creation to prevent data loss and build a system that enables rapid recovery.
 

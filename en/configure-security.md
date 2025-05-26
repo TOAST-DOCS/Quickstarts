@@ -1,5 +1,5 @@
-# Security settings
-**Quickstarts > 5. Security settings**
+# Configure security
+**Quickstarts > 5. Configure security**
 
 In this learning module, you will learn how to build a secure and reliable cloud environment by walking through the basic concepts and key features of setting up and managing security in NHN Cloud. NHN Cloud provides a variety of security features to keep your data safe and secure, and to manage your cloud resources efficiently.
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
@@ -56,10 +56,10 @@ To get started with NHN Cloud, you'll need to prepare the following things
 9. In the left menu, click **Compute - Instance**.
 10. On the **Instance** screen, click to select the `linux-server-basic` instance.
 11. In the bottom split screen, click the **Network** tab.
-12. Select the \*\*Automatically created network interface resource (the network interface ID is an arbitrary ID) that was created with the instance when it was created.
+12. Select the Automatically created network interface resource (the network interface ID is an arbitrary ID) that was created with the instance when it was created.
 13. Just above the list of network interfaces, click **Change security group**.
 14. In the **Change Security Group** window, select `MySG-HTTP`from the Select a security group list to add it, and then click **OK**.
-15. Open a new window in your web browser and type `http://복사한 linux-server-basic floating IP address`to confirm your connection.
+15. Open a new window in your web browser and type `http://copied linux-server-basic floating IP address`to confirm your connection.
 16. Verify that the web page is outputting normally.
 <br></br>
 ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%851%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png)
@@ -68,7 +68,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 1. In the left menu, click **Network - Security Groups**.
 2. On the **Security Groups** screen, click `MySG-SSH`to select it.
-3. On the bottom split-screen **Security Rules** tab, select the rule with a port range of \*\*22 (SSH)\** and click **Change**on the right.
+3. On the bottom split-screen **Security Rules** tab, select the rule with a port range of **22 (SSH)** and click **Change**on the right.
 4. In the **Change Security Rule** window, click `CIDR`for Remote entry, select `My IP`from the drop-down menu, and click **OK**.
 5. In the Success window, click **OK**.
 6. **+**Click ** Create security rule**.
@@ -96,7 +96,7 @@ Verify that ping communication is allowed.
 4. In the Success window, click **OK**.
 5. Click to select `the MyACL`that was created.
 6. In the bottom split screen, click the **ACL Rule** tab.
-7. In the **ACL**Rule list in MyACL, select the **ACL**Rule in the **101** sequence that displays \*\*"default allow rule"\** in the description, and then click **Delete ACL Rule**.
+7. In the **ACL**Rule list in MyACL, select the **ACL**Rule in the **101** sequence that displays **"default allow rule"\** in the description, and then click **Delete ACL Rule**.
 8. In the Success window, click **OK**.
 9. At the top of the screen, click the **Bindings** tab **of the Network ACL tab** s.
 10. **+**Create ** ACL Binding**.
@@ -110,9 +110,9 @@ Verify that ping communication is allowed.
 ping (linux-server-basic floating IP address)
 ```
 
-* Verify that ping communication is blocked\*\*.
+* Verify that ping communication is blocked**.
 
-* Open a new window in your web browser and type `http://복사한 linux-server-basic floating IP address`to confirm your connection.
+* Open a new window in your web browser and type `http://the copied linux-server-basic floating IP address`to confirm your connection.
 * Verify that Http communication is blocked.
 
 
@@ -154,7 +154,7 @@ ping (linux-server-basic floating IP address)
 
 * Verify that ping communication is only allowed from the IP of the computer you're working on.
 
-* Open a new window in your web browser and type `http://복사한 linux-server-basic floating IP address`to confirm your connection.
+* Open a new window in your web browser and type `http://the copied linux-server-basic floating IP address`to confirm your connection.
 * Verify that Http communication is allowed from all IPs.
 <br></br>
 ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%854.png)
@@ -173,8 +173,8 @@ ping (linux-server-basic floating IP address)
 
 ## Previous step
 
-* [04 - Set up your network and create an instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
+* [4. Set up your network and create an instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
 
 ## Next steps
 
-* [06 - Create and Connect Databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
+* [6. Create and Connect Databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)

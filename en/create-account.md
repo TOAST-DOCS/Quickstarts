@@ -1,5 +1,5 @@
-# Create an account and sign in
-**Quickstarts > 1. Create an account and sign in**
+# Create account and login
+**Quickstarts > 1. Create account and login**
 
 To get started with NHN Cloud, you must first create an account and use it to access the NHN Cloud console. The account creation process is simple, and you can create an account immediately after entering the required information and completing email verification. Once you access the console with your created account, you can activate and efficiently manage various cloud services through a user-friendly interface.
 
@@ -55,11 +55,11 @@ Before you begin this learning module, here's what you need to know
     * Enter your password.
     * Enter a name.
     * Enter your phone number and click **Get verification number**.
-    * Enter the verification number that was sent to you and click **Confirm**to complete the verification.
+    * Enter the verification number that was sent to you and click **Confirm** to complete the verification.
     * (Optional) Enter your **address and** **phone** number.
     * Click **Complete signup**.
 7. On the Welcome to Signup page, click **Confirm**to complete your membership.
-    * (Optional) If you don't need to **set up two-step sign-in**for secure service use, uncheck the **"Sign in after authenticating with the email or mobile phone registered in your account"** checkbox, then click **OK**.
+    * (Optional) If you don't need to **set up two-step sign-in** for secure service use, uncheck the **"Sign in after authenticating with the email or mobile phone registered in your account"** checkbox, then click **OK**.
 8. Once you're signed up, you'll see that you're logged in on the homepage.
 
 ### Step 2. Register your payment method

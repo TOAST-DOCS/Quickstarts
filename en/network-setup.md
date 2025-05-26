@@ -50,10 +50,10 @@ To get started with NHN Cloud, you'll need to prepare the following things
 4. In the **Activate service** window, click **OK**.
 
 !!! TIP "Get to know"
-\* Activate the service
-\* When a service is activated, the Services menu is exposed on the left side of the NHN Cloud Console project screen. You can manage the required resources from that menu.
-\* Depending on the region you set, some services may not be available.
-\* When you activate an Instance service, the related underlying infrastructure services are activated together.
+    * Activate the service
+        * When a service is activated, the Services menu is exposed on the left side of the NHN Cloud Console project screen. You can manage the required resources from that menu.
+        * Depending on the region you set, some services may not be available.
+        * When you activate an Instance service, the related underlying infrastructure services are activated together.
 
 ### Step 2. Basic Network Settings
 
@@ -104,7 +104,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
         * Click **Create security group** 
         * In the **Create security group** window, set the information below and click **OK**.
             * Name: `MySG-SSH`
-            * Click \*\*+** on Add security rule to add a security rule with the following settings
+            * Click **+** on Add security rule to add a security rule with the following settings
                 * Direction: `Incoming`
                 * IP protocol: `SSH`
                     * Select the appropriate IP protocol and the port information is automatically filled in.
@@ -121,15 +121,15 @@ To get started with NHN Cloud, you'll need to prepare the following things
 4. In the Instance creation information pane, click **Create instance**.
 5. The instance creation operation proceeds. The instance will be created in a few minutes.
 
-!!! TIP "Get to know"
-\* Easy public image search tips
-\* Click "All Images" at the bottom of the **Public Images tab** and select `OS → Ubuntu`from the drop-down menu to view and select the target image
-\* At the bottom of the **Public Images tab**, type `Ubuntu Server 22.04` in the "Please enter an image name or description" field to the right of "Full Image" to view and select the target image
-\* Manage keyfair
-\* You can only download a keyfair once when you create a keyfair. Download the file to a safe place to manage it.
-\* If a `MyKey` keyfair you have already created is listed in the "Select keyfair" drop-down menu, please select it. However, make sure you have downloaded the MyKey.pem file to a path (directory or folder) that you remember.
-\* When you create a key pair, the corresponding key pair value is automatically selected.
-\* For more information, see [the Keyfair user guide](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#key-pair).
+!!! tip "Tips"
+    * Easy public image search tips
+        * Click "All Images" at the bottom of the **Public Images tab** and select `OS → Ubuntu`from the drop-down menu to view and select the target image
+        * At the bottom of the **Public Images tab**, type `Ubuntu Server 22.04` in the "Please enter an image name or description" field to the right of "Full Image" to view and select the target image
+    * Manage keyfair
+        * You can only download a keyfair once when you create a keyfair. Download the file to a safe place to manage it.
+        * If a `MyKey` keyfair you have already created is listed in the "Select keyfair" drop-down menu, please select it. However, make sure you have downloaded the MyKey.pem file to a path (directory or folder) that you remember.
+        * When you create a key pair, the corresponding key pair value is automatically selected.
+        * For more information, see [the Keyfair user guide](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#key-pair).
 
 ## Connecting to an instance and running an Nginx web server
 
@@ -143,10 +143,10 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 * Click **Start**Windows, then search for and run `Windows PowerShell`.
 
-!!! TIP "Get to Know"
-\* Tips for running Windows PowerShell
-\* Press the `Windows key (⊞) + R` to launch the Run window.
-\* In the Open (O) box, type `powershell.exe`, and then press ENTER to run Windows PowerShell.
+!!! tip "Tips"
+    * Tips for running Windows PowerShell
+        * Press the `Windows key (⊞) + R` to launch the Run window.
+        * In the Open (O) box, type `powershell.exe`, and then press ENTER to run Windows PowerShell.
 
 * Navigate to the `MyKey.pem` folder, which is the keyfair you downloaded.
 
@@ -170,8 +170,8 @@ icacls MyKey.pem /grant:r "$($env:username):(r)"
 icacls MyKey.pem /inheritance:r
 ```
 
-!!! tip "Know this"
-\* SSH keys or security certificate files should be strictly permission restricted. Windows uses the icacls command to block inheritance and grant per-user read permissions to maintain security.
+!!! tip "Tips"
+    * SSH keys or security certificate files should be strictly permission restricted. Windows uses the icacls command to block inheritance and grant per-user read permissions to maintain security.
 
 * Connect to the instance with an SSH command.
 ```
