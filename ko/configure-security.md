@@ -132,9 +132,12 @@ ping (linux-server-basic 플로팅 IP 주소)
 7. **ACL Rule 생성** 창에서 아래 정보를 설정 후 **확인**을 클릭합니다.
     * IP 프로토콜: `ICMP`
     * 출발지 CIDR: `작업하는 컴퓨터의 IP 주소/32`
-        > [참고] 작업하는 컴퓨터의 IP 주소 확인 방법
+
+        > [참고] 
         >
-        > * **터미널** 또는 **PowerShell** 을 실행 후 `curl ifconfig.me`를 실행하면 **본인이 작업하는 컴퓨터의 IP 주소**를 확인할 수 있습니다.
+        > * 작업하는 컴퓨터의 IP 주소 확인 방법
+        >     * 터미널 또는 PowerShell을 실행 후 `curl ifconfig.me`를 실행하면 **본인이 작업하는 컴퓨터의 IP 주소**를 확인할 수 있습니다.
+        
     * 목적지 CIDR: `linux-server-basic 플로팅 IP 주소/32`
     * 순서: `109`
     * 적용 방법: `허용`
