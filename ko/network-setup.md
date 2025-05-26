@@ -38,7 +38,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [3. IAM 계정과 거버넌스 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/) 이후 단계부터 시작합니다.**
+**본 가이드는 [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/) 이후 단계부터 시작합니다.**
 
 ## 인스턴스 생성을 위한 준비
 
@@ -259,9 +259,9 @@ curl localhost
 
 ## 이전 단계
 
-* [03-IAM 계정과 거버넌스 설정](dooray://1387695619080878080/pages/3977493217025617647 "publish")
+* [3-IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/)
 
 
 ## 다음 단계
 
-* [05-보안 설정](dooray://1387695619080878080/pages/3959371258218176884 "publish")
+* [5-보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)

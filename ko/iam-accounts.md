@@ -33,7 +33,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
 
-    **본 가이드는 [2. 조직과 프로젝트 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-organization/) 이후 단계부터 시작합니다.**
+    **본 가이드는 [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/) 이후 단계부터 시작합니다.**
 
 ## IAM 계정 접속을 위한 준비
 
@@ -132,12 +132,14 @@
 5. IAM 멤버 목록에서 이름이 `myproject 관리자`인 `myproject-admin` 오른쪽 관리영역에서 **비밀번호설정 메일링**을 클릭합니다.
 6. 알림 창에서 **확인**을 클릭합니다.
 7. 비밀번호 설정 이메일 주소 전송 알림 창에서 **확인**을 클릭합니다.
-8. 웹 브라우저 새 창 또는 이메일 확인 도구 등을 이용하여 `myproject-admin` 에 등록한 이메일을 확인합니다. 이메일 제목은 <span style="color:rgb(34, 34, 34);"><strong>[NHN Cloud IAM]</strong></span> MyORG <span style="color:rgb(34, 34, 34);"><strong>의 서비스 이용을 위해 비밀번호를 설정해주세요.</strong>입니다.</span>
+8. 웹 브라우저 새 창 또는 이메일 확인 도구 등을 이용하여 `myproject-admin` 에 등록한 이메일을 확인합니다. 이메일 제목은 **[NHN Cloud IAM]의 서비스 이용을 위해 비밀번호를 설정해주세요.**입니다.
     > [주의] 비밀번호 설정 이메일이 오지 않는 경우
+    > 
     > * **비밀번호설정 메일링** 후에 이메일이 미수신 될 경우 사용하는 이메일 서비스에 스팸함이나 차단설정, 이메일 용량 등을 확인하세요.현상이 지속 발생할 경우 IAM 멤버 목록 오른쪽 관리영역에서 **정보 수정**을 클릭 후 다른 이메일 주소로 변경하여 이용 바랍니다.
 9. 메일 본문에 **변경하기**를 클릭합니다.
 10. 비밀번호 변경 페이지가 출력되면 "새 비밀번호 입력"과 "비밀번호 재입력" 에 변경할 비밀번호를 동일하게 입력 후 **비밀번호 저장**을 클릭합니다.
     > [주의] 비밀번호 생성 규칙
+    >
     > * 영문, 숫자, 특수 문자를 조합하여 8~15자로 입력해야 합니다.
 11. **새 비밀번호가 저장되었습니다.** 알림창이 나오면 **확인**을 클릭합니다.
 12. 위 작업단계와 동일하게 하여 IAM 멤버 목록에서 이름이 <span style="color:rgb(34, 34, 34);">`myproject 예산담당자` </span>인 `myproject-billing` 비밀번호를 재설정 합니다.
@@ -146,7 +148,7 @@
 
 1. 웹 브라우저에서 새 창을 열어서 `https://MyORG IAM 콘솔 도메인 주소`를 입력하여 IAM 콘솔 도메인에 접속합니다.
     * IAM 콘솔 도메인 주소
-        * [3. IAM 계정과 거버넌스 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/) 작업 1에서 복사한 **IAM 콘솔 도메인 이름의 URL**을 IAM 계정 사용자에게 공유하여 사용할 수 있습니다.
+        * [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/) 작업 1에서 복사한 **IAM 콘솔 도메인 이름의 URL**을 IAM 계정 사용자에게 공유하여 사용할 수 있습니다.
 2. `MyORG` 로그인 창에서 아래 정보를 입력 후 **로그인**을 클릭합니다.
     * 아이디: `myproject-admin`
     * 비밀번호: `작업 4 에서 설정한 myproject-admin의 비밀번호`
@@ -174,9 +176,9 @@
 
 ## 이전 단계
 
-* [2. 조직과 프로젝트 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-organization/)
+* [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/)
 <br>
 
 ## 다음 단계
 
-* [4. 네트워크 설정과 인스턴스 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/network-setup/)
+* [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)
