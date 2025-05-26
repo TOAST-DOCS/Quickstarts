@@ -187,7 +187,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 4. In the **Confirm organization deletion** window, click **OK**.
 5. In the **Organization deletion successful** window, click **OK**.
 <br></br>
-<p style="text-align: center; color: green;"><font size=5>Congratulations. You've completed all the quickstarts.</font></p>
+> Congratulations. You've completed all the quickstarts.
 
 <br></br>
 
