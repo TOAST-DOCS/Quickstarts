@@ -55,8 +55,8 @@
 4. 作成した組織のダッシュボードとコンソール画面を確認します。
 
 !!! tip "知っておこう"
-\* 既に作成された組織がある場合
-\* 既に作成した組織がある場合は、その組織リストの下部にある**+組織作成を**クリックすると、以下の作業を進めることができます。
+    * 既に作成された組織がある場合
+        * 既に作成した組織がある場合は、その組織リストの下部にある**+組織作成を**クリックすると、以下の作業を進めることができます。
 
 ### ステップ3.プロジェクトを作成する
 
@@ -79,8 +79,8 @@
 
 ## 前の段階
 
-* [01-アカウント作成とログイン](https://docs.nhncloud.com/ja/quickstarts/ja/create-account/)
+* [1. アカウント作成とログイン](https://docs.nhncloud.com/ja/quickstarts/ja/create-account/)
 
 ## 次のステップ
 
-* [03-IAMアカウントとガバナンス設定](https://docs.nhncloud.com/ja/quickstarts/ja/iam-accounts/)
+* [3. IAMアカウントとガバナンス設定](https://docs.nhncloud.com/ja/quickstarts/ja/iam-accounts/)

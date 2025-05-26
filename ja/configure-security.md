@@ -174,8 +174,8 @@ ping (linux-server-basic フローティングIPアドレス)
 
 ## 前の段階
 
-* [04-ネットワーク設定とインスタンス作成](https://docs.nhncloud.com/ja/quickstarts/ja/network-setup/)
+* [4. ネットワーク設定とインスタンス作成](https://docs.nhncloud.com/ja/quickstarts/ja/network-setup/)
 
 ## 次のステップ
 
-* [06-データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
+* [6. データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
