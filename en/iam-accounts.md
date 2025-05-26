@@ -175,9 +175,9 @@ Before you begin this learning module, here's what you need to know
 
 ## Previous step
 
-* [2. create organizations and projects](https://docs.nhncloud.com/en/quickstarts/en/create-organization/)
+* [2. Create organization and project](https://docs.nhncloud.com/en/quickstarts/en/create-organization/)
 <br>
 
 ## Next steps
 
-* [4. Set up your network and create an instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
+* [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)

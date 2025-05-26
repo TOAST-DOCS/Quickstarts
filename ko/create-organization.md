@@ -72,7 +72,7 @@
 1. NHN Cloud 콘솔 상단 오른쪽에 위치한 **한국(판교) 리전** 으로 마우스 커서를 이동합니다.
 2. 리전 목록에서 `한국(평촌) 리전`을 클릭합니다.
 
-## 참고 사이트
+## 참고 자료
 
 * [콘솔 정책 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/console-guide/)
 * [리소스 제공 정책](https://docs.nhncloud.com/ko/nhncloud/ko/resource-policy/)

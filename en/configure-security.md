@@ -31,7 +31,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * A stable internet connection is required, with a recommended bandwidth of at least 5 Mbps.
     * You must be able to communicate securely over HTTPS.
 
-**This guide starts with the steps after [4. Network setup and instance creation](https://docs.nhncloud.com/en/quickstarts/en/network-setup/).**
+**This guide starts with the steps after [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/).**
 
 > In this learning module, you'll learn how to set up different security settings through four scenarios.
 
@@ -40,14 +40,14 @@ To get started with NHN Cloud, you'll need to prepare the following things
 1. From the top menu of the NHN Cloud console, select the organization`(MyORG`), project`(MyPRJ`), and `Korea (Pyeongchon) region`that you want to use for your lab.
 2. In the left menu, click **Network - Floating IP**.
 3. **Copy** and **record**the IP address in the floating IP resource list where the connected device `is linux-server-basic`.
-4. Open a new window in your web browser and enter `http://복사한 linux-server-basic floating IP address`to confirm your connection.
+4. Open a new window in your web browser and enter `http://the copied linux-server-basic floating IP address`to confirm your connection.
 > [Note]
 **When you connect to that web server, you don't see any web pages.** This is because you haven't set up a security group on that web server's network interface, and all communication is blocked.
 5. After returning to the console window in your web browser, click **Network - Security Groups**in the left menu.
 6. On the **Security Groups** screen, click **+Create security group**.
 7. In the **Create security group** window, set the information below and click **OK**.
     * Name: `MySG-HTTP`
-    * Click \*\*+** on Add security rule to add a security rule with the following settings
+    * Click **+** on Add security rule to add a security rule with the following settings
         * Direction: `Incoming`
         * IP protocol: `HTTP`
         * Ether: `IPv4`
@@ -71,7 +71,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 3. On the bottom split-screen **Security Rules** tab, select the rule with a port range of **22 (SSH)** and click **Change**on the right.
 4. In the **Change Security Rule** window, click `CIDR`for Remote entry, select `My IP`from the drop-down menu, and click **OK**.
 5. In the Success window, click **OK**.
-6. **+**Click ** Create security rule**.
+6. Click **+ Create security rule**.
 7. In the **Create Security Rule** window, set the information below and click **OK**.
     * Direction: `Incoming`
     * IP Protocol: `ALL ICMP`
@@ -173,8 +173,8 @@ ping (linux-server-basic floating IP address)
 
 ## Previous step
 
-* [4. Set up your network and create an instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
+* [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
 
 ## Next steps
 
-* [6. Create and Connect Databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
+* [6. Create and attach databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)

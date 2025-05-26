@@ -1,5 +1,5 @@
-# Create organizations and projects
-**Quickstarts > 2. Create organizations and projects**
+# Create organization and project
+**Quickstarts > 2. Create organization and project**
 
 This learning module will guide you through the basic concepts and setup required to understand and utilize the key features of the NHN Cloud Console. NHN Cloud Console is an integrated management tool that allows you to efficiently manage and configure various cloud resources. Its user-friendly interface makes it easy to create, monitor, and change settings for services, and it also provides real-time resource status and cost management. 
 The console's project dashboard gives you an at-a-glance view of the cloud services and resources you're using, while detailed configuration and management options are easily accessible through intuitive menus.
@@ -54,14 +54,14 @@ Before you begin this learning module, here's what you need to know
 3. In the notification window, click **OK**.
 4. View the dashboard and console screens for the organization you created.
 
-!!! TIP "Get to know"
-\* If you already have an organization created
-\* If you already have an organization created, you can click **+ Create organization**at the bottom of the organization list to proceed with the actions below.
+!!! TIP "Tips"
+    * If you already have an organization created
+        * If you already have an organization created, you can click **+ Create organization**at the bottom of the organization list to proceed with the actions below.
 
 ### Step 3. Create a project
 
 1. **On the Organizations tab**located at the top of the NHN Cloud console, click `MyORG`. If you have a single organization, it is automatically selected.
-2. Click \*\*+** next to **Create new project** on the right side of the Selected organization tab.
+2. Click **+** next to **Create new project** on the right side of the Selected organization tab.
 3. In the **Create project** window, enter the information below and click **OK**.
     * Project name: `MyPRJ`
 4. In the notification window, click **OK**.
@@ -79,8 +79,8 @@ Before you begin this learning module, here's what you need to know
 
 ## Previous step
 
-* [1. Create an account and log in](https://docs.nhncloud.com/en/quickstarts/en/create-account/)
+* [1. Create account and login](https://docs.nhncloud.com/en/quickstarts/en/create-account/)
 
 ## Next steps
 
-* [3. Set up IAM accounts and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/)
+* [3. IAM accounts and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/)
