@@ -17,6 +17,8 @@
 
 ![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
 
+<p style="text-align: center; color: black;">최종 구성도</p>
+
 ## 시작하기 전에
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
@@ -31,7 +33,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
 
-**본 가이드는 [8. 모니터링 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-monitoring/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/) 이후 단계부터 시작됩니다.**
 
 ## 인스턴스 이미지를 통한 인스턴스 생성 및 블록 스토리지 연결
 
@@ -165,8 +167,8 @@ cat /mnt/vdb/employees.csv
 
 ## 이전 단계
 
-* [8. 모니터링 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
+* [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
 
 ## 다음 단계
 
-* [10. 확장성과 성능 최적화](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/)
+* [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)

@@ -31,7 +31,7 @@ To get started with NHN Cloud, you need to prepare the following things
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-    **This guide starts after step [5. Set up security](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/).**
+    **This guide starts after step [5. Set up security](https://docs.nhncloud.com/en/quickstarts/en/configure-security/).**
 
 ## Create databases and query data
 
@@ -51,7 +51,7 @@ To get started with NHN Cloud, you need to prepare the following things
         * Instance type: **Select Instance Type** > click `t2.c1m1` in the instance type name, then click **Select** 
         * Number of instances: `1`
         * Keyfair > `MyKey`
-            * To create and use additional keypairs, see [the Keypair user guide](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_21).
+            * To create and use additional keypairs, see [the Keypair user guide](https://docs.nhncloud.com/en/Compute/Instance/en/console-guide/#_21).
     * Root block storage
         * Block storage type: `HDD`
         * Block storage size (GB): `20` GB
@@ -85,7 +85,7 @@ To get started with NHN Cloud, you need to prepare the following things
 
 ### Step 2. Test database access on a Linux instance
 
-> Access the database using the Linux instance `linux-server-basic`that you created in Module 4. For instructions on creating and accessing the linux-server-basic instance, see [04-Creating a Network Setup and Instance](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/network-setup/).
+> Access the database using the Linux instance `linux-server-basic`that you created in Module 4. For instructions on creating and accessing the linux-server-basic instance, see [04-Creating a Network Setup and Instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/).
 
 1. Run a new **terminal** or **PowerShell**.
 2. Remotely connect `to linux-server-basic`with the command below.
@@ -123,12 +123,12 @@ Verify that **the results from the database are retrieved**.
 * [MySQL](https://en.wikipedia.org/wiki/MySQL)
 * [Database](https://en.wikipedia.org/wiki/Database)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
-* [RDS for MySQL](https://docs.nhncloud.com/ko/Database/RDS%20for%20MySQL/ko/overview/)
+* [RDS for MySQL](https://docs.nhncloud.com/en/Database/RDS%20for%20MySQL/en/overview/)
 
 ## Previous step
 
-* [5. security settings](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/)
+* [5. security settings](https://docs.nhncloud.com/en/quickstarts/en/configure-security/)
 
 ## Next steps
 
-* [7. Create and set up storage](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-storage/)
+* [7. Create and set up storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/)

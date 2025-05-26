@@ -33,7 +33,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-본 가이드는 [10. 확장성과 성능 최적화](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/) 이후 단계부터 시작됩니다.
+본 가이드는 [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/) 이후 단계부터 시작됩니다.
 
 ## 조직의 이용 현황과 예산 관리
 
@@ -163,8 +163,8 @@
 
 ## 이전 단계
 
-* [10. 확장성과 성능 최적화](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/)
+* [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)
 
 ## 다음 단계
 
-* [12. 리소스 정리 및 삭제](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cleanup-resources/)
+* [12. 리소스 정리 및 삭제](https://docs.nhncloud.com/ko/quickstarts/ko/cleanup-resources/)

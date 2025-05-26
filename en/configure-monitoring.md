@@ -35,7 +35,7 @@ Before working through this learning module, we recommend that you do the follow
     * You must have an NHN Cloud account with a registered payment method.
     * You need to log in to the NHN Cloud homepage.
 
-    **This guide starts after the steps in [7. Create and set up storage](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-storage/).**
+    **This guide starts after the steps in [7. Create and set up storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/).**
 
 ## Monitoring cloud resources with the Cloud Monitoring service
 
@@ -135,9 +135,9 @@ The * toggle button active state is indicated by a white circle within an ellips
 
 * [Metric](https://en.wikipedia.org/wiki/Metric_system)
 * [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
-* [Metric Dictionary](https://docs.nhncloud.com/ko/Monitoring/Cloud%20Monitoring/ko/metric-dictionary/)
-* [Cloud Monitoring](https://docs.nhncloud.com/ko/Monitoring/Cloud%20Monitoring/ko/overview/)
-* [CloudTrail](https://docs.nhncloud.com/ko/Governance%20&%20Audit/CloudTrail/ko/overview/)
+* [Metric Dictionary](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/metric-dictionary/)
+* [Cloud Monitoring](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/overview/)
+* [CloudTrail](https://docs.nhncloud.com/en/Governance%20&%20Audit/CloudTrail/en/overview/)
 * [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
 
 ## Previous step

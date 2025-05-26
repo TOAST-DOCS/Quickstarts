@@ -30,7 +30,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [9. 백업 및 복구](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/) 이후 단계부터 시작됩니다.**
 
 ## 스케일링 그룹과 로드밸런서를 통한 트래픽 분산
 
@@ -97,7 +97,7 @@
     * 이미지
         * 개인 이미지 > 이미지 이름: `linux-server-basic-image` 클릭
              > [참고]  
-             >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/) 의 **단계 1**을 통해 생성할 수 있습니다.
+             >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/) 의 **단계 1**을 통해 생성할 수 있습니다.
     * 인스턴스 정보
         * 가용성 영역: `임의의 가용성 영역`
         * 인스턴스 이름: `linux-server-autoscale`
@@ -201,8 +201,8 @@
 
 ## 이전 단계
 
-* [9. 백업 및 복구](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/)
+* [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)
 
 ## 다음 단계
 
-* [11. 비용 관리](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. 비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/)

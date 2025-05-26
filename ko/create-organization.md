@@ -36,7 +36,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인해야 합니다.
 
-    **본 가이드는 [1. 계정 생성과 로그인](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-account/) 이후 단계부터 시작합니다.**
+    **본 가이드는 [1. 계정 생성과 로그인](https://docs.nhncloud.com/ko/quickstarts/ko/create-account/) 이후 단계부터 시작합니다.**
 
 ## NHN Cloud 콘솔 사용을 위한 준비
 
@@ -79,8 +79,8 @@
 
 ## 이전 단계
 
-* [01-계정 생성과 로그인](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-account/)
+* [1. 계정 생성과 로그인](https://docs.nhncloud.com/ko/quickstarts/ko/create-account/)
 
 ## 다음 단계
 
-* [03-IAM 계정과 거버넌스 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/)
+* [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/)

@@ -30,7 +30,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudポータルにログインする必要があります。
 
-**本ガイドは、[11.コスト管理](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)以降の段階から始まります。**
+**本ガイドは、[11.コスト管理](https://docs.nhncloud.com/ja/quickstarts/ja/cost-management/)以降の段階から始まります。**
 
 ## 使用中のすべてのリソースを削除する 
 
@@ -193,12 +193,12 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 
 ## 参考資料
 
-* [インスタンスの状態変更(削除)](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_11)
-* [サブネット削除](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_10)
-* [VPC](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#vpc)
-* [ブロックストレージの削除](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/console-guide/#_3)
-* [オブジェクトストレージコンテナの削除](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/console-guide/#_7)
+* [インスタンスの状態変更(削除)](https://docs.nhncloud.com/ja/Compute/Instance/ja/console-guide/#_11)
+* [サブネット削除](https://docs.nhncloud.com/ja/Network/VPC/ja/console-guide/#_10)
+* [VPC](https://docs.nhncloud.com/ja/Network/VPC/ja/console-guide/#vpc)
+* [ブロックストレージの削除](https://docs.nhncloud.com/ja/Storage/Block%20Storage/ja/console-guide/#_3)
+* [オブジェクトストレージコンテナの削除](https://docs.nhncloud.com/ja/Storage/Object%20Storage/ja/console-guide/#_7)
 
 ## 前の段階
 
-* [11.コスト管理](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11.コスト管理](https://docs.nhncloud.com/ja/quickstarts/ja/cost-management/)

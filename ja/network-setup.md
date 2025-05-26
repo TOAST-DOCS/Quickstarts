@@ -38,7 +38,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudポータルにログインする必要があります。
 
-**本ガイドは、[3.IAMアカウントとガバナンスの設定](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/)以降の段階から始めます。**
+**本ガイドは、[3.IAMアカウントとガバナンスの設定](https://docs.nhncloud.com/ja/quickstarts/ja/iam-accounts/)以降の段階から始めます。**
 
 ## インスタンス作成の準備
 
@@ -129,7 +129,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 \* キーペアのダウンロードは、キーペア作成時に一度だけダウンロードすることができます。ファイルを安全な場所にダウンロードして管理してください。
 \* 既に作成した`MyKey`キーペアが"キーペア選択"ドロップダウンメニューにある場合は、そのキーを選択してください。ただし、MyKey.pemファイルをユーザーが覚えているパス(ディレクトリまたはフォルダ)にダウンロードしておいた状態でなければなりません。
 \* キーペアを作成すると、自動的にそのキーペア値が選択されます。
-\* 詳細は、[キーペアユーザーガイドを](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#key-pair)ご参照ください。
+\* 詳細は、[キーペアユーザーガイドを](https://docs.nhncloud.com/ja/Compute/Instance/ja/overview/#key-pair)ご参照ください。
 
 ## インスタンス接続とNginxウェブサーバー駆動
 
@@ -241,21 +241,21 @@ curl localhost
 
 ## 参考資料
 
-* [リージョンガイド](https://docs.nhncloud.com/ko/nhncloud/ko/region-guide/)
-* [Compute Instance](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/)
+* [リージョンガイド](https://docs.nhncloud.com/ja/nhncloud/ja/region-guide/)
+* [Compute Instance](https://docs.nhncloud.com/ja/Compute/Instance/ja/overview/)
 * [System Image](https://en.wikipedia.org/wiki/System_image)
-* [VPC](https://docs.nhncloud.com/ko/Network/VPC/ko/overview/)
-* [Subnet](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_4)
+* [VPC](https://docs.nhncloud.com/ja/Network/VPC/ja/overview/)
+* [Subnet](https://docs.nhncloud.com/ja/Network/VPC/ja/console-guide/#_4)
 * [Floating IP](https://www.nhncloud.com/kr/service/network/floating-ip)
 * [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 * [Public-key暗号化](https://en.wikipedia.org/wiki/Public-key_cryptography)
 * [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
 * [VM](https://en.wikipedia.org/wiki/Virtual_machine)
-* [Internet Gateway](https://docs.nhncloud.com/ko/Network/Internet%20Gateway/ko/overview/)
+* [Internet Gateway](https://docs.nhncloud.com/ja/Network/Internet%20Gateway/ja/overview/)
 * [Nginx](https://en.wikipedia.org/wiki/Nginx)
 * [ウェブサーバー](https://en.wikipedia.org/wiki/Web_server)
 * [Linux](https://en.wikipedia.org/wiki/Linux)
-* [Network Interface](https://docs.nhncloud.com/ko/Network/Network%20Interface/ko/overview/)
+* [Network Interface](https://docs.nhncloud.com/ja/Network/Network%20Interface/ja/overview/)
 
 ## 前の段階
 

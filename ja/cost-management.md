@@ -33,7 +33,7 @@
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudポータルにログインする必要があります。
 
-本ガイドは、[10.スケーラビリティとパフォーマンスの最適化](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/)以降の段階から始まります。
+本ガイドは、[10.スケーラビリティとパフォーマンスの最適化](https://docs.nhncloud.com/ja/quickstarts/ja/optimze-performance/)以降の段階から始まります。
 
 ## 組織の利用状況と予算管理
 
@@ -157,14 +157,14 @@
 
 ## 参考資料
 
-* [通知管理](https://docs.nhncloud.com/ko/nhncloud/ko/console-guide/#_33)
+* [通知管理](https://docs.nhncloud.com/ja/nhncloud/ja/console-guide/#_33)
 * [NHN Cloudの料金](https://www.nhncloud.com/kr/pricing)
-* [リソースタグ](https://docs.nhncloud.com/ko/Governance%20&%20Audit/Resource%20Watcher/ko/console-guide/#_2)
+* [リソースタグ](https://docs.nhncloud.com/ja/Governance%20&%20Audit/Resource%20Watcher/ja/console-guide/#_2)
 
 ## 前の段階
 
-* [10.拡張性とパフォーマンスの最適化](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/)
+* [10.拡張性とパフォーマンスの最適化](https://docs.nhncloud.com/ja/quickstarts/ja/optimze-performance/)
 
 ## 次のステップ
 
-* [12.リソースの整理と削除](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cleanup-resources/)
+* [12.リソースの整理と削除](https://docs.nhncloud.com/ja/quickstarts/ja/cleanup-resources/)

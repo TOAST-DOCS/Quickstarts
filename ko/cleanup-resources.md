@@ -30,7 +30,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [11.비용 관리](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [11.비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/) 이후 단계부터 시작됩니다.**
 
 ## 사용 중인 모든 리소스 삭제하기 
 
@@ -123,6 +123,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 13. **보안 그룹 삭제** 창에서 **확인**을 클릭합니다.
 14. 성공 창에서 **확인**을 클릭합니다.
     > [참고]
+    >
     >   * default 보안 그룹
     >       * default 보안 그룹은 NHN Cloud에서 사용하는 기본 보안 그룹으로 보안 그룹 이름을 변경하거나 삭제할 수 없습니다. 단, 기본 보안 그룹 내에 보안 규칙은 생성하거나 삭제할 수 있습니다.
 15. 콘솔창 왼쪽 메뉴 중 **Network - VPC**를 클릭합니다.
@@ -187,7 +188,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 4. **조직 삭제 확인** 창에서 **확인**을 클릭합니다.
 5. **조직 삭제 성공** 창에서 **확인**을 클릭합니다.
 <br></br>
-<p style="text-align: center; color: green;">축하합니다. 모든 빠른 시작을 마치셨습니다.</p>
+<p style="text-align: center; color: green;"><font size=5>축하합니다. 모든 빠른 시작을 마치셨습니다.</font></p>
 
 <br></br>
 
@@ -201,4 +202,4 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 ## 이전 단계
 
-* [11. 비용 관리](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. 비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/)

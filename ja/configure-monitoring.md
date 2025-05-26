@@ -35,7 +35,7 @@
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudのホームページにログインする必要があります。
 
-    **本ガイドは、[7.ストレージの作成と設定](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-storage/)以降の段階から始まります。**
+    **本ガイドは、[7.ストレージの作成と設定](https://docs.nhncloud.com/ja/quickstarts/ja/create-storage/)以降の段階から始まります。**
 
 ## Cloud Monitoringサービスによるクラウドリソースモニタリング
 
@@ -135,9 +135,9 @@
 
 * [Metric](https://en.wikipedia.org/wiki/Metric_system)
 * [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
-* [Metric Dictionary](https://docs.nhncloud.com/ko/Monitoring/Cloud%20Monitoring/ko/metric-dictionary/)
-* [Cloud Monitoring](https://docs.nhncloud.com/ko/Monitoring/Cloud%20Monitoring/ko/overview/)
-* [CloudTrail](https://docs.nhncloud.com/ko/Governance%20&%20Audit/CloudTrail/ko/overview/)
+* [Metric Dictionary](https://docs.nhncloud.com/ja/Monitoring/Cloud%20Monitoring/ja/metric-dictionary/)
+* [Cloud Monitoring](https://docs.nhncloud.com/ja/Monitoring/Cloud%20Monitoring/ja/overview/)
+* [CloudTrail](https://docs.nhncloud.com/ja/Governance%20&%20Audit/CloudTrail/ja/overview/)
 * [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
 
 ## 前の段階

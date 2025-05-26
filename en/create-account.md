@@ -43,7 +43,7 @@ Before you begin this learning module, here's what you need to know
 \* Membership types
 \* There are some differences in how you sign up for membership depending on the country you're using the service in and whether you're an individual or a business. This guide is based on signing up for an individual membership in Korea.
 \* For other types of signups, please refer to the following links.
-* [https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/](https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/)
+* [https://docs.nhncloud.com/en/nhncloud/en/user-guide/](https://docs.nhncloud.com/en/nhncloud/en/user-guide/)
 
 3. In About the country where you want to use the service, select `United States,`and then click **Next**.
 4. Under NHN Cloud membership type, click `Individual`.
@@ -74,9 +74,9 @@ Before you begin this learning module, here's what you need to know
 
 ## References
 
-* [NHN Cloud Basic User Guide](https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/)
-* [Security policies](https://docs.nhncloud.com/ko/nhncloud/ko/security-policy/)
+* [NHN Cloud Basic User Guide](https://docs.nhncloud.com/en/nhncloud/en/user-guide/)
+* [Security policies](https://docs.nhncloud.com/en/nhncloud/en/security-policy/)
 
 ## Next steps
 
-* [02 - Create organizations and projects](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-organization/)
+* [02 - Create organizations and projects](https://docs.nhncloud.com/en/quickstarts/en/create-organization/)
