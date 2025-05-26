@@ -31,7 +31,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-    **본 가이드는 [5. 보안 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/) 이후 단계부터 시작됩니다.**
+    **본 가이드는 [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/) 이후 단계부터 시작됩니다.**
 
 ## 데이터베이스 생성 및 데이터 조회
 
@@ -77,7 +77,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * **보안 그룹 선택** 항목에서 위에 생성한 `MySG-DB`를 선택합니다.
     * 추가 블록 스토리지: 사용 안 함 (기본)
     * 사용자 스크립트
-        * [다운받기](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
+        * [보기](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
     * 삭제 보호: 사용 안 함 (기본)
 4. 인스턴스 생성 정보 창에서 **인스턴스 생성**을 클릭합니다.
 5. 인스턴스 생성 작업이 진행됩니다. 해당 인스턴스는 약 1분 내외로 생성이 완료됩니다.
@@ -85,7 +85,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 ### 단계 2. 리눅스 인스턴스에서 데이터베이스 접속 테스트 하기
 
-> 모듈 4에서 생성한 리눅스 인스턴스 `linux-server-basic`을 사용해 데이터베이스에 접속합니다. linux-server-basic 인스턴스 생성 및 접속 방법은 [04-네트워크 설정과 인스턴스 생성](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/network-setup/)을 참고하시기 바랍니다.
+> 모듈 4에서 생성한 리눅스 인스턴스 `linux-server-basic`을 사용해 데이터베이스에 접속합니다. linux-server-basic 인스턴스 생성 및 접속 방법은 [4-네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)을 참고하시기 바랍니다.
 
 1. 새로운 **터미널** 또는 **PowerShell**을 실행합니다.
 2. 아래 명령어로 `linux-server-basic`에 원격 접속합니다.
@@ -127,8 +127,8 @@ mysql --host=(mysql-db-basic 인스턴스의 가상 IP 주소) --user=nhnclo
 
 ## 이전 단계
 
-* [5. 보안 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-security/)
+* [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)
 
 ## 다음 단계
 
-* [7. 스토리지 생성 및 설정](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-storage/)
+* [7. 스토리지 생성 및 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-storage/)

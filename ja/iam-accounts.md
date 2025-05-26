@@ -33,7 +33,7 @@
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudのホームページにログインする必要があります。
 
-    **本ガイドは、[2.組織とプロジェクトの作成](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-organization/)以降の段階から始めます。**
+    **本ガイドは、[2.組織とプロジェクトの作成](https://docs.nhncloud.com/ja/quickstarts/ja/create-organization/)以降の段階から始めます。**
 
 ## IAMアカウントにアクセスするための準備
 
@@ -146,7 +146,7 @@
 
 1. ウェブブラウザで新しいウィンドウを開き、`https://MyORG IAMコンソールドメインのアドレスを`入力してIAMコンソールドメインにアクセスします。
     * IAMコンソールドメインアドレス
-        * [3.IAMアカウントとガバナンス設定](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/)作業1でコピーした**IAMコンソールドメイン名のURLを**IAMアカウントユーザーに共有して使用することができます。
+        * [3.IAMアカウントとガバナンス設定](https://docs.nhncloud.com/ja/quickstarts/ja/iam-accounts/)作業1でコピーした**IAMコンソールドメイン名のURLを**IAMアカウントユーザーに共有して使用することができます。
 2. `MyORGの`ログイン画面で以下の情報を入力し、**ログインを**クリックします。
     * ID:`myproject-admin`
     * パスワード：`タスク 4 で設定した myproject-admin のパスワード。`
@@ -168,15 +168,15 @@
 
 ## 参考サイト
 
-* [コンソール使用ガイド](https://docs.nhncloud.com/ko/nhncloud/ko/console-user-guide/)
-* [セキュリティポリシー](https://docs.nhncloud.com/ko/nhncloud/ko/security-policy/)
+* [コンソール使用ガイド](https://docs.nhncloud.com/ja/nhncloud/ja/console-user-guide/)
+* [セキュリティポリシー](https://docs.nhncloud.com/ja/nhncloud/ja/security-policy/)
 * [IAM](https://en.wikipedia.org/wiki/Identity_and_access_management)
 
 ## 前の段階
 
-* [2.組織とプロジェクトの作成](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/create-organization/)
+* [2.組織とプロジェクトの作成](https://docs.nhncloud.com/ja/quickstarts/ja/create-organization/)
 <br>
 
 ## 次のステップ
 
-* [4.ネットワーク設定とインスタンス作成](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/network-setup/)
+* [4.ネットワーク設定とインスタンス作成](https://docs.nhncloud.com/ja/quickstarts/ja/network-setup/)

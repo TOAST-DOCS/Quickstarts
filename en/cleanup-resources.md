@@ -30,7 +30,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-**This guide starts with steps after [11.Managing expenses](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/).**
+**This guide starts with steps after [11.Managing expenses](https://docs.nhncloud.com/en/quickstarts/en/cost-management/).**
 
 ## Delete all resources in use 
 
@@ -193,12 +193,12 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 ## References
 
-* [Change the state of an instance (delete)](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_11)
-* [Delete a subnet](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_10)
-* [VPC](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#vpc)
-* [Deleting block storage](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/console-guide/#_3)
-* [Delete an object storage container](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/console-guide/#_7)
+* [Change the state of an instance (delete)](https://docs.nhncloud.com/en/Compute/Instance/en/console-guide/#_11)
+* [Delete a subnet](https://docs.nhncloud.com/en/Network/VPC/en/console-guide/#_10)
+* [VPC](https://docs.nhncloud.com/en/Network/VPC/en/console-guide/#vpc)
+* [Deleting block storage](https://docs.nhncloud.com/en/Storage/Block%20Storage/en/console-guide/#_3)
+* [Delete an object storage container](https://docs.nhncloud.com/en/Storage/Object%20Storage/en/console-guide/#_7)
 
 ## Previous step
 
-* [11. Manage expenses](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. Manage expenses](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)

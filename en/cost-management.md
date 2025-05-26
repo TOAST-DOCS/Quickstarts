@@ -33,7 +33,7 @@ Before you begin this learning module, here's what you need to know
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-This guide starts after [10. Optimize for scalability and performance](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/).
+This guide starts after [10. Optimize for scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/).
 
 ## Manage your organization's usage and budget
 
@@ -157,14 +157,14 @@ This guide starts after [10. Optimize for scalability and performance](https://d
 
 ## References
 
-* [Manage notifications](https://docs.nhncloud.com/ko/nhncloud/ko/console-guide/#_33)
+* [Manage notifications](https://docs.nhncloud.com/en/nhncloud/en/console-guide/#_33)
 * [NHN Cloud Pricing](https://www.nhncloud.com/kr/pricing)
-* [Resource tags](https://docs.nhncloud.com/ko/Governance%20&%20Audit/Resource%20Watcher/ko/console-guide/#_2)
+* [Resource tags](https://docs.nhncloud.com/en/Governance%20&%20Audit/Resource%20Watcher/en/console-guide/#_2)
 
 ## Previous step
 
-* [10. Optimize scalability and performance](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/)
+* [10. Optimize scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/)
 
 ## Next steps
 
-* [12. Organize and delete resources](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cleanup-resources/)
+* [12. Organize and delete resources](https://docs.nhncloud.com/en/quickstarts/en/cleanup-resources/)

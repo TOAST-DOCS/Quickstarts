@@ -137,7 +137,7 @@ ping (linux-server-basic 플로팅 IP 주소)
         >
         > * 작업하는 컴퓨터의 IP 주소 확인 방법
         >     * 터미널 또는 PowerShell을 실행 후 `curl ifconfig.me`를 실행하면 **본인이 작업하는 컴퓨터의 IP 주소**를 확인할 수 있습니다.
-        
+
     * 목적지 CIDR: `linux-server-basic 플로팅 IP 주소/32`
     * 순서: `109`
     * 적용 방법: `허용`
@@ -175,8 +175,8 @@ ping (linux-server-basic 플로팅 IP 주소)
 
 ## 이전 단계
 
-* [4-네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)
+* [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)
 
 ## 다음 단계
 
-* [6-데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
+* [6. 데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)

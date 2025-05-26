@@ -31,7 +31,7 @@
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudのホームページにログインする必要があります。
 
-**本ガイドは、[8.モニタリング設定](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-monitoring/)以降の段階から始まります。**
+**本ガイドは、[8.モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/configure-monitoring/)以降の段階から始まります。**
 
 ## インスタンスイメージによるインスタンス作成とブロックストレージの接続
 
@@ -157,16 +157,16 @@ cat /mnt/vdb/employees.csv
 
 ## 参考資料
 
-* [イメージ](https://docs.nhncloud.com/ko/Compute/Image/ko/overview/)
-* [画像生成](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_13)
-* [ブロックストレージの複製](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/console-guide/#_11)
+* [イメージ](https://docs.nhncloud.com/ja/Compute/Image/ja/overview/)
+* [画像生成](https://docs.nhncloud.com/ja/Compute/Instance/ja/console-guide/#_13)
+* [ブロックストレージの複製](https://docs.nhncloud.com/ja/Storage/Block%20Storage/ja/console-guide/#_11)
 * [Snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))
 * [Backup](https://en.wikipedia.org/wiki/Backup)
 
 ## 前の段階
 
-* [8.モニタリング設定](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
+* [8.モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/configure-monitoring/)
 
 ## 次のステップ
 
-* [10.拡張性とパフォーマンスの最適化](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/optimze-performance/)
+* [10.拡張性とパフォーマンスの最適化](https://docs.nhncloud.com/ja/quickstarts/ja/optimze-performance/)

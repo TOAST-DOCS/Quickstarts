@@ -30,7 +30,7 @@ Before you begin this learning module, here's what you need to know
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-**This guide starts with the steps after [9. Backup and restore](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/).**
+**This guide starts with the steps after [9. Backup and restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/).**
 
 ## Traffic balancing with scaling groups and load balancers
 
@@ -97,7 +97,7 @@ Before you begin this learning module, here's what you need to know
     * Image
         * Click Personal Images > Image Name: `linux-server-basic-image` 
              > [Note]  
-             >The `linux-server-basic-image` private image can be created through **step 1**of [9.Backup and Recovery](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/).
+             >The `linux-server-basic-image` private image can be created through **step 1**of [9.Backup and Recovery](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/).
     * Instance information
         * Availability zones: `Any availability zone.`
         * Instance name: `linux-server-autoscale`
@@ -191,9 +191,9 @@ Before you begin this learning module, here's what you need to know
 
 ## References
 
-* [Auto Scale](https://docs.nhncloud.com/ko/Compute/Auto%20Scale/ko/overview/)
-* [Load Balancer](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/)
-* [Load balancing methods](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/#_1)
+* [Auto Scale](https://docs.nhncloud.com/en/Compute/Auto%20Scale/en/overview/)
+* [Load Balancer](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/overview/)
+* [Load balancing methods](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/overview/#_1)
 * [Load balancing (computing)](https://en.wikipedia.org/wiki/Load_balancing_(computing))
 * [Transport Layer(L4)](https://en.wikipedia.org/wiki/Transport_layer)
 * [Application Layer(L7)](https://en.wikipedia.org/wiki/Application_layer)
@@ -201,8 +201,8 @@ Before you begin this learning module, here's what you need to know
 
 ## Previous step
 
-* [9. backup and recovery](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/backup-restore/)
+* [9. backup and recovery](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/)
 
 ## Next steps
 
-* [11. Manage expenses](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. Manage expenses](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)

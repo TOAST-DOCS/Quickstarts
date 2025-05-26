@@ -38,7 +38,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud portal.
 
-**This guide starts with the steps after [3. Set up your IAM account and governance](https://docs.alpha-nhncloud.com/ko/quickstarts/ko/iam-accounts/).**
+**This guide starts with the steps after [3. Set up your IAM account and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/).**
 
 ## Preparing to create an instance
 
@@ -129,7 +129,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 \* You can only download a keyfair once when you create a keyfair. Download the file to a safe place to manage it.
 \* If a `MyKey` keyfair you have already created is listed in the "Select keyfair" drop-down menu, please select it. However, make sure you have downloaded the MyKey.pem file to a path (directory or folder) that you remember.
 \* When you create a key pair, the corresponding key pair value is automatically selected.
-\* For more information, see [the Keyfair user guide](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#key-pair).
+\* For more information, see [the Keyfair user guide](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#key-pair).
 
 ## Connecting to an instance and running an Nginx web server
 
@@ -241,21 +241,21 @@ curl localhost
 
 ## References
 
-* [Region Guide](https://docs.nhncloud.com/ko/nhncloud/ko/region-guide/)
-* [Compute Instance](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/)
+* [Region Guide](https://docs.nhncloud.com/en/nhncloud/en/region-guide/)
+* [Compute Instance](https://docs.nhncloud.com/en/Compute/Instance/en/overview/)
 * [System Image](https://en.wikipedia.org/wiki/System_image)
-* [VPC](https://docs.nhncloud.com/ko/Network/VPC/ko/overview/)
-* [Subnet](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_4)
+* [VPC](https://docs.nhncloud.com/en/Network/VPC/en/overview/)
+* [Subnet](https://docs.nhncloud.com/en/Network/VPC/en/console-guide/#_4)
 * [Floating IP](https://www.nhncloud.com/kr/service/network/floating-ip)
 * [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 * [Public-key encryption](https://en.wikipedia.org/wiki/Public-key_cryptography)
 * [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
 * [VM](https://en.wikipedia.org/wiki/Virtual_machine)
-* [Internet Gateway](https://docs.nhncloud.com/ko/Network/Internet%20Gateway/ko/overview/)
+* [Internet Gateway](https://docs.nhncloud.com/en/Network/Internet%20Gateway/en/overview/)
 * [Nginx](https://en.wikipedia.org/wiki/Nginx)
 * [Webserver](https://en.wikipedia.org/wiki/Web_server)
 * [Linux](https://en.wikipedia.org/wiki/Linux)
-* [Network Interface](https://docs.nhncloud.com/ko/Network/Network%20Interface/ko/overview/)
+* [Network Interface](https://docs.nhncloud.com/en/Network/Network%20Interface/en/overview/)
 
 ## Previous step
 

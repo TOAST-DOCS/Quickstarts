@@ -259,9 +259,9 @@ curl localhost
 
 ## 이전 단계
 
-* [3-IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/)
+* [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/)
 
 
 ## 다음 단계
 
-* [5-보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)
+* [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)
