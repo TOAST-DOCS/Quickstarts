@@ -15,6 +15,11 @@
     * CPU 사용량 기반 증설 및 감축 정책을 적용하여 최소 1개, 최대 3개의 인스턴스 유지
 * **웹 서버 접근 설정**
     * 로드밸런서에 연결된 플로팅 IP를 통해 생성된 웹 서버에 접근 가능하도록 설정
+<br></br>
+
+![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram2x/%EB%AA%A8%EB%93%88%2010.%20%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
+
+<p style="text-align: center; color: black;">최종 구성도</p>
 
 ## 시작하기 전에
 
