@@ -1,6 +1,6 @@
 # 계정 생성과 로그인
 **Quickstarts > 1. 계정 생성과 로그인**
-
+안녕하세요.
 NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Cloud 콘솔에 접근해야 합니다. 계정 생성 과정은 간단하며 필요한 정보를 입력하고, 이메일 인증을 완료하면 즉시 계정을 생성할 수 있습니다. 생성한 계정으로 콘솔에 액세스하면 사용자 친화적인 인터페이스를 통해 다양한 클라우드 서비스를 활성화하고 효율적으로 관리할 수 있습니다.
 
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EA%B3%84%EC%A0%95%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.png)
