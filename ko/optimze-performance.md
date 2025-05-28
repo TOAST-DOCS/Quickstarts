@@ -100,9 +100,9 @@
         * 사용: `사용 안 함`
     * 이미지
         * 개인 이미지 > 이미지 이름: `linux-server-basic-image` 클릭
-             > [참고]
-             >
-             >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)의 **단계 1**을 통해 생성할 수 있습니다.
+        > [참고]
+        >
+        >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)의 **단계 1**을 통해 생성할 수 있습니다.
     * 인스턴스 정보
         * 가용성 영역: `임의의 가용성 영역`
         * 인스턴스 이름: `linux-server-autoscale`

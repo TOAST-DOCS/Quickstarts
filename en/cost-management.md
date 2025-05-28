@@ -42,19 +42,19 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
 > You can view a detailed breakdown of the services used by your `MyORG` organization.
 
 1. From the top menu of the NHN Cloud console, select the organization`(MyORG`), project`(MyPRJ`), and `Korea (Pyeongchon) region`that you want to use for your lab.
-1. Click `MyORG`in the top menu of the NHN Cloud console.
+1. Click `MyORG` in the top menu of the NHN Cloud console.
 2. Click the **Usage** tab at the top of the `MyORG` organization screen.
 3. On the **Services** tab, view the organization-wide final amount for your organization, and click `MyPRJ`under Organization to view the detailed project usage amounts.
 4. Click each resource item to see a detailed breakdown of the amount spent.
 
 ### Step 2. Manage your organization's budget
 
-> You can add budget information for `your MyORG` organization and set it up to receive notifications when you go over budget.
+> You can add budget information for the `MyORG` organization and set it up to receive notifications when you go over budget.
 
 1. Click `MyORG` on the **Organizations** tab located at the top of the NHN Cloud console.
 2. Click the **Manage budget** tab at the top of the `MyORG` organization screen.
 3. **+ Add budget**.
-4. In the **Add budget** window, enter the information below, and then click **Done adding budget**.
+4. In the **Add Budget** window, enter the information below, and then click **Add Budget Complete**.
     * Budget information
         * Name: `MyBudget`
         * Budget: `Amount`, `10000`
@@ -63,10 +63,10 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
     * Notification thresholds
         * Threshold: `1`
         * Threshold criteria: `Notify when exceeded`
-        * Threshold threshold day: `15` days, **uncheck** Receive usage notifications on threshold day
+        * Threshold threshold day: `15` days, **Uncheck** Receive usage notifications on threshold day
     * Who receives notifications
-        * **Check the**email of the user registered as a `member`, NHN Cloud member user information, **and**select the **Email checkbox**.
-5. View your budgets **and usage** `in MyBudget`in the list of added budgets.
+        * Check the email of the user registered as a `member`, NHN Cloud member user information, and select the **Email checkbox**.
+5. View your **budgets and usage** of `MyBudget` in the list of added budgets.
 
 !!! TIP "Tips"
     * **Budget alerts are sent based on.**
@@ -81,7 +81,7 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
 1. In the top menu of the NHN Cloud console, click the organization you want to use for the lab`(MyORG`).
 2. Within the `MyORG` organization dashboard **, under Organization Service Usage,**click **Resource Watcher**.
 3. On the Resource Watcher screen, click the **Resource Tags** tab in the tab menu.
-4. **+**Click ** Create Resource Tag**.
+4. Click **+ Create Resource Tag**.
 5. On the **Create Resource Tag** screen, set the information below and click **Add**.
     * Tag key: `MyInstanceTag`
     * Tag value: `empty`
@@ -89,31 +89,31 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
 7. On the **Create Resource Tag** screen, set the information below and click **Add**.
     * Tag key: `MyStorageTag`
     * Tag value: `empty`
-8. Select the `MyInstanceTag` resource tag, and then click **Edit Tag**on the right.
+8. Select the `MyInstanceTag` resource tag, and then click **Edit Tag** on the right.
 9. In the Edit Resource Tag window, click **+ Add Tag Value**, type `webserver`in the Tag Value field, and then click **Save**.
 10. **+**Click ** Add Tag Value**again, type `dbserver`in the Tag Value field that appears, and then click **Save**.
 11. Click **OK**to close the Edit Resource Tag window.
-12. Select the `MyStorageTag` resource tag, and then click **Edit Tag**on the right.
+12. Select the `MyStorageTag` resource tag, and then click **Edit Tag** on the right.
 13. In the Edit Resource Tag window, click **+ Add Tag Value**, type `blockstorage`in the Tag Value field, and then click **Save**.
-14. Click **OK**to close the Edit Resource Tag window.
+14. Click **OK** to close the Edit Resource Tag window.
 
 
 ### Step 2. Apply the resource tags you created
 
 > Set resource tags for each of the instance, database, and blockstore resources that `your MyORG` organization is using.
 
-1. Within the `MyORG` organization dashboard **, under Organization Service Usage,**click **Resource Watcher**.
+1. Within the `MyORG` organization dashboard, under Organization Service Usage, click **Resource Watcher**.
 2. On the Resource Watcher screen, click the **Resources** tab from the tab menu.
-3. **In Resource name,**type `linux-server-basic`, and then click **Search**.
+3. **In Resource name,** type `linux-server-basic`, and then click **Search**.
 4. On the search results screen, click the resource with the **resource name** `linux-server-basic`.
-5. In the Split **Detail** pane at the bottom, click **Settings**for the **Resource Tag** entry.
+5. In the Split **Detail** pane at the bottom, click **Settings** for the **Resource Tag** entry.
 6. In the **'linux-server-basic' resource tag settings** window, make the settings as shown below and click **OK**.
     * Tag key: `MyInstanceTag`
     * Tag Key: Tag Value: `MyInstanceTag: webserver`
 7. Click **Initialize**.
 8. **In Resource name,**type `mysql-db-basic`, and then click **Search**.
 9. On the search results screen, click the **resource named** `mysql-db-basic`.
-10. In the Split **Detail** pane at the bottom, click **Settings**for the **Resource Tag** entry.
+10. In the Split **Detail** pane at the bottom, click **Settings** for the **Resource Tag** entry.
 11. In the `my-sql-basic` resource tag settings window, make the settings as shown below and click **OK**.
     * Tag key: `MyInstanceTag`
     * Tag Key: Tag Value: `MyInstanceTag: dbserver`
@@ -139,11 +139,11 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
         * Select the tag key: `MyInstanceTag`
         * Select tag value: `webserver`
 5. At the bottom, you'll see the amount spent per resource tag.
-    > [Note]
-    >
-    > * By resource tag usage
-    >     * When you apply a resource tag to a resource, you can see usage and charges separately from the time you apply it. There may be a difference between the amount of usage you see by resource and the amount you are actually billed.
-    >     * Usage amounts based on resource tags are available from the time of aggregation the day after the resource tag is applied.
+> [Note]
+>
+> * By resource tag usage
+>     * When you apply a resource tag to a resource, you can see usage and charges separately from the time you apply it. There may be a difference between the amount of usage you see by resource and the amount you are actually billed.
+>     * Usage amounts based on resource tags are available from the time of aggregation the day after the resource tag is applied.
 6. Within the screen, click Setup and then **Search**, as shown below.
     * View by
         * Select the tag key: `MyInstanceTag`
