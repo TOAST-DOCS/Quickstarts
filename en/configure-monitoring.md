@@ -88,7 +88,7 @@ Before working through this learning module, we recommend that you do the follow
 ### Step 3. Set up email notifications when an instance experiences a CPU overload
 
 1. On the **Cloud Monitoring** service screen, click the **Manage alerts** tab.
-2. **+**click ** Notification settings**.
+2. Cick **Notification settings**.
 3. On the **Create notification** screen, set the information below and click **Save**.
     * Basic information
         * Name: `MyAlarm`
@@ -123,13 +123,13 @@ Before working through this learning module, we recommend that you do the follow
 ### Step 4. Check the instance's history of CPU overload events     
 
 1. Click **Network - Floating IP** in the left menu of the console window.
-2. **Copy** and **record**the IP address in the floating IP resource list where the connected device `is linux-server-basic`.
-3. Open a new window in your web browser and type `http://복사한 linux-server-basic floating IP address`to access the web page.
+2. **Copy** and **record**the IP address in the floating IP resource list where the connected device is `linux-server-basic`.
+3. Open a new window in your web browser and type `http://the copied linux-server-basic floating IP address` to access the web page.
 4. Click **Start Stress Test**in the body of the web page and wait 2 minutes. This action randomly overloads the `linux-server-basic` instance CPU usage (CPU details (user)).
 5. After a while, check to see if you receive the results of the alarm by text and email.
 6. On the **Cloud Monitoring** service screen, click the **Manage alerts** tab.
 7. **On the Manage alerts screen,**click the **Alert occurrence history** tab.
-8. Click **Search**within the body to see the history of the alert.
+8. Click **Search** within the body to see the history of the alert.
 
 ## Other considerations
 

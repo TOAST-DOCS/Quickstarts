@@ -273,4 +273,4 @@ chmod +x /home/ubuntu/service-setting.sh
 
 ## Next steps
 
-* [8. Configure monitoring](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
+* [8. Configure monitoring](https://docs.nhncloud.com/en/quickstarts/en/configure-monitoring/)
