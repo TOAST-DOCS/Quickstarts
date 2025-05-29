@@ -41,7 +41,7 @@ Before you begin this learning module, here's what you need to know
 1. From the top menu of the NHN Cloud console, select the organization`(MyORG`), project`(MyPRJ`), and `Korea (Pyeongchon) region`that you want to use for your lab.
 1. In the left menu of the console window, click **Network - Load Balancer**.
 2. **+ Create Load Balancer**.
-3. On the **Select Load Balancer Creation Mode** screen, **select** `L4 Routing Mode` **, and then**click OK.
+3. On the **Select Load Balancer Creation Mode** screen, select `L4 Routing Mode`, and then click **Confirm**.
 4. On the **Create Load Balancer** screen, set the information below and then click **Create Load Balancer**.
     * Settings
         * Name: `MyLB`
@@ -74,7 +74,7 @@ Before you begin this learning module, here's what you need to know
     * IP access control group: `None (default)`
     * Erasure protection: `Disabled`
 5. In the Success window, click **OK**.
-6. After a few moments, when the creation is complete, select `MyLB`and click **Manage Floating IPs**at the top.
+6. After a few moments, when the creation is complete, select `MyLB`and click **Manage Floating IPs** at the top.
 7. In the **Manage Floating IPs** window, under Create Floating IP, click **+ Create**.
 8. In the **Create Floating IP** window, click **Create**.
 9. In the **Success** window, **copy** and **record the** **floating IP address**.
@@ -96,8 +96,9 @@ Before you begin this learning module, here's what you need to know
         * Enabled: `Disabled`
     * Image
         * Click Personal Images > Image Name: `linux-server-basic-image` 
-             > [Note]  
-             >The `linux-server-basic-image` private image can be created through **step 1**of [9.Backup and Recovery](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/).
+        > [Note]  
+        >
+        >The `linux-server-basic-image` private image can be created through **step 1* *of [9.Backup and Restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/).
     * Instance information
         * Availability zones: `Any availability zone.`
         * Instance name: `linux-server-autoscale`
@@ -145,17 +146,17 @@ Before you begin this learning module, here's what you need to know
 
 1. Click **Network - Floating IP**in the left menu of the console pane.
 2. **Copy** and **record**the IP address from the floating list of IP resources to which the connected device `is MyLB`.
-3. Open a new window in your web browser and enter `http://복사한 MyLB floating IP address`to access the changed web page.
+3. Open a new window in your web browser and enter `http://the copied MyLB floating IP address`to access the changed web page.
 4. Verify that the **Server IP Address value**in the body of the web page matches the virtual private IP address of `the linux-server-autoscale instance you`created.
 5. Repeat the web browser refresh to verify that the **Server IP Address value**changes to the virtual private IP address of another `linux-server-autoscale instance`.
 <br></br>
 ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
 
-<p style="text-align: center; color: black;">Output screen 1</p>
+<p style="text-align: center; color: black;">Result 1</p>
 
 ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
 
-<p style="text-align: center; color: black;">Output screen 2</p>
+<p style="text-align: center; color: black;">Result 2</p>
 <br></br>
 
 !!! tip "Tips"
@@ -174,20 +175,20 @@ Before you begin this learning module, here's what you need to know
 
 1. Open a new window in your web browser and connect to `http://복사한`by entering your `MyLB floating IP address`.
 2. Click **Start Stress Test**in the body of the web page and wait 2 minutes.
-    > [Note]
-    >
-    > * Stress Test
-    >     * This feature places a random CPU load on the web server to ensure that the scaling policies you create in the autoscale group work.
-3. Click **Compute - Instance**in the left menu of the console window.
+> [Note]
+>
+> * Stress Test
+>     * This feature places a random CPU load on the web server to ensure that the scaling policies you create in the autoscale group work.
+3. Click **Compute - Instance** in the left menu of the console window.
 4. On the Instance screen, verify that `linux-server-autoscale`is added to the list of instances.
-5. Open a new window in your web browser and enter `http://복사한 MyLB floating IP address`to view the web page.
-6. Verify that the **Server IP Address value**in the body of the web page is the virtual private IP address of `the linux-server-autoscale instance you`created.
-7. Repeat the web browser refresh to verify that the **Server IP Address value**changes to the virtual private IP address of another `linux-server-autoscale instance`.
+5. Open a new window in your web browser and enter `http://the copied MyLB floating IP address` to view the web page.
+6. Verify that the **Server IP Address value** in the body of the web page is the virtual private IP address of `the linux-server-autoscale instance you`created.
+7. Repeat the web browser refresh to verify that the **Server IP Address value** changes to the virtual private IP address of another `linux-server-autoscale instance`.
     * Click to select the `linux-server-autoscale` instance from the **Compute - Instance** menu and click the **Monitoring** tab in the split pane below to see the CPU utilization.
     * Click to select the `MyASGroup` scaling group from the **Compute - Auto Scale** menu and click the **Statistics** tab in the split pane below to see the CPU utilization.
 8. If the `linux-server-autoscale` instance was automatically spawned, wait again for 2 minutes.
 9. On the Instances screen, verify that `linux-server-autoscale`is removed from the list of instances.
-10. Repeat the web browser refresh to verify that the **Server IP Address value**is output as the virtual private IP address of the `linux-server-autoscale` instance you are maintaining.
+10. Repeat the web browser refresh to verify that the **Server IP Address value** is output as the virtual private IP address of the `linux-server-autoscale` instance you are maintaining.
 
 ## References
 
@@ -201,8 +202,8 @@ Before you begin this learning module, here's what you need to know
 
 ## Previous step
 
-* [9. backup and recovery](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/)
+* [9. Backup and restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/)
 
-## Next steps
+## Next step
 
-* [11. Manage expenses](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)
+* [11. Coste management](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)

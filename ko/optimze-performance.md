@@ -15,6 +15,15 @@
     * CPU 사용량 기반 증설 및 감축 정책을 적용하여 최소 1개, 최대 3개의 인스턴스 유지
 * **웹 서버 접근 설정**
     * 로드밸런서에 연결된 플로팅 IP를 통해 생성된 웹 서버에 접근 가능하도록 설정
+<br></br>
+
+![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram2x/%EB%AA%A8%EB%93%88%2010.%20%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
+
+<p style="text-align: center; color: black;">최종 구성도</p>
+
+![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%2010.%20%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
+
+<p style="text-align: center; color: black;">최종 구성도</p>
 
 ## 시작하기 전에
 
@@ -96,8 +105,9 @@
         * 사용: `사용 안 함`
     * 이미지
         * 개인 이미지 > 이미지 이름: `linux-server-basic-image` 클릭
-             > [참고]  
-             >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/) 의 **단계 1**을 통해 생성할 수 있습니다.
+        > [참고]
+        >
+        >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)의 **단계 1**을 통해 생성할 수 있습니다.
     * 인스턴스 정보
         * 가용성 영역: `임의의 가용성 영역`
         * 인스턴스 이름: `linux-server-autoscale`
@@ -148,15 +158,19 @@
 3. 웹 브라우저에서 새 창을 열어서 `http://복사한 MyLB 플로팅 IP 주소`를 입력하여 변경된 웹 페이지에 접속합니다.
 4. 웹 페이지 본문의 **Server IP Address 값**이 생성한 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소와 일치하는지 확인합니다.
 5. 웹 브라우저 새로고침을 반복해  **Server IP Address 값**이 또 다른 `linux-server-autoscale`인스턴스의 가상 사설 IP 주소로 변경되는지 확인합니다.
-<br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
 
-<p style="text-align: center; color: black;">출력 화면 1</p>
-
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
-
-<p style="text-align: center; color: black;">출력 화면 2</p>
-<br></br>
+> [참고]
+> <details markdown="1">
+> <summary><u>결과 화면 보기</u></summary>
+>
+> <p>
+> **결과 화면 1**
+> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png">
+> </p>
+> <p>
+> **결과 화면2**
+> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png">
+> </p>
 
 !!! tip "알아두기"
     * **Server IP Address 값 변경 값 확인**
