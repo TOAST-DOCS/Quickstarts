@@ -101,11 +101,14 @@ df /dev/vdb1
 ```
 
 **해당 Filesystem과 용량, Mount 경로가 조회**되는 것을 확인합니다.
-<br></br>
 
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A0%88%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%852.png)
-
-<p style="text-align: center; color: black;">출력 화면</p>
+> [참고]
+> <details markdown="1">
+> <summary><u>결과 화면 보기</u></summary>
+>
+> <p>
+> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A0%88%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%852.png">
+ > </p>
 
 ### 단계 3. 추가 블록 스토리지에 자료 생성하기
 
@@ -124,9 +127,13 @@ mysql --host=(mysql-db-basic 인스턴스의 가상 IP 주소) --user=nhncloud -
 cat /mnt/vdb/employees.csv
 ```
 
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%853.png)
-
-<p style="text-align: center; color: black;">출력 화면</p>
+> [참고]
+> <details markdown="1">
+> <summary><u>결과 화면 보기</u></summary>
+>
+> <p>
+> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%853.png">
+> </p>
 
 ## 오브젝트 스토리지 생성 및 데이터 조회
 
@@ -269,8 +276,8 @@ chmod +x /home/ubuntu/service-setting.sh
 
 ## 이전 단계
 
-* [06-데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
+* [6.데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
 
 ## 다음 단계
 
-* [08-모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
+* [8.모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/)

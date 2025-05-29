@@ -122,9 +122,9 @@ To get started with NHN Cloud, you'll need to prepare the following things
 12. Click **Delete security group**.
 13. In the **Delete Security Group** window, click **OK**.
 14. In the Success window, click **OK**.
-    > [Note]
-    >   * default security group
-    >       * The default security group is the default security group used by NHN Cloud, and you cannot rename or delete the security group. However, you can create or delete security rules within the default security group.
+> [Note]
+>   * default security group
+>       * The default security group is the default security group used by NHN Cloud, and you cannot rename or delete the security group. However, you can create or delete security rules within the default security group.
 15. Click **Network - VPC**in the left menu of the console window.
 16. Click `MyVPC`in the list of VPCs to select it.
 17. Click **Delete VPC**.
@@ -138,21 +138,21 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 ### Step 7. Delete the monitoring resource
 
-1. Click **Monitoring - Cloud Monitoring**in the left menu of the console window.
+1. Click **Monitoring - Cloud Monitoring** in the left menu of the console window.
 2. Within the **Dashboard** tab, on the `MyDashboard` Details tab, click the toggle switch for Edit Mode on the right to enable it.
-3. Select the **⋮**in the top-right corner of all widgets within `MyDashboard` (Instance-Basic, Instance-Disk-Basic, Instance-Network-Basic, etc.
+3. Select the **⋮** in the top-right corner of all widgets within `MyDashboard` (Instance-Basic, Instance-Disk-Basic, Instance-Network-Basic, etc.)
 4. In the notification window, click **OK**.
-5. Click the **⋮**in `MyDashboard`, then click **Delete dashboard**.
+5. Click the **⋮** in `MyDashboard`, then click **Delete dashboard**.
 6. In the Dashboard deletion progress confirmation notification window, click **OK**.
 7. In the Dashboard deletion complete notification window, click **OK**.
 8. Click the **Manage notifications** tab to the right of the **Dashboard** tab.
-9. Within the **Notification Settings** details tab, select the checkbox `for MyAlarm`from the list of notifications.
+9. Within the **Notification Settings** details tab, select the checkbox `for MyAlarm` from the list of notifications.
 10. Click **Delete notification**.
 11. In the Confirmation of notification deletion progress notification window, click **OK**.
 
 ### Step 8. Delete the keyfair resource
 
-1. Click **Compute - Key Pair**in the left menu of the console window.
+1. Click **Compute - Key Pair** in the left menu of the console window.
 2. Select the checkbox `for MyKey`in the list of key pairs.
 3. Click **Delete keyfair**.
 4. In the **Delete keyfair** window, click **OK**.
@@ -164,9 +164,9 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 ### Step 9. Deactivate the service and delete the project
 
-1. Click MyPRJ **on the Projects**`tab` **at**the top of the NHN Cloud console.
+1. Click MyPRJ on the Projects tab` at the top of the NHN Cloud console.
 2. In a project, click the **Project management** tab.
-3. Within the **Manage Project** screen, under the **Services in use** section, click **Disable**to the right of the services that are grouped into the **Default Infrastructure** group (Instance, Key Pair, etc.).
+3. Within the **Manage Project** screen, under the **Services in use** section, click **Disable** to the right of the services that are grouped into the **Default Infrastructure** group (Instance, Key Pair, etc.).
 4. In the Disable Default Infrastructure Services window, verify the following two points, select the checkboxes, and then click **OK**.
     * I have read all of the above and agree to delete my information when the service is deactivated.
     * All underlying infrastructure services (Instance, Key Pair, etc.)
