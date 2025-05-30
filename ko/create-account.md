@@ -79,4 +79,4 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
 
 ## 다음 단계
 
-* [2-조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/)
+* [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/)
