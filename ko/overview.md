@@ -25,7 +25,7 @@ NHN Cloud 입문자가 쉽게 익힐 수 작성된 문서입니다. 따라서 �
 - 리전: 평촌 Region
 - VPC: MyVPC
 - 서브넷: MySubnet
-![image2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/0.%20%EA%B0%9C%EC%9A%94.png)
+![image2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/0.%20%EA%B0%9C%EC%9A%94.png)
 
 !!! tip "알아두기"
     각 학습 모듈은 서로 연계되어있습니다. 하나의 학습 모듈에서 생성한 리소스를 이후 학습 모듈에서 재사용하므로 마지막 학습 모듈을 마치기 전까지 리소스를 삭제하지 않는 것을 권장합니다.
