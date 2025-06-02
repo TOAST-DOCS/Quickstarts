@@ -20,6 +20,11 @@
     * 경고 및 알림 설정
         * NHN Cloud 알림 시스템을 통한 이상 상태 감지
         * 이메일, SMS 등 조건별 알림 설정
+<br></br>
+
+![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%208.%20%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EC%84%A4%EC%A0%95.png)
+
+<p style="text-align: center; color: black;">최종 구성도</p>
 
 ## 시작하기 전에
 
