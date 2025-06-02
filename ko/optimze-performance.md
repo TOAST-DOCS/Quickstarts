@@ -15,11 +15,6 @@
     * CPU 사용량 기반 증설 및 감축 정책을 적용하여 최소 1개, 최대 3개의 인스턴스 유지
 * **웹 서버 접근 설정**
     * 로드밸런서에 연결된 플로팅 IP를 통해 생성된 웹 서버에 접근 가능하도록 설정
-<br></br>
-
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram2x/%EB%AA%A8%EB%93%88%2010.%20%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
-
-<p style="text-align: center; color: black;">최종 구성도</p>
 
 ![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%2010.%20%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
 
@@ -188,10 +183,10 @@
 
 1. 웹 브라우저에서 새 창을 열어서 `http://복사한 MyLB 플로팅 IP 주소`를 입력해 접속합니다.
 2. 웹 페이지 본문의 **Start Stress Test**를 클릭 후 2분 동안 대기합니다.
-    > [참고]
-    >
-    > * Stress Test
-    >     * 해당 기능은 웹 서버에 임의적 CPU 부하를 발생하여 오토 스케일 그룹에 생성한 증설 정책이 동작하도록 합니다.
+> [참고]
+>
+> * Stress Test
+>     * 해당 기능은 웹 서버에 임의적 CPU 부하를 발생하여 오토 스케일 그룹에 생성한 증설 정책이 동작하도록 합니다.
 3. 콘솔 창 왼쪽 메뉴 중 **Compute - Instance**를 클릭합니다.
 4. Instance 화면에서 인스턴스 목록 중 `linux-server-autoscale`이 추가로 생성되는 것을 확인합니다.
 5. 웹 브라우저에서 새 창을 열어서 `http://복사한 MyLB 플로팅 IP 주소`를 입력해 웹 페이지를 확인합니다.
