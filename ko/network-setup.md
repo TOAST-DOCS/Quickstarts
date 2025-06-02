@@ -20,7 +20,7 @@
     * 웹 서버 설치 및 구동하기
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%204.%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
+![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%204.%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
@@ -236,8 +236,14 @@ sudo apt install nginx -y
 #bash
 curl localhost
 ```
-    
-![4 네트워크설정과 인스턴스 생성_작업5 스크린샷_rv1](https://github.com/user-attachments/assets/3bc07c8b-d6e2-431d-aad4-da3bfa6562e4)
+
+> [참고]
+> <details markdown="1">
+> <summary><u>결과 화면 보기</u></summary>
+>
+> <p>
+> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/4.%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1_%EC%9E%91%EC%97%855%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_rv1.png">
+ > </p>
 
 ## 참고 자료
 
