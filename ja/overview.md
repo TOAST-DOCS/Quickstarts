@@ -22,7 +22,7 @@ NHN Cloud入門者が簡単に習得できるように作成されたドキュ�
 
 - 組織: MyORG
 - プロジェクト: MyPRJ
-- リージョン: 平촌 Region
+- リージョン: Pyeongchon Region
 - VPC: MyVPC
 - サブネット: MySubnet
 <img src="https://static.toastoven.net/prod_cloud_quickstarts/diagram/0.%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD.png" width="650"/>

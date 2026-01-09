@@ -22,7 +22,7 @@ NHN Cloud 입문자가 쉽게 익힐 수 작성된 문서입니다. 따라서 �
 
 - 조직: MyORG
 - 프로젝트: MyPRJ
-- 리전: 평촌 Region
+- 리전: Pyeongchon Region
 - VPC: MyVPC
 - 서브넷: MySubnet
 <img src="https://static.toastoven.net/prod_cloud_quickstarts/diagram/0.%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD.png" width="650"/>
