@@ -4,7 +4,7 @@
 This learning module will guide you through the basic concepts and setup required to understand and utilize the key features of the NHN Cloud Console. NHN Cloud Console is an integrated management tool that allows you to efficiently manage and configure various cloud resources. Its user-friendly interface makes it easy to create, monitor, and change settings for services, and it also provides real-time resource status and cost management. 
 The console's project dashboard gives you an at-a-glance view of the cloud services and resources you're using, while detailed configuration and management options are easily accessible through intuitive menus.
 
-![module_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EC%A1%B0%EC%A7%81%EA%B3%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.png)
+![module_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC_en.png)
 ## Learning objectives
 
 In this learning module, you'll learn to
@@ -16,7 +16,7 @@ In this learning module, you'll learn to
 
 <br></br>
 
-![mod2_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%202.%20%EC%A1%B0%EC%A7%81%EA%B3%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.png)
+![mod2_diagram](https://static.toastoven.net/prod_cloud_quickstarts/diagram/%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%202.%20%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC.png)
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
