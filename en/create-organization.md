@@ -16,7 +16,7 @@ In this learning module, you'll learn to
 
 <br></br>
 
-![mod2_diagram](https://static.toastoven.net/prod_cloud_quickstarts/diagram/%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%202.%20%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC.png){: width="600"}
+<img src="https://static.toastoven.net/prod_cloud_quickstarts/diagram/%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%202.%20%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC.png" width="650"/>
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
