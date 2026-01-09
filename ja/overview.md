@@ -5,7 +5,7 @@ NHN Cloud クイックスタートガイドは、NHN Cloudを初めて利用す�
 
 本ガイドは、以下のように12個の学習モジュールで構成されています。 各学習モジュールは、簡単に理解できるように実習例を提供しています。NHN Cloudの会員登録後、基本的なコンソールの使い方を学び、最終的に簡単なクラウドアーキテクチャを構成してサービスを提供することができます。
 
-![image1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/NHN%20Portal%20%EA%B0%9C%EC%84%A0%20%EB%B9%A0%EB%A5%B8%20%EC%8B%9C%EC%9E%91%20%EA%B0%80%EC%9D%B4%EB%93%9C%402x.png)
+![image1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/Quick%20Start%20Guide_jp.png)
 
 ## クイックスタートガイドの構成
 
@@ -25,7 +25,7 @@ NHN Cloud入門者が簡単に習得できるように作成されたドキュ�
 - リージョン: 平촌 Region
 - VPC: MyVPC
 - サブネット: MySubnet
-![image2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/0.%20%EA%B0%9C%EC%9A%94.png)
+![image2](https://static.toastoven.net/prod_cloud_quickstarts/diagram/0.%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD.png)
 
 !!! tip "知っておくべきこと"
     各学習モジュールは相互に連携しています。一つの学習モジュールで作成したリソースは、その後の学習モジュールで再利用されるため、最後の学習モジュールを終了するまでリソースを削除しないことをお勧めします。
