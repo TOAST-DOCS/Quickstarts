@@ -3,7 +3,7 @@
 
 In this learning module, you will learn how to secure and recover applications and data in the NHN Cloud environment. Block storage replication, instance image creation, and image-based creation to prevent data loss and build a system that enables rapid recovery.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE_en.png)
 ## Learning objectives
 
 In this learning module, you'll learn to

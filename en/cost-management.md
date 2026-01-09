@@ -3,7 +3,7 @@
 
 In this learning module, you will learn how to view your organization's usage, set budgets, and create and apply resource tags in the NHN Cloud console. This will enable you to effectively manage your organization's cloud resources and operate cost-effectively.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B9%84%EC%9A%A9%20%EA%B4%80%EB%A6%AC.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5_en.png)
 ## Learning objectives
 
 In this learning module, you'll learn

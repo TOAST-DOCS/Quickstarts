@@ -3,7 +3,7 @@
 
 今回の学習モジュールでは、ガバナンス設定とIAM(Identity and Access Management)アカウント管理方法について説明します。これにより、組織内のリソースを効率的に管理し、権限ベースのアクセス制御を設定し、セキュリティと生産性を最大化することができます。
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/IAM%20%EA%B3%84%EC%A0%95%EA%B3%BC%20%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4%20%EC%84%A4%EC%A0%95.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/IAM%20%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%A5%E1%84%87%E1%85%A5%E1%84%82%E1%85%A5%E1%86%AB%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_ja.png)
 ## 学習目標
 
 今回の学習モジュールで学ぶ内容は以下の通りです。 
