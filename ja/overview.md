@@ -25,7 +25,7 @@ NHN Cloud入門者が簡単に習得できるように作成されたドキュ�
 - リージョン: 平촌 Region
 - VPC: MyVPC
 - サブネット: MySubnet
-![image2](https://static.toastoven.net/prod_cloud_quickstarts/diagram/0.%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD.png)
+![image2](https://static.toastoven.net/prod_cloud_quickstarts/diagram/0.%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD.png){: width="600"}
 
 !!! tip "知っておくべきこと"
     各学習モジュールは相互に連携しています。一つの学習モジュールで作成したリソースは、その後の学習モジュールで再利用されるため、最後の学習モジュールを終了するまでリソースを削除しないことをお勧めします。

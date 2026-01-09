@@ -25,7 +25,7 @@ This documentation is designed to be easy for beginners to learn about NHN Cloud
 - Region: Pyeongchon Region
 - VPC: MyVPC
 - Subnet: MySubnet
-![image2](https://static.toastoven.net/prod_cloud_quickstarts/diagram/0.%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD.png)
+![image2](https://static.toastoven.net/prod_cloud_quickstarts/diagram/0.%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD.png){: width="600"}
 
 !!! tip "Tips"
     Each learning module is linked to the others. Because resources created in one learning module are reused in subsequent learning modules, we recommend that you do not delete resources until you have finished the last learning module.
