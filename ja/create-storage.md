@@ -3,7 +3,7 @@
 
 今回の学習モジュールでは、NHN Cloudコンソールを通じてストレージサービスを有効化し、使用する方法をご案内します。NHN Cloudの**ストレージサービスは、**データの保存と管理に必要な安定的で拡張可能なソリューションを提供します。
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF_ja.png)
 ## 学習目標
 
 今回の学習モジュールで学ぶ内容は以下の通りです。

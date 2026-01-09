@@ -3,7 +3,7 @@
 
 To get started with NHN Cloud, you must first create an account and use it to access the NHN Cloud console. The account creation process is simple, and you can create an account immediately after entering the required information and completing email verification. Once you access the console with your created account, you can activate and efficiently manage various cloud services through a user-friendly interface.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EA%B3%84%EC%A0%95%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB_en.png)
 ## Learning objectives
 
 In this learning module, you'll learn to

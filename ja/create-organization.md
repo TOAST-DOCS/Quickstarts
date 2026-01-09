@@ -4,7 +4,7 @@
 今回の学習モジュールでは、NHN Cloudコンソールの主な機能を理解し、活用するために必要な基本概念と設定方法をご案内します。NHN Cloudコンソールは、多様なクラウドリソースを効率的に管理・設定できる統合管理ツールです。ユーザーフレンドリーなインターフェースを通じてサービスの作成、モニタリング、設定変更などの作業を簡単に行うことができ、リアルタイムのリソースの状態とコスト管理機能も提供します。 
 コンソールのプロジェクトダッシュボードを通じて使用中のクラウドサービスとリソース情報を一目で確認することができ、詳細設定や管理オプションは直感的なメニューを通じて簡単にアクセスすることができます。
 
-![module_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EC%A1%B0%EC%A7%81%EA%B3%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.png)
+![module_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC_ja.png)
 ## 学習目標
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
@@ -16,7 +16,7 @@
 
 <br></br>
 
-![mod2_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%202.%20%EC%A1%B0%EC%A7%81%EA%B3%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.png)
+<img src="https://static.toastoven.net/prod_cloud_quickstarts/diagram/%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%202.%20%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC.png" width="650"/>
 
 <p style="text-align: center; color: black;">最終構成図</p>
 

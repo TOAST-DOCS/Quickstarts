@@ -3,7 +3,7 @@
 
 In this learning module, you will learn more about the Monitoring service provided by the NHN Cloud console and get hands-on experience with it. NHN Cloud's Cloud Monitoring service helps you monitor the health of infrastructure and applications running in a cloud environment in real time and detect anomalies quickly.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EC%84%A4%EC%A0%95.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_en.png)
 ## Learning objectives
 
 In this learning module, you'll learn to
