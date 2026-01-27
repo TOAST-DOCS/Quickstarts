@@ -3,7 +3,7 @@
 
 今回の学習モジュールでは、NHN Cloudコンソールで提供するMonitoringサービスについて詳しく説明し、直接実習してみます。NHN CloudのCloud Monitoringサービスは、クラウド環境で運営されるインフラとアプリケーションの状態をリアルタイムでモニタリングし、異常兆候を迅速に検知することができます。
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EC%84%A4%EC%A0%95.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_ja.png)
 ## 学習目標
 
 今回の学習モジュールで学ぶ内容は以下の通りです。

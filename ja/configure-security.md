@@ -2,7 +2,7 @@
 **Quickstarts > 5.セキュリティ設定**
 
 今回の学習モジュールでは、NHN Cloudでセキュリティを設定・管理する基本概念と主要機能を段階的に案内し、安全で信頼できるクラウド環境を構築する方法を学習します。NHN Cloudはユーザーのデータを安全に保護し、クラウドリソースを効率的に管理できる様々なセキュリティ機能を提供しています。
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A1%E1%86%AB%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_ja.png)
 
 ## 学習目標
 

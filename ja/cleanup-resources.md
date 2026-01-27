@@ -2,7 +2,7 @@
 **Quickstarts > 12.リソースの整理と削除**
 
 今回の学習モジュールでは、NHN Cloudで未使用のリソースとプロジェクトおよび組織を削除する方法について説明します。これにより、不必要な費用の発生を防ぎ、クラウド環境を最適化することができます。
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EC%A0%95%EB%A6%AC%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%85%E1%85%B5%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%89%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A6_ja.png)
 ## 学習目標
 
 今回の学習モジュールで学ぶ内容は以下の通りです。

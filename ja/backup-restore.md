@@ -3,7 +3,7 @@
 
 今回の学習モジュールでは、NHN Cloud環境でアプリケーションとデータを安全に保護し、復旧する方法を学習します。ブロックストレージの複製、インスタンスイメージの作成、イメージベースの作成を通じて、データ損失を防止し、迅速な復旧が可能なシステムを構築します。
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE_ja.png)
 ## 学習目標
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
