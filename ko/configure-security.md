@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=38a5ba220ced -->
+
 # 보안 설정
 **Quickstarts > 5. 보안 설정**
 
 이번 학습 모듈에서는 NHN Cloud에서 보안을 설정하고 관리하는 기본 개념과 주요 기능을 단계별로 안내하여, 안전하고 신뢰할 수 있는 클라우드 환경을 구축하는 방법을 학습합니다. NHN Cloud는 사용자의 데이터를 안전하게 보호하고, 클라우드 리소스를 효율적으로 관리할 수 있는 다양한 보안 기능을 제공합니다.
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
 
-## 학습 목표
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
 
@@ -20,7 +23,8 @@
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합니다.
 
@@ -35,7 +39,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 > 이번 학습 모듈에서는 4가지 시나리오를 통해 다양한 보안 설정 방법을 학습합니다.
 
-## 시나리오 1. 웹 서버 인스턴스에 보안 규칙 적용해 외부 접근 허용하기
+<a id="scenario-1-apply-security-rules-to-a-web-server-instance-to-allow-external-access"></a>
+## 시나리오 1. 웹 서버 인스턴스에 보안 규칙 적용해 외부 접근 허용하기 { #scenario-1-apply-security-rules-to-a-web-server-instance-to-allow-external-access }
 
 1. NHN Cloud 콘솔 상단 메뉴에서 실습에 사용할 조직(`MyORG`), 프로젝트(`MyPRJ`), 그리고 `한국(평촌) 리전`을 선택합니다.
 2. 왼쪽 메뉴에서 **Network - Floating IP**를 클릭합니다.
@@ -64,7 +69,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 <br></br>
 ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%851%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png)
 
-## 시나리오 2. 웹 서버 인스턴스에 허용된 IP만 SSH, ICMP(Ping 등) 통신 허용하기
+<a id="scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance"></a>
+## 시나리오 2. 웹 서버 인스턴스에 허용된 IP만 SSH, ICMP(Ping 등) 통신 허용하기 { #scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance }
 
 1. 왼쪽 메뉴 중 **Network - Security Groups**를 클릭합니다.
 2. **Security Groups** 화면에서 `MySG-SSH`를 클릭하여 선택합니다.
@@ -87,7 +93,8 @@ ping (linux-server-basic 플로팅 IP 주소)
 ```
 Ping 통신이 허용된 것을 확인합니다.
 
-## 시나리오 3. Network ACL 설정으로 특정 네트워크 대역 차단하기 
+<a id="scenario-3-block-a-specific-network-band-with-network-acl-settings"></a>
+## 시나리오 3. Network ACL 설정으로 특정 네트워크 대역 차단하기 { #scenario-3-block-a-specific-network-band-with-network-acl-settings }
 
 1. 콘솔 창 왼쪽 메뉴 중 **Network - Network ACL**을 클릭합니다.
 2. **Network ACL > 관리 화면**에서 **+ Network ACL 생성**을 클릭합니다.
@@ -116,7 +123,8 @@ ping (linux-server-basic 플로팅 IP 주소)
 * Http 통신이 차단된 것을 확인합니다.
 
 
-## 시나리오 4. Network ACL Rule 추가 적용해 외부 접근 허용하기
+<a id="scenario-4-apply-additional-network-acl-rules-to-allow-external-access"></a>
+## 시나리오 4. Network ACL Rule 추가 적용해 외부 접근 허용하기 { #scenario-4-apply-additional-network-acl-rules-to-allow-external-access }
 
 1. 콘솔 창 왼쪽 메뉴 중 **Network - Network ACL**을 클릭합니다.
 2. `MyACL`을 클릭한 뒤 하단 분할창에서 **ACL Rule** 탭을 클릭합니다.
@@ -161,7 +169,8 @@ ping (linux-server-basic 플로팅 IP 주소)
 <br></br>
 ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%854.png)
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [보안 그룹](https://docs.nhncloud.com/ko/Network/Security%20Groups/ko/overview/)
 * [Network ACL](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/overview/)
@@ -173,10 +182,12 @@ ping (linux-server-basic 플로팅 IP 주소)
 * [ICMP(Internet Control Message Protocol)](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
 * [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [6. 데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)

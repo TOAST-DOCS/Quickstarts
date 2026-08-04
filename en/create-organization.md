@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=cd8093b7a877 -->
+
 # Create organization and project
 **Quickstarts > 2. Create organization and project**
 
@@ -5,7 +7,8 @@ This learning module will guide you through the basic concepts and setup require
 The console's project dashboard gives you an at-a-glance view of the cloud services and resources you're using, while detailed configuration and management options are easily accessible through intuitive menus.
 
 ![module_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to
 
@@ -22,7 +25,8 @@ In this learning module, you'll learn to
 
 > The regions, organizations, projects, and availability zones will be used the same in later learning modules, so they will be omitted from the final diagrams in later learning modules.
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 Before you begin this learning module, here's what you need to know
 
@@ -38,15 +42,18 @@ Before you begin this learning module, here's what you need to know
 
     **This guide starts with the steps after [1. Create accout and login](https://docs.nhncloud.com/en/quickstarts/en/create-account/).**
 
-## Preparing to use the NHN Cloud Console
+<a id="preparing-to-use-the-nhn-cloud-console"></a>
+## Preparing to use the NHN Cloud Console { #preparing-to-use-the-nhn-cloud-console }
 
-### Step 1. Access the NHN Cloud Console
+<a id="step-1-access-the-nhn-cloud-console"></a>
+### Step 1. Access the NHN Cloud Console { #step-1-access-the-nhn-cloud-console }
 
 1. Log in to the NHN Cloud homepage[(https://www.nhncloud.com)](https://www.nhncloud.com/).
 2. In the top menu, click **CONSOLE**.
 3. In a new browser window or tab, view the **NHN Cloud Console page**.
 
-### Step 2. Create an organization
+<a id="step-2-create-an-organization"></a>
+### Step 2. Create an organization { #step-2-create-an-organization }
 
 1. **Create an organization** located at the top of the NHN Cloud console. Click the **+** next to it.
 2. In the Create organization window, enter the information below, then click **OK**.
@@ -58,7 +65,8 @@ Before you begin this learning module, here's what you need to know
     * If you already have an organization created
         * If you already have an organization created, you can click **+ Create organization**at the bottom of the organization list to proceed with the actions below.
 
-### Step 3. Create a project
+<a id="step-3-create-a-project"></a>
+### Step 3. Create a project { #step-3-create-a-project }
 
 1. **On the Organizations tab**located at the top of the NHN Cloud console, click `MyORG`. If you have a single organization, it is automatically selected.
 2. Click **+** next to **Create new project** on the right side of the Selected organization tab.
@@ -67,20 +75,24 @@ Before you begin this learning module, here's what you need to know
 4. In the notification window, click **OK**.
 5. View the dashboard and console screens of the project you created.
 
-### Step 4. Select a region
+<a id="step-4-select-a-region"></a>
+### Step 4. Select a region { #step-4-select-a-region }
 
 1. Move your mouse cursor to the **Korea (Pangyo) region** located at the top right of the NHN Cloud console.
 2. In the list of regions, click `Korea (Pyeongchon) region`.
 
-## Reference sites
+<a id="reference-sites"></a>
+## Reference sites { #reference-sites }
 
 * [Console policy guide](https://docs.nhncloud.com/en/nhncloud/en/console-guide/)
 * [Resource Provision Policy](https://docs.nhncloud.com/en/nhncloud/en/resource-policy/)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [1. Create account and login](https://docs.nhncloud.com/en/quickstarts/en/create-account/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [3. IAM accounts and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/)

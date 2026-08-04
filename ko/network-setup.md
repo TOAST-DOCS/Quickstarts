@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=c652acf1596c -->
+
 # 네트워크 설정과 인스턴스 생성
 **Quickstarts > 4. 네트워크 설정과 인스턴스 생성**
 
 이번 학습 모듈에서는 NHN Cloud에서 Linux 기반 웹 서버를 생성해 원격 접속하여 구동하는 방법을 다룹니다. NHN Cloud는 사용자 친화적인 인터페이스와 다양한 클라우드 리소스를 통해 누구나 쉽게 안정적이고 효율적인 IT 환경을 구축할 수 있도록 지원합니다.
 
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
-## 학습 목표
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다. 
 
@@ -24,7 +27,8 @@
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합니다.
 
@@ -40,9 +44,11 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 **본 가이드는 [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/) 이후 단계부터 시작합니다.**
 
-## 인스턴스 생성을 위한 준비
+<a id="preparing-to-create-an-instance"></a>
+## 인스턴스 생성을 위한 준비 { #preparing-to-create-an-instance }
 
-### 단계 1. 기본 인프라 서비스 활성화하기
+<a id="step-1-enable-basic-infrastructure-services"></a>
+### 단계 1. 기본 인프라 서비스 활성화하기 { #step-1-enable-basic-infrastructure-services }
 
 1. NHN Cloud 콘솔에 접속한 후, 상단 메뉴에서 실습에 사용할 조직(`MyORG`), 프로젝트(`MyPRJ`), 그리고 `한국(평촌) 리전`을 선택했는지 확인합니다.
 2. `MyPRJ` 오른쪽에 위치한 **서비스 선택**을 클릭합니다.
@@ -55,7 +61,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * 설정한 리전에 따라 일부 서비스는 제공되지 않을 수 있습니다.
         * Instance 서비스를 활성화하면 관련된 기본 인프라 서비스가 함께 활성화됩니다.
 
-### 단계 2. 기본 네트워크 설정
+<a id="step-2-basic-network-settings"></a>
+### 단계 2. 기본 네트워크 설정 { #step-2-basic-network-settings }
 
 > 인스턴스 원격 접속에 필요한 기본적인 네트워크 리소스 VPC, 서브넷, 라우팅 테이블의 이름을 설정합니다.
 
@@ -75,7 +82,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 이름: `MyRT`
 12. 성공 창에서 **확인**을 클릭합니다.
 
-### 단계 3. Linux 인스턴스 생성하기
+<a id="step-3-create-a-linux-instance"></a>
+### 단계 3. Linux 인스턴스 생성하기 { #step-3-create-a-linux-instance }
 
 1. 왼쪽 메뉴에서 **Compute - Instance**를 클릭합니다.
 2. **인스턴스 생성**을 클릭합니다.
@@ -131,15 +139,18 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * 키페어를 생성하면 자동으로 해당 키페어 값이 선택됩니다.
         * 자세한 내용은 [키페어 사용자 가이드](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#key-pair)를 참고하세요.
 
-## 인스턴스 접속 및 Nginx 웹 서버 구동
+<a id="connecting-to-an-instance-and-running-an-nginx-web-server"></a>
+## 인스턴스 접속 및 Nginx 웹 서버 구동 { #connecting-to-an-instance-and-running-an-nginx-web-server }
 
-### 단계 1. SSH 원격 접속하기
+<a id="step-1-get-an-ssh-remote-connection"></a>
+### 단계 1. SSH 원격 접속하기 { #step-1-get-an-ssh-remote-connection }
 
 1. 왼쪽 메뉴에서 **Network - Floating IP**를 클릭합니다.
 2. 플로팅 IP 리소스 목록 중 연결된 장치가 `linux-server-basic`인 IP 주소를 **복사** 후 **기록**합니다.
 3. 아래 사용자 환경에 맞춰 SSH 원격 접속을 합니다.
 
-### Windows 사용하는 경우
+<a id="if-youre-using-windows"></a>
+### Windows 사용하는 경우 { #if-youre-using-windows }
 
 * Windows **시작**을 클릭 후 `Windows PowerShell`을 검색하여 실행합니다.
 
@@ -188,7 +199,8 @@ ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
 lsb_release -a
 ```
             
-### macOS 사용하는 경우
+<a id="if-youre-using-macos"></a>
+### macOS 사용하는 경우 { #if-youre-using-macos }
 
 * Dock에서 **터미널(Terminal)** 앱을 실행하거나, Spotlight에서 **터미널**을 검색하여 실행합니다.
 
@@ -222,7 +234,8 @@ ssh -i MyKey.pem ubuntu@복사한 linux-server-basic 플로팅 IP 주소
 lsb_release -a
 ```
 
-### 단계 2. 웹 서버 설치 및 구동하기
+<a id="step-2-get-your-web-server-up-and-running"></a>
+### 단계 2. 웹 서버 설치 및 구동하기 { #step-2-get-your-web-server-up-and-running }
 
 * 인스턴스에 원격 접속한 상태에서 아래 명령어를 입력하여 Nginx 웹 서버를 설치합니다.
 ```
@@ -245,7 +258,8 @@ curl localhost
 > <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/4.%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1_%EC%9E%91%EC%97%855%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_rv1.png">
  > </p>
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [리전 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/region-guide/)
 * [Compute Instance](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/)
@@ -263,11 +277,13 @@ curl localhost
 * [Linux](https://en.wikipedia.org/wiki/Linux)
 * [Network Interface](https://docs.nhncloud.com/ko/Network/Network%20Interface/ko/overview/)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/)
 
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)

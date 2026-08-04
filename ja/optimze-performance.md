@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=a13b4518abdb -->
+
 # 拡張性とパフォーマンスの最適化
 **Quickstarts > 10.拡張性とパフォーマンスの最適化**
 
 今回の学習モジュールでは、NHN Cloud環境でアプリケーションの拡張性と性能を最適化するためのアーキテクチャ構成方法を学習します。NHN Cloud RDSを活用し、オートスケーリング、ロードバランシングと安定的なデータ管理のための効率的で柔軟かつ拡張可能なシステムを設計することができます。
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%92%E1%85%AA%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -16,7 +19,8 @@
 * **ウェブサーバーへのアクセス設定**
     * ロードバランサーに接続されたフローティングIPを介して生成されたWebサーバーにアクセスできるように設定する
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 今回の学習モジュールを始める前に必要なものは以下の通りです。
 
@@ -32,9 +36,11 @@
 
 **本ガイドは、[9.バックアップとリカバリ](https://docs.nhncloud.com/ja/quickstarts/ja/backup-restore/)以降の段階から始まります。**
 
-## スケーリンググループとロードバランサーによるトラフィックの分散
+<a id="traffic-balancing-with-scaling-groups-and-load-balancers"></a>
+## スケーリンググループとロードバランサーによるトラフィックの分散 { #traffic-balancing-with-scaling-groups-and-load-balancers }
 
-### ステップ1.ロードバランサーを作成する
+<a id="step-1-create-a-load-balancer"></a>
+### ステップ1.ロードバランサーを作成する { #step-1-create-a-load-balancer }
 
 > Load Balancerサービスを使って`MyLB`ロードバランサーを生成した後、フローティングIPを生成して接続してみます。
 
@@ -85,7 +91,8 @@
 12. **成功**]ウィンドウで[**OK**]をクリックします。
 13. **閉じるを**クリックします。
 
-### ステップ2.オートスケーリンググループを作成する 
+<a id="step-2-create-an-auto-scaling-group"></a>
+### ステップ2.オートスケーリンググループを作成する { #step-2-create-an-auto-scaling-group }
 
 > Auto Scaleサービスを活用してスケーリンググループを作成した後、利用可能なインスタンス2つを作成します。
 
@@ -139,7 +146,8 @@
 6. コンソールウィンドウの左側のメニューから**Compute - Instance**をクリックします。
 7. Instance画面でインスタンスリストの中で`linux-server-autoscaleが`2つ生成されたことを確認します。
 
-### ステップ3.ロードバランサーを使用してトラフィックを分散させる
+<a id="step-3-use-a-load-balancer-to-distribute-traffic"></a>
+### ステップ3.ロードバランサーを使用してトラフィックを分散させる { #step-3-use-a-load-balancer-to-distribute-traffic }
 
 > `MyLB`ロードバランサーを使って複数のインスタンスにトラフィックを分散する方法を説明します。
 
@@ -168,7 +176,8 @@
         ***Mac**:`Cmd + Shift + R`
 
 
-### ステップ4.オートスケールグループの増設・削減ポリシーを適用する
+<a id="step-4-apply-the-autoscale-group-growth-and-reduction-policy"></a>
+### ステップ4.オートスケールグループの増設・削減ポリシーを適用する { #step-4-apply-the-autoscale-group-growth-and-reduction-policy }
 
 > アプリケーションの需要に応じてインスタンス数を自動調整する方法を説明します。
 
@@ -189,7 +198,8 @@
 9. Instance画面でインスタンスリストの中で`linux-server-autoscaleが`削除されていることを確認します。
 10. ウェブブラウザの更新を繰り返して**Server IP Addressの値が**維持しているlinux-server-`autoscale`インスタンスの仮想プライベートIPアドレスで出力されることを確認します。
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [Auto Scale](https://docs.nhncloud.com/ja/Compute/Auto%20Scale/ja/overview/)
 * [Load Balancer](https://docs.nhncloud.com/ja/Network/Load%20Balancer/ja/overview/)
@@ -199,10 +209,12 @@
 * [Application Layer(L7)](https://en.wikipedia.org/wiki/Application_layer)
 * [Autoscaling](https://en.wikipedia.org/wiki/Autoscaling)
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [9.バックアップと復旧](https://docs.nhncloud.com/ja/quickstarts/ja/backup-restore/)
 
-## 次のステップ
+<a id="next-step"></a>
+## 次のステップ { #next-step }
 
 * [11.コスト管理](https://docs.nhncloud.com/ja/quickstarts/ja/cost-management/)

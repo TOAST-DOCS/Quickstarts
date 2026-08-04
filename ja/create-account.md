@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=ed2d106f70f6 -->
+
 # アカウント作成とログイン
 **Quickstarts > 1.アカウントの作成とログイン**
 
 NHN Cloudを開始するには、まずアカウントを作成し、それを介してNHN Cloudコンソールにアクセスする必要があります。 アカウント作成プロセスは簡単で、必要な情報を入力し、メール認証を完了すると、すぐにアカウントを作成することができます。作成したアカウントでコンソールにアクセスすると、ユーザーフレンドリーなインターフェースを通じて様々なクラウドサービスを有効化し、効率的に管理することができます。
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -18,7 +21,8 @@ NHN Cloudを開始するには、まずアカウントを作成し、それを�
     * NHN Cloudサービスを利用するための決済手段の設定
     * 自動決済手段の登録によるスムーズなサービス運営環境の構築
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 今回の学習モジュールを始める前に必要なものは以下の通りです。
 
@@ -32,9 +36,11 @@ NHN Cloudを開始するには、まずアカウントを作成し、それを�
     * NHN Cloudアカウントを作成したり、重要な作業を行うためには、メール認証と携帯電話認証が必要です。
     * 有効なメールアドレスと本人名義の携帯電話番号が必要です。
 
-## NHN Cloudの会員登録と決済手段の登録
+<a id="sign-up-for-nhn-cloud-and-register-a-payment-method"></a>
+## NHN Cloudの会員登録と決済手段の登録 { #sign-up-for-nhn-cloud-and-register-a-payment-method }
 
-### ステップ1.会員登録とログイン
+<a id="step-1-sign-up-and-log-in"></a>
+### ステップ1.会員登録とログイン { #step-1-sign-up-and-log-in }
 
 1. NHN Cloudのウェブサイト[(https://www.nhncloud.com)](https://www.nhncloud.com)にアクセスします。
 2. 右上にある**会員登録を**クリックします。
@@ -62,7 +68,8 @@ NHN Cloudを開始するには、まずアカウントを作成し、それを�
     * (選択) 安全なサービス利用のための**2段階ログイン設定が**必要ない場合は、**"会員情報に登録されたメール、携帯電話で認証してログインします"**チェックボックスを選択解除した後、[**OK**]をクリックします。
 8. 登録が完了したら、ホームページにログインしていることを確認します。
 
-### ステップ2.支払い方法を登録する
+<a id="step-2-register-your-payment-method"></a>
+### ステップ2.支払い方法を登録する { #step-2-register-your-payment-method }
 
 1. ログインした状態で、NHN Cloudホームページの右上にある**マスクされたIDの**上にカーソルを移動します。
 2. **お支払い方法**タブをクリックします。
@@ -72,11 +79,13 @@ NHN Cloudを開始するには、まずアカウントを作成し、それを�
 6. **"購入条件の確認と定期決済の進行に同意する"**チェックボックスを選択した後、**登録を**クリックします。
 7. 別途自動決済手段の手続きを行った後、決済手段の登録を完了します。
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [NHN Cloud基本使用ガイド](https://docs.nhncloud.com/ja/nhncloud/ja/user-guide/)
 * [セキュリティポリシー](https://docs.nhncloud.com/ja/nhncloud/ja/security-policy/)
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [02-組織とプロジェクトの作成](https://docs.nhncloud.com/ja/quickstarts/ja/create-organization/)

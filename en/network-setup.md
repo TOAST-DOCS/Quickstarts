@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=c652acf1596c -->
+
 # Network setup and create instance
 **Quickstarts > 4. Network setup and create instance**
 
 In this learning module, you will learn how to create, remotely access, and run a Linux-based web server on NHN Cloud. NHN Cloud makes it easy for anyone to build a reliable and efficient IT environment with a user-friendly interface and a variety of cloud resources.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%86%AB%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to 
 
@@ -24,7 +27,8 @@ In this learning module, you'll learn to
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 To get started with NHN Cloud, you'll need to prepare the following things
 
@@ -40,9 +44,11 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 **This guide starts with the steps after [3. IAM accounts and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/).**
 
-## Preparing to create an instance
+<a id="preparing-to-create-an-instance"></a>
+## Preparing to create an instance { #preparing-to-create-an-instance }
 
-### Step 1. Enable basic infrastructure services
+<a id="step-1-enable-basic-infrastructure-services"></a>
+### Step 1. Enable basic infrastructure services { #step-1-enable-basic-infrastructure-services }
 
 1. Once you're in the NHN Cloud console, make sure you've selected the organization`(MyORG`), project`(MyPRJ)`, and `Korea (Pyeongchon) region`for your lab from the top menu.
 2. Click **Select a service**to the right of `MyPRJ`.
@@ -55,7 +61,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
         * Depending on the region you set, some services may not be available.
         * When you activate an Instance service, the related underlying infrastructure services are activated together.
 
-### Step 2. Basic Network Settings
+<a id="step-2-basic-network-settings"></a>
+### Step 2. Basic Network Settings { #step-2-basic-network-settings }
 
 > Set the names of the basic network resources VPCs, subnets, and routing tables required for remote access to instances.
 
@@ -75,7 +82,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * Name: `MyRT`
 12. In the Success window, click **OK**.
 
-### Step 3. Create a Linux instance
+<a id="step-3-create-a-linux-instance"></a>
+### Step 3. Create a Linux instance { #step-3-create-a-linux-instance }
 
 1. In the left menu, click **Compute - Instance**.
 2. Click **Create instance**.
@@ -131,15 +139,18 @@ To get started with NHN Cloud, you'll need to prepare the following things
         * When you create a key pair, the corresponding key pair value is automatically selected.
         * For more information, see [the Keyfair user guide](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#key-pair).
 
-## Connecting to an instance and running an Nginx web server
+<a id="connecting-to-an-instance-and-running-an-nginx-web-server"></a>
+## Connecting to an instance and running an Nginx web server { #connecting-to-an-instance-and-running-an-nginx-web-server }
 
-### Step 1. Get an SSH remote connection
+<a id="step-1-get-an-ssh-remote-connection"></a>
+### Step 1. Get an SSH remote connection { #step-1-get-an-ssh-remote-connection }
 
 1. In the left menu, click **Network - Floating IP**.
 2. **Copy** and **record**the IP address in the floating IP resource list where the connected device `is linux-server-basic`.
 3. Set up an SSH remote connection for the user experience below.
 
-### If you're using Windows
+<a id="if-youre-using-windows"></a>
+### If you're using Windows { #if-youre-using-windows }
 
 * Click **Start**Windows, then search for and run `Windows PowerShell`.
 
@@ -188,7 +199,8 @@ ssh -i MyKey.pem ubuntu@copy linux-server-basic floating IP address
 lsb_release -a
 ```
             
-### If you're using macOS
+<a id="if-youre-using-macos"></a>
+### If you're using macOS { #if-youre-using-macos }
 
 * Launch **the Terminal** app from the Dock, or search for **Terminal**in Spotlight and launch it.
 
@@ -222,7 +234,8 @@ ssh -i MyKey.pem ubuntu@copy linux-server-basic floating IP address
 lsb_release -a
 ```
 
-### Step 2. Get your web server up and running
+<a id="step-2-get-your-web-server-up-and-running"></a>
+### Step 2. Get your web server up and running { #step-2-get-your-web-server-up-and-running }
 
 * While remotely connected to the instance, enter the command below to install the Nginx web server.
 ```
@@ -239,7 +252,8 @@ curl localhost
     
 ![4 Network Setup and Instance Creation_Task5 Screenshot_RV1](https://github.com/user-attachments/assets/3bc07c8b-d6e2-431d-aad4-da3bfa6562e4)
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [Region Guide](https://docs.nhncloud.com/en/nhncloud/en/region-guide/)
 * [Compute Instance](https://docs.nhncloud.com/en/Compute/Instance/en/overview/)
@@ -257,11 +271,13 @@ curl localhost
 * [Linux](https://en.wikipedia.org/wiki/Linux)
 * [Network Interface](https://docs.nhncloud.com/en/Network/Network%20Interface/en/overview/)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [3. IAM accounts and governance](https://docs.alpha-nhncloud.com/en/quickstarts/en/iam-accounts/)
 
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [5. Configure Security ](https://docs.alpha-nhncloud.com/en/quickstarts/en/configure-security/)

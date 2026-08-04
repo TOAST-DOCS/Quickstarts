@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=8759a1743b7d -->
+
 # Create and attach storage
 **Quickstarts > 7. Create and attach storage**
 
 In this learning module, you will learn how to enable and use storage services through the NHN Cloud console. NHN Cloud's **storage services**provide a reliable and scalable solution for storing and managing your data.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to
 
@@ -18,7 +21,8 @@ In this learning module, you'll learn to
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 To get started with NHN Cloud, you'll need to prepare the following things
 
@@ -34,11 +38,13 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 **This guide starts after step [6. Create and connect to the database](https://docs.nhncloud.com/en/quickstarts/en/create-database/).**
 
-## Creating block storage and retrieving data
+<a id="creating-block-storage-and-retrieving-data"></a>
+## Creating block storage and retrieving data { #creating-block-storage-and-retrieving-data }
 
 > Create a block storage, connect it to a Linux instance, and query the data in the block storage.
 
-### Step 1. Create block storage and connect to a Linux instance
+<a id="step-1-create-block-storage-and-connect-to-a-linux-instance"></a>
+### Step 1. Create block storage and connect to a Linux instance { #step-1-create-block-storage-and-connect-to-a-linux-instance }
 
 > Attach the block storage resource `to the`Linux instance `linux-server-basic`that you created in Module 3.
 
@@ -56,7 +62,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * Connect to the instance: `linux-server-basic`
 8. In the Success window, click **OK**.
 
-### Step 2. Set up, format, and mount additional block storage partitions
+<a id="step-2-set-up-format-and-mount-additional-block-storage-partitions"></a>
+### Step 2. Set up, format, and mount additional block storage partitions { #step-2-set-up-format-and-mount-additional-block-storage-partitions }
 
 * While remotely connected to the Linux instance `linux-server-basic`, run the command below to create a partition `on the`block storage `MyBS`created in step 1, and then format and mount it.
 ```
@@ -107,7 +114,8 @@ Verify **that the corresponding filesystem, capacity, and mount path are retriev
 
 <p style="text-align: center; color: black;">Output screen</p>
 
-### Step 3. Create material in additional block storage
+<a id="step-3-create-material-in-additional-block-storage"></a>
+### Step 3. Create material in additional block storage { #step-3-create-material-in-additional-block-storage }
 
 * While remotely connected to `linux-server-basic`, run the command below to create block storage.
 ```bash
@@ -128,11 +136,13 @@ cat /mnt/vdb/employees.csv
 
 <p style="text-align: center; color: black;">Output screen</p>
 
-## Create object storage and retrieve data
+<a id="create-object-storage-and-retrieve-data"></a>
+## Create object storage and retrieve data { #create-object-storage-and-retrieve-data }
 
 > Enable the Object Storage service to create a container and upload objects to it. Save the object to your Linux instance and then connect to it to see if the data is output.
 
-### Step 1. Enable the Object Storage service and create a container
+<a id="step-1-enable-the-object-storage-service-and-create-a-container"></a>
+### Step 1. Enable the Object Storage service and create a container { #step-1-enable-the-object-storage-service-and-create-a-container }
 
 1. Click the **"Select Services"** tab located to the right of `your MyPRJ` project.
 2. On the screen that appears after you click **Select Services**, click **All Services - Storage - Object Storage**.
@@ -147,7 +157,8 @@ cat /mnt/vdb/employees.csv
     * Encryption settings: `Disabled`
 7. In the Success window, click **OK**.
 
-### Step 2. Change the Linux instance web source using object storage
+<a id="step-2-change-the-linux-instance-web-source-using-object-storage"></a>
+### Step 2. Change the Linux instance web source using object storage { #step-2-change-the-linux-instance-web-source-using-object-storage }
 
 * Run a new **terminal** or **PowerShell**in your work environment.
 * Use the command below to create the web-sample directory and save the index.html file.
@@ -254,7 +265,8 @@ chmod +x /home/ubuntu/service-setting.sh
         * **Mac**: `Cmd + Shift + R`
 
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [Storage](https://en.wikipedia.org/wiki/Cloud_storage)
 * [Block Storage](https://docs.nhncloud.com/en/Storage/Block%20Storage/en/overview/)
@@ -267,10 +279,12 @@ chmod +x /home/ubuntu/service-setting.sh
 * [Mount](https://en.wikipedia.org/wiki/Mount_(computing))
 * [chmod](https://en.wikipedia.org/wiki/Chmod)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [6. Create and attach databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [8. Configure monitoring](https://docs.nhncloud.com/en/quickstarts/en/configure-monitoring/)

@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=b5f49994b6df -->
+
 # Monitoring settings
 **Quickstarts > 8. Monitoring settings**
 
 In this learning module, you will learn more about the Monitoring service provided by the NHN Cloud console and get hands-on experience with it. NHN Cloud's Cloud Monitoring service helps you monitor the health of infrastructure and applications running in a cloud environment in real time and detect anomalies quickly.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to
 
@@ -21,7 +24,8 @@ In this learning module, you'll learn to
         * Detect abnormal conditions through the NHN Cloud notification system
         * Set up conditional notifications, such as email, SMS, and more
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 Before working through this learning module, we recommend that you do the following
 
@@ -37,9 +41,11 @@ Before working through this learning module, we recommend that you do the follow
 
     **This guide starts after the steps in [7. Create and set up storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/).**
 
-## Monitoring cloud resources with the Cloud Monitoring service
+<a id="monitoring-cloud-resources-with-the-cloud-monitoring-service"></a>
+## Monitoring cloud resources with the Cloud Monitoring service { #monitoring-cloud-resources-with-the-cloud-monitoring-service }
 
-### Step 1. Create an instance detailed metrics dashboard with Cloud Monitoring
+<a id="step-1-create-an-instance-detailed-metrics-dashboard-with-cloud-monitoring"></a>
+### Step 1. Create an instance detailed metrics dashboard with Cloud Monitoring { #step-1-create-an-instance-detailed-metrics-dashboard-with-cloud-monitoring }
 
 1. From the top menu of the NHN Cloud console, select the organization`(MyORG`), project`(MyPRJ`), and `Korea (Pyeongchon) region`for the lab.
 2. Click **Monitoring - Cloud Monitoring**in the left menu of the console window.
@@ -79,13 +85,15 @@ Before working through this learning module, we recommend that you do the follow
         * Metric topics: `Network data sent per device, network data received per device`
 11. Verify that the widget added `to MyDashboard`looks normal.
 
-### Step 2. Check out your project's custom dashboard
+<a id="step-2-check-out-your-projects-custom-dashboard"></a>
+### Step 2. Check out your project's custom dashboard { #step-2-check-out-your-projects-custom-dashboard }
 
 1. Click the Project tab with the name `MyProject` at the top of the console window.
 2. From the `MyProject` main screen, click the `Custom dashboard` tab.
 3. Verify that the widget `in MyDashboard`that you added in step 1 looks normal.
 
-### Step 3. Set up email notifications when an instance experiences a CPU overload
+<a id="step-3-set-up-email-notifications-when-an-instance-experiences-a-cpu-overload"></a>
+### Step 3. Set up email notifications when an instance experiences a CPU overload { #step-3-set-up-email-notifications-when-an-instance-experiences-a-cpu-overload }
 
 1. On the **Cloud Monitoring** service screen, click the **Manage alerts** tab.
 2. Cick **Notification settings**.
@@ -120,7 +128,8 @@ Before working through this learning module, we recommend that you do the follow
         * The toggle button disabled state is a white circle within an ellipse moved to the left. When the toggle is disabled, the color is gray.
 
 
-### Step 4. Check the instance's history of CPU overload events     
+<a id="step-4-check-the-instances-history-of-cpu-overload-events"></a>
+### Step 4. Check the instance's history of CPU overload events { #step-4-check-the-instances-history-of-cpu-overload-events }
 
 1. Click **Network - Floating IP** in the left menu of the console window.
 2. **Copy** and **record**the IP address in the floating IP resource list where the connected device is `linux-server-basic`.
@@ -131,19 +140,17 @@ Before working through this learning module, we recommend that you do the follow
 7. **On the Manage alerts screen,**click the **Alert occurrence history** tab.
 8. Click **Search** within the body to see the history of the alert.
 
-## Other considerations
+<a id="references"></a>
+## References { #references }
 
-* [Metric](https://en.wikipedia.org/wiki/Metric_system)
-* [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
-* [Metric Dictionary](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/metric-dictionary/)
-* [Cloud Monitoring](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/overview/)
-* [CloudTrail](https://docs.nhncloud.com/en/Governance%20&%20Audit/CloudTrail/en/overview/)
-* [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
+<!-- TODO: translate body -->
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [7. Create and connect storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [9. Backup and restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/)

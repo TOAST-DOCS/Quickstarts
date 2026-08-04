@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=38a5ba220ced -->
+
 # セキュリティ設定
 **Quickstarts > 5.セキュリティ設定**
 
 今回の学習モジュールでは、NHN Cloudでセキュリティを設定・管理する基本概念と主要機能を段階的に案内し、安全で信頼できるクラウド環境を構築する方法を学習します。NHN Cloudはユーザーのデータを安全に保護し、クラウドリソースを効率的に管理できる様々なセキュリティ機能を提供しています。
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A1%E1%86%AB%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_ja.png)
 
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -20,7 +23,8 @@
 
 <p style="text-align: center; color: black;">最終構成図</p>
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 NHN Cloudを開始するためには、次の事項を準備する必要があります。
 
@@ -35,7 +39,8 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 
 > 今回の学習モジュールでは、4つのシナリオを通して様々なセキュリティ設定方法を学習します。
 
-## シナリオ1.ウェブサーバーインスタンスにセキュリティルールを適用し、外部からのアクセスを許可する
+<a id="scenario-1-apply-security-rules-to-a-web-server-instance-to-allow-external-access"></a>
+## シナリオ1.ウェブサーバーインスタンスにセキュリティルールを適用し、外部からのアクセスを許可する { #scenario-1-apply-security-rules-to-a-web-server-instance-to-allow-external-access }
 
 1. NHN Cloudコンソール上部のメニューから実習に使用する組織`(MyORG)`、プロジェクト(`MyPRJ)`、そして`韓国(平村)リージョンを`選択します。
 2. 左側のメニューから**Network - Floating IP を**クリックします。
@@ -65,7 +70,8 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 <br></br>
 ![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%851%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png)
 
-## シナリオ2.ウェブサーバーインスタンスに許可されたIPのみSSH、ICMP(Pingなど)通信を可能にする
+<a id="scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance"></a>
+## シナリオ2.ウェブサーバーインスタンスに許可されたIPのみSSH、ICMP(Pingなど)通信を可能にする { #scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance }
 
 1. 左側のメニューから**Network - Security Groupsを**クリックします。
 2. **Security Groups**画面で`MySG-SSHを`クリックして選択します。
@@ -88,7 +94,8 @@ ping (linux-server-basic フローティングIPアドレス)
 ```
 Ping通信が許可されていることを確認します。
 
-## シナリオ3.Network ACLの設定で特定のネットワーク帯域をブロックする 
+<a id="scenario-3-block-a-specific-network-band-with-network-acl-settings"></a>
+## シナリオ3.Network ACLの設定で特定のネットワーク帯域をブロックする { #scenario-3-block-a-specific-network-band-with-network-acl-settings }
 
 1. コンソールウィンドウの左側のメニューから**Network - Network ACLを**クリックします。
 2. **Network ACL > 管理画面で** **+ Network ACL作成を**クリックします。
@@ -117,7 +124,8 @@ ping (linux-server-basic フローティングIPアドレス)
 * Http通信がブロックされていることを確認します。
 
 
-## シナリオ4.Network ACL Ruleを追加適用し、外部アクセスを許可する
+<a id="scenario-4-apply-additional-network-acl-rules-to-allow-external-access"></a>
+## シナリオ4.Network ACL Ruleを追加適用し、外部アクセスを許可する { #scenario-4-apply-additional-network-acl-rules-to-allow-external-access }
 
 1. コンソールウィンドウの左側のメニューから**Network - Network ACLを**クリックします。
 2. `MyACLを`クリックした後、下部の分割ウィンドウで**ACL Rule**タブをクリックします。
@@ -160,7 +168,8 @@ ping (linux-server-basic フローティングIPアドレス)
 <br></br>
 ![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%854.png)
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [セキュリティグループ](https://docs.nhncloud.com/ja/Network/Security%20Groups/ja/overview/)
 * [Network ACL](https://docs.nhncloud.com/ja/Network/Network%20ACL/ja/overview/)
@@ -172,10 +181,12 @@ ping (linux-server-basic フローティングIPアドレス)
 * [ICMP(Internet Control Message Protocol)](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
 * [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [4. ネットワーク設定とインスタンス作成](https://docs.nhncloud.com/ja/quickstarts/ja/network-setup/)
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [6. データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)

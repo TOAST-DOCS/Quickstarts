@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=84fc7829b7c0 -->
+
 # バックアップとリカバリ
 **Quickstarts > 9.バックアップと復旧**
 
 今回の学習モジュールでは、NHN Cloud環境でアプリケーションとデータを安全に保護し、復旧する方法を学習します。ブロックストレージの複製、インスタンスイメージの作成、イメージベースの作成を通じて、データ損失を防止し、迅速な復旧が可能なシステムを構築します。
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -17,7 +20,8 @@
 
 ![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 今回の学習モジュールを始める前に必要なものは以下の通りです。
 
@@ -33,9 +37,11 @@
 
 **本ガイドは、[8.モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/configure-monitoring/)以降の段階から始まります。**
 
-## インスタンスイメージによるインスタンス作成とブロックストレージの接続
+<a id="creating-instances-and-attaching-block-storage-via-instance-images"></a>
+## インスタンスイメージによるインスタンス作成とブロックストレージの接続 { #creating-instances-and-attaching-block-storage-via-instance-images }
 
-### ステップ1.インスタンスイメージを作成する
+<a id="step-1-create-an-instance-image"></a>
+### ステップ1.インスタンスイメージを作成する { #step-1-create-an-instance-image }
 
 > 前の学習モジュールで生成した`linux-server-basic`インスタンスのイメージを生成してみます。実行中のインスタンスはイメージ生成時、整合性が保証されないので、インスタンスを停止してからイメージを生成します。
 
@@ -58,7 +64,8 @@
 10. コンソールウィンドウの左側のメニューから**Compute - Imageを**クリックします。
 11. Image画面のイメージリストで`linux-server-basic-imageが`生成中であることを確認します。生成が完了すると、そのイメージのステータス表示などが緑色で表示されます。
 
-### ステップ2.インスタンスイメージで新規インスタンスを作成する
+<a id="step-2-create-a-new-instance-with-an-instance-image"></a>
+### ステップ2.インスタンスイメージで新規インスタンスを作成する { #step-2-create-a-new-instance-with-an-instance-image }
 
 > ステップ1で生成した`linux-server-basic-image`インスタンスイメージを使って`linux-server-recovery`インスタンスを新しく生成してみます。
 
@@ -93,7 +100,8 @@
 4. インスタンス作成情報ウィンドウで**インスタンス作成を**クリックします。
 5. インスタンス作成作業が行われます。数分程度でインスタンス作成が完了します。
 
-### ステップ3.作成したインスタンスに接続する
+<a id="step-3-access-the-instance-you-created"></a>
+### ステップ3.作成したインスタンスに接続する { #step-3-access-the-instance-you-created }
 
 > ステップ2で作成した`linux-server-recovery`インスタンスのフローティングIPアドレスで接続する方法を説明します。
 
@@ -118,7 +126,8 @@ ssh -i MyKey.pem ubuntu@コピーしたlinux-server-recoveryのフローティ�
 lsb_release -a
 ```
 
-### ステップ4.既存のブロックストレージを複製してインスタンスに接続する
+<a id="step-4-clone-an-existing-block-storage-and-attach-it-to-an-instance"></a>
+### ステップ4.既存のブロックストレージを複製してインスタンスに接続する { #step-4-clone-an-existing-block-storage-and-attach-it-to-an-instance }
 
 > 前の学習モジュールで生成した`MyBS`ブロックストレージを複製した後、`linux-server-recovery`インスタンスと連結して`MyBS`ブロックストレージのデータを照会してみます。
 
@@ -155,7 +164,8 @@ cat /mnt/vdb/employees.csv
 
 データベースの結果値がcsvファイルで照会されることを確認します。
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [イメージ](https://docs.nhncloud.com/ja/Compute/Image/ja/overview/)
 * [画像生成](https://docs.nhncloud.com/ja/Compute/Instance/ja/console-guide/#_13)
@@ -163,10 +173,12 @@ cat /mnt/vdb/employees.csv
 * [Snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))
 * [Backup](https://en.wikipedia.org/wiki/Backup)
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [8.モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/configure-monitoring/)
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [10.拡張性とパフォーマンスの最適化](https://docs.nhncloud.com/ja/quickstarts/ja/optimze-performance/)
