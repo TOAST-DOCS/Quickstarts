@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=b5f49994b6df -->
+
 # 모니터링 설정
 **Quickstarts > 8. 모니터링 설정**
 
 이번 학습 모듈에서는 NHN Cloud 콘솔에서 제공하는 Monitoring 서비스에 대해 자세히 알아보고 직접 실습해 봅니다. NHN Cloud의 Cloud Monitoring 서비스는 클라우드 환경에서 운영되는 인프라와 애플리케이션의 상태를 실시간으로 모니터링하고 이상 징후를 신속하게 감지할 수 있도록 지원합니다.
 
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EC%84%A4%EC%A0%95.png)
-## 학습 목표
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
 
@@ -26,7 +29,8 @@
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 이번 학습 모듈을 실습하기 전에 다음을 수행하는 것이 좋습니다.
 
@@ -42,9 +46,11 @@
 
     **본 가이드는 [7. 스토리지 생성 및 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-storage/) 이후 단계부터 시작됩니다.**
 
-## Cloud Monitoring 서비스를 통한 클라우드 리소스 모니터링
+<a id="monitoring-cloud-resources-with-the-cloud-monitoring-service"></a>
+## Cloud Monitoring 서비스를 통한 클라우드 리소스 모니터링 { #monitoring-cloud-resources-with-the-cloud-monitoring-service }
 
-### 단계 1. Cloud Monitoring으로 인스턴스 상세 지표 대시보드 만들기
+<a id="step-1-create-an-instance-detailed-metrics-dashboard-with-cloud-monitoring"></a>
+### 단계 1. Cloud Monitoring으로 인스턴스 상세 지표 대시보드 만들기 { #step-1-create-an-instance-detailed-metrics-dashboard-with-cloud-monitoring }
 
 1. NHN Cloud 콘솔 상단 메뉴에서 실습에 사용할 조직(`MyORG`), 프로젝트(`MyPRJ`), 그리고 `한국(평촌) 리전`을 선택합니다.
 2. 콘솔 창 왼쪽 메뉴 중 **Monitoring - Cloud Monitoring**을 클릭합니다.
@@ -83,13 +89,15 @@
         * 지표 항목: `장치별 네트워크 데이터 송신, 장치별 네트워크 데이터 수신`
 11. `MyDashboard`에 추가된 위젯이 정상적으로 보이는지 확인합니다.
 
-### 단계 2. 프로젝트 커스텀 대시보드 확인하기
+<a id="step-2-check-out-your-projects-custom-dashboard"></a>
+### 단계 2. 프로젝트 커스텀 대시보드 확인하기 { #step-2-check-out-your-projects-custom-dashboard }
 
 1. 콘솔 창 상단에 `MyProject` 이름의 프로젝트 탭을 클릭합니다.
 2. `MyProject` 메인 화면에서 `커스텀 대시보드` 탭을 클릭합니다.
 3. 단계 1에서 추가한 `MyDashboard`의 위젯이 정상적으로 보이는지 확인합니다.
 
-### 단계 3. 인스턴스에 CPU 과부하 발생 시 이메일로 알림 설정하기
+<a id="step-3-set-up-email-notifications-when-an-instance-experiences-a-cpu-overload"></a>
+### 단계 3. 인스턴스에 CPU 과부하 발생 시 이메일로 알림 설정하기 { #step-3-set-up-email-notifications-when-an-instance-experiences-a-cpu-overload }
 
 1. **Cloud Monitoring** 서비스 화면에서 **알림 관리** 탭을 클릭합니다.
 2. **+ 알림 설정**을 클릭합니다.
@@ -123,7 +131,8 @@
         * 토글 버튼 비활성화 상태는 타원 내에 흰색 원이 왼쪽으로 이동한 상태입니다. 토글이 비활성화되면 색상이 회색으로 표시됩니다.
 
 
-### 단계 4. 인스턴스의 CPU 과부하 이벤트 발생 이력 확인하기     
+<a id="step-4-check-the-instances-history-of-cpu-overload-events"></a>
+### 단계 4. 인스턴스의 CPU 과부하 이벤트 발생 이력 확인하기 { #step-4-check-the-instances-history-of-cpu-overload-events }
 
 1. 콘솔창 왼쪽 메뉴 중 **Network - Floating IP** 를 클릭합니다.
 2. 플로팅 IP 리소스 목록 중 연결된 장치가 `linux-server-basic`인 IP 주소를 **복사** 후 **기록**합니다.
@@ -134,7 +143,8 @@
 7. **알림 관리 화면**에서 **알림 발생 이력** 탭을 클릭합니다.
 8. 본문 내에 **검색**을 클릭하여 알림 발생 이력을 확인합니다.
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [Metric](https://en.wikipedia.org/wiki/Metric_system)
 * [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
@@ -143,10 +153,12 @@
 * [CloudTrail](https://docs.nhncloud.com/ko/Governance%20&%20Audit/CloudTrail/ko/overview/)
 * [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [7. 스토리지 생성 및 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-storage/)
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)

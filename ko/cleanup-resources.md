@@ -1,9 +1,12 @@
+<!-- pre-align:aligned sig=01f013eae5b3 -->
+
 # 리소스 정리 및 삭제
 **Quickstarts > 12. 리소스 정리 및 삭제**
 
 이번 학습 모듈에서는 NHN Cloud에서 사용하지 않는 리소스와 프로젝트 및 조직을 삭제하는 방법을 알아봅니다. 이를 통해 불필요한 비용 발생을 방지하고 클라우드 환경을 최적화할 수 있습니다.
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EC%A0%95%EB%A6%AC%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.png)
-## 학습 목표
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 아래와 같습니다.
 
@@ -16,7 +19,8 @@
 * **조직 삭제**
     * 조직을 삭제하는 절차
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합니다.
 
@@ -32,9 +36,11 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 **본 가이드는 [11.비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/) 이후 단계부터 시작됩니다.**
 
-## 사용 중인 모든 리소스 삭제하기 
+<a id="delete-all-resources-in-use"></a>
+## 사용 중인 모든 리소스 삭제하기 { #delete-all-resources-in-use }
 
-### 단계 1. 조직에서 사용 중인 리소스 확인하기
+<a id="step-1-check-the-resources-your-organization-is-using"></a>
+### 단계 1. 조직에서 사용 중인 리소스 확인하기 { #step-1-check-the-resources-your-organization-is-using }
 
 > Resource Watcher를 통해 `MyORG` 조직이 사용 중인 모든 리소스를 한 눈에 볼 수 있습니다.
 
@@ -45,7 +51,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 5. **검색**을 클릭합니다.
 6. 검색 결과 화면에서 현재 사용 중인 리소스를 확인합니다.
 
-### 단계 2. 기본 인스턴스 리소스 삭제하기
+<a id="step-2-delete-the-default-instance-resource"></a>
+### 단계 2. 기본 인스턴스 리소스 삭제하기 { #step-2-delete-the-default-instance-resource }
 
 > 단계 2~8은 지금까지 사용한 리소스를 삭제하는 방법을 안내합니다.
 
@@ -74,7 +81,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 추가 블록 스토리지, 플로팅 IP 삭제
         * 오브젝트 스토리지에 저장된 자료를 삭제할 경우, 사용자가 내용을 확인할 수 있도록 **삭제 확인 절차**를 진행합니다.
 
-### 단계 3. Auto Scale 리소스 삭제하기
+<a id="step-3-delete-the-auto-scale-resource"></a>
+### 단계 3. Auto Scale 리소스 삭제하기 { #step-3-delete-the-auto-scale-resource }
 
 1. 콘솔창 왼쪽 메뉴 중 **Compute - Auto Scale**을 클릭합니다.
 2. Auto Scale 그룹 목록에서 `MyASGroup` 스케일링 그룹을 선택합니다.
@@ -82,7 +90,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 4. **스케일링 그룹 삭제** 창에서 **확인**을 클릭합니다.
 5. 성공 창에서 **확인**을 클릭합니다.
 
-### 단계 4. Image 리소스 삭제하기
+<a id="step-4-delete-the-image-resource"></a>
+### 단계 4. Image 리소스 삭제하기 { #step-4-delete-the-image-resource }
 
 1. 콘솔창 왼쪽 메뉴 중 **Compute - Image**를 클릭합니다.
 2. 이미지 목록에서 `linux-server-basic-image` 이미지를 선택합니다.
@@ -90,7 +99,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 4. **이미지 삭제** 창에서 **확인**을 클릭합니다.
 5. 성공 창에서 **확인**을 클릭합니다.
 
-### 단계 5. Object Storage 리소스 삭제하기
+<a id="step-5-delete-the-object-storage-resource"></a>
+### 단계 5. Object Storage 리소스 삭제하기 { #step-5-delete-the-object-storage-resource }
 
 1. 콘솔창 왼쪽 메뉴 중 **Storage - Object Storage**를 클릭합니다.
 2. 오브젝트 스토리지 목록에서 왼쪽 `myobs`의 체크박스를 선택합니다.
@@ -106,7 +116,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 오브젝트 스토리지 자료 삭제 확인
         * 오브젝트 스토리지에 저장된 자료를 삭제할 경우, 사용자가 내용을 확인할 수 있도록 **삭제 확인 절차**를 진행합니다.
 
-### 단계 6. 네트워크 리소스 삭제하기
+<a id="step-6-delete-a-network-resource"></a>
+### 단계 6. 네트워크 리소스 삭제하기 { #step-6-delete-a-network-resource }
 
 1. 콘솔창 왼쪽 메뉴 중 **Network - Load Balancer**를 클릭합니다.
 2. 로드 밸런서 목록에서 `MyLB`를 선택합니다.
@@ -135,7 +146,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * default 보안 그룹은 NHN Cloud에서 사용하는 기본 보안 그룹으로 보안 그룹 이름을 변경하거나 삭제할 수 없습니다. 단, 기본 보안 그룹 내에 보안 규칙은 생성하거나 삭제할 수 있습니다.
 
 
-### 단계 7. 모니터링 리소스 삭제하기
+<a id="step-7-delete-the-monitoring-resource"></a>
+### 단계 7. 모니터링 리소스 삭제하기 { #step-7-delete-the-monitoring-resource }
 
 1. 콘솔창 왼쪽 메뉴 중 **Monitoring - Cloud Monitoring**을 클릭합니다.
 2. **대시보드** 탭 내에 `MyDashboard` 세부 탭에서 오른쪽 편집 모드의 토글 스위치를 클릭하여 활성화합니다.
@@ -149,7 +161,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 10. **알림 삭제**를 클릭합니다.
 11. 알림 삭제 진행 확인 알림 창에서 **확인**을 클릭합니다.
 
-### 단계 8. 키페어 리소스 삭제하기
+<a id="step-8-delete-the-keyfair-resource"></a>
+### 단계 8. 키페어 리소스 삭제하기 { #step-8-delete-the-keyfair-resource }
 
 1. 콘솔창 왼쪽 메뉴 중 **Compute - Key Pair**를 클릭합니다.
 2. 키페어 목록에서 `MyKey`의 체크박스를 선택합니다.
@@ -161,7 +174,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 키페어 적용 범위
         * 키페어는 프로젝트 단위 관리가 아닌 **사용자의 계정 단위**로 관리됩니다. 다른 프로젝트에서 키페어를 계속 사용하고 싶으면 해당 키를 삭제하지 않아도 됩니다.
 
-### 단계 9. 서비스 비활성화 및 프로젝트 삭제하기
+<a id="step-9-deactivate-the-service-and-delete-the-project"></a>
+### 단계 9. 서비스 비활성화 및 프로젝트 삭제하기 { #step-9-deactivate-the-service-and-delete-the-project }
 
 1. NHN Cloud 콘솔 상단에 위치한 **프로젝트**탭에서 `MyPRJ`를 클릭합니다.
 2. 프로젝트에서 **프로젝트 관리** 탭을 클릭합니다.
@@ -178,7 +192,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 10. **프로젝트 삭제 확인** 창에서 **확인**을 클릭합니다.
 11. **프로젝트 삭제 성공** 알림창에서 **확인**을 클릭합니다.
 
-### 단계 10. 조직 삭제하기
+<a id="step-10-delete-an-organization"></a>
+### 단계 10. 조직 삭제하기 { #step-10-delete-an-organization }
 
 1. NHN Cloud 콘솔 상단에 위치한 **조직** 탭에서 `MyORG`를 클릭합니다.
 2. 조직 대시보드 화면에서 **조직 관리** 탭을 클릭합니다.
@@ -190,7 +205,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 <br></br>
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [인스턴스 상태 변경(삭제)](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_11)
 * [서브넷 삭제](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_10)
@@ -198,6 +214,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 * [블록 스토리지 삭제](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/console-guide/#_3)
 * [오브젝트 스토리지 컨테이너 삭제](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/console-guide/#_7)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [11. 비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/)

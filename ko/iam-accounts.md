@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=57750b26efac -->
+
 # IAM 계정과 거버넌스 설정
 **Quickstarts > 3. IAM 계정과 거버넌스 설정**
 
 이번 학습 모듈에서는 거버넌스 설정과 IAM(Identity and Access Management) 계정 관리 방법에 대해 다룹니다. 이를 통해 조직 내 자원을 효율적으로 관리하고, 권한 기반의 액세스 제어를 설정해 보안과 생산성을 극대화할 수 있습니다.
 
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/IAM%20%EA%B3%84%EC%A0%95%EA%B3%BC%20%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4%20%EC%84%A4%EC%A0%95.png)
-## 학습 목표
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다. 
 
@@ -19,7 +22,8 @@
     * IAM 콘솔 도메인으로 IAM 계정 접속
 <br></br>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
 
@@ -35,9 +39,11 @@
 
     **본 가이드는 [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/) 이후 단계부터 시작합니다.**
 
-## IAM 계정 접속을 위한 준비
+<a id="prepare-for-iam-account-access"></a>
+## IAM 계정 접속을 위한 준비 { #prepare-for-iam-account-access }
 
-### 단계 1. IAM 콘솔 도메인 주소 설정하기
+<a id="step-1-set-the-iam-console-domain-address"></a>
+### 단계 1. IAM 콘솔 도메인 주소 설정하기 { #step-1-set-the-iam-console-domain-address }
 
 1. NHN Cloud 콘솔에 접속한 뒤 상단 메뉴에서 `MyORG` 조직을 클릭합니다.
 2. 조직 대시보드 화면에서 **조직 관리** 탭을 클릭합니다.
@@ -70,7 +76,8 @@
                 * 예: `parent-org`
             * 도메인 이름은 설정 후에도 변경 가능합니다.
 
-### 단계 2. IAM 2차 인증 로그인 보안 설정하기
+<a id="step-2-set-up-iam-two-factor-authentication-login-security"></a>
+### 단계 2. IAM 2차 인증 로그인 보안 설정하기 { #step-2-set-up-iam-two-factor-authentication-login-security }
 
 1. **조직 관리** 탭에서 하위 탭 메뉴 중 **거버넌스 설정** 탭을 클릭합니다.
 2. **IAM 거버넌스 설정 > 로그인 보안 설정** 항목에 **설정 변경**을 클릭합니다.
@@ -81,7 +88,8 @@
 4. **알림** 창에서 **확인**을 클릭합니다.
 5. **설정 저장 알림** 창에서 **확인**을 클릭합니다.
 
-### 단계 3. IAM 계정 만들기
+<a id="step-3-create-an-iam-account"></a>
+### 단계 3. IAM 계정 만들기 { #step-3-create-an-iam-account }
 
 1. 콘솔 창 상단 메뉴에서 `MyORG` 조직을 클릭합니다.
 2. 조직 대시보드 화면에서 **멤버 관리** 탭을 클릭합니다.
@@ -105,7 +113,8 @@
     * 메일: `사용자 이메일 주소`
 8. IAM 계정 목록에서 생성한 2개의 ID를 확인합니다.
 
-### 단계 4. IAM 계정 역할 부여
+<a id="step-4-grant-iam-account-roles"></a>
+### 단계 4. IAM 계정 역할 부여 { #step-4-grant-iam-account-roles }
 
 1. IAM 멤버 목록에서 이름이 `myproject 관리자`인 `myproject-admin` ID를 클릭하여 선택합니다.
 2. 하단 분할 화면에서 **역할 수정**을 클릭합니다.
@@ -123,7 +132,8 @@
     * IAM 기본 역할
         * IAM 생성 시 기본 역할은 NONE(Default Role)로 설정되어 있습니다. 해당 역할은 조직 대시보드 읽기, 조직 기본 설정 읽기 역할을 할 수 있습니다.
 
-### 단계 5. IAM 계정 비밀번호 설정하기
+<a id="step-5-set-your-iam-account-password"></a>
+### 단계 5. IAM 계정 비밀번호 설정하기 { #step-5-set-your-iam-account-password }
 
 1. NHN Cloud 콘솔에 접속한 뒤 상단 메뉴에서 `MyORG` 조직을 클릭합니다.
 2. 콘솔 창 상단 메뉴에서 `MyORG` 조직을 클릭합니다.
@@ -144,7 +154,8 @@
 11. **새 비밀번호가 저장되었습니다.** 알림창이 나오면 **확인**을 클릭합니다.
 12. 위 작업단계와 동일하게 하여 IAM 멤버 목록에서 이름이 <span style="color:rgb(34, 34, 34);">`myproject 예산담당자` </span>인 `myproject-billing` 비밀번호를 재설정 합니다.
 
-### 단계 6. myproject-admin의 IAM 계정 접속하기
+<a id="step-6-access-the-iam-account-of-myproject-admin"></a>
+### 단계 6. myproject-admin의 IAM 계정 접속하기 { #step-6-access-the-iam-account-of-myproject-admin }
 
 1. 웹 브라우저에서 새 창을 열어서 `https://MyORG IAM 콘솔 도메인 주소`를 입력하여 IAM 콘솔 도메인에 접속합니다.
     * IAM 콘솔 도메인 주소
@@ -168,17 +179,20 @@
 
 > 위 작업 단계와 동일하게 `myproject-billing` IAM 계정에 접속할 수 있습니다.
 
-## 참고 자료
+<a id="reference-sites"></a>
+## 참고 자료 { #reference-sites }
 
 * [콘솔 사용 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/console-user-guide/)
 * [보안 정책](https://docs.nhncloud.com/ko/nhncloud/ko/security-policy/)
 * [IAM](https://en.wikipedia.org/wiki/Identity_and_access_management)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/)
 <br>
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)

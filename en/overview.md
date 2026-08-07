@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=1f7b0b23e6e0 -->
+
 # Quick start guide
 **Quickstarts > Quick Start Guide**
 
@@ -7,7 +9,8 @@ This guide is organized into 12 learning modules as shown below, each of which p
 
 ![image1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/Quick%20Start%20Guide_en.png)
 
-## Configuring the Quick Start Guide
+<a id="configuring-the-quick-start-guide"></a>
+## Configuring the Quick Start Guide { #configuring-the-quick-start-guide }
 
 Each learning module in the NHN Cloud Quick Start Guide is organized into three main areas. 
 
@@ -16,7 +19,8 @@ Each learning module in the NHN Cloud Quick Start Guide is organized into three 
 3. **Lab assignments**: These cover the work you'll do in the learning module and are broken down into steps.
 4. **Resources**: You can find more in-depth information related to that learning module. 
 
-## A reminder
+<a id="a-reminder"></a>
+## A reminder { #a-reminder }
 
 This documentation is designed to be easy for beginners to learn about NHN Cloud, so we've simplified the complex setup tasks as much as possible by using the same organization, project, region, and availability zones in each of the complex learning modules. 
 

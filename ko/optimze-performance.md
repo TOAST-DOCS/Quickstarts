@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=a13b4518abdb -->
+
 # 확장성과 성능 최적화
 **Quickstarts > 10. 확장성과 성능 최적화**
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션의 확장성과 성능 최적화를 위한 아키텍처 구성 방법을 학습합니다. NHN Cloud RDS를 활용해 오토 스케일링, 로드 밸런싱과 안정적인 데이터 관리를 위한 효율적이고 유연하며 확장 가능한 시스템을 설계할 수 있습니다.
 
 ![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%ED%99%95%EC%9E%A5%EC%84%B1%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.png)
-## 학습 목표
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 아래와 같습니다.
 
@@ -20,7 +23,8 @@
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
 
@@ -36,9 +40,11 @@
 
 **본 가이드는 [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/) 이후 단계부터 시작됩니다.**
 
-## 스케일링 그룹과 로드밸런서를 통한 트래픽 분산
+<a id="traffic-balancing-with-scaling-groups-and-load-balancers"></a>
+## 스케일링 그룹과 로드밸런서를 통한 트래픽 분산 { #traffic-balancing-with-scaling-groups-and-load-balancers }
 
-### 단계 1. 로드밸런서 생성하기
+<a id="step-1-create-a-load-balancer"></a>
+### 단계 1. 로드밸런서 생성하기 { #step-1-create-a-load-balancer }
 
 > Load Balancer 서비스를 사용해 `MyLB` 로드밸런서를 생성한 뒤 플로팅 IP를 생성해 연결해 봅니다.
 
@@ -89,7 +95,8 @@
 12. **성공** 창에서 **확인**을 클릭합니다.
 13. **닫기**를 클릭합니다.
 
-### 단계 2. 오토 스케일링 그룹 생성하기 
+<a id="step-2-create-an-auto-scaling-group"></a>
+### 단계 2. 오토 스케일링 그룹 생성하기 { #step-2-create-an-auto-scaling-group }
 
 > Auto Scale 서비스를 활용해 스케일링 그룹을 생성한 뒤 가용할 수 있는 인스턴스 2개를 생성합니다.
 
@@ -144,7 +151,8 @@
 6. 콘솔 창 왼쪽 메뉴 중 **Compute - Instance** 를 클릭합니다.
 7. Instance 화면에서 인스턴스 목록 중 `linux-server-autoscale`가 2개 생성된 것을 확인합니다.
 
-### 단계 3. 로드밸런서를 사용해 트래픽 분산하기
+<a id="step-3-use-a-load-balancer-to-distribute-traffic"></a>
+### 단계 3. 로드밸런서를 사용해 트래픽 분산하기 { #step-3-use-a-load-balancer-to-distribute-traffic }
 
 > `MyLB` 로드밸런서를 사용해 복수의 인스턴스로 트래픽을 분산하는 방법을 알아봅니다.
 
@@ -177,7 +185,8 @@
             * **Mac**: `Cmd + Shift + R`
 
 
-### 단계 4. 오토 스케일 그룹 증설 및 감축 정책 적용하기
+<a id="step-4-apply-the-autoscale-group-growth-and-reduction-policy"></a>
+### 단계 4. 오토 스케일 그룹 증설 및 감축 정책 적용하기 { #step-4-apply-the-autoscale-group-growth-and-reduction-policy }
 
 > 애플리케이션 수요에 따라 인스턴스 수를 자동 조절하는 방법을 알아봅니다.
 
@@ -198,7 +207,8 @@
 9. Instance 화면에서 인스턴스 목록 중 `linux-server-autoscale`이 제거되는 것을 확인합니다.
 10. 웹 브라우저 새로고침을 반복해  **Server IP Address 값**이 유지 중인`linux-server-autoscale` 인스턴스의 가상 사설 IP주소로 출력되는지 확인합니다.
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [Auto Scale](https://docs.nhncloud.com/ko/Compute/Auto%20Scale/ko/overview/)
 * [Load Balancer](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/)
@@ -208,10 +218,12 @@
 * [Application Layer(L7)](https://en.wikipedia.org/wiki/Application_layer)
 * [Autoscaling](https://en.wikipedia.org/wiki/Autoscaling)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)
 
-## 다음 단계
+<a id="next-step"></a>
+## 다음 단계 { #next-step }
 
 * [11. 비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/)

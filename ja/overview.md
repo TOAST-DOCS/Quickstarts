@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=1f7b0b23e6e0 -->
+
 # クイックスタートガイド
 **Quickstarts > クイックスタートガイド**
 
@@ -7,7 +9,8 @@ NHN Cloud クイックスタートガイドは、NHN Cloudを初めて利用す�
 
 ![image1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/Quick%20Start%20Guide_jp.png)
 
-## クイックスタートガイドの構成
+<a id="configuring-the-quick-start-guide"></a>
+## クイックスタートガイドの構成 { #configuring-the-quick-start-guide }
 
 NHN Cloudクイックスタートガイドの各学習モジュールは、大きく3つの領域で構成されています。 
 
@@ -16,7 +19,8 @@ NHN Cloudクイックスタートガイドの各学習モジュールは、大�
 3. **実習課題**：学習モジュールで行う課題の内容を扱い、いくつかの段階に分けて説明します。
 4. **参考資料**：当該学習モジュールに関連するより詳細な情報を確認することができます。 
 
-## イラスト
+<a id="a-reminder"></a>
+## イラスト { #a-reminder }
 
 NHN Cloud入門者が簡単に習得できるように作成されたドキュメントです。 そのため、複雑な各学習モジュールで同じ組織、プロジェクト、リージョン、可用性領域を使用して、複雑な設定作業を可能な限り簡素化しました。 
 

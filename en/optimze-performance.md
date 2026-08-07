@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=a13b4518abdb -->
+
 # Optimize scalability and performance
 **Quickstarts > 10. Optimize scalability and performance**
 
 In this learning module, you will learn how to architect for scalability and performance optimization of applications in the NHN Cloud environment. Leverage NHN Cloud RDS to design efficient, flexible, and scalable systems for auto-scaling, load balancing, and reliable data management.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%92%E1%85%AA%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%92%E1%85%AA_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn
 
@@ -16,7 +19,8 @@ In this learning module, you'll learn
 * **Set up web server access**
     * Make the created web server accessible via the floating IP connected to the load balancer
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 Before you begin this learning module, here's what you need to know
 
@@ -32,9 +36,11 @@ Before you begin this learning module, here's what you need to know
 
 **This guide starts with the steps after [9. Backup and restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/).**
 
-## Traffic balancing with scaling groups and load balancers
+<a id="traffic-balancing-with-scaling-groups-and-load-balancers"></a>
+## Traffic balancing with scaling groups and load balancers { #traffic-balancing-with-scaling-groups-and-load-balancers }
 
-### Step 1. Create a load balancer
+<a id="step-1-create-a-load-balancer"></a>
+### Step 1. Create a load balancer { #step-1-create-a-load-balancer }
 
 > Use the Load Balancer service to create a `MyLB` load balancer, and then create a floating IP to connect to it.
 
@@ -85,7 +91,8 @@ Before you begin this learning module, here's what you need to know
 12. In the **Success** window, click **OK**.
 13. Click **Close**.
 
-### Step 2. Create an auto-scaling group 
+<a id="step-2-create-an-auto-scaling-group"></a>
+### Step 2. Create an auto-scaling group { #step-2-create-an-auto-scaling-group }
 
 > Utilize the Auto Scale service to create a scaling group and then create two instances that can be made available.
 
@@ -140,7 +147,8 @@ Before you begin this learning module, here's what you need to know
 6. In the left menu of the console window, click **Compute - Instance**.
 7. On the Instance screen, verify that two `linux-server-autoscale`have been created among the list of instances.
 
-### Step 3. Use a load balancer to distribute traffic
+<a id="step-3-use-a-load-balancer-to-distribute-traffic"></a>
+### Step 3. Use a load balancer to distribute traffic { #step-3-use-a-load-balancer-to-distribute-traffic }
 
 > Learn how to use `MyLB` load balancer to distribute traffic across multiple instances.
 
@@ -169,7 +177,8 @@ Before you begin this learning module, here's what you need to know
         * **Mac**: `Cmd + Shift + R`
 
 
-### Step 4. Apply the autoscale group growth and reduction policy
+<a id="step-4-apply-the-autoscale-group-growth-and-reduction-policy"></a>
+### Step 4. Apply the autoscale group growth and reduction policy { #step-4-apply-the-autoscale-group-growth-and-reduction-policy }
 
 > Learn how to auto-scale the number of instances based on application demand.
 
@@ -190,7 +199,8 @@ Before you begin this learning module, here's what you need to know
 9. On the Instances screen, verify that `linux-server-autoscale`is removed from the list of instances.
 10. Repeat the web browser refresh to verify that the **Server IP Address value** is output as the virtual private IP address of the `linux-server-autoscale` instance you are maintaining.
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [Auto Scale](https://docs.nhncloud.com/en/Compute/Auto%20Scale/en/overview/)
 * [Load Balancer](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/overview/)
@@ -200,10 +210,12 @@ Before you begin this learning module, here's what you need to know
 * [Application Layer(L7)](https://en.wikipedia.org/wiki/Application_layer)
 * [Autoscaling](https://en.wikipedia.org/wiki/Autoscaling)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [9. Backup and restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/)
 
-## Next step
+<a id="next-step"></a>
+## Next step { #next-step }
 
 * [11. Coste management](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)

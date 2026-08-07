@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=57750b26efac -->
+
 # IAM accounts and governance
 **Quickstarts > 3. IAM accounts and governance**
 
 In this learning module, you'll learn how to set up governance and manage Identity and Access Management (IAM) accounts. This enables you to efficiently manage resources within your organization and set up permission-based access control to maximize security and productivity.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/IAM%20%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%A5%E1%84%87%E1%85%A5%E1%84%82%E1%85%A5%E1%86%AB%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to 
 
@@ -19,7 +22,8 @@ In this learning module, you'll learn to
     * Sign in to an IAM account with an IAM console domain
 <br></br>
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 Before you begin this learning module, here's what you need to know
 
@@ -35,9 +39,11 @@ Before you begin this learning module, here's what you need to know
 
     **This guide starts with the steps after [you create your organization and project](https://docs.nhncloud.com/en/quickstarts/en/create-organization/).**
 
-## Prepare for IAM account access
+<a id="prepare-for-iam-account-access"></a>
+## Prepare for IAM account access { #prepare-for-iam-account-access }
 
-### Step 1. Set the IAM console domain address
+<a id="step-1-set-the-iam-console-domain-address"></a>
+### Step 1. Set the IAM console domain address { #step-1-set-the-iam-console-domain-address }
 
 1. Access the NHN Cloud console and click `MyORG` Organization in the top menu.
 2. On the Organization dashboard screen, click the **Manage organization** tab.
@@ -70,7 +76,8 @@ Before you begin this learning module, here's what you need to know
                 * Example: `parent-org`
             * Domain names can be changed even after setup.
 
-### Step 2. Set up IAM two-factor authentication login security
+<a id="step-2-set-up-iam-two-factor-authentication-login-security"></a>
+### Step 2. Set up IAM two-factor authentication login security { #step-2-set-up-iam-two-factor-authentication-login-security }
 
 1. On the **Manage Organization** tab, click the **Governance Settings** tab from the subtab menu.
 2. In the **IAM Governance settings > Login security settings** item, click **Change settings**.
@@ -81,7 +88,8 @@ Before you begin this learning module, here's what you need to know
 4. In the **notification** window, click **OK**.
 5. In the **Save settings notification** window, click **OK**.
 
-### Step 3. Create an IAM account
+<a id="step-3-create-an-iam-account"></a>
+### Step 3. Create an IAM account { #step-3-create-an-iam-account }
 
 1. In the top menu of the console window, click `MyORG` Organization.
 2. On the Organization dashboard screen, click the **Manage members** tab.
@@ -105,7 +113,8 @@ Before you begin this learning module, here's what you need to know
     * Mail: `User email address`
 8. In the list of IAM accounts, verify the two IDs you created.
 
-### Step 4. Grant IAM account roles
+<a id="step-4-grant-iam-account-roles"></a>
+### Step 4. Grant IAM account roles { #step-4-grant-iam-account-roles }
 
 1. In the list of IAM members, click the `myproject-admin` ID whose name `is` `myproject-admin` to select it.
 2. In the bottom split screen, click **Edit roles**.
@@ -123,7 +132,8 @@ Before you begin this learning module, here's what you need to know
     * IAM default role
         * When you create IAM, the default role is set to NONE (Default Role). This role can be Read Organization Dashboard, Read Organization Preferences.
 
-### Step 5. Set your IAM account password
+<a id="step-5-set-your-iam-account-password"></a>
+### Step 5. Set your IAM account password { #step-5-set-your-iam-account-password }
 
 1. Access the NHN Cloud console and click `MyORG` Organization in the top menu.
 2. In the top menu of the console window, click `MyORG` Organization.
@@ -143,7 +153,8 @@ Before you begin this learning module, here's what you need to know
 11. **Your new password has been saved.** Click **OK**in the notification window that appears.
 12. Follow the same action steps as above to ensure that in the IAM members list, the name <span style="color:rgb(34, 34, 34);">`myproject-budget` </span>in the list of IAM members.
 
-### Step 6. Access the IAM account of myproject-admin
+<a id="step-6-access-the-iam-account-of-myproject-admin"></a>
+### Step 6. Access the IAM account of myproject-admin { #step-6-access-the-iam-account-of-myproject-admin }
 
 1. Open a new window in your web browser and type `https://MyORG IAM console domain address`to access the IAM console domain.
     * IAM console domain address
@@ -167,17 +178,20 @@ Before you begin this learning module, here's what you need to know
 
 > You can access the `myproject-billing` IAM account the same as in the above action step.
 
-## Reference sites
+<a id="reference-sites"></a>
+## Reference sites { #reference-sites }
 
 * [Console user guide](https://docs.nhncloud.com/en/nhncloud/en/console-user-guide/)
 * [Security policies](https://docs.nhncloud.com/en/nhncloud/en/security-policy/)
 * [IAM](https://en.wikipedia.org/wiki/Identity_and_access_management)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [2. Create organization and project](https://docs.nhncloud.com/en/quickstarts/en/create-organization/)
 <br>
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
