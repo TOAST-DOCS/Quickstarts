@@ -19,7 +19,7 @@
     * データ損失に備えるためのバックアップとリカバリ戦略
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%205.%20%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_diagram](../static/images/모듈-5.-보안-설정.png)
 
 <p style="text-align: center; color: black;">最終構成図</p>
 
@@ -68,7 +68,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 15. ウェブブラウザで新しいウィンドウを開いて`http://복사한 linux-server-basic フローティングIPアドレスを`入力して接続を確認します。
 16. Webページが正常に出力されることを確認します。
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%851%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png)
+![pic1](../static/images/content_image/보안-설정_작업1-복사본.png)
 
 <a id="scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance"></a>
 ## シナリオ2.ウェブサーバーインスタンスに許可されたIPのみSSH、ICMP(Pingなど)通信を可能にする { #scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance }
@@ -166,7 +166,7 @@ ping (linux-server-basic フローティングIPアドレス)
 * ウェブブラウザで新しいウィンドウを開いて`http://복사한 linux-server-basic フローティングIPアドレスを`入力して接続を確認します。
 * すべてのIPでHttp通信が許可されていることを確認します。
 <br></br>
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%854.png)
+![pic2](../static/images/content_image/보안-설정_작업4.png)
 
 <a id="references"></a>
 ## 参考資料 { #references }

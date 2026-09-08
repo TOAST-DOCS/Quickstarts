@@ -5,7 +5,7 @@
 
 이번 학습 모듈에서는 NHN Cloud 콘솔에서 조직의 이용 현황을 확인하고, 예산을 설정하며, 리소스 태그를 생성하고 적용하는 방법을 알아봅니다. 이를 통해 조직의 클라우드 리소스를 효과적으로 관리하고, 비용을 효율적으로 운영할 수 있습니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B9%84%EC%9A%A9%20%EA%B4%80%EB%A6%AC.png)
+![mod_info](../static/images/module_info/비용-관리.png)
 <a id="learning-objectives"></a>
 ## 학습 목표 { #learning-objectives }
 

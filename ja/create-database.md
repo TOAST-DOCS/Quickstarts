@@ -16,7 +16,7 @@
     * データベースへのアクセスと簡単なデータ操作
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%206.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/모듈-6.-데이터베이스-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">最終構成図</p>
 
@@ -83,7 +83,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
         * **セキュリティグループ選択**項目で上記で作成した`MySG-DBを`選択します。
     * 追加ブロックストレージ: 無効 (デフォルト)
     * ユーザースクリプト
-        * [ダウンロード](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
+        * [ダウンロード](../static/etc/create-database-script.txt)
     * 削除保護: 無効 (デフォルト)
 4. インスタンス作成情報ウィンドウで**インスタンス作成を**クリックします。
 5. インスタンス作成作業が行われます。このインスタンスは約1分程度で作成が完了します。
@@ -123,7 +123,7 @@ mysql --host=(mysql-db-basic インスタンスの仮想 IP アドレス) --user
 
 **データベースの結果値が照会される**ことを確認します。
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0_%EC%9E%91%EC%97%852.png)
+![pic1](../static/images/content_image/데이터베이스-생성-및-연결_작업2.png)
 
 <a id="references"></a>
 ## 参考資料 { #references }

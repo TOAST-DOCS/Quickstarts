@@ -157,11 +157,11 @@
 4. ウェブページ本文の**Server IP Addressの値が**生成した`linux-server-autoscaleインスタンスの`仮想プライベートIPアドレスと一致するか確認します。
 5. ウェブブラウザの更新を繰り返して**Server IP Addressの値が**別の`linux-server-autoscaleインスタンスの`仮想プライベートIPアドレスに変更されるか確認します。
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
+![pic1](../static/images/content_image/성능최적화_단계3-1.png)
 
 <p style="text-align: center; color: black;">出力画面1</p>
 
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
+![pic2](../static/images/content_image/성능최적화_단계3-2.png)
 
 <p style="text-align: center; color: black;">出力画面2</p>
 <br></br>

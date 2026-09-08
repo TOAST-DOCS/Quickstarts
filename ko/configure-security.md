@@ -4,7 +4,7 @@
 **Quickstarts > 5. 보안 설정**
 
 이번 학습 모듈에서는 NHN Cloud에서 보안을 설정하고 관리하는 기본 개념과 주요 기능을 단계별로 안내하여, 안전하고 신뢰할 수 있는 클라우드 환경을 구축하는 방법을 학습합니다. NHN Cloud는 사용자의 데이터를 안전하게 보호하고, 클라우드 리소스를 효율적으로 관리할 수 있는 다양한 보안 기능을 제공합니다.
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_info](../static/images/module_info/보안-설정.png)
 
 <a id="learning-objectives"></a>
 ## 학습 목표 { #learning-objectives }
@@ -19,7 +19,7 @@
     * 데이터 손실 대비 위한 백업 및 복구 전략
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%205.%20%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_diagram](../static/images/diagram/모듈-5.-보안-설정.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
@@ -67,7 +67,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 15. 웹 브라우저에서 새 창을 열어서 `http://복사한 linux-server-basic 플로팅 IP 주소`를 입력하여 접속을 확인합니다.
 16. 웹 페이지가 정상적으로 출력되는 것을 확인합니다.
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%851%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png)
+![pic1](../static/images/content_image/보안-설정_작업1-복사본.png)
 
 <a id="scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance"></a>
 ## 시나리오 2. 웹 서버 인스턴스에 허용된 IP만 SSH, ICMP(Ping 등) 통신 허용하기 { #scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance }
@@ -167,7 +167,7 @@ ping (linux-server-basic 플로팅 IP 주소)
 * 웹 브라우저에서 새 창을 열어서 `http://복사한 linux-server-basic 플로팅 IP 주소`를 입력하여 접속을 확인합니다.
 * 모든 IP에서 Http 통신이 허용된 것을 확인합니다.
 <br></br>
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%854.png)
+![pic2](../static/images/content_image/보안-설정_작업4.png)
 
 <a id="references"></a>
 ## 참고 자료 { #references }

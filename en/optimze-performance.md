@@ -158,11 +158,11 @@ Before you begin this learning module, here's what you need to know
 4. Verify that the **Server IP Address value**in the body of the web page matches the virtual private IP address of `the linux-server-autoscale instance you`created.
 5. Repeat the web browser refresh to verify that the **Server IP Address value**changes to the virtual private IP address of another `linux-server-autoscale instance`.
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-1.png)
+![pic1](../static/images/content_image/성능최적화_단계3-1.png)
 
 <p style="text-align: center; color: black;">Result 1</p>
 
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94_%EB%8B%A8%EA%B3%843-2.png)
+![pic2](../static/images/content_image/성능최적화_단계3-2.png)
 
 <p style="text-align: center; color: black;">Result 2</p>
 <br></br>

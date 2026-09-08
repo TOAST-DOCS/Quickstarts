@@ -7,7 +7,7 @@ The NHN Cloud Quick Start Guide is a step-by-step onboarding guide for users who
 
 This guide is organized into 12 learning modules as shown below, each of which provides hands-on examples for easy follow along. After signing up as an NHN Cloud member, you will learn how to use the basic console and eventually be able to configure a simple cloud architecture to provide services.
 
-![image1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/Quick%20Start%20Guide_en.png)
+![image1](../static/images/diagram/Quick-Start-Guide_en.png)
 
 <a id="configuring-the-quick-start-guide"></a>
 ## Configuring the Quick Start Guide { #configuring-the-quick-start-guide }

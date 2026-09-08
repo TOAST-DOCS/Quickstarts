@@ -7,7 +7,7 @@ NHN Cloud クイックスタートガイドは、NHN Cloudを初めて利用す�
 
 本ガイドは、以下のように12個の学習モジュールで構成されています。 各学習モジュールは、簡単に理解できるように実習例を提供しています。NHN Cloudの会員登録後、基本的なコンソールの使い方を学び、最終的に簡単なクラウドアーキテクチャを構成してサービスを提供することができます。
 
-![image1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/Quick%20Start%20Guide_jp.png)
+![image1](../static/images/diagram/Quick-Start-Guide_jp.png)
 
 <a id="configuring-the-quick-start-guide"></a>
 ## クイックスタートガイドの構成 { #configuring-the-quick-start-guide }
