@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=8759a1743b7d -->
+
 # ストレージの作成と接続
 **Quickstarts > 7.ストレージの作成および接続**
 
 今回の学習モジュールでは、NHN Cloudコンソールを通じてストレージサービスを有効化し、使用する方法をご案内します。NHN Cloudの**ストレージサービスは、**データの保存と管理に必要な安定的で拡張可能なソリューションを提供します。
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -14,11 +17,12 @@
     * Object Storage コンテナの作成とオブジェクトのアップロードとダウンロード
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%207.%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/모듈-7.-스토리지-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">最終構成図</p>
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 NHN Cloudを開始するためには、次の事項を準備する必要があります。
 
@@ -34,11 +38,13 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 
 **本ガイドは、[6.データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)以降の段階から始まります。**
 
-## ブロックストレージの作成とデータ照会
+<a id="creating-block-storage-and-retrieving-data"></a>
+## ブロックストレージの作成とデータ照会 { #creating-block-storage-and-retrieving-data }
 
 > ブロックストレージを生成してLinuxインスタンスに接続した後、ブロックストレージのデータを照会します。
 
-### ステップ1.ブロックストレージを作成した後、Linuxインスタンスに接続する
+<a id="step-1-create-block-storage-and-connect-to-a-linux-instance"></a>
+### ステップ1.ブロックストレージを作成した後、Linuxインスタンスに接続する { #step-1-create-block-storage-and-connect-to-a-linux-instance }
 
 > モジュール3で生成したLinuxインスタンス`linux-server-basicに`ブロックストレージリソースを接続します。
 
@@ -56,7 +62,8 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
     * インスタンスへの接続:`linux-server-basic`
 8. 成功]ウィンドウで[**OK**]をクリックします。
 
-### ステップ2.ブロックストレージパーティションの追加設定、フォーマット、マウントを行う
+<a id="step-2-set-up-format-and-mount-additional-block-storage-partitions"></a>
+### ステップ2.ブロックストレージパーティションの追加設定、フォーマット、マウントを行う { #step-2-set-up-format-and-mount-additional-block-storage-partitions }
 
 * Linuxインスタンス`linux-server-basicに`リモート接続した状態で下記のコマンドを実行して、ステップ1で生成したブロックストレージ`MyBSに`パーティションを生成した後、フォーマットとマウントを実行します。
 ```
@@ -103,11 +110,12 @@ df /dev/vdb1
 **該当Filesystemと容量、Mountパスが照会される**ことを確認します。
 <br></br>
 
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A0%88%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%852.png)
+![pic1](../static/images/content_image/스토레지-생성-및-설정_작업2.png)
 
 <p style="text-align: center; color: black;">出力画面</p>
 
-### ステップ3.追加のブロックストレージに資料を作成する
+<a id="step-3-create-material-in-additional-block-storage"></a>
+### ステップ3.追加のブロックストレージに資料を作成する { #step-3-create-material-in-additional-block-storage }
 
 * `linux-server-basicに`リモート接続した状態で下記のコマンドを実行してブロックストレージを生成します。
 ```bash
@@ -124,15 +132,17 @@ mysql --host=(mysql-db-basic インスタンスの仮想 IP アドレス) --user
 cat /mnt/vdb/employees.csv
 ```
 
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%853.png)
+![pic2](../static/images/content_image/스토리지-생성-및-설정_작업3.png)
 
 <p style="text-align: center; color: black;">出力画面</p>
 
-## オブジェクトストレージの作成とデータ照会
+<a id="create-object-storage-and-retrieve-data"></a>
+## オブジェクトストレージの作成とデータ照会 { #create-object-storage-and-retrieve-data }
 
 > オブジェクトストレージサービスを有効にしてコンテナを生成した後、オブジェクトをアップロードします。そのオブジェクトをLinuxインスタンスに保存した後、接続してデータが出力されるか確認します。
 
-### ステップ1.オブジェクト・ストレージ・サービスを有効化し、コンテナを作成する
+<a id="step-1-enable-the-object-storage-service-and-create-a-container"></a>
+### ステップ1.オブジェクト・ストレージ・サービスを有効化し、コンテナを作成する { #step-1-enable-the-object-storage-service-and-create-a-container }
 
 1. `MyPRJ`プロジェクトの右側にある**「サービス選択」**タブをクリックします。
 2. **サービス選択を**クリックして出てくる画面で、**すべてのサービス - Storage - Object Storageを**クリックします。
@@ -147,7 +157,8 @@ cat /mnt/vdb/employees.csv
     * 暗号化設定:`無効`
 7. 成功]ウィンドウで[**OK**]をクリックします。
 
-### ステップ2.オブジェクトストレージを利用してLinuxインスタンスのWebソースを変更する
+<a id="step-2-change-the-linux-instance-web-source-using-object-storage"></a>
+### ステップ2.オブジェクトストレージを利用してLinuxインスタンスのWebソースを変更する { #step-2-change-the-linux-instance-web-source-using-object-storage }
 
 * ユーザーの作業環境で新しい**ターミナル**または**PowerShellを**実行します。
 * 下記のコマンドでweb-sampleディレクトリを生成してindex.htmlファイルを保存します。
@@ -245,7 +256,7 @@ chmod +x /home/ubuntu/service-setting.sh
 ```
 
 * ウェブブラウザで新しいウィンドウを開いて`http://복사한 linux-server-basic フローティングIPアドレスを`入力して、変更されたウェブページを確認します。
-![pic3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1_%EB%8B%A8%EA%B3%843.png)
+![pic3](../static/images/content_image/스토리지-생성_단계3.png)
 
 !!! tip "知っておくべきこと"
     * 変更されたウェブページが表示されない場合
@@ -254,7 +265,8 @@ chmod +x /home/ubuntu/service-setting.sh
         ***Mac**:`Cmd + Shift + R`
 
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [Storage](https://en.wikipedia.org/wiki/Cloud_storage)
 * [Block Storage](https://docs.nhncloud.com/ja/Storage/Block%20Storage/ja/overview/)
@@ -267,10 +279,12 @@ chmod +x /home/ubuntu/service-setting.sh
 * [Mount](https://en.wikipedia.org/wiki/Mount_(computing))
 * [chmod](https://en.wikipedia.org/wiki/Chmod)
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [6. データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [8. モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)

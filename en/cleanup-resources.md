@@ -1,9 +1,12 @@
+<!-- pre-align:aligned sig=01f013eae5b3 -->
+
 # Clean up resources
 **Quickstarts > 12. Clean up resources**
 
 In this learning module, you'll learn how to delete unused resources, projects, and organizations from NHN Cloud. This will help you avoid incurring unnecessary costs and optimize your cloud environment.
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%85%E1%85%B5%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%89%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A6_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn
 
@@ -16,7 +19,8 @@ In this learning module, you'll learn
 * **Delete an organization**
     * Procedure for deleting an organization
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 To get started with NHN Cloud, you'll need to prepare the following things
 
@@ -32,9 +36,11 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 **This guide starts with steps after [11.Cost management](https://docs.nhncloud.com/en/quickstarts/en/cost-management/).**
 
-## Delete all resources in use 
+<a id="delete-all-resources-in-use"></a>
+## Delete all resources in use { #delete-all-resources-in-use }
 
-### Step 1. Check the resources your organization is using
+<a id="step-1-check-the-resources-your-organization-is-using"></a>
+### Step 1. Check the resources your organization is using { #step-1-check-the-resources-your-organization-is-using }
 
 > Resource Watcher lets you see all the resources your `MyORG` organization is using at a glance.
 
@@ -45,7 +51,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
 5. Click **Search**.
 6. On the search results screen, see which resources are currently in use.
 
-### Step 2. Delete the default instance resource
+<a id="step-2-delete-the-default-instance-resource"></a>
+### Step 2. Delete the default instance resource { #step-2-delete-the-default-instance-resource }
 
 > Steps 2 through 8 guide you through deleting the resources you've used so far.
 
@@ -74,7 +81,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * Delete additional block storage, floating IPs
         * When deleting material stored in object storage, **confirm the deletion**so that the user can see the contents.
 
-### Step 3. Delete the Auto Scale resource
+<a id="step-3-delete-the-auto-scale-resource"></a>
+### Step 3. Delete the Auto Scale resource { #step-3-delete-the-auto-scale-resource }
 
 1. Click **Compute - Auto Scale**in the left menu of the console window.
 2. Select the `MyASGroup` scaling group from the list of Auto Scale groups.
@@ -82,7 +90,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
 4. In the **Delete Scaling Group** window, click **OK**.
 5. In the Success window, click **OK**.
 
-### Step 4. Delete the Image resource
+<a id="step-4-delete-the-image-resource"></a>
+### Step 4. Delete the Image resource { #step-4-delete-the-image-resource }
 
 1. Click **Compute - Image**in the left menu of the console window.
 2. Select the `linux-server-basic-image` image from the list of images.
@@ -90,7 +99,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
 4. In the **Delete images** window, click **OK**.
 5. In the Success window, click **OK**.
 
-### Step 5. Delete the Object Storage resource
+<a id="step-5-delete-the-object-storage-resource"></a>
+### Step 5. Delete the Object Storage resource { #step-5-delete-the-object-storage-resource }
 
 1. In the console pane, click **Storage - Object Storage**in the left menu.
 2. In the Object Storage list, select the checkbox `for myobs`on the left.
@@ -106,7 +116,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * Confirm deletion of object storage data
         * When deleting material stored in object storage, **confirm the deletion**so that the user can confirm the contents.
 
-### Step 6. Delete a network resource
+<a id="step-6-delete-a-network-resource"></a>
+### Step 6. Delete a network resource { #step-6-delete-a-network-resource }
 
 1. In the console pane, click **Network - Load Balancer**in the left menu.
 2. Select `MyLB`from the list of load balancers.
@@ -136,7 +147,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
         * Deleting a VPC also deletes the resources that you created within the VPC, such as subnets`(MySubnet`), routing tables`(MyRT)`, and Internet gateways.
 
 
-### Step 7. Delete the monitoring resource
+<a id="step-7-delete-the-monitoring-resource"></a>
+### Step 7. Delete the monitoring resource { #step-7-delete-the-monitoring-resource }
 
 1. Click **Monitoring - Cloud Monitoring** in the left menu of the console window.
 2. Within the **Dashboard** tab, on the `MyDashboard` Details tab, click the toggle switch for Edit Mode on the right to enable it.
@@ -150,7 +162,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
 10. Click **Delete notification**.
 11. In the Confirmation of notification deletion progress notification window, click **OK**.
 
-### Step 8. Delete the keyfair resource
+<a id="step-8-delete-the-keyfair-resource"></a>
+### Step 8. Delete the keyfair resource { #step-8-delete-the-keyfair-resource }
 
 1. Click **Compute - Key Pair** in the left menu of the console window.
 2. Select the checkbox `for MyKey`in the list of key pairs.
@@ -162,7 +175,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * Keyfair coverage
         * Keyfairs are managed **per user's account**, not per project. If you want to continue using a key pair in another project, you don't need to delete it.
 
-### Step 9. Deactivate the service and delete the project
+<a id="step-9-deactivate-the-service-and-delete-the-project"></a>
+### Step 9. Deactivate the service and delete the project { #step-9-deactivate-the-service-and-delete-the-project }
 
 1. Click MyPRJ on the Projects tab` at the top of the NHN Cloud console.
 2. In a project, click the **Project management** tab.
@@ -179,7 +193,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
 10. In the **Delete project confirmation** window, click **OK**.
 11. In the **project deletion success** notification, click **OK**.
 
-### Step 10. Delete an organization
+<a id="step-10-delete-an-organization"></a>
+### Step 10. Delete an organization { #step-10-delete-an-organization }
 
 1. Click `MyORG`on the **Organizations** tab located at the top of the NHN Cloud console.
 2. On the Organization dashboard screen, click the **Manage organization** tab.
@@ -191,7 +206,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 <br></br>
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [Change the state of an instance (delete)](https://docs.nhncloud.com/en/Compute/Instance/en/console-guide/#_11)
 * [Delete a subnet](https://docs.nhncloud.com/en/Network/VPC/en/console-guide/#_10)
@@ -199,6 +215,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 * [Deleting block storage](https://docs.nhncloud.com/en/Storage/Block%20Storage/en/console-guide/#_3)
 * [Delete an object storage container](https://docs.nhncloud.com/en/Storage/Object%20Storage/en/console-guide/#_7)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [11. Cost management](https://docs.nhncloud.com/en/quickstarts/en/cost-management/)

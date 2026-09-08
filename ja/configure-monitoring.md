@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=b5f49994b6df -->
+
 # モニタリング設定
 **Quickstarts > 8.モニタリング設定**
 
 今回の学習モジュールでは、NHN Cloudコンソールで提供するMonitoringサービスについて詳しく説明し、直接実習してみます。NHN CloudのCloud Monitoringサービスは、クラウド環境で運営されるインフラとアプリケーションの状態をリアルタイムでモニタリングし、異常兆候を迅速に検知することができます。
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -21,7 +24,8 @@
         * NHN Cloud通知システムを通じた異常状態検出
         * メール、SMSなどの条件別通知設定
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 今回の学習モジュールを実践する前に、次のことを行うことをお勧めします。
 
@@ -37,9 +41,11 @@
 
     **本ガイドは、[7.ストレージの作成と設定](https://docs.nhncloud.com/ja/quickstarts/ja/create-storage/)以降の段階から始まります。**
 
-## Cloud Monitoringサービスによるクラウドリソースモニタリング
+<a id="monitoring-cloud-resources-with-the-cloud-monitoring-service"></a>
+## Cloud Monitoringサービスによるクラウドリソースモニタリング { #monitoring-cloud-resources-with-the-cloud-monitoring-service }
 
-### ステップ1.Cloud Monitoringでインスタンス詳細指標のダッシュボードを作成します。
+<a id="step-1-create-an-instance-detailed-metrics-dashboard-with-cloud-monitoring"></a>
+### ステップ1.Cloud Monitoringでインスタンス詳細指標のダッシュボードを作成します。 { #step-1-create-an-instance-detailed-metrics-dashboard-with-cloud-monitoring }
 
 1. NHN Cloudコンソール上部のメニューから実習に使用する組織`(MyORG)`、プロジェクト(`MyPRJ)`、そして`韓国(平村)リージョンを`選択します。
 2. コンソールウィンドウの左側のメニューから**Monitoring - Cloud Monitoringを**クリックします。
@@ -79,13 +85,15 @@
         * 指標項目：`デバイス毎のネットワークデータ送信、デバイス毎のネットワークデータ受信`
 11. `MyDashboardに`追加されたウィジェットが正常に見えるか確認します。
 
-### ステップ2.プロジェクトカスタムダッシュボードを確認する
+<a id="step-2-check-out-your-projects-custom-dashboard"></a>
+### ステップ2.プロジェクトカスタムダッシュボードを確認する { #step-2-check-out-your-projects-custom-dashboard }
 
 1. コンソールウィンドウの上部にある`MyProjectという`名前のプロジェクトタブをクリックします。
 2. `MyProjectの`メイン画面で`カスタムダッシュボードタブを`クリックします。
 3. ステップ1で追加した`MyDashboardの`ウィジェットが正常に見えるか確認します。
 
-### ステップ3.インスタンスにCPU過負荷が発生した場合、電子メールで通知を設定する
+<a id="step-3-set-up-email-notifications-when-an-instance-experiences-a-cpu-overload"></a>
+### ステップ3.インスタンスにCPU過負荷が発生した場合、電子メールで通知を設定する { #step-3-set-up-email-notifications-when-an-instance-experiences-a-cpu-overload }
 
 1. **Cloud Monitoring**サービス画面で「**通知管理**」タブをクリックします。
 2. **+ 通知設定を**クリックします。
@@ -120,7 +128,8 @@
         * トグルボタン無効の状態は、楕円内の白い円が左に移動した状態です。トグルボタンが無効の場合、色がグレーで表示されます。
 
 
-### ステップ4.インスタンスのCPU過負荷イベント発生履歴の確認     
+<a id="step-4-check-the-instances-history-of-cpu-overload-events"></a>
+### ステップ4.インスタンスのCPU過負荷イベント発生履歴の確認 { #step-4-check-the-instances-history-of-cpu-overload-events }
 
 1. コンソールウィンドウの左側のメニューから**Network - Floating IP**をクリックします。
 2. フローティングIPリソースのリストのうち、接続されたデバイスが`linux-server-basicである`IPアドレスを**コピーして** **記録します。**
@@ -131,7 +140,8 @@
 7. **通知管理画面で、** **通知発生履歴**タブをクリックします。
 8. 本文内の**検索を**クリックして、通知発生履歴を確認します。
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [Metric](https://en.wikipedia.org/wiki/Metric_system)
 * [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
@@ -140,10 +150,12 @@
 * [CloudTrail](https://docs.nhncloud.com/ja/Governance%20&%20Audit/CloudTrail/ja/overview/)
 * [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [7. ストレージの作成とpublish](https://docs.nhncloud.com/ja/quickstarts/ja/create-storage/)
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [9. -バックアップと復旧](https://docs.nhncloud.com/ja/quickstarts/ja/backup-restore/)

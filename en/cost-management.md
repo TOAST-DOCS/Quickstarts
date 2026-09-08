@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=b4da168d0d8a -->
+
 # Cost management
 **Quickstarts > 11. Cost management**
 
 In this learning module, you will learn how to view your organization's usage, set budgets, and create and apply resource tags in the NHN Cloud console. This will enable you to effectively manage your organization's cloud resources and operate cost-effectively.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn
 
@@ -19,7 +22,8 @@ In this learning module, you'll learn
     * Creating resource tags to manage specific resource groups in the NHN Cloud console
     * Apply resource tags and view usage
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 Before you begin this learning module, here's what you need to know
 
@@ -35,9 +39,11 @@ Before you begin this learning module, here's what you need to know
 
 This guide starts after [10. Optimize scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/).
 
-## Manage your organization's usage and budget
+<a id="manage-your-organizations-usage-and-budget"></a>
+## Manage your organization's usage and budget { #manage-your-organizations-usage-and-budget }
 
-### Step 1. Check your organization's usage
+<a id="step-1-check-your-organizations-usage"></a>
+### Step 1. Check your organization's usage { #step-1-check-your-organizations-usage }
 
 > You can view a detailed breakdown of the services used by your `MyORG` organization.
 
@@ -47,7 +53,8 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
 3. On the **Services** tab, view the organization-wide final amount for your organization, and click `MyPRJ`under Organization to view the detailed project usage amounts.
 4. Click each resource item to see a detailed breakdown of the amount spent.
 
-### Step 2. Manage your organization's budget
+<a id="step-2-manage-your-organizations-budget"></a>
+### Step 2. Manage your organization's budget { #step-2-manage-your-organizations-budget }
 
 > You can add budget information for the `MyORG` organization and set it up to receive notifications when you go over budget.
 
@@ -74,9 +81,11 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
     * **What to check after setting a budget**
         * After setting a budget, the service is not automatically disabled or blocked when the budget is exceeded. This is to avoid interruptions while using the service, which may result in costs exceeding the set budget. We recommend proper budget setting and resource management to utilize the budget correctly.
 
-## Utilizing resource tags
+<a id="utilizing-resource-tags"></a>
+## Utilizing resource tags { #utilizing-resource-tags }
 
-### Step 1. Create a resource tag
+<a id="step-1-create-a-resource-tag"></a>
+### Step 1. Create a resource tag { #step-1-create-a-resource-tag }
 
 1. In the top menu of the NHN Cloud console, click the organization you want to use for the lab`(MyORG`).
 2. Within the `MyORG` organization dashboard **, under Organization Service Usage,**click **Resource Watcher**.
@@ -98,7 +107,8 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
 14. Click **OK** to close the Edit Resource Tag window.
 
 
-### Step 2. Apply the resource tags you created
+<a id="step-2-apply-the-resource-tags-you-created"></a>
+### Step 2. Apply the resource tags you created { #step-2-apply-the-resource-tags-you-created }
 
 > Set resource tags for each of the instance, database, and blockstore resources that `your MyORG` organization is using.
 
@@ -127,7 +137,8 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
     * Tag key: `MyStorageTag`
     * Tag key: Tag value: `MyStorageTag: blockstorage`
 
-### Step 3. Check usage with resource tags
+<a id="step-3-check-usage-with-resource-tags"></a>
+### Step 3. Check usage with resource tags { #step-3-check-usage-with-resource-tags }
 
 > Use resource tags to view detailed usage of the instance, database, and block storage resources your `MyORG` organization is using.
 
@@ -155,16 +166,19 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
         * Select tag value: `blockstorage`
 9. At the bottom, you'll see the amount spent per resource tag.
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [Manage notifications](https://docs.nhncloud.com/en/nhncloud/en/console-guide/#_33)
 * [NHN Cloud Pricing](https://www.nhncloud.com/kr/pricing)
 * [Resource tags](https://docs.nhncloud.com/en/Governance%20&%20Audit/Resource%20Watcher/en/console-guide/#_2)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [10. Optimize scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [12. Organize and delete resources](https://docs.nhncloud.com/en/quickstarts/en/cleanup-resources/)

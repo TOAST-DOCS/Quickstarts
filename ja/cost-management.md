@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=b4da168d0d8a -->
+
 # コスト管理
 **Quickstarts > 11.コスト管理**
 
 今回の学習モジュールでは、NHN Cloudコンソールで組織の利用状況を確認し、予算を設定し、リソースタグを作成して適用する方法を学びます。これにより、組織のクラウドリソースを効果的に管理し、コストを効率的に運営することができます。
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -19,7 +22,8 @@
     * NHN Cloudのコンソールで特定のリソースグループを管理するためのリソースタグを作成する
     * リソースタグの適用と利用状況の照会
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 今回の学習モジュールを始める前に必要なものは以下の通りです。
 
@@ -35,9 +39,11 @@
 
 本ガイドは、[10.スケーラビリティとパフォーマンスの最適化](https://docs.nhncloud.com/ja/quickstarts/ja/optimze-performance/)以降の段階から始まります。
 
-## 組織の利用状況と予算管理
+<a id="manage-your-organizations-usage-and-budget"></a>
+## 組織の利用状況と予算管理 { #manage-your-organizations-usage-and-budget }
 
-### ステップ1.組織の利用状況を確認する
+<a id="step-1-check-your-organizations-usage"></a>
+### ステップ1.組織の利用状況を確認する { #step-1-check-your-organizations-usage }
 
 > `MyORG`組織が使用したサービスの詳細利用状況を確認することができます。
 
@@ -47,7 +53,8 @@
 3. **サービス**タブで組織全体の組織最終金額を確認し、組織サブに属する`MyPRJを`クリックしてプロジェクト詳細プロジェクト利用金額を確認します。
 4. 各リソース項目をクリックして、利用金額の詳細を確認します。
 
-### ステップ2.組織の予算を管理する
+<a id="step-2-manage-your-organizations-budget"></a>
+### ステップ2.組織の予算を管理する { #step-2-manage-your-organizations-budget }
 
 > `MyORG`組織の予算情報を追加し、予算超過時に通知を受けるように設定することができます。
 
@@ -74,9 +81,11 @@
     * **予算設定後の確認事項**
         * 予算を設定した後、予算を超過した場合、サービスが自動的に非アクティブ化されたり、ブロックされることはありません。 これは、サービス利用中に中断されないようにするためであり、これにより設定された予算を超える費用が発生する可能性があります。正しく予算を活用するため、適切な予算設定とリソース管理をお勧めします。
 
-## リソースタグの活用
+<a id="utilizing-resource-tags"></a>
+## リソースタグの活用 { #utilizing-resource-tags }
 
-### ステップ1.リソースタグを作成する
+<a id="step-1-create-a-resource-tag"></a>
+### ステップ1.リソースタグを作成する { #step-1-create-a-resource-tag }
 
 1. NHN Cloudコンソール上部のメニューから実習に使用する組織`(MyORG)`をクリックします。
 2. `MyORG`組織ダッシュボード内の**組織サービス利用状況から** **Resource Watcherを**クリックします。
@@ -98,7 +107,8 @@
 14. **OK]を**クリックして、リソースタグの修正ウィンドウを閉じます。
 
 
-### ステップ2.作成したリソースタグを適用します。
+<a id="step-2-apply-the-resource-tags-you-created"></a>
+### ステップ2.作成したリソースタグを適用します。 { #step-2-apply-the-resource-tags-you-created }
 
 > `MyORG`組織が使用しているインスタンス、データベース、ブロックストレージリソースそれぞれにリソースタグを設定します。
 
@@ -127,7 +137,8 @@
     * タグキー:`MyStorageTag`
     * タグキー: タグ値:`MyStorageTag: blockstorage`
 
-### ステップ3.リソースタグで利用状況を確認する
+<a id="step-3-check-usage-with-resource-tags"></a>
+### ステップ3.リソースタグで利用状況を確認する { #step-3-check-usage-with-resource-tags }
 
 > リソースタグを活用して`MyORG`組織が使用しているインスタンス、データベース、ブロックストレージリソースの詳細利用状況を確認します。
 
@@ -155,16 +166,19 @@
         * タグ値の選択:`blockstorage`
 9. 下部にリソースタグの基準利用金額を確認します。
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [通知管理](https://docs.nhncloud.com/ja/nhncloud/ja/console-guide/#_33)
 * [NHN Cloudの料金](https://www.nhncloud.com/kr/pricing)
 * [リソースタグ](https://docs.nhncloud.com/ja/Governance%20&%20Audit/Resource%20Watcher/ja/console-guide/#_2)
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [10.拡張性とパフォーマンスの最適化](https://docs.nhncloud.com/ja/quickstarts/ja/optimze-performance/)
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [12.リソースの整理と削除](https://docs.nhncloud.com/ja/quickstarts/ja/cleanup-resources/)

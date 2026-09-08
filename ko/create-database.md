@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=a44f8078f080 -->
+
 # 데이터베이스 생성 및 연결
 **Quickstarts > 6. 데이터베이스 생성 및 연결**
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 데이터베이스를 생성하고 애플리케이션과 연결하는 기본적인 구성 절차를 안내합니다. NHN Cloud에서는 안정적이고 확장 가능한 **Database 서비스**를 제공하여 사용자가 쉽고 효율적으로 데이터베이스를 구축하고 운영할 수 있도록 지원합니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
-## 학습 목표
+![mod_info](../static/images/module_info/데이터베이스-생성-및-연결.png)
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
 
@@ -13,11 +16,12 @@
     * 데이터베이스 접속 및 간단한 데이터 작업
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%206.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/diagram/모듈-6.-데이터베이스-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합니다.
 
@@ -33,9 +37,11 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
     **본 가이드는 [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/) 이후 단계부터 시작됩니다.**
 
-## 데이터베이스 생성 및 데이터 조회
+<a id="create-databases-and-query-data"></a>
+## 데이터베이스 생성 및 데이터 조회 { #create-databases-and-query-data }
 
-### 단계 1. MySQL 데이터베이스 인스턴스 만들기
+<a id="step-1-create-a-mysql-database-instance"></a>
+### 단계 1. MySQL 데이터베이스 인스턴스 만들기 { #step-1-create-a-mysql-database-instance }
 
 1. NHN Cloud 콘솔 상단 메뉴에서 실습에 사용할 조직(`MyORG`), 프로젝트(`MyPRJ`), 그리고 `한국(평촌) 리전`을 선택합니다.
 2. 콘솔 창 왼쪽 메뉴 중 **Database - MySQL Instance**를 클릭합니다.
@@ -77,13 +83,14 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * **보안 그룹 선택** 항목에서 위에 생성한 `MySG-DB`를 선택합니다.
     * 추가 블록 스토리지: 사용 안 함 (기본)
     * 사용자 스크립트
-        * [보기](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
+        * [보기](../static/etc/create-database-script.txt)
     * 삭제 보호: 사용 안 함 (기본)
 4. 인스턴스 생성 정보 창에서 **인스턴스 생성**을 클릭합니다.
 5. 인스턴스 생성 작업이 진행됩니다. 해당 인스턴스는 약 1분 내외로 생성이 완료됩니다.
 6. 인스턴스 생성 후 `mysql-db-basic`인 IP 주소를 **복사** 후 **기록**합니다.
 
-### 단계 2. 리눅스 인스턴스에서 데이터베이스 접속 테스트 하기
+<a id="step-2-test-database-access-on-a-linux-instance"></a>
+### 단계 2. 리눅스 인스턴스에서 데이터베이스 접속 테스트 하기 { #step-2-test-database-access-on-a-linux-instance }
 
 > 모듈 4에서 생성한 리눅스 인스턴스 `linux-server-basic`을 사용해 데이터베이스에 접속합니다. linux-server-basic 인스턴스 생성 및 접속 방법은 [4-네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)을 참고하시기 바랍니다.
 
@@ -120,20 +127,23 @@ mysql --host=(mysql-db-basic 인스턴스의 가상 IP 주소) --user=nhnclo
 > <summary><u>결과 화면 보기</u></summary>
 >
 > <p>
-> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0_%EC%9E%91%EC%97%852.png">
+> <img src="../../static/images/content_image/데이터베이스-생성-및-연결_작업2.png">
  > </p>
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [MySQL](https://en.wikipedia.org/wiki/MySQL)
 * [Database](https://en.wikipedia.org/wiki/Database)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
 * [RDS for MySQL](https://docs.nhncloud.com/ko/Database/RDS%20for%20MySQL/ko/overview/)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [7. 스토리지 생성 및 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-storage/)

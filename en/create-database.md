@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=a44f8078f080 -->
+
 # Create and attach databases
 **Quickstarts > 6. Create and attach databases**
 
 This learning module will guide you through the basic configuration procedures to create a database and connect it with an application in the NHN Cloud environment. NHN Cloud provides reliable and scalable **database services** to help users build and operate databases easily and efficiently.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to
 
@@ -13,11 +16,12 @@ In this learning module, you'll learn to
     * Accessing databases and working with simple data
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%206.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/모듈-6.-데이터베이스-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 To get started with NHN Cloud, you need to prepare the following things
 
@@ -33,9 +37,11 @@ To get started with NHN Cloud, you need to prepare the following things
 
     **This guide starts after step [5. Configure security](https://docs.nhncloud.com/en/quickstarts/en/configure-security/).**
 
-## Create databases and query data
+<a id="create-databases-and-query-data"></a>
+## Create databases and query data { #create-databases-and-query-data }
 
-### Step 1. Create a MySQL database instance
+<a id="step-1-create-a-mysql-database-instance"></a>
+### Step 1. Create a MySQL database instance { #step-1-create-a-mysql-database-instance }
 
 1. From the top menu of the NHN Cloud console, select the organization`(MyORG`), project`(MyPRJ`), and `Korea (Pyeongchon) region`that you want to use for your lab.
 2. Click **Database - MySQL Instance**in the left menu of the console window.
@@ -77,13 +83,14 @@ To get started with NHN Cloud, you need to prepare the following things
         * In the **Security group selection**, select `MySG-DB`, which you created above.
     * Additional block storage: Disabled (default)
     * User script
-        * [View Script](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
+        * [View Script](../static/etc/create-database-script.txt)
     * Erasure protection: Disabled (default)
 4. In the Instance creation information pane, click **Create instance**.
 5. The instance creation operation proceeds. The instance will be created in about a minute or so.
 6. After creating the instance, **copy** and **record** IP address `that is mysql-db-basic`.
 
-### Step 2. Test database access on a Linux instance
+<a id="step-2-test-database-access-on-a-linux-instance"></a>
+### Step 2. Test database access on a Linux instance { #step-2-test-database-access-on-a-linux-instance }
 
 > Access the database using the Linux instance `linux-server-basic`that you created in Module 4. For instructions on creating and accessing the linux-server-basic instance, see [04-Creating a Network Setup and Instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/).
 
@@ -116,19 +123,22 @@ mysql --host=(virtual IP address of mysql-db-basic instance) --user=nhncloud -e 
 
 Verify that **the results from the database are retrieved**.
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0_%EC%9E%91%EC%97%852.png)
+![pic1](../static/images/content_image/데이터베이스-생성-및-연결_작업2.png)
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [MySQL](https://en.wikipedia.org/wiki/MySQL)
 * [Database](https://en.wikipedia.org/wiki/Database)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
 * [RDS for MySQL](https://docs.nhncloud.com/en/Database/RDS%20for%20MySQL/en/overview/)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [5. Configure security](https://docs.nhncloud.com/en/quickstarts/en/configure-security/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [7. Create and attach storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/)

@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=b4da168d0d8a -->
+
 # 비용 관리
 **Quickstarts > 11. 비용 관리**
 
 이번 학습 모듈에서는 NHN Cloud 콘솔에서 조직의 이용 현황을 확인하고, 예산을 설정하며, 리소스 태그를 생성하고 적용하는 방법을 알아봅니다. 이를 통해 조직의 클라우드 리소스를 효과적으로 관리하고, 비용을 효율적으로 운영할 수 있습니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B9%84%EC%9A%A9%20%EA%B4%80%EB%A6%AC.png)
-## 학습 목표
+![mod_info](../static/images/module_info/비용-관리.png)
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 아래와 같습니다.
 
@@ -19,7 +22,8 @@
     * NHN Cloud 콘솔에서 특정 리소스 그룹 관리를 위한 리소스 태그 생성
     * 리소스 태그 적용 및 이용 현황 조회
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
 
@@ -35,9 +39,11 @@
 
 본 가이드는 [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/) 이후 단계부터 시작됩니다.
 
-## 조직의 이용 현황과 예산 관리
+<a id="manage-your-organizations-usage-and-budget"></a>
+## 조직의 이용 현황과 예산 관리 { #manage-your-organizations-usage-and-budget }
 
-### 단계 1. 조직 이용 현황 확인하기
+<a id="step-1-check-your-organizations-usage"></a>
+### 단계 1. 조직 이용 현황 확인하기 { #step-1-check-your-organizations-usage }
 
 > `MyORG` 조직이 사용한 서비스의 세부 이용 현황을 확인할 수 있습니다.
 
@@ -47,7 +53,8 @@
 3. **서비스** 탭에서 조직 전체의 조직 최종 금액을 확인하고, 조직 하위에 속한 `MyPRJ`를 클릭하여 프로젝트 세부 프로젝트 이용 금액을 확인합니다.
 4. 각 리소스 항목을 클릭하여 이용 금액의 상세 내역을 확인합니다.
 
-### 단계 2. 조직 예산 관리하기
+<a id="step-2-manage-your-organizations-budget"></a>
+### 단계 2. 조직 예산 관리하기 { #step-2-manage-your-organizations-budget }
 
 > `MyORG` 조직의 예산 정보를 추가하고 예산 초과 시 알림을 받도록 설정할 수 있습니다.
 
@@ -74,9 +81,11 @@
     * **예산 설정 후 확인 사항**
         * 예산을 설정한 후 예산 초과 시 서비스가 자동으로 비활성화되거나 차단되지 않습니다. 이는 서비스 이용 중 중단되지 않도록 하기 위함이며 이로 인해 설정된 예산을 초과한 비용이 발생할 수 있습니다. 올바르게 예산을 활용하기위해 적절한 예산 설정과 리소스 관리를 권장합니다.
 
-## 리소스 태그 활용
+<a id="utilizing-resource-tags"></a>
+## 리소스 태그 활용 { #utilizing-resource-tags }
 
-### 단계 1. 리소스 태그 생성하기
+<a id="step-1-create-a-resource-tag"></a>
+### 단계 1. 리소스 태그 생성하기 { #step-1-create-a-resource-tag }
 
 1. NHN Cloud 콘솔 상단 메뉴에서 실습에 사용할 조직(`MyORG`)을 클릭합니다.
 2. `MyORG` 조직 대시보드 내에 **조직 서비스 이용 현황**에서 **Resource Watcher**를 클릭합니다.
@@ -98,7 +107,8 @@
 14. **확인**을 클릭하여 리소스 태그 수정 창을 닫습니다.
 
 
-### 단계 2. 생성한 리소스 태그 적용하기
+<a id="step-2-apply-the-resource-tags-you-created"></a>
+### 단계 2. 생성한 리소스 태그 적용하기 { #step-2-apply-the-resource-tags-you-created }
 
 > `MyORG` 조직이 사용 중인 인스턴스, 데이터베이스, 블록스토리지 리소스 각각에 리소스 태그를 설정합니다.
 
@@ -127,7 +137,8 @@
     * 태그 키: `MyStorageTag`
     * 태그 키: 태그 값: `MyStorageTag: blockstorage`
 
-### 단계 3. 리소스 태그로 이용 현황 확인하기
+<a id="step-3-check-usage-with-resource-tags"></a>
+### 단계 3. 리소스 태그로 이용 현황 확인하기 { #step-3-check-usage-with-resource-tags }
 
 > 리소스 태그를 활용해 `MyORG` 조직이 사용 중인 인스턴스, 데이터베이스, 블록 스토리지 리소스의 세부 이용 현황을 확인합니다.
 
@@ -155,16 +166,19 @@
         * 태그 값 선택: `blockstorage`
 9. 하단에 리소스 태그 기준 이용 금액을 확인합니다.
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [알림 관리](https://docs.nhncloud.com/ko/nhncloud/ko/console-guide/#_33)
 * [NHN Cloud 요금](https://www.nhncloud.com/kr/pricing)
 * [리소스 태그](https://docs.nhncloud.com/ko/Governance%20&%20Audit/Resource%20Watcher/ko/console-guide/#_2)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [12. 리소스 정리 및 삭제](https://docs.nhncloud.com/ko/quickstarts/ko/cleanup-resources/)
