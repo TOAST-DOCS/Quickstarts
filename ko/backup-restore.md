@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=84fc7829b7c0 -->
+
 # 백업 및 복구
 **Quickstarts > 9. 백업 및 복구**
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션과 데이터를 안전하게 보호하고 복구할 수 있는 방법을 학습합니다. 블록 스토리지 복제, 인스턴스 이미지 생성 및 이미지 기반 생성을 통해 데이터 유실을 방지하고 신속한 복구가 가능한 시스템을 구축합니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
-## 학습 목표
+![mod_info](../static/images/module_info/백업-및-복구.png)
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
 
@@ -15,11 +18,12 @@
     * 블록 스토리지 복제 기능을 활용해 기존의 블록 스토리지를 복제한 뒤 인스턴스와 연결
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+![mod_diagram](../static/images/diagram/모듈-9.-백업-및-복구.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 이번 학습 모듈을 시작하기 전에 필요한 사항은 다음과 같습니다.
 
@@ -35,9 +39,11 @@
 
 **본 가이드는 [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/) 이후 단계부터 시작됩니다.**
 
-## 인스턴스 이미지를 통한 인스턴스 생성 및 블록 스토리지 연결
+<a id="creating-instances-and-attaching-block-storage-via-instance-images"></a>
+## 인스턴스 이미지를 통한 인스턴스 생성 및 블록 스토리지 연결 { #creating-instances-and-attaching-block-storage-via-instance-images }
 
-### 단계 1. 인스턴스 이미지 생성하기
+<a id="step-1-create-an-instance-image"></a>
+### 단계 1. 인스턴스 이미지 생성하기 { #step-1-create-an-instance-image }
 
 > 앞의 학습 모듈에서 생성한 `linux-server-basic` 인스턴스의 이미지를 생성해 봅니다. 구동 중인 인스턴스는 이미지 생성 시 무결성을 보장하지 않으므로, 인스턴스를 중지한 뒤 이미지를 생성합니다.
 
@@ -60,7 +66,8 @@
 10. 콘솔 창 왼쪽 메뉴 중 **Compute - Image**를 클릭합니다.
 11. Image 화면의 이미지 목록에서 `linux-server-basic-image`가 생성 중인 것을 확인합니다. 생성이 완료되면 해당 이미지의 상태표시 등이 초록색으로 표시됩니다.
 
-### 단계 2. 인스턴스 이미지로 신규 인스턴스 생성하기
+<a id="step-2-create-a-new-instance-with-an-instance-image"></a>
+### 단계 2. 인스턴스 이미지로 신규 인스턴스 생성하기 { #step-2-create-a-new-instance-with-an-instance-image }
 
 > 단계 1에서 생성한 `linux-server-basic-image` 인스턴스 이미지를 사용해 `linux-server-recovery` 인스턴스를 새로 생성해 봅니다.
 
@@ -95,7 +102,8 @@
 4. 인스턴스 생성 정보 창에서 **인스턴스 생성**을 클릭합니다.
 5. 인스턴스 생성 작업이 진행됩니다. 몇 분 내외로 인스턴스 생성이 완료됩니다.
 
-### 단계 3. 생성한 인스턴스 접속하기
+<a id="step-3-access-the-instance-you-created"></a>
+### 단계 3. 생성한 인스턴스 접속하기 { #step-3-access-the-instance-you-created }
 
 > 단계 2에서 생성한 `linux-server-recovery` 인스턴스의 플로팅 IP 주소를 통해 접속하는 방법을 알아봅니다.
 
@@ -120,7 +128,8 @@ ssh -i MyKey.pem ubuntu@복사한 linux-server-recovery 플로팅 IP 주소
 lsb_release -a
 ```
 
-### 단계 4. 기존 블록 스토리지를 복제해 인스턴스에 연결하기
+<a id="step-4-clone-an-existing-block-storage-and-attach-it-to-an-instance"></a>
+### 단계 4. 기존 블록 스토리지를 복제해 인스턴스에 연결하기 { #step-4-clone-an-existing-block-storage-and-attach-it-to-an-instance }
 
 > 앞의 학습 모듈에서 생성한 `MyBS` 블록 스토리지를 복제한 뒤 `linux-server-recovery` 인스턴스와 연결하고 `MyBS` 블록 스토리지의 데이터를 조회해 봅니다.
 
@@ -157,7 +166,8 @@ cat /mnt/vdb/employees.csv
 
 데이터베이스의 결과값이 csv 파일로 조회되는 것을 확인합니다.
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [이미지](https://docs.nhncloud.com/ko/Compute/Image/ko/overview/)
 * [이미지 생성](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_13)
@@ -165,10 +175,12 @@ cat /mnt/vdb/employees.csv
 * [Snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))
 * [Backup](https://en.wikipedia.org/wiki/Backup)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)

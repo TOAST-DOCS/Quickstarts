@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=84fc7829b7c0 -->
+
 # Backup and restore
 **Quickstarts > 9. Backup and restore**
 
 In this learning module, you will learn how to secure and recover applications and data in the NHN Cloud environment. Block storage replication, instance image creation, and image-based creation to prevent data loss and build a system that enables rapid recovery.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to
 
@@ -15,9 +18,10 @@ In this learning module, you'll learn to
     * Leverage block storage cloning to clone existing block storage and associate it with an instance
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+![mod_diagram](../static/images/모듈-9.-백업-및-복구.png)
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 Before you begin this learning module, here's what you need to know
 
@@ -33,9 +37,11 @@ Before you begin this learning module, here's what you need to know
 
 **This guide begins with the steps after [8. Setting up monitoring](https://docs.nhncloud.com/en/quickstarts/en/configure-monitoring/).**
 
-## Creating instances and attaching block storage via instance images
+<a id="creating-instances-and-attaching-block-storage-via-instance-images"></a>
+## Creating instances and attaching block storage via instance images { #creating-instances-and-attaching-block-storage-via-instance-images }
 
-### Step 1. Create an instance image
+<a id="step-1-create-an-instance-image"></a>
+### Step 1. Create an instance image { #step-1-create-an-instance-image }
 
 > Create an image of the `linux-server-basic` instance you created in the previous learning module. A running instance does not guarantee integrity when creating an image, so stop the instance before creating the image.
 
@@ -58,7 +64,8 @@ Before you begin this learning module, here's what you need to know
 10. Click **Compute - Image**in the left menu of the console window.
 11. On the Images screen, in the list of images, see that `the linux-server-basic-image`is being created. When creation is complete, the status indicator for that image will be green.
 
-### Step 2. Create a new instance with an instance image
+<a id="step-2-create-a-new-instance-with-an-instance-image"></a>
+### Step 2. Create a new instance with an instance image { #step-2-create-a-new-instance-with-an-instance-image }
 
 > Create a new `linux-server-recovery` instance using the `linux-server-basic-image` instance image you created in step 1.
 
@@ -93,7 +100,8 @@ Before you begin this learning module, here's what you need to know
 4. In the Instance creation information pane, click **Create instance**.
 5. The instance creation operation proceeds. The instance creation will be complete in a few minutes.
 
-### Step 3. Access the instance you created
+<a id="step-3-access-the-instance-you-created"></a>
+### Step 3. Access the instance you created { #step-3-access-the-instance-you-created }
 
 > Learn how to connect via the floating IP address of the `linux-server-recovery` instance you created in step 2.
 
@@ -118,7 +126,8 @@ ssh -i MyKey.pem ubuntu@copy linux-server-recovery floating IP address
 lsb_release -a
 ```
 
-### Step 4. Clone an existing block storage and attach it to an instance
+<a id="step-4-clone-an-existing-block-storage-and-attach-it-to-an-instance"></a>
+### Step 4. Clone an existing block storage and attach it to an instance { #step-4-clone-an-existing-block-storage-and-attach-it-to-an-instance }
 
 > Clone the `MyBS` block storage you created in the previous learning module, connect to the `linux-server-recovery` instance, and query the data in the `MyBS` block storage.
 
@@ -155,7 +164,8 @@ cat /mnt/vdb/employees.csv
 
 Verify that the results from the database are retrieved as a CSV file.
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [Image](https://docs.nhncloud.com/en/Compute/Image/en/overview/)
 * [Create an image](https://docs.nhncloud.com/en/Compute/Instance/en/console-guide/#_13)
@@ -163,10 +173,12 @@ Verify that the results from the database are retrieved as a CSV file.
 * [Snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))
 * [Backup](https://en.wikipedia.org/wiki/Backup)
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [8. Monitoring settings](https://docs.nhncloud.com/en/quickstarts/en/configure-monitoring/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [10. Optimize scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/)

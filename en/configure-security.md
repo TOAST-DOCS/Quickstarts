@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=38a5ba220ced -->
+
 # Configure security
 **Quickstarts > 5. Configure security**
 
 In this learning module, you will learn how to build a secure and reliable cloud environment by walking through the basic concepts and key features of setting up and managing security in NHN Cloud. NHN Cloud provides a variety of security features to keep your data safe and secure, and to manage your cloud resources efficiently.
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A1%E1%86%AB%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC_en.png)
 
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to
 
@@ -16,11 +19,12 @@ In this learning module, you'll learn to
     * Backup and recovery strategies for data loss
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%205.%20%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_diagram](../static/images/모듈-5.-보안-설정.png)
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 To get started with NHN Cloud, you'll need to prepare the following things
 
@@ -35,7 +39,8 @@ To get started with NHN Cloud, you'll need to prepare the following things
 
 > In this learning module, you'll learn how to set up different security settings through four scenarios.
 
-## Scenario 1. Apply security rules to a web server instance to allow external access
+<a id="scenario-1-apply-security-rules-to-a-web-server-instance-to-allow-external-access"></a>
+## Scenario 1. Apply security rules to a web server instance to allow external access { #scenario-1-apply-security-rules-to-a-web-server-instance-to-allow-external-access }
 
 1. From the top menu of the NHN Cloud console, select the organization`(MyORG`), project`(MyPRJ`), and `Korea (Pyeongchon) region`that you want to use for your lab.
 2. In the left menu, click **Network - Floating IP**.
@@ -62,9 +67,10 @@ To get started with NHN Cloud, you'll need to prepare the following things
 15. Open a new window in your web browser and type `http://copied linux-server-basic floating IP address`to confirm your connection.
 16. Verify that the web page is outputting normally.
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%851%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png)
+![pic1](../static/images/content_image/보안-설정_작업1-복사본.png)
 
-## Scenario 2. Allow SSH, ICMP (Ping, etc.) communication only from IPs allowed on the web server instance
+<a id="scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance"></a>
+## Scenario 2. Allow SSH, ICMP (Ping, etc.) communication only from IPs allowed on the web server instance { #scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance }
 
 1. In the left menu, click **Network - Security Groups**.
 2. On the **Security Groups** screen, click `MySG-SSH`to select it.
@@ -87,7 +93,8 @@ ping (linux-server-basic floating IP address)
 ```
 Verify that ping communication is allowed.
 
-## Scenario 3. Block a specific network band with Network ACL settings 
+<a id="scenario-3-block-a-specific-network-band-with-network-acl-settings"></a>
+## Scenario 3. Block a specific network band with Network ACL settings { #scenario-3-block-a-specific-network-band-with-network-acl-settings }
 
 1. In the left menu of the console window, click **Network - Network ACLs**.
 2. **On the Network ACLs > Management screen,**click **+ Create Network ACL**.
@@ -116,7 +123,8 @@ ping (linux-server-basic floating IP address)
 * Verify that Http communication is blocked.
 
 
-## Scenario 4. Apply additional Network ACL rules to allow external access
+<a id="scenario-4-apply-additional-network-acl-rules-to-allow-external-access"></a>
+## Scenario 4. Apply additional Network ACL rules to allow external access { #scenario-4-apply-additional-network-acl-rules-to-allow-external-access }
 
 1. In the left menu of the console window, click **Network - Network ACLs**.
 2. Click `MyACL`, and then click the **ACL Rule** tab in the bottom split pane.
@@ -157,9 +165,10 @@ ping (linux-server-basic floating IP address)
 * Open a new window in your web browser and type `http://the copied linux-server-basic floating IP address`to confirm your connection.
 * Verify that Http communication is allowed from all IPs.
 <br></br>
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%854.png)
+![pic2](../static/images/content_image/보안-설정_작업4.png)
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [Security groups](https://docs.nhncloud.com/en/Network/Security%20Groups/en/overview/)
 * [Network ACL](https://docs.nhncloud.com/en/Network/Network%20ACL/en/overview/)
@@ -171,10 +180,12 @@ ping (linux-server-basic floating IP address)
 * [ICMP(Internet Control Message Protocol)](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
 * [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
 
-## Previous step
+<a id="previous-step"></a>
+## Previous step { #previous-step }
 
 * [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [6. Create and attach databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)

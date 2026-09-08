@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=ed2d106f70f6 -->
+
 # Create account and login
 **Quickstarts > 1. Create account and login**
 
 To get started with NHN Cloud, you must first create an account and use it to access the NHN Cloud console. The account creation process is simple, and you can create an account immediately after entering the required information and completing email verification. Once you access the console with your created account, you can activate and efficiently manage various cloud services through a user-friendly interface.
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB_en.png)
-## Learning objectives
+<a id="learning-objectives"></a>
+## Learning objectives { #learning-objectives }
 
 In this learning module, you'll learn to
 
@@ -18,7 +21,8 @@ In this learning module, you'll learn to
     * Setting up a payment method to use NHN Cloud services
     * Enroll automatic payment methods for seamless service operations
 
-## Before you begin
+<a id="before-you-begin"></a>
+## Before you begin { #before-you-begin }
 
 Before you begin this learning module, here's what you need to know
 
@@ -32,9 +36,11 @@ Before you begin this learning module, here's what you need to know
     * Email verification and mobile phone verification are required to create an NHN Cloud account or perform important tasks.
     * You'll need a valid email address and a cell phone number in your name.
 
-## Sign up for NHN Cloud and register a payment method
+<a id="sign-up-for-nhn-cloud-and-register-a-payment-method"></a>
+## Sign up for NHN Cloud and register a payment method { #sign-up-for-nhn-cloud-and-register-a-payment-method }
 
-### Step 1. Sign up and log in
+<a id="step-1-sign-up-and-log-in"></a>
+### Step 1. Sign up and log in { #step-1-sign-up-and-log-in }
 
 1. Access the NHN Cloud website[(https://www.nhncloud.com)](https://www.nhncloud.com).
 2. In the upper-right corner, click **Sign up**.
@@ -62,7 +68,8 @@ Before you begin this learning module, here's what you need to know
     * (Optional) If you don't need to **set up two-step sign-in** for secure service use, uncheck the **"Sign in after authenticating with the email or mobile phone registered in your account"** checkbox, then click **OK**.
 8. Once you're signed up, you'll see that you're logged in on the homepage.
 
-### Step 2. Register your payment method
+<a id="step-2-register-your-payment-method"></a>
+### Step 2. Register your payment method { #step-2-register-your-payment-method }
 
 1. While logged in, move your cursor over **your masked ID** in the top right corner of the NHN Cloud homepage.
 2. Click the **Payment methods** tab.
@@ -72,11 +79,13 @@ Before you begin this learning module, here's what you need to know
 6. Check the **"I accept the terms of purchase and agree to proceed with recurring payments"** checkbox, then click **Register**.
 7. Complete the rounding of payment methods by going through the separate automated payment methods process.
 
-## References
+<a id="references"></a>
+## References { #references }
 
 * [NHN Cloud Basic User Guide](https://docs.nhncloud.com/en/nhncloud/en/user-guide/)
 * [Security policies](https://docs.nhncloud.com/en/nhncloud/en/security-policy/)
 
-## Next steps
+<a id="next-steps"></a>
+## Next steps { #next-steps }
 
 * [2. Create organizations and projects](https://docs.nhncloud.com/en/quickstarts/en/create-organization/)

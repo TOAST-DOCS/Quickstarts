@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=c652acf1596c -->
+
 # ネットワーク設定とインスタンス作成
 **Quickstarts > 4.ネットワーク設定とインスタンス作成**
 
 今回の学習モジュールでは、NHN CloudでLinuxベースのWebサーバーを作成し、リモートアクセスして駆動する方法を説明します。NHN Cloudは、ユーザーフレンドリーなインターフェースと多様なクラウドリソースを通じて、誰でも簡単に安定的で効率的なIT環境を構築することができます。
 
 ![mod_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%86%AB%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。 
 
@@ -20,11 +23,12 @@
     * Webサーバーのインストールと駆動
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%204.%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
+![mod_diagram](../static/images/모듈-4.-네트워크-설정과-인스턴스-생성.png)
 
 <p style="text-align: center; color: black;">最終構成図</p>
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 NHN Cloudを開始するためには、次の事項を準備する必要があります。
 
@@ -40,9 +44,11 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 
 **本ガイドは、[3.IAMアカウントとガバナンスの設定](https://docs.nhncloud.com/ja/quickstarts/ja/iam-accounts/)以降の段階から始めます。**
 
-## インスタンス作成の準備
+<a id="preparing-to-create-an-instance"></a>
+## インスタンス作成の準備 { #preparing-to-create-an-instance }
 
-### ステップ1.基本インフラサービスを有効にする
+<a id="step-1-enable-basic-infrastructure-services"></a>
+### ステップ1.基本インフラサービスを有効にする { #step-1-enable-basic-infrastructure-services }
 
 1. NHN Cloudコンソールに接続した後、上部のメニューで実習に使用する組織`(MyORG)`、プロジェクト(`MyPRJ)`、そして`韓国(平村)リージョンを`選択したことを確認します。
 2. `MyPRJの`右側にある**サービス選択を**クリックします。
@@ -55,7 +61,8 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
         * 設定したリージョンによって、一部のサービスは提供されない場合があります。
         * Instance サービスを有効化すると、関連する基本インフラサービスが一緒に有効化されます。
 
-### ステップ2.基本的なネットワーク設定
+<a id="step-2-basic-network-settings"></a>
+### ステップ2.基本的なネットワーク設定 { #step-2-basic-network-settings }
 
 > インスタンスのリモート接続に必要な基本的なネットワークリソースのVPC、サブネット、ルーティングテーブルの名前を設定します。
 
@@ -75,7 +82,8 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
     * 名前:`MyRT`
 12. 成功]ウィンドウで[**OK**]をクリックします。
 
-### ステップ3.Linuxインスタンスを作成する
+<a id="step-3-create-a-linux-instance"></a>
+### ステップ3.Linuxインスタンスを作成する { #step-3-create-a-linux-instance }
 
 1. 左メニューの**Compute - Instanceを**クリックします。
 2. **インスタンス作成を**クリックします。
@@ -131,15 +139,18 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
         * キーペアを作成すると、自動的にそのキーペア値が選択されます。
         * 詳細は、[キーペアユーザーガイドを](https://docs.nhncloud.com/ja/Compute/Instance/ja/overview/#key-pair)ご参照ください。
 
-## インスタンス接続とNginxウェブサーバー駆動
+<a id="connecting-to-an-instance-and-running-an-nginx-web-server"></a>
+## インスタンス接続とNginxウェブサーバー駆動 { #connecting-to-an-instance-and-running-an-nginx-web-server }
 
-### ステップ1.SSHリモート接続する
+<a id="step-1-get-an-ssh-remote-connection"></a>
+### ステップ1.SSHリモート接続する { #step-1-get-an-ssh-remote-connection }
 
 1. 左側のメニューから**Network - Floating IP を**クリックします。
 2. フローティングIPリソースのリストのうち、接続されたデバイスが`linux-server-basicである`IPアドレスを**コピーして** **記録します。**
 3. 下記のユーザー環境に合わせてSSHリモート接続を行います。
 
-### Windowsを使用する場合
+<a id="if-youre-using-windows"></a>
+### Windowsを使用する場合 { #if-youre-using-windows }
 
 * Windowsの**スタートを**クリックし、`Windows PowerShellを`検索して実行します。
 
@@ -188,7 +199,8 @@ ssh -i MyKey.pem ubuntu@コピーしたlinux-server-basicフローティングIP
 lsb_release -a
 ```
             
-### macOSをご利用の場合
+<a id="if-youre-using-macos"></a>
+### macOSをご利用の場合 { #if-youre-using-macos }
 
 * Dockで**ターミナル(Terminal)**アプリを実行するか、Spotlightで**ターミナルを**検索して実行します。
 
@@ -222,7 +234,8 @@ ssh -i MyKey.pem ubuntu@コピーしたlinux-server-basicフローティングIP
 lsb_release -a
 ```
 
-### ステップ2.ウェブサーバーをインストールして起動する
+<a id="step-2-get-your-web-server-up-and-running"></a>
+### ステップ2.ウェブサーバーをインストールして起動する { #step-2-get-your-web-server-up-and-running }
 
 * インスタンスにリモート接続した状態で下記のコマンドを入力してNginxウェブサーバーをインストールします。
 ```
@@ -239,7 +252,8 @@ curl localhost
     
 ![4 ネットワーク設定とインスタンス作成_作業5 スクリーンショット_rv1](https://github.com/user-attachments/assets/3bc07c8b-d6e2-431d-aad4-da3bfa6562e4)
 
-## 参考資料
+<a id="references"></a>
+## 参考資料 { #references }
 
 * [リージョンガイド](https://docs.nhncloud.com/ja/nhncloud/ja/region-guide/)
 * [Compute Instance](https://docs.nhncloud.com/ja/Compute/Instance/ja/overview/)
@@ -257,11 +271,13 @@ curl localhost
 * [Linux](https://en.wikipedia.org/wiki/Linux)
 * [Network Interface](https://docs.nhncloud.com/ja/Network/Network%20Interface/ja/overview/)
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [3. IAMアカウントとガバナンスの設定](dooray://1387695619080878080/pages/3977493217025617647 "publish")
 
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [5. -セキュリティ設定](dooray://1387695619080878080/pages/3959371258218176884 "publish")

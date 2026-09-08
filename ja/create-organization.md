@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=cd8093b7a877 -->
+
 # 組織とプロジェクトの作成
 **Quickstarts > 2.組織とプロジェクトの作成**
 
@@ -5,7 +7,8 @@
 コンソールのプロジェクトダッシュボードを通じて使用中のクラウドサービスとリソース情報を一目で確認することができ、詳細設定や管理オプションは直感的なメニューを通じて簡単にアクセスすることができます。
 
 ![module_info](https://static.toastoven.net/prod_cloud_quickstarts/module_info/%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%80%E1%85%AA%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC_ja.png)
-## 学習目標
+<a id="learning-objectives"></a>
+## 学習目標 { #learning-objectives }
 
 今回の学習モジュールで学ぶ内容は以下の通りです。
 
@@ -22,7 +25,8 @@
 
 > リージョン、組織、プロジェクト、可用性領域は以降の学習モジュールで同じように使用されるため、以降の学習モジュールの最終構成図では省略されます。
 
-## 始める前に
+<a id="before-you-begin"></a>
+## 始める前に { #before-you-begin }
 
 今回の学習モジュールを始める前に必要なものは以下の通りです。
 
@@ -38,15 +42,18 @@
 
     **本ガイドは、[1.アカウント作成とログイン](https://docs.nhncloud.com/ja/quickstarts/ja/create-account/)以降の手順から始めます。**
 
-## NHN Cloudコンソールを使用するための準備
+<a id="preparing-to-use-the-nhn-cloud-console"></a>
+## NHN Cloudコンソールを使用するための準備 { #preparing-to-use-the-nhn-cloud-console }
 
-### ステップ1.NHN Cloudコンソールにアクセスする
+<a id="step-1-access-the-nhn-cloud-console"></a>
+### ステップ1.NHN Cloudコンソールにアクセスする { #step-1-access-the-nhn-cloud-console }
 
 1. NHN Cloudホームページ[(https://www.nhncloud.com)](https://www.nhncloud.com/)にログインします。
 2. トップメニューの**CONSOLEを**クリックします。
 3. 新しいブラウザウィンドウまたはタブで**NHN Cloudコンソールページを**確認します。
 
-### ステップ2.組織を作成する
+<a id="step-2-create-an-organization"></a>
+### ステップ2.組織を作成する { #step-2-create-an-organization }
 
 1. NHN Cloudコンソール上部にある**組織を作成してください。**横の**+**をクリックします。
 2. 組織作成ウィンドウで以下の情報を入力し、[**OK**]をクリックします。
@@ -58,7 +65,8 @@
     * 既に作成された組織がある場合
         * 既に作成した組織がある場合は、その組織リストの下部にある**+組織作成を**クリックすると、以下の作業を進めることができます。
 
-### ステップ3.プロジェクトを作成する
+<a id="step-3-create-a-project"></a>
+### ステップ3.プロジェクトを作成する { #step-3-create-a-project }
 
 1. NHN Cloudコンソール上部にある**組織タブで** `MyORGを`クリックします。組織が1つの場合、自動的に選択されています。
 2. 選択した組織タブの右側にある**新規プロジェクト作成の**横にある\*\*+**をクリックします。
@@ -67,20 +75,24 @@
 4. 通知ウィンドウで[**OK**]をクリックします。
 5. 作成したプロジェクトのダッシュボードとコンソール画面を確認します。
 
-### ステップ4.リージョンを選択する
+<a id="step-4-select-a-region"></a>
+### ステップ4.リージョンを選択する { #step-4-select-a-region }
 
 1. NHN Cloudコンソールの右上にある**韓国(板橋)リージョンに**マウスカーソルを移動します。
 2. リージョンリストから`韓国(平村)リージョンを`クリックします。
 
-## 参考サイト
+<a id="reference-sites"></a>
+## 参考サイト { #reference-sites }
 
 * [コンソールポリシーガイド](https://docs.nhncloud.com/ja/nhncloud/ja/console-guide/)
 * [リソース提供ポリシー](https://docs.nhncloud.com/ja/nhncloud/ja/resource-policy/)
 
-## 前の段階
+<a id="previous-step"></a>
+## 前の段階 { #previous-step }
 
 * [1. アカウント作成とログイン](https://docs.nhncloud.com/ja/quickstarts/ja/create-account/)
 
-## 次のステップ
+<a id="next-steps"></a>
+## 次のステップ { #next-steps }
 
 * [3. IAMアカウントとガバナンス設定](https://docs.nhncloud.com/ja/quickstarts/ja/iam-accounts/)

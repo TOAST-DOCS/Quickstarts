@@ -1,10 +1,13 @@
+<!-- pre-align:aligned sig=8759a1743b7d -->
+
 # 스토리지 생성 및 연결
 **Quickstarts > 7.스토리지 생성 및 연결**
 
 이번 학습 모듈에서는 NHN Cloud 콘솔을 통해 스토리지 서비스를 활성화하고 사용하는 방법을 안내합니다. NHN Cloud의 **스토리지 서비스**는 데이터 저장과 관리에 필요한 안정적이고 확장 가능한 솔루션을 제공합니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
-## 학습 목표
+![mod_info](../static/images/module_info/스토리지-생성-및-연결.png)
+<a id="learning-objectives"></a>
+## 학습 목표 { #learning-objectives }
 
 이번 학습 모듈에서 배울 내용은 다음과 같습니다.
 
@@ -14,11 +17,12 @@
     * Object Storage 컨테이너 생성 및 객체 업로드와 다운로드
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%207.%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/diagram/모듈-7.-스토리지-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
-## 시작하기 전에
+<a id="before-you-begin"></a>
+## 시작하기 전에 { #before-you-begin }
 
 NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합니다.
 
@@ -34,11 +38,13 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 
 **본 가이드는 [6. 데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/) 이후 단계부터 시작됩니다.**
 
-## 블록 스토리지 생성 및 데이터 조회
+<a id="creating-block-storage-and-retrieving-data"></a>
+## 블록 스토리지 생성 및 데이터 조회 { #creating-block-storage-and-retrieving-data }
 
 > 블록 스토리지를 생성해 리눅스 인스턴스에 연결한 뒤 블록 스토리지의 데이터를 조회합니다.
 
-### 단계 1. 블록 스토리지 생성 후 리눅스 인스턴스에 연결하기
+<a id="step-1-create-block-storage-and-connect-to-a-linux-instance"></a>
+### 단계 1. 블록 스토리지 생성 후 리눅스 인스턴스에 연결하기 { #step-1-create-block-storage-and-connect-to-a-linux-instance }
 
 > 모듈 3에서 생성한 리눅스 인스턴스 `linux-server-basic`에 블록 스토리지 리소스를 연결합니다.
 
@@ -56,7 +62,8 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 인스턴스에 연결: `linux-server-basic`
 8. 성공 창에서 **확인**을 클릭합니다.
 
-### 단계 2. 추가 블록 스토리지 파티션 설정, 포맷, 마운트하기
+<a id="step-2-set-up-format-and-mount-additional-block-storage-partitions"></a>
+### 단계 2. 추가 블록 스토리지 파티션 설정, 포맷, 마운트하기 { #step-2-set-up-format-and-mount-additional-block-storage-partitions }
 
 * 리눅스 인스턴스 `linux-server-basic`에 원격 접속한 상태에서 아래 명령어를 실행해 단계 1에서 생성한 블록 스토리지 `MyBS`에 파티션을 생성한 뒤 포맷과 마운트를 실행합니다.
 ```
@@ -107,10 +114,11 @@ df /dev/vdb1
 > <summary><u>결과 화면 보기</u></summary>
 >
 > <p>
-> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A0%88%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%852.png">
+> <img src="../../static/images/content_image/스토레지-생성-및-설정_작업2.png">
  > </p>
 
-### 단계 3. 추가 블록 스토리지에 자료 생성하기
+<a id="step-3-create-material-in-additional-block-storage"></a>
+### 단계 3. 추가 블록 스토리지에 자료 생성하기 { #step-3-create-material-in-additional-block-storage }
 
 * `linux-server-basic`에 원격 접속한 상태에서 아래 명령어를 실행하여 블록 스토리지를 생성합니다.
 ```bash
@@ -132,14 +140,16 @@ cat /mnt/vdb/employees.csv
 > <summary><u>결과 화면 보기</u></summary>
 >
 > <p>
-> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%853.png">
+> <img src="../../static/images/content_image/스토리지-생성-및-설정_작업3.png">
 > </p>
 
-## 오브젝트 스토리지 생성 및 데이터 조회
+<a id="create-object-storage-and-retrieve-data"></a>
+## 오브젝트 스토리지 생성 및 데이터 조회 { #create-object-storage-and-retrieve-data }
 
 > 오브젝트 스토리지 서비스를 활성화해 컨테이너를 생성한 뒤 객체를 업로드합니다. 해당 객체를 리눅스 인스턴스에 저장한 뒤 접속해 데이터가 출력되는 지 확인합니다.
 
-### 단계 1. 오브젝트 스토리지 서비스 활성화 및 컨테이너 생성하기
+<a id="step-1-enable-the-object-storage-service-and-create-a-container"></a>
+### 단계 1. 오브젝트 스토리지 서비스 활성화 및 컨테이너 생성하기 { #step-1-enable-the-object-storage-service-and-create-a-container }
 
 1. `MyPRJ` 프로젝트 오른쪽에 위치한 **"서비스 선택"** 탭을 클릭합니다.
 2. **서비스 선택** 클릭 후 나오는 화면에서 **모든 서비스 - Storage - Object Storage**를 클릭합니다.
@@ -154,7 +164,8 @@ cat /mnt/vdb/employees.csv
     * 암호화 설정: `사용 안 함`
 7. 성공 창에서 **확인**을 클릭합니다.
 
-### 단계 2. 오브젝트 스토리지를 이용해 리눅스 인스턴스 웹 소스 변경하기
+<a id="step-2-change-the-linux-instance-web-source-using-object-storage"></a>
+### 단계 2. 오브젝트 스토리지를 이용해 리눅스 인스턴스 웹 소스 변경하기 { #step-2-change-the-linux-instance-web-source-using-object-storage }
 
 * 사용자 작업 환경에서 새로운 **터미널** 또는 **PowerShell**을 실행합니다.
 * 아래 명령어로 web-sample 디렉토리를 생성하고 index.html 파일을 저장합니다.
@@ -252,7 +263,7 @@ chmod +x /home/ubuntu/service-setting.sh
 ```
 
 * 웹 브라우저에서 새 창을 열어서 `http://복사한 linux-server-basic 플로팅 IP 주소`를 입력하여 변경된 웹 페이지를 확인합니다.
-![pic3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1_%EB%8B%A8%EA%B3%843.png)
+![pic3](../static/images/content_image/스토리지-생성_단계3.png)
 
 !!! tip "알아두기"
     * 변경된 웹 페이지가 보이지 않을 경우
@@ -261,7 +272,8 @@ chmod +x /home/ubuntu/service-setting.sh
             * **Mac**: `Cmd + Shift + R`
 
 
-## 참고 자료
+<a id="references"></a>
+## 참고 자료 { #references }
 
 * [Storage](https://en.wikipedia.org/wiki/Cloud_storage)
 * [Block Storage](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/overview/)
@@ -274,10 +286,12 @@ chmod +x /home/ubuntu/service-setting.sh
 * [Mount](https://en.wikipedia.org/wiki/Mount_(computing))
 * [chmod](https://en.wikipedia.org/wiki/Chmod)
 
-## 이전 단계
+<a id="previous-step"></a>
+## 이전 단계 { #previous-step }
 
 * [6.데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
 
-## 다음 단계
+<a id="next-steps"></a>
+## 다음 단계 { #next-steps }
 
 * [8.모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
