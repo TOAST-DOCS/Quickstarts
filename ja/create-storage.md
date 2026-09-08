@@ -17,7 +17,7 @@
     * Object Storage コンテナの作成とオブジェクトのアップロードとダウンロード
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%207.%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/모듈-7.-스토리지-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">最終構成図</p>
 
@@ -110,7 +110,7 @@ df /dev/vdb1
 **該当Filesystemと容量、Mountパスが照会される**ことを確認します。
 <br></br>
 
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A0%88%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%852.png)
+![pic1](../static/images/content_image/스토레지-생성-및-설정_작업2.png)
 
 <p style="text-align: center; color: black;">出力画面</p>
 
@@ -132,7 +132,7 @@ mysql --host=(mysql-db-basic インスタンスの仮想 IP アドレス) --user
 cat /mnt/vdb/employees.csv
 ```
 
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%853.png)
+![pic2](../static/images/content_image/스토리지-생성-및-설정_작업3.png)
 
 <p style="text-align: center; color: black;">出力画面</p>
 
@@ -256,7 +256,7 @@ chmod +x /home/ubuntu/service-setting.sh
 ```
 
 * ウェブブラウザで新しいウィンドウを開いて`http://복사한 linux-server-basic フローティングIPアドレスを`入力して、変更されたウェブページを確認します。
-![pic3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1_%EB%8B%A8%EA%B3%843.png)
+![pic3](../static/images/content_image/스토리지-생성_단계3.png)
 
 !!! tip "知っておくべきこと"
     * 変更されたウェブページが表示されない場合

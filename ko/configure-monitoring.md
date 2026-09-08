@@ -5,7 +5,7 @@
 
 이번 학습 모듈에서는 NHN Cloud 콘솔에서 제공하는 Monitoring 서비스에 대해 자세히 알아보고 직접 실습해 봅니다. NHN Cloud의 Cloud Monitoring 서비스는 클라우드 환경에서 운영되는 인프라와 애플리케이션의 상태를 실시간으로 모니터링하고 이상 징후를 신속하게 감지할 수 있도록 지원합니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EC%84%A4%EC%A0%95.png)
+![mod_info](../static/images/module_info/모니터링-설정.png)
 <a id="learning-objectives"></a>
 ## 학습 목표 { #learning-objectives }
 
@@ -25,7 +25,7 @@
         * 이메일, SMS 등 조건별 알림 설정
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%208.%20%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EC%84%A4%EC%A0%95.png)
+![mod_diagram](../static/images/diagram/모듈-8.-모니터링-설정.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 

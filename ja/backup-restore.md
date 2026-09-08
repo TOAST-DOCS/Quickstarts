@@ -18,7 +18,7 @@
     * ブロックストレージの複製機能を活用し、既存のブロックストレージを複製した後、インスタンスと接続します。
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+![mod_diagram](../static/images/모듈-9.-백업-및-복구.png)
 
 <a id="before-you-begin"></a>
 ## 始める前に { #before-you-begin }

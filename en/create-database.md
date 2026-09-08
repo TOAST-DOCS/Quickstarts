@@ -16,7 +16,7 @@ In this learning module, you'll learn to
     * Accessing databases and working with simple data
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%206.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/모듈-6.-데이터베이스-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
@@ -83,7 +83,7 @@ To get started with NHN Cloud, you need to prepare the following things
         * In the **Security group selection**, select `MySG-DB`, which you created above.
     * Additional block storage: Disabled (default)
     * User script
-        * [View Script](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/create-database-script.txt)
+        * [View Script](../static/etc/create-database-script.txt)
     * Erasure protection: Disabled (default)
 4. In the Instance creation information pane, click **Create instance**.
 5. The instance creation operation proceeds. The instance will be created in about a minute or so.
@@ -123,7 +123,7 @@ mysql --host=(virtual IP address of mysql-db-basic instance) --user=nhncloud -e 
 
 Verify that **the results from the database are retrieved**.
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0_%EC%9E%91%EC%97%852.png)
+![pic1](../static/images/content_image/데이터베이스-생성-및-연결_작업2.png)
 
 <a id="references"></a>
 ## References { #references }

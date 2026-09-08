@@ -5,7 +5,7 @@
 
 이번 학습 모듈에서는 NHN Cloud에서 Linux 기반 웹 서버를 생성해 원격 접속하여 구동하는 방법을 다룹니다. NHN Cloud는 사용자 친화적인 인터페이스와 다양한 클라우드 리소스를 통해 누구나 쉽게 안정적이고 효율적인 IT 환경을 구축할 수 있도록 지원합니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
+![mod_info](../static/images/module_info/네트워크-설정과-인스턴스-생성.png)
 <a id="learning-objectives"></a>
 ## 학습 목표 { #learning-objectives }
 
@@ -23,7 +23,7 @@
     * 웹 서버 설치 및 구동하기
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%204.%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1.png)
+![mod_diagram](../static/images/diagram/모듈-4.-네트워크-설정과-인스턴스-생성.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
@@ -255,7 +255,7 @@ curl localhost
 > <summary><u>결과 화면 보기</u></summary>
 >
 > <p>
-> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/4.%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%84%A4%EC%A0%95%EA%B3%BC%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1_%EC%9E%91%EC%97%855%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_rv1.png">
+> <img src="../../static/images/content_image/4.네트워크설정과-인스턴스-생성_작업5-스크린샷_rv1.png">
  > </p>
 
 <a id="references"></a>

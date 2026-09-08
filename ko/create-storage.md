@@ -5,7 +5,7 @@
 
 이번 학습 모듈에서는 NHN Cloud 콘솔을 통해 스토리지 서비스를 활성화하고 사용하는 방법을 안내합니다. NHN Cloud의 **스토리지 서비스**는 데이터 저장과 관리에 필요한 안정적이고 확장 가능한 솔루션을 제공합니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_info](../static/images/module_info/스토리지-생성-및-연결.png)
 <a id="learning-objectives"></a>
 ## 학습 목표 { #learning-objectives }
 
@@ -17,7 +17,7 @@
     * Object Storage 컨테이너 생성 및 객체 업로드와 다운로드
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%207.%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%97%B0%EA%B2%B0.png)
+![mod_diagram](../static/images/diagram/모듈-7.-스토리지-생성-및-연결.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 
@@ -114,7 +114,7 @@ df /dev/vdb1
 > <summary><u>결과 화면 보기</u></summary>
 >
 > <p>
-> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A0%88%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%852.png">
+> <img src="../../static/images/content_image/스토레지-생성-및-설정_작업2.png">
  > </p>
 
 <a id="step-3-create-material-in-additional-block-storage"></a>
@@ -140,7 +140,7 @@ cat /mnt/vdb/employees.csv
 > <summary><u>결과 화면 보기</u></summary>
 >
 > <p>
-> <img src="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%853.png">
+> <img src="../../static/images/content_image/스토리지-생성-및-설정_작업3.png">
 > </p>
 
 <a id="create-object-storage-and-retrieve-data"></a>
@@ -263,7 +263,7 @@ chmod +x /home/ubuntu/service-setting.sh
 ```
 
 * 웹 브라우저에서 새 창을 열어서 `http://복사한 linux-server-basic 플로팅 IP 주소`를 입력하여 변경된 웹 페이지를 확인합니다.
-![pic3](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%20%EC%83%9D%EC%84%B1_%EB%8B%A8%EA%B3%843.png)
+![pic3](../static/images/content_image/스토리지-생성_단계3.png)
 
 !!! tip "알아두기"
     * 변경된 웹 페이지가 보이지 않을 경우

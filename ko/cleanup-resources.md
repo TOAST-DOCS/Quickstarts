@@ -4,7 +4,7 @@
 **Quickstarts > 12. 리소스 정리 및 삭제**
 
 이번 학습 모듈에서는 NHN Cloud에서 사용하지 않는 리소스와 프로젝트 및 조직을 삭제하는 방법을 알아봅니다. 이를 통해 불필요한 비용 발생을 방지하고 클라우드 환경을 최적화할 수 있습니다.
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EC%A0%95%EB%A6%AC%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.png)
+![mod_info](../static/images/module_info/리소스-정리-및-삭제.png)
 <a id="learning-objectives"></a>
 ## 학습 목표 { #learning-objectives }
 

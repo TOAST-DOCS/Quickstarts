@@ -5,7 +5,7 @@
 
 이번 학습 모듈에서는 NHN Cloud 환경에서 애플리케이션과 데이터를 안전하게 보호하고 복구할 수 있는 방법을 학습합니다. 블록 스토리지 복제, 인스턴스 이미지 생성 및 이미지 기반 생성을 통해 데이터 유실을 방지하고 신속한 복구가 가능한 시스템을 구축합니다.
 
-![mod_info](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/module_info/%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+![mod_info](../static/images/module_info/백업-및-복구.png)
 <a id="learning-objectives"></a>
 ## 학습 목표 { #learning-objectives }
 
@@ -18,7 +18,7 @@
     * 블록 스토리지 복제 기능을 활용해 기존의 블록 스토리지를 복제한 뒤 인스턴스와 연결
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/diagram/%EB%AA%A8%EB%93%88%209.%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20%EB%B3%B5%EA%B5%AC.png)
+![mod_diagram](../static/images/diagram/모듈-9.-백업-및-복구.png)
 
 <p style="text-align: center; color: black;">최종 구성도</p>
 

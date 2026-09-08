@@ -19,7 +19,7 @@ In this learning module, you'll learn to
     * Backup and recovery strategies for data loss
 <br></br>
 
-![mod_diagram](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/%EB%AA%A8%EB%93%88%205.%20%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95.png)
+![mod_diagram](../static/images/모듈-5.-보안-설정.png)
 
 <p style="text-align: center; color: black;">Final configuration diagram</p>
 
@@ -67,7 +67,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
 15. Open a new window in your web browser and type `http://copied linux-server-basic floating IP address`to confirm your connection.
 16. Verify that the web page is outputting normally.
 <br></br>
-![pic1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%851%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png)
+![pic1](../static/images/content_image/보안-설정_작업1-복사본.png)
 
 <a id="scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance"></a>
 ## Scenario 2. Allow SSH, ICMP (Ping, etc.) communication only from IPs allowed on the web server instance { #scenario-2-allow-ssh-icmp-ping-etc-communication-only-from-ips-allowed-on-the-web-server-instance }
@@ -165,7 +165,7 @@ ping (linux-server-basic floating IP address)
 * Open a new window in your web browser and type `http://the copied linux-server-basic floating IP address`to confirm your connection.
 * Verify that Http communication is allowed from all IPs.
 <br></br>
-![pic2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_cloud_quickstarts/content_image/%EB%B3%B4%EC%95%88%20%EC%84%A4%EC%A0%95_%EC%9E%91%EC%97%854.png)
+![pic2](../static/images/content_image/보안-설정_작업4.png)
 
 <a id="references"></a>
 ## References { #references }
