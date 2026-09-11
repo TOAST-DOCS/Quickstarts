@@ -231,7 +231,7 @@ mkdir /web-sample
 3. In the console pane, click **Storage - Object Storage**in the left menu.
 4. On the Object Storage screen, click `myobs`to go to the container details page screen.
 5. On the `myobs` screen, click **Upload object**.
-6. In the **Upload Object** window, click **Choose File**, select `the index.html` file located ** in /web-sample**, and then click **OK**.
+6. In the **Upload Object** window, click **Choose File**, select `the index.html` file located **in /web-sample**, and then click **OK**.
 7. In the **Upload Status Information** window, verify that the `index.html` file upload status **is Success**, and then click **OK**.
 8. To the right of the uploaded `index.html` object, in the **Public URL** entry, click Copy **URL**to copy **the public URL address of the index.html file**.
 9. Connect remotely `to linux-server-basic`.
