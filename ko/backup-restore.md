@@ -37,7 +37,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
 
-**본 가이드는 [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [8. 모니터링 설정](./configure-monitoring/) 이후 단계부터 시작됩니다.**
 
 <a id="creating-instances-and-attaching-block-storage-via-instance-images"></a>
 ## 인스턴스 이미지를 통한 인스턴스 생성 및 블록 스토리지 연결 { #creating-instances-and-attaching-block-storage-via-instance-images }
@@ -169,18 +169,18 @@ cat /mnt/vdb/employees.csv
 <a id="references"></a>
 ## 참고 자료 { #references }
 
-* [이미지](https://docs.nhncloud.com/ko/Compute/Image/ko/overview/)
-* [이미지 생성](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_13)
-* [블록 스토리지 복제](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/console-guide/#_11)
+* [이미지](/Compute/Image/ko/overview/)
+* [이미지 생성](/Compute/Instance/ko/console-guide/#create-image)
+* [블록 스토리지 복제](/Storage/Block%20Storage/ko/console-guide/#replicate-block-storage)
 * [Snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))
 * [Backup](https://en.wikipedia.org/wiki/Backup)
 
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [8. 모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
+* [8. 모니터링 설정](./configure-monitoring/)
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)
+* [10. 확장성과 성능 최적화](./optimze-performance/)

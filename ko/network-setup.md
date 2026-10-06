@@ -42,7 +42,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/) 이후 단계부터 시작합니다.**
+**본 가이드는 [3. IAM 계정과 거버넌스 설정](./iam-accounts/) 이후 단계부터 시작합니다.**
 
 <a id="preparing-to-create-an-instance"></a>
 ## 인스턴스 생성을 위한 준비 { #preparing-to-create-an-instance }
@@ -137,7 +137,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * 키페어 다운로드는 키페어 생성 시 한번만 다운로드 받을 수 있습니다. 파일을 안전한 곳에 다운로드하여 관리하세요.
         * 이미 생성한 `MyKey` 키페어가 "키페어 선택" 드롭다운 메뉴에 있으면 해당 키를 선택하시기 바랍니다. 단, MyKey.pem 파일을 사용자가 기억하는 경로(디렉토리 또는 폴더)에 다운로드 받아놓은 상태여야 합니다.
         * 키페어를 생성하면 자동으로 해당 키페어 값이 선택됩니다.
-        * 자세한 내용은 [키페어 사용자 가이드](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#key-pair)를 참고하세요.
+        * 자세한 내용은 [키페어 사용자 가이드](/Compute/Instance/ko/overview/#key-pair)를 참고하세요.
 
 <a id="connecting-to-an-instance-and-running-an-nginx-web-server"></a>
 ## 인스턴스 접속 및 Nginx 웹 서버 구동 { #connecting-to-an-instance-and-running-an-nginx-web-server }
@@ -261,29 +261,29 @@ curl localhost
 <a id="references"></a>
 ## 참고 자료 { #references }
 
-* [리전 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/region-guide/)
-* [Compute Instance](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/)
+* [리전 가이드](/nhncloud/ko/region-guide/)
+* [Compute Instance](/Compute/Instance/ko/overview/)
 * [System Image](https://en.wikipedia.org/wiki/System_image)
-* [VPC](https://docs.nhncloud.com/ko/Network/VPC/ko/overview/)
-* [Subnet](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_4)
+* [VPC](/Network/VPC/ko/overview/)
+* [Subnet](/Network/VPC/ko/console-guide/#subnet)
 * [Floating IP](https://www.nhncloud.com/kr/service/network/floating-ip)
 * [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 * [Public-key 암호화](https://en.wikipedia.org/wiki/Public-key_cryptography)
 * [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
 * [VM](https://en.wikipedia.org/wiki/Virtual_machine)
-* [Internet Gateway](https://docs.nhncloud.com/ko/Network/Internet%20Gateway/ko/overview/)
+* [Internet Gateway](/Network/Internet%20Gateway/ko/overview/)
 * [Nginx](https://en.wikipedia.org/wiki/Nginx)
 * [웹서버](https://en.wikipedia.org/wiki/Web_server)
 * [Linux](https://en.wikipedia.org/wiki/Linux)
-* [Network Interface](https://docs.nhncloud.com/ko/Network/Network%20Interface/ko/overview/)
+* [Network Interface](/Network/Network%20Interface/ko/overview/)
 
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/)
+* [3. IAM 계정과 거버넌스 설정](./iam-accounts/)
 
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)
+* [5. 보안 설정](./configure-security/)

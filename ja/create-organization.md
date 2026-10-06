@@ -40,7 +40,7 @@
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudのホームページにログインする必要があります。
 
-    **本ガイドは、[1.アカウント作成とログイン](https://docs.nhncloud.com/ja/quickstarts/ja/create-account/)以降の手順から始めます。**
+    **本ガイドは、[1.アカウント作成とログイン](./create-account/)以降の手順から始めます。**
 
 <a id="preparing-to-use-the-nhn-cloud-console"></a>
 ## NHN Cloudコンソールを使用するための準備 { #preparing-to-use-the-nhn-cloud-console }
@@ -84,15 +84,15 @@
 <a id="reference-sites"></a>
 ## 参考サイト { #reference-sites }
 
-* [コンソールポリシーガイド](https://docs.nhncloud.com/ja/nhncloud/ja/console-guide/)
-* [リソース提供ポリシー](https://docs.nhncloud.com/ja/nhncloud/ja/resource-policy/)
+* [コンソールポリシーガイド](/nhncloud/ja/console-guide/)
+* [リソース提供ポリシー](/nhncloud/ja/resource-policy/)
 
 <a id="previous-step"></a>
 ## 前の段階 { #previous-step }
 
-* [1. アカウント作成とログイン](https://docs.nhncloud.com/ja/quickstarts/ja/create-account/)
+* [1. アカウント作成とログイン](./create-account/)
 
 <a id="next-steps"></a>
 ## 次のステップ { #next-steps }
 
-* [3. IAMアカウントとガバナンス設定](https://docs.nhncloud.com/ja/quickstarts/ja/iam-accounts/)
+* [3. IAMアカウントとガバナンス設定](./iam-accounts/)

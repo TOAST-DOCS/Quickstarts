@@ -38,7 +38,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [9. 백업 및 복구](./backup-restore/) 이후 단계부터 시작됩니다.**
 
 <a id="traffic-balancing-with-scaling-groups-and-load-balancers"></a>
 ## 스케일링 그룹과 로드밸런서를 통한 트래픽 분산 { #traffic-balancing-with-scaling-groups-and-load-balancers }
@@ -109,7 +109,7 @@
         * 개인 이미지 > 이미지 이름: `linux-server-basic-image` 클릭
         > [참고]
         >
-        >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)의 **단계 1**을 통해 생성할 수 있습니다.
+        >`linux-server-basic-image` 개인 이미지는 [9.백업 및 복구](./backup-restore/)의 **단계 1**을 통해 생성할 수 있습니다.
     * 인스턴스 정보
         * 가용성 영역: `임의의 가용성 영역`
         * 인스턴스 이름: `linux-server-autoscale`
@@ -210,9 +210,9 @@
 <a id="references"></a>
 ## 참고 자료 { #references }
 
-* [Auto Scale](https://docs.nhncloud.com/ko/Compute/Auto%20Scale/ko/overview/)
-* [Load Balancer](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/)
-* [로드 밸런싱 방식](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/#_1)
+* [Auto Scale](/Compute/Auto%20Scale/ko/overview/)
+* [Load Balancer](/Network/Load%20Balancer/ko/overview/)
+* [로드 밸런싱 방식](/Network/Load%20Balancer/ko/overview/#load-balancing-methods)
 * [Load balancing (computing)](https://en.wikipedia.org/wiki/Load_balancing_(computing))
 * [Transport Layer(L4)](https://en.wikipedia.org/wiki/Transport_layer)
 * [Application Layer(L7)](https://en.wikipedia.org/wiki/Application_layer)
@@ -221,9 +221,9 @@
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)
+* [9. 백업 및 복구](./backup-restore/)
 
 <a id="next-step"></a>
 ## 다음 단계 { #next-step }
 
-* [11. 비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. 비용 관리](./cost-management/)

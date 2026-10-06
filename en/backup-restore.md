@@ -35,7 +35,7 @@ Before you begin this learning module, here's what you need to know
     * You must have an NHN Cloud account with a registered payment method.
     * You need to log in to the NHN Cloud homepage.
 
-**This guide begins with the steps after [8. Setting up monitoring](https://docs.nhncloud.com/en/quickstarts/en/configure-monitoring/).**
+**This guide begins with the steps after [8. Setting up monitoring](./configure-monitoring/).**
 
 <a id="creating-instances-and-attaching-block-storage-via-instance-images"></a>
 ## Creating instances and attaching block storage via instance images { #creating-instances-and-attaching-block-storage-via-instance-images }
@@ -167,18 +167,18 @@ Verify that the results from the database are retrieved as a CSV file.
 <a id="references"></a>
 ## References { #references }
 
-* [Image](https://docs.nhncloud.com/en/Compute/Image/en/overview/)
-* [Create an image](https://docs.nhncloud.com/en/Compute/Instance/en/console-guide/#_13)
-* [Replicating block storage](https://docs.nhncloud.com/en/Storage/Block%20Storage/en/console-guide/#_11)
+* [Image](/Compute/Image/en/overview/)
+* [Create an image](/Compute/Instance/en/console-guide/#create-image)
+* [Replicating block storage](/Storage/Block%20Storage/en/console-guide/#replicate-block-storage)
 * [Snapshot](https://en.wikipedia.org/wiki/Snapshot_(computer_storage))
 * [Backup](https://en.wikipedia.org/wiki/Backup)
 
 <a id="previous-step"></a>
 ## Previous step { #previous-step }
 
-* [8. Monitoring settings](https://docs.nhncloud.com/en/quickstarts/en/configure-monitoring/)
+* [8. Monitoring settings](./configure-monitoring/)
 
 <a id="next-steps"></a>
 ## Next steps { #next-steps }
 
-* [10. Optimize scalability and performance](https://docs.nhncloud.com/en/quickstarts/en/optimze-performance/)
+* [10. Optimize scalability and performance](./optimze-performance/)

@@ -36,7 +36,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * You must have an NHN Cloud account with a registered payment method.
     * You need to log in to the NHN Cloud homepage.
 
-**This guide starts after step [6. Create and connect to the database](https://docs.nhncloud.com/en/quickstarts/en/create-database/).**
+**This guide starts after step [6. Create and connect to the database](./create-database/).**
 
 <a id="creating-block-storage-and-retrieving-data"></a>
 ## Creating block storage and retrieving data { #creating-block-storage-and-retrieving-data }
@@ -237,7 +237,7 @@ mkdir /web-sample
 9. Connect remotely `to linux-server-basic`.
 > [Note] How to remotely connect `to linux-server-basic`
 >
-> * For how to connect remotely, see [4. Set up your network and create an instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/) - **Step 1. SSH remote access**.
+> * For how to connect remotely, see [4. Set up your network and create an instance](./network-setup/) - **Step 1. SSH remote access**.
 10. After connecting to `the linux-server-basic` remote, run the command below to download and save index.html.
 ```bash
 sudo curl -o /var/www/html/index.html (Public URL of the index.html file you uploaded to myobs)
@@ -269,8 +269,8 @@ chmod +x /home/ubuntu/service-setting.sh
 ## References { #references }
 
 * [Storage](https://en.wikipedia.org/wiki/Cloud_storage)
-* [Block Storage](https://docs.nhncloud.com/en/Storage/Block%20Storage/en/overview/)
-* [Object Storage](https://docs.nhncloud.com/en/Storage/Object%20Storage/en/Overview/)
+* [Block Storage](/Storage/Block%20Storage/en/overview/)
+* [Object Storage](/Storage/Object%20Storage/en/Overview/)
 * [HDD](https://en.wikipedia.org/wiki/Hard_disk_drive)
 * [SSD](https://en.wikipedia.org/wiki/Solid-state_drive)
 * [Disk encryption](https://en.wikipedia.org/wiki/Disk_encryption)
@@ -282,9 +282,9 @@ chmod +x /home/ubuntu/service-setting.sh
 <a id="previous-step"></a>
 ## Previous step { #previous-step }
 
-* [6. Create and attach databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
+* [6. Create and attach databases](./create-database/)
 
 <a id="next-steps"></a>
 ## Next steps { #next-steps }
 
-* [8. Configure monitoring](https://docs.nhncloud.com/en/quickstarts/en/configure-monitoring/)
+* [8. Configure monitoring](./configure-monitoring/)

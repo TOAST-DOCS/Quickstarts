@@ -37,7 +37,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
 
-    **본 가이드는 [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/) 이후 단계부터 시작합니다.**
+    **본 가이드는 [2. 조직과 프로젝트 생성](./create-organization/) 이후 단계부터 시작합니다.**
 
 <a id="prepare-for-iam-account-access"></a>
 ## IAM 계정 접속을 위한 준비 { #prepare-for-iam-account-access }
@@ -159,7 +159,7 @@
 
 1. 웹 브라우저에서 새 창을 열어서 `https://MyORG IAM 콘솔 도메인 주소`를 입력하여 IAM 콘솔 도메인에 접속합니다.
     * IAM 콘솔 도메인 주소
-        * [3. IAM 계정과 거버넌스 설정](https://docs.nhncloud.com/ko/quickstarts/ko/iam-accounts/) 작업 1에서 복사한 **IAM 콘솔 도메인 이름의 URL**을 IAM 계정 사용자에게 공유하여 사용할 수 있습니다.
+        * [3. IAM 계정과 거버넌스 설정](#iam) 작업 1에서 복사한 **IAM 콘솔 도메인 이름의 URL**을 IAM 계정 사용자에게 공유하여 사용할 수 있습니다.
 2. `MyORG` 로그인 창에서 아래 정보를 입력 후 **로그인**을 클릭합니다.
     * 아이디: `myproject-admin`
     * 비밀번호: `작업 4 에서 설정한 myproject-admin의 비밀번호`
@@ -182,17 +182,17 @@
 <a id="reference-sites"></a>
 ## 참고 자료 { #reference-sites }
 
-* [콘솔 사용 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/console-user-guide/)
-* [보안 정책](https://docs.nhncloud.com/ko/nhncloud/ko/security-policy/)
+* [콘솔 사용 가이드](/nhncloud/ko/console-user-guide/)
+* [보안 정책](/nhncloud/ko/security-policy/)
 * [IAM](https://en.wikipedia.org/wiki/Identity_and_access_management)
 
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/)
+* [2. 조직과 프로젝트 생성](./create-organization/)
 <br>
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)
+* [4. 네트워크 설정과 인스턴스 생성](./network-setup/)

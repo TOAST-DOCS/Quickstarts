@@ -35,7 +35,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 안정적인 인터넷 연결이 필요하며, 권장 대역폭은 최소 5Mbps 이상입니다.
     * HTTPS를 통한 안전한 통신이 가능해야 합니다.
 
-**본 가이드는 [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/) 이후 단계부터 시작합니다.**
+**본 가이드는 [4. 네트워크 설정과 인스턴스 생성](./network-setup/) 이후 단계부터 시작합니다.**
 
 > 이번 학습 모듈에서는 4가지 시나리오를 통해 다양한 보안 설정 방법을 학습합니다.
 
@@ -172,8 +172,8 @@ ping (linux-server-basic 플로팅 IP 주소)
 <a id="references"></a>
 ## 참고 자료 { #references }
 
-* [보안 그룹](https://docs.nhncloud.com/ko/Network/Security%20Groups/ko/overview/)
-* [Network ACL](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/overview/)
+* [보안 그룹](/Network/Security%20Groups/ko/overview/)
+* [Network ACL](/Network/Network%20ACL/ko/overview/)
 * [Network Port](https://en.wikipedia.org/wiki/Port_(computer_networking))
 * [ACL](https://en.wikipedia.org/wiki/Access-control_list)
 * [Whitelist](https://en.wikipedia.org/wiki/Whitelist)
@@ -185,9 +185,9 @@ ping (linux-server-basic 플로팅 IP 주소)
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)
+* [4. 네트워크 설정과 인스턴스 생성](./network-setup/)
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [6. 데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
+* [6. 데이터베이스 생성 및 연결](./create-database/)

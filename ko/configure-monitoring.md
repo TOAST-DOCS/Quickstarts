@@ -44,7 +44,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
 
-    **본 가이드는 [7. 스토리지 생성 및 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-storage/) 이후 단계부터 시작됩니다.**
+    **본 가이드는 [7. 스토리지 생성 및 설정](./create-storage/) 이후 단계부터 시작됩니다.**
 
 <a id="monitoring-cloud-resources-with-the-cloud-monitoring-service"></a>
 ## Cloud Monitoring 서비스를 통한 클라우드 리소스 모니터링 { #monitoring-cloud-resources-with-the-cloud-monitoring-service }
@@ -148,17 +148,17 @@
 
 * [Metric](https://en.wikipedia.org/wiki/Metric_system)
 * [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
-* [Metric Dictionary](https://docs.nhncloud.com/ko/Monitoring/Cloud%20Monitoring/ko/metric-dictionary/)
-* [Cloud Monitoring](https://docs.nhncloud.com/ko/Monitoring/Cloud%20Monitoring/ko/overview/)
-* [CloudTrail](https://docs.nhncloud.com/ko/Governance%20&%20Audit/CloudTrail/ko/overview/)
+* [Metric Dictionary](/Monitoring/Cloud%20Monitoring/ko/metric-dictionary/)
+* [Cloud Monitoring](/Monitoring/Cloud%20Monitoring/ko/overview/)
+* [CloudTrail](/Governance%20%26%20Audit/CloudTrail/ko/overview/)
 * [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
 
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [7. 스토리지 생성 및 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-storage/)
+* [7. 스토리지 생성 및 설정](./create-storage/)
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [9. 백업 및 복구](https://docs.nhncloud.com/ko/quickstarts/ko/backup-restore/)
+* [9. 백업 및 복구](./backup-restore/)

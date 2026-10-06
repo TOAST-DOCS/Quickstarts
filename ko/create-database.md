@@ -35,7 +35,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-    **본 가이드는 [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/) 이후 단계부터 시작됩니다.**
+    **본 가이드는 [5. 보안 설정](./configure-security/) 이후 단계부터 시작됩니다.**
 
 <a id="create-databases-and-query-data"></a>
 ## 데이터베이스 생성 및 데이터 조회 { #create-databases-and-query-data }
@@ -57,7 +57,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
         * 인스턴스 타입: **인스턴스 타입 선택** > 인스턴스 타입 이름에서 `t2.c1m1` 클릭한 뒤 **선택** 클릭
         * 인스턴스 수: `1`
         * 키페어 > `MyKey`
-            * 키페어를 추가로 생성하여 사용하려면 [키페어 사용자 가이드](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_21)를 참고하시기 바랍니다.
+            * 키페어를 추가로 생성하여 사용하려면 [키페어 사용자 가이드](/Compute/Instance/ko/console-guide/#key-pairs)를 참고하시기 바랍니다.
     * 루트 블록 스토리지
         * 블록 스토리지 타입: `HDD`
         * 블록 스토리지 크기(GB): `20` GB
@@ -92,7 +92,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 <a id="step-2-test-database-access-on-a-linux-instance"></a>
 ### 단계 2. 리눅스 인스턴스에서 데이터베이스 접속 테스트 하기 { #step-2-test-database-access-on-a-linux-instance }
 
-> 모듈 4에서 생성한 리눅스 인스턴스 `linux-server-basic`을 사용해 데이터베이스에 접속합니다. linux-server-basic 인스턴스 생성 및 접속 방법은 [4-네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/)을 참고하시기 바랍니다.
+> 모듈 4에서 생성한 리눅스 인스턴스 `linux-server-basic`을 사용해 데이터베이스에 접속합니다. linux-server-basic 인스턴스 생성 및 접속 방법은 [4-네트워크 설정과 인스턴스 생성](./network-setup/)을 참고하시기 바랍니다.
 
 1. 새로운 **터미널** 또는 **PowerShell**을 실행합니다.
 2. 아래 명령어로 `linux-server-basic`에 원격 접속합니다.
@@ -136,14 +136,14 @@ mysql --host=(mysql-db-basic 인스턴스의 가상 IP 주소) --user=nhnclo
 * [MySQL](https://en.wikipedia.org/wiki/MySQL)
 * [Database](https://en.wikipedia.org/wiki/Database)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
-* [RDS for MySQL](https://docs.nhncloud.com/ko/Database/RDS%20for%20MySQL/ko/overview/)
+* [RDS for MySQL](/Database/RDS%20for%20MySQL/ko/overview/)
 
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [5. 보안 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-security/)
+* [5. 보안 설정](./configure-security/)
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [7. 스토리지 생성 및 설정](https://docs.nhncloud.com/ko/quickstarts/ko/create-storage/)
+* [7. 스토리지 생성 및 설정](./create-storage/)
