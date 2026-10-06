@@ -40,7 +40,7 @@ Before you begin this learning module, here's what you need to know
     * You must have an NHN Cloud account with a registered payment method.
     * You must be logged in to the NHN Cloud homepage.
 
-    **This guide starts with the steps after [1. Create accout and login](https://docs.nhncloud.com/en/quickstarts/en/create-account/).**
+    **This guide starts with the steps after [1. Create accout and login](./create-account/).**
 
 <a id="preparing-to-use-the-nhn-cloud-console"></a>
 ## Preparing to use the NHN Cloud Console { #preparing-to-use-the-nhn-cloud-console }
@@ -84,15 +84,15 @@ Before you begin this learning module, here's what you need to know
 <a id="reference-sites"></a>
 ## Reference sites { #reference-sites }
 
-* [Console policy guide](https://docs.nhncloud.com/en/nhncloud/en/console-guide/)
-* [Resource Provision Policy](https://docs.nhncloud.com/en/nhncloud/en/resource-policy/)
+* [Console policy guide](/nhncloud/en/console-guide/)
+* [Resource Provision Policy](/nhncloud/en/resource-policy/)
 
 <a id="previous-step"></a>
 ## Previous step { #previous-step }
 
-* [1. Create account and login](https://docs.nhncloud.com/en/quickstarts/en/create-account/)
+* [1. Create account and login](./create-account/)
 
 <a id="next-steps"></a>
 ## Next steps { #next-steps }
 
-* [3. IAM accounts and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/)
+* [3. IAM accounts and governance](./iam-accounts/)

@@ -39,7 +39,7 @@ Before working through this learning module, we recommend that you do the follow
     * You must have an NHN Cloud account with a registered payment method.
     * You need to log in to the NHN Cloud homepage.
 
-    **This guide starts after the steps in [7. Create and set up storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/).**
+    **This guide starts after the steps in [7. Create and set up storage](./create-storage/).**
 
 <a id="monitoring-cloud-resources-with-the-cloud-monitoring-service"></a>
 ## Monitoring cloud resources with the Cloud Monitoring service { #monitoring-cloud-resources-with-the-cloud-monitoring-service }
@@ -145,17 +145,17 @@ Before working through this learning module, we recommend that you do the follow
 
 * [Metric](https://en.wikipedia.org/wiki/Metric_system)
 * [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
-* [Metric Dictionary](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/metric-dictionary/)
-* [Cloud Monitoring](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/overview/)
-* [CloudTrail](https://docs.nhncloud.com/en/Governance%20&%20Audit/CloudTrail/en/overview/)
+* [Metric Dictionary](/Monitoring/Cloud%20Monitoring/en/metric-dictionary/)
+* [Cloud Monitoring](/Monitoring/Cloud%20Monitoring/en/overview/)
+* [CloudTrail](/Governance%20%26%20Audit/CloudTrail/en/overview/)
 * [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
 
 <a id="previous-step"></a>
 ## Previous step { #previous-step }
 
-* [7. Create and connect storage](https://docs.nhncloud.com/en/quickstarts/en/create-storage/)
+* [7. Create and connect storage](./create-storage/)
 
 <a id="next-steps"></a>
 ## Next steps { #next-steps }
 
-* [9. Backup and restore](https://docs.nhncloud.com/en/quickstarts/en/backup-restore/)
+* [9. Backup and restore](./backup-restore/)

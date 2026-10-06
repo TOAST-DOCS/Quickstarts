@@ -37,7 +37,7 @@
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-본 가이드는 [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/) 이후 단계부터 시작됩니다.
+본 가이드는 [10. 확장성과 성능 최적화](./optimze-performance/) 이후 단계부터 시작됩니다.
 
 <a id="manage-your-organizations-usage-and-budget"></a>
 ## 조직의 이용 현황과 예산 관리 { #manage-your-organizations-usage-and-budget }
@@ -169,16 +169,16 @@
 <a id="references"></a>
 ## 참고 자료 { #references }
 
-* [알림 관리](https://docs.nhncloud.com/ko/nhncloud/ko/console-guide/#_33)
+* [알림 관리](/nhncloud/ko/console-guide/#manage-notifications)
 * [NHN Cloud 요금](https://www.nhncloud.com/kr/pricing)
-* [리소스 태그](https://docs.nhncloud.com/ko/Governance%20&%20Audit/Resource%20Watcher/ko/console-guide/#_2)
+* [리소스 태그](/Governance%20%26%20Audit/Resource%20Watcher/ko/console-guide/#resource-tag)
 
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [10. 확장성과 성능 최적화](https://docs.nhncloud.com/ko/quickstarts/ko/optimze-performance/)
+* [10. 확장성과 성능 최적화](./optimze-performance/)
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [12. 리소스 정리 및 삭제](https://docs.nhncloud.com/ko/quickstarts/ko/cleanup-resources/)
+* [12. 리소스 정리 및 삭제](./cleanup-resources/)

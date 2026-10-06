@@ -37,7 +37,7 @@ Before you begin this learning module, here's what you need to know
     * You must have an NHN Cloud account with a registered payment method.
     * You need to log in to the NHN Cloud homepage.
 
-    **This guide starts with the steps after [you create your organization and project](https://docs.nhncloud.com/en/quickstarts/en/create-organization/).**
+    **This guide starts with the steps after [you create your organization and project](./create-organization/).**
 
 <a id="prepare-for-iam-account-access"></a>
 ## Prepare for IAM account access { #prepare-for-iam-account-access }
@@ -158,7 +158,7 @@ Before you begin this learning module, here's what you need to know
 
 1. Open a new window in your web browser and type `https://MyORG IAM console domain address`to access the IAM console domain.
     * IAM console domain address
-        * [3.](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/) Share **the URL for the IAM console domain name**that you copied in Task 1, [Set up IAM accounts and governance](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/), with your IAM account users so that they can use it.
+        * [3.](https://docs.nhncloud.com/en/quickstarts/en/iam-accounts/) Share **the URL for the IAM console domain name**that you copied in Task 1, [Set up IAM accounts and governance](#iam-accounts-and-governance), with your IAM account users so that they can use it.
 2. In the `MyORG` login window, enter the information below and click **Sign in**.
     * Username: `myproject-admin`
     * Password: `The password for myproject-admin that you set up in Task 4.`
@@ -181,17 +181,17 @@ Before you begin this learning module, here's what you need to know
 <a id="reference-sites"></a>
 ## Reference sites { #reference-sites }
 
-* [Console user guide](https://docs.nhncloud.com/en/nhncloud/en/console-user-guide/)
-* [Security policies](https://docs.nhncloud.com/en/nhncloud/en/security-policy/)
+* [Console user guide](/nhncloud/en/console-user-guide/)
+* [Security policies](/nhncloud/en/security-policy/)
 * [IAM](https://en.wikipedia.org/wiki/Identity_and_access_management)
 
 <a id="previous-step"></a>
 ## Previous step { #previous-step }
 
-* [2. Create organization and project](https://docs.nhncloud.com/en/quickstarts/en/create-organization/)
+* [2. Create organization and project](./create-organization/)
 <br>
 
 <a id="next-steps"></a>
 ## Next steps { #next-steps }
 
-* [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
+* [4. Network setup and create instance](./network-setup/)

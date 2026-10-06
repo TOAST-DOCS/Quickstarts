@@ -35,7 +35,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudポータルにログインする必要があります。
 
-    **本ガイドは[5.セキュリティ設定](https://docs.nhncloud.com/ja/quickstarts/ja/configure-security/)以降の手順から始まります。**
+    **本ガイドは[5.セキュリティ設定](./configure-security/)以降の手順から始まります。**
 
 <a id="create-databases-and-query-data"></a>
 ## データベース作成とデータ照会 { #create-databases-and-query-data }
@@ -57,7 +57,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
         * インスタンスタイプ:**インスタンスタイプ選択**> インスタンスタイプ名から`t2.c1m1を`クリックし、**選択を**クリックします。
         * インスタンス数：`1`
         * キーフェア >`MyKey`
-            * キーペアを追加で作成して使用する場合は、[キーペアユーザーガイドを](https://docs.nhncloud.com/ja/Compute/Instance/ja/console-guide/#_21)参照してください。
+            * キーペアを追加で作成して使用する場合は、[キーペアユーザーガイドを](/Compute/Instance/ja/console-guide/#key-pairs)参照してください。
     * ルートブロックストレージ
         * ブロックストレージタイプ:`HDD`
         * ブロックストレージサイズ(GB)：`20`GB
@@ -92,7 +92,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
 <a id="step-2-test-database-access-on-a-linux-instance"></a>
 ### ステップ2.Linuxインスタンスでデータベース接続をテストします。 { #step-2-test-database-access-on-a-linux-instance }
 
-> モジュール4で生成した`linux-server-basic`インスタンス`linux`-server-basicを使ってデータベースに接続します。 linux-server-basicインスタンスの生成[及び](https://docs.nhncloud.com/ja/quickstarts/ja/network-setup/)接続方法は[04-ネットワーク設定とインスタンス生成を](https://docs.nhncloud.com/ja/quickstarts/ja/network-setup/)参照してください。
+> モジュール4で生成した`linux-server-basic`インスタンス`linux`-server-basicを使ってデータベースに接続します。 linux-server-basicインスタンスの生成[及び](./network-setup/)接続方法は[04-ネットワーク設定とインスタンス生成を](./network-setup/)参照してください。
 
 1. 新しい**ターミナル**または**PowerShellを**実行します。
 2. 下記のコマンドで`linux-server-basicに`リモート接続します。
@@ -131,14 +131,14 @@ mysql --host=(mysql-db-basic インスタンスの仮想 IP アドレス) --user
 * [MySQL](https://en.wikipedia.org/wiki/MySQL)
 * [Database](https://en.wikipedia.org/wiki/Database)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
-* [RDS for MySQL](https://docs.nhncloud.com/ja/Database/RDS%20for%20MySQL/ja/overview/)
+* [RDS for MySQL](/Database/RDS%20for%20MySQL/ja/overview/)
 
 <a id="previous-step"></a>
 ## 前の段階 { #previous-step }
 
-* [5.セキュリティ設定](https://docs.nhncloud.com/ja/quickstarts/ja/configure-security/)
+* [5.セキュリティ設定](./configure-security/)
 
 <a id="next-steps"></a>
 ## 次のステップ { #next-steps }
 
-* [7.ストレージの作成と設定](https://docs.nhncloud.com/ja/quickstarts/ja/create-storage/)
+* [7.ストレージの作成と設定](./create-storage/)

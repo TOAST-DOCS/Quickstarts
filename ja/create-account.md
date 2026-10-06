@@ -49,7 +49,7 @@ NHN Cloudを開始するには、まずアカウントを作成し、それを�
     * 会員種別について
         * 会員登録の方法は、サービスを利用する国や個人または事業者によって多少の違いがあります。本ガイドは、韓国の個人会員加入を基準に作成しています。
         * 他のタイプの会員登録については、以下のリンクをご参照ください。
-        *[https:](https://docs.nhncloud.com/ja/nhncloud/ja/user-guide/)//docs.nhncloud.com/ja/nhncloud/ja/user-guide/
+        *[https:](/nhncloud/ja/user-guide/)//docs.nhncloud.com/ja/nhncloud/ja/user-guide/
 
 3. サービスを利用する国情報で`韓国を`選択し、**次へを**クリックします。
 4. NHN Cloudの会員登録タイプで`個人を`クリックします。
@@ -82,10 +82,10 @@ NHN Cloudを開始するには、まずアカウントを作成し、それを�
 <a id="references"></a>
 ## 参考資料 { #references }
 
-* [NHN Cloud基本使用ガイド](https://docs.nhncloud.com/ja/nhncloud/ja/user-guide/)
-* [セキュリティポリシー](https://docs.nhncloud.com/ja/nhncloud/ja/security-policy/)
+* [NHN Cloud基本使用ガイド](/nhncloud/ja/user-guide/)
+* [セキュリティポリシー](/nhncloud/ja/security-policy/)
 
 <a id="next-steps"></a>
 ## 次のステップ { #next-steps }
 
-* [02-組織とプロジェクトの作成](https://docs.nhncloud.com/ja/quickstarts/ja/create-organization/)
+* [02-組織とプロジェクトの作成](./create-organization/)

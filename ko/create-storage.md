@@ -36,7 +36,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 홈페이지에 로그인 해야 합니다.
 
-**본 가이드는 [6. 데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [6. 데이터베이스 생성 및 연결](./create-database/) 이후 단계부터 시작됩니다.**
 
 <a id="creating-block-storage-and-retrieving-data"></a>
 ## 블록 스토리지 생성 및 데이터 조회 { #creating-block-storage-and-retrieving-data }
@@ -244,7 +244,7 @@ mkdir /web-sample
 9. `linux-server-basic`에 원격 접속을 합니다.
 > [참고] `linux-server-basic`에 원격 접속 방법
 >
-> * 해당 원격 접속 방법은 [4. 네트워크 설정과 인스턴스 생성](https://docs.nhncloud.com/ko/quickstarts/ko/network-setup/) - **단계 1. SSH 원격 접속하기**를 참고바랍니다.
+> * 해당 원격 접속 방법은 [4. 네트워크 설정과 인스턴스 생성](./network-setup/) - **단계 1. SSH 원격 접속하기**를 참고바랍니다.
 10. `linux-server-basic` 원격 접속 후 아래 명령어를 실행해 index.html을 다운로드한 후 저장합니다.
 ```bash
 sudo curl -o /var/www/html/index.html (myobs에 업로드한 index.html 파일의 Public URL)
@@ -276,8 +276,8 @@ chmod +x /home/ubuntu/service-setting.sh
 ## 참고 자료 { #references }
 
 * [Storage](https://en.wikipedia.org/wiki/Cloud_storage)
-* [Block Storage](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/overview/)
-* [Object Storage](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/Overview/)
+* [Block Storage](/Storage/Block%20Storage/ko/overview/)
+* [Object Storage](/Storage/Object%20Storage/ko/Overview/)
 * [HDD](https://en.wikipedia.org/wiki/Hard_disk_drive)
 * [SSD](https://en.wikipedia.org/wiki/Solid-state_drive)
 * [Disk encryption](https://en.wikipedia.org/wiki/Disk_encryption)
@@ -289,9 +289,9 @@ chmod +x /home/ubuntu/service-setting.sh
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [6.데이터베이스 생성 및 연결](https://docs.nhncloud.com/ko/quickstarts/ko/create-database/)
+* [6.데이터베이스 생성 및 연결](./create-database/)
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [8.모니터링 설정](https://docs.nhncloud.com/ko/quickstarts/ko/configure-monitoring/)
+* [8.모니터링 설정](./configure-monitoring/)

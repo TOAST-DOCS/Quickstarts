@@ -34,7 +34,7 @@
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudポータルにログインする必要があります。
 
-**本ガイドは、[9.バックアップとリカバリ](https://docs.nhncloud.com/ja/quickstarts/ja/backup-restore/)以降の段階から始まります。**
+**本ガイドは、[9.バックアップとリカバリ](./backup-restore/)以降の段階から始まります。**
 
 <a id="traffic-balancing-with-scaling-groups-and-load-balancers"></a>
 ## スケーリンググループとロードバランサーによるトラフィックの分散 { #traffic-balancing-with-scaling-groups-and-load-balancers }
@@ -104,7 +104,7 @@
     * イメージ
         * 個人用画像 > 画像名:`linux-server-basic-image`クリック
              > [参考]参考  
-             >`linux-server-basic-image`個人イメージは、[9.バックアップとリカバリの](https://docs.nhncloud.com/ja/quickstarts/ja/backup-restore/) **ステップ1で**作成することができます。
+             >`linux-server-basic-image`個人イメージは、[9.バックアップとリカバリの](./backup-restore/) **ステップ1で**作成することができます。
     * インスタンス情報
         * 可用性領域：`任意の可用性領域`
         * インスタンス名:`linux-server-autoscale`
@@ -201,9 +201,9 @@
 <a id="references"></a>
 ## 参考資料 { #references }
 
-* [Auto Scale](https://docs.nhncloud.com/ja/Compute/Auto%20Scale/ja/overview/)
-* [Load Balancer](https://docs.nhncloud.com/ja/Network/Load%20Balancer/ja/overview/)
-* [ロードバランシング方式](https://docs.nhncloud.com/ja/Network/Load%20Balancer/ja/overview/#_1)
+* [Auto Scale](/Compute/Auto%20Scale/ja/overview/)
+* [Load Balancer](/Network/Load%20Balancer/ja/overview/)
+* [ロードバランシング方式](/Network/Load%20Balancer/ja/overview/#load-balancing-methods)
 * [Load balancing (computing)](https://en.wikipedia.org/wiki/Load_balancing_(computing))
 * [Transport Layer(L4)](https://en.wikipedia.org/wiki/Transport_layer)
 * [Application Layer(L7)](https://en.wikipedia.org/wiki/Application_layer)
@@ -212,9 +212,9 @@
 <a id="previous-step"></a>
 ## 前の段階 { #previous-step }
 
-* [9.バックアップと復旧](https://docs.nhncloud.com/ja/quickstarts/ja/backup-restore/)
+* [9.バックアップと復旧](./backup-restore/)
 
 <a id="next-step"></a>
 ## 次のステップ { #next-step }
 
-* [11.コスト管理](https://docs.nhncloud.com/ja/quickstarts/ja/cost-management/)
+* [11.コスト管理](./cost-management/)

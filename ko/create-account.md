@@ -49,7 +49,7 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
     * 회원 유형
         * 회원 가입 방식은 서비스를 이용할 국가 정보와 개인 또는 사업자에 따라 일부 차이가 있습니다. 본 가이드는 대한민국 개인 회원 가입을 기준으로 작성되었습니다.
         * 그 외 유형의 가입은 다음 링크를 참고하시기 바랍니다.
-            * [https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/](https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/)
+            * [https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/](/nhncloud/ko/user-guide/)
 
 3. 서비스를 이용할 국가 정보에서 `대한민국`을 선택 후 **다음**을 클릭합니다.
 4. NHN Cloud 회원 가입 유형에서 `개인`을 클릭합니다.
@@ -82,10 +82,10 @@ NHN Cloud를 시작하려면 우선 계정을 생성하고 이를 통해 NHN Clo
 <a id="references"></a>
 ## 참고 자료 { #references }
 
-* [NHN Cloud 기본 사용 가이드](https://docs.nhncloud.com/ko/nhncloud/ko/user-guide/)
-* [보안 정책](https://docs.nhncloud.com/ko/nhncloud/ko/security-policy/)
+* [NHN Cloud 기본 사용 가이드](/nhncloud/ko/user-guide/)
+* [보안 정책](/nhncloud/ko/security-policy/)
 
 <a id="next-steps"></a>
 ## 다음 단계 { #next-steps }
 
-* [2. 조직과 프로젝트 생성](https://docs.nhncloud.com/ko/quickstarts/ko/create-organization/)
+* [2. 조직과 프로젝트 생성](./create-organization/)

@@ -35,7 +35,7 @@ To get started with NHN Cloud, you'll need to prepare the following things
     * A stable internet connection is required, with a recommended bandwidth of at least 5 Mbps.
     * You must be able to communicate securely over HTTPS.
 
-**This guide starts with the steps after [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/).**
+**This guide starts with the steps after [4. Network setup and create instance](./network-setup/).**
 
 > In this learning module, you'll learn how to set up different security settings through four scenarios.
 
@@ -170,8 +170,8 @@ ping (linux-server-basic floating IP address)
 <a id="references"></a>
 ## References { #references }
 
-* [Security groups](https://docs.nhncloud.com/en/Network/Security%20Groups/en/overview/)
-* [Network ACL](https://docs.nhncloud.com/en/Network/Network%20ACL/en/overview/)
+* [Security groups](/Network/Security%20Groups/en/overview/)
+* [Network ACL](/Network/Network%20ACL/en/overview/)
 * [Network Port](https://en.wikipedia.org/wiki/Port_(computer_networking))
 * [ACL](https://en.wikipedia.org/wiki/Access-control_list)
 * [Whitelist](https://en.wikipedia.org/wiki/Whitelist)
@@ -183,9 +183,9 @@ ping (linux-server-basic floating IP address)
 <a id="previous-step"></a>
 ## Previous step { #previous-step }
 
-* [4. Network setup and create instance](https://docs.nhncloud.com/en/quickstarts/en/network-setup/)
+* [4. Network setup and create instance](./network-setup/)
 
 <a id="next-steps"></a>
 ## Next steps { #next-steps }
 
-* [6. Create and attach databases](https://docs.nhncloud.com/en/quickstarts/en/create-database/)
+* [6. Create and attach databases](./create-database/)

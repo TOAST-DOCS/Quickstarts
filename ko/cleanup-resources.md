@@ -34,7 +34,7 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
     * 결제수단을 등록한 NHN Cloud 계정이 있어야 합니다.
     * NHN Cloud 포털에 로그인 해야 합니다.
 
-**본 가이드는 [11.비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/) 이후 단계부터 시작됩니다.**
+**본 가이드는 [11.비용 관리](./cost-management/) 이후 단계부터 시작됩니다.**
 
 <a id="delete-all-resources-in-use"></a>
 ## 사용 중인 모든 리소스 삭제하기 { #delete-all-resources-in-use }
@@ -208,13 +208,13 @@ NHN Cloud를 시작하기 위해서는 다음 사항을 준비해야 합�
 <a id="references"></a>
 ## 참고 자료 { #references }
 
-* [인스턴스 상태 변경(삭제)](https://docs.nhncloud.com/ko/Compute/Instance/ko/console-guide/#_11)
-* [서브넷 삭제](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#_10)
-* [VPC](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/#vpc)
-* [블록 스토리지 삭제](https://docs.nhncloud.com/ko/Storage/Block%20Storage/ko/console-guide/#_3)
-* [오브젝트 스토리지 컨테이너 삭제](https://docs.nhncloud.com/ko/Storage/Object%20Storage/ko/console-guide/#_7)
+* [인스턴스 상태 변경(삭제)](/Compute/Instance/ko/console-guide/#change-instance-status)
+* [서브넷 삭제](/Network/VPC/ko/console-guide/#subnet-delete)
+* [VPC](/Network/VPC/ko/console-guide/#vpc)
+* [블록 스토리지 삭제](/Storage/Block%20Storage/ko/console-guide/#delete-block-storage)
+* [오브젝트 스토리지 컨테이너 삭제](/Storage/Object%20Storage/ko/console-guide/#delete-container)
 
 <a id="previous-step"></a>
 ## 이전 단계 { #previous-step }
 
-* [11. 비용 관리](https://docs.nhncloud.com/ko/quickstarts/ko/cost-management/)
+* [11. 비용 관리](./cost-management/)

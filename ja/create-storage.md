@@ -36,7 +36,7 @@ NHN Cloudを開始するためには、次の事項を準備する必要があ�
     * 決済手段を登録したNHN Cloudアカウントが必要です。
     * NHN Cloudのホームページにログインする必要があります。
 
-**本ガイドは、[6.データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)以降の段階から始まります。**
+**本ガイドは、[6.データベースの作成と接続](./create-database/)以降の段階から始まります。**
 
 <a id="creating-block-storage-and-retrieving-data"></a>
 ## ブロックストレージの作成とデータ照会 { #creating-block-storage-and-retrieving-data }
@@ -237,7 +237,7 @@ mkdir /web-sample
 9. `linux-server-basicに`リモートアクセスをします。
 > [参考】`linux-server-basicへの`リモートアクセス方法
 >
-> * このリモート接続方法は[、4.ネットワーク設定とインスタンス作成](https://docs.nhncloud.com/ja/quickstarts/ja/network-setup/)-**ステップ1.SSHリモート接続を**参照してください。
+> * このリモート接続方法は[、4.ネットワーク設定とインスタンス作成](./network-setup/)-**ステップ1.SSHリモート接続を**参照してください。
 10. `linux-server-basic`リモート接続後、下記のコマンドを実行してindex.htmlをダウンロードして保存します。
 ```bash
 sudo curl -o /var/www/html/index.html (myobs にアップロードした index.html ファイルの Public URL)
@@ -269,8 +269,8 @@ chmod +x /home/ubuntu/service-setting.sh
 ## 参考資料 { #references }
 
 * [Storage](https://en.wikipedia.org/wiki/Cloud_storage)
-* [Block Storage](https://docs.nhncloud.com/ja/Storage/Block%20Storage/ja/overview/)
-* [Object Storage](https://docs.nhncloud.com/ja/Storage/Object%20Storage/ja/Overview/)
+* [Block Storage](/Storage/Block%20Storage/ja/overview/)
+* [Object Storage](/Storage/Object%20Storage/ja/Overview/)
 * [HDD](https://en.wikipedia.org/wiki/Hard_disk_drive)
 * [SSD](https://en.wikipedia.org/wiki/Solid-state_drive)
 * [Disk encryption](https://en.wikipedia.org/wiki/Disk_encryption)
@@ -282,9 +282,9 @@ chmod +x /home/ubuntu/service-setting.sh
 <a id="previous-step"></a>
 ## 前の段階 { #previous-step }
 
-* [6. データベースの作成と接続](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
+* [6. データベースの作成と接続](./create-database/)
 
 <a id="next-steps"></a>
 ## 次のステップ { #next-steps }
 
-* [8. モニタリング設定](https://docs.nhncloud.com/ja/quickstarts/ja/create-database/)
+* [8. モニタリング設定](./create-database/)
