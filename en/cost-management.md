@@ -94,13 +94,13 @@ This guide starts after [10. Optimize scalability and performance](https://docs.
 5. On the **Create Resource Tag** screen, set the information below and click **Add**.
     * Tag key: `MyInstanceTag`
     * Tag value: `empty`
-6. **+**Click ** Create Resource Tag**.
+6. **+**Click **Create Resource Tag**.
 7. On the **Create Resource Tag** screen, set the information below and click **Add**.
     * Tag key: `MyStorageTag`
     * Tag value: `empty`
 8. Select the `MyInstanceTag` resource tag, and then click **Edit Tag** on the right.
 9. In the Edit Resource Tag window, click **+ Add Tag Value**, type `webserver`in the Tag Value field, and then click **Save**.
-10. **+**Click ** Add Tag Value**again, type `dbserver`in the Tag Value field that appears, and then click **Save**.
+10. **+**Click **Add Tag Value**again, type `dbserver`in the Tag Value field that appears, and then click **Save**.
 11. Click **OK**to close the Edit Resource Tag window.
 12. Select the `MyStorageTag` resource tag, and then click **Edit Tag** on the right.
 13. In the Edit Resource Tag window, click **+ Add Tag Value**, type `blockstorage`in the Tag Value field, and then click **Save**.
