@@ -143,7 +143,12 @@ Before working through this learning module, we recommend that you do the follow
 <a id="references"></a>
 ## References { #references }
 
-<!-- TODO: translate body -->
+* [Metric](https://en.wikipedia.org/wiki/Metric_system)
+* [Monitoring](https://en.wikipedia.org/wiki/System_monitor)
+* [Metric Dictionary](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/metric-dictionary/)
+* [Cloud Monitoring](https://docs.nhncloud.com/en/Monitoring/Cloud%20Monitoring/en/overview/)
+* [CloudTrail](https://docs.nhncloud.com/en/Governance%20&%20Audit/CloudTrail/en/overview/)
+* [Stress testing](https://en.wikipedia.org/wiki/Stress_testing_(computing))
 
 <a id="previous-step"></a>
 ## Previous step { #previous-step }
